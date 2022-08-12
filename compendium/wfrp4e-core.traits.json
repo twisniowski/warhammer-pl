@@ -37,7 +37,7 @@
 			"id": "Amphibious",
 			"name": "Anfibio",
 			"description": "<p>La criatura se encuentra como en casa en el agua. Puede sumar su Bonificador por agilidad a los NE de todos los Chequeos de Nadar, y moverse con su Movimiento completo por el agua. \r\r</p>",
-			"effects": [{"_id":"KZWyDUhYS7K60RF0","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Anfibio","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && args.item.name == \"Nadar\")\n    args.prefillModifiers.slBonus += this.actor.characteristics.ag.bonus","hide":false,"preventDuplicateEffects":false}},"tint":null,"transfer":true}]
+			"effects": [{"_id":"KZWyDUhYS7K60RF0","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Anfibio","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && args.item.name == \"Pływanie\")\n    args.prefillModifiers.slBonus += this.actor.characteristics.ag.bonus","hide":false,"preventDuplicateEffects":false}},"tint":null}]
 		},
 		{
 			"id": "Animosity",
@@ -48,7 +48,7 @@
 			"id": "Arboreal",
 			"name": "Arbóreo",
 			"description": "<p>La criatura se encuentra como en casa en los bosques. En los bosques, suma su Bonificador por Agilidad a los NE de todos los Chequeos de Escalar y de Movimiento silencioso. \r\r</p>",
-			"effects": [{"_id":"HipPSD61s7Vkcru0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && (args.item.name == \"Escalar\"  || args.item.name.includes(\"Movimiento silencioso\")))\n{\n   let sl = this.actor.characteristics.ag.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Arbóreo","tint":null,"transfer":true}]
+			"effects": [{"_id":"HipPSD61s7Vkcru0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && (args.item.name == \"Wspinaczka\"  || args.item.name.includes(\"Skradanie\")))\n{\n   let sl = this.actor.characteristics.ag.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Arbóreo","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Armour",
@@ -263,7 +263,7 @@
 			"id": "Ghostly Howl",
 			"name": "Aullido fantasmal",
 			"description": "<p>La criatura puede emitir un aullido espeluznante, capaz de matar a quienes lo oyen. En su Turno, la criatura puede gastar toda su Ventaja (mínimo 2) para desatar un horrendo aullido como Ataque gratuito. Todos los objetivos vivos que estén a tantas yardas o menos como la Iniciativa de la criatura sufrirán de inmediato 3 estados de Ensordecido y además 1d10 Heridas ignorando Bonificadores por Resistencia y puntos de Armadura. Los afectados deben también superar un Chequeo <strong>Normal (+20)</strong> de <strong>Aguante</strong>, o sufrir 1 Estado de @Condition[Quebrantado]. \r\r</p>",
-			"effects": [{"_id":"MNo99hhKFuloCyy8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nargs.actor.addCondition(\"deafened\", 3)\n\nargs.actor.setupSkill(\"Aguante\", {absolute : {difficulty: \"average\" }, context : {failure: \"Gana un Estado de Quebrantado\", success : \"Evitado el Estado de Quebrantado\"}}).then(setupData => {\n   args.actor.basicTest(setupData).then(test => {\n      if (test.result.outcome == \"failure\")\n         args.actor.addCondition(\"broken\")\n   })\n})","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Aullido fantasmal","tint":null,"transfer":true}]
+			"effects": [{"_id":"MNo99hhKFuloCyy8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nargs.actor.addCondition(\"deafened\", 3)\n\nargs.actor.setupSkill(\"Odporność\", {absolute : {difficulty: \"average\" }, context : {failure: \"Gana un Estado de Quebrantado\", success : \"Evitado el Estado de Quebrantado\"}}).then(setupData => {\n   args.actor.basicTest(setupData).then(test => {\n      if (test.result.outcome == \"failure\")\n         args.actor.addCondition(\"broken\")\n   })\n})","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Aullido fantasmal","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Hardy",
@@ -395,7 +395,7 @@
 			"id": "Rear",
 			"name": "Encabritarse",
 			"description": "<p>Como su Movimiento, la criatura puede llevar a cabo un ataque de Pisoteo si es mayor que su oponente (ver Tamaño). \r\r</p>",
-			"roll":"Cuerpo a cuerpo (Pelea)"
+			"roll":"Broń Biała (Bijatyka)"
 		},
 		{
 			"id": "Regenerate",
@@ -422,7 +422,7 @@
 			"id": "Stealthy",
 			"name": "Sigiloso",
 			"description": "<p>La criatura es especialmente sigilosa. Suma una cifra igual a su Bonificador por Agilidad a los NE de todos los Chequeos de Movimiento silencioso.</p>",
-			"effects": [{"_id":"0AgiLabg8eB4LItu","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" &&  args.item.name.includes(\"Movimiento silencioso\"))\n{\n   let sl = this.actor.characteristics.ag.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Sigiloso","tint":null,"transfer":true}]
+			"effects": [{"_id":"0AgiLabg8eB4LItu","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" &&  args.item.name.includes(\"Skradanie\"))\n{\n   let sl = this.actor.characteristics.ag.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Sigiloso","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Stride",
@@ -484,7 +484,7 @@
 			"id": "Tracker",
 			"name": "Rastreador ",
 			"description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
-			"effects": [{"_id":"ftGagmf8rj6rq3ir","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" &&  args.item.name.includes(\"Seguir rastros\"))\n{\n   let sl = this.actor.characteristics.i.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Rastreador","tint":null,"transfer":true}]
+			"effects": [{"_id":"ftGagmf8rj6rq3ir","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" &&  args.item.name.includes(\"Tropienie\"))\n{\n   let sl = this.actor.characteristics.i.bonus\n   args.prefillModifiers.slBonus += sl;\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Rastreador","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Trained",

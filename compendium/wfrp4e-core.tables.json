@@ -1056,7 +1056,7 @@
 		{
 			"id": "Stinking Drunk",
 			"name": "Borracho como una Cuba",
-			"description": "Si fallas un chequeo de @Compendium[wfrp4e-core.skills.R2ytluHiEFF2KQ5e]{Consumir Alcohol} un n\u00FAmero de veces igual a tu Bono por Resistencia, est\u00E1s Borracho como una Cuba. Tira en la siguiente tabla para ver lo que sucede:",
+			"description": "Si fallas un chequeo de @Compendium[wfrp4e-core.skills.R2ytluHiEFF2KQ5e]{Mocna Głowa} un n\u00FAmero de veces igual a tu Bono por Resistencia, est\u00E1s Borracho como una Cuba. Tira en la siguiente tabla para ver lo que sucede:",
 			"results": {
 				"1-2": "<b>\u2018\u00A1El valor de Marienburgo!\u2019</b>: obtienes un bonificador +20 a tu habilidad Frialdad",
 				"3-4": "<b>\u2018\u00A1Eresh mi mejjor amigo!\u2019</b>: ignora todos los Prejuicios y Animosidades existentes",

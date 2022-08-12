@@ -259,7 +259,7 @@
 			"name": "Hocico bigotudo",
 			"description": "",
 			"modifier": "+10 a Rastrear",
-			"effects": [{"_id":"EfojtYV7NuxfAUrK","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && args.item.name == \"Seguir rastros\")\n   args.prefillModifiers.modifier += 10"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/mutations/mutation.png","label":"Hocico bigotudo","tint":null,"transfer":true}]
+			"effects": [{"_id":"EfojtYV7NuxfAUrK","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"skill\" && args.item.name == \"Tropienie\")\n   args.prefillModifiers.modifier += 10"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/mutations/mutation.png","label":"Hocico bigotudo","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Worried Jitters",

@@ -181,7 +181,7 @@
 		},
 		{
 			"id": "Brass Penny",
-			"name": "Penique de Bronce",
+			"name": "Brązowy Pens",
 			"description": ""
 		},
 		{
@@ -482,7 +482,7 @@
 		},
 		{
 			"id": "Gold Crown",
-			"name": "Corona de Oro",
+			"name": "Złota Korona",
 			"description": ""
 		},
 		{
@@ -911,7 +911,7 @@
 			"id": "Plate Leggings",
 			"name": "Grebas de placas",
 			"description": "",
-			"effects": [{"_id":"u46Xpql4mjj6JOD0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name.includes(\"Movimiento silencioso\"))\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png","label":"Grebas de placas","tint":null,"transfer":true}]
+			"effects": [{"_id":"u46Xpql4mjj6JOD0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name.includes(\"Skradanie\"))\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png","label":"Grebas de placas","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Plate Open Helm",
@@ -1108,7 +1108,7 @@
 		},
 		{
 			"id": "Silver Shilling",
-			"name": "Chelín de Plata",
+			"name": "Srebrny Szyling",
 			"description": ""
 		},
 		{

@@ -2,8 +2,8 @@ Hooks.on('init', () => {
 
     if(typeof Babele !== 'undefined') {
         Babele.get().register({
-            module: 'wfrp4e-castellano',
-            lang: 'es',
+            module: 'warhammer-pl',
+            lang: 'pl',
             dir: 'compendium'
         });
 
@@ -310,9 +310,9 @@ Babele.get().registerConverters({
 	},
 	
 	"trappings_penalty": (value) => {  // Penalizador de accesorios
-             if ( value == "-10 Perception" ) return "-10 Percepción";
-	     if ( value == "-20 Perception" ) return "-20 Percepción";
-	     if ( value == "-10 Stealth" ) return "–10 al Movimiento silencioso";
+             if ( value == "-10 Perception" ) return "-10 Percepcja";
+	     if ( value == "-20 Perception" ) return "-20 Percepcja";
+	     if ( value == "-10 Stealth" ) return "–10 Skradanie";
 	},
 
 	"trappings_range": (value) => {  // Alcance de armas a distancia

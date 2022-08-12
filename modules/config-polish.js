@@ -93,7 +93,7 @@ game.wfrp4e.config.symptomEffects = {
     
                         if (this.actor.isOwner)
                         {
-                            args.actor.setupSkill("Aguante", {absolute: {difficulty}}).then(setupData => {
+                            args.actor.setupSkill("Odporność", {absolute: {difficulty}}).then(setupData => {
                                 args.actor.basicTest(setupData).then(test => 
                                     {
                                         if (test.result.outcome == "failure")
@@ -322,7 +322,7 @@ game.wfrp4e.config.symptomEffects = {
                     "script": `
                         if (this.actor.isOwner)
                         {
-                            args.actor.setupSkill("Aguante", {absolute: {difficulty : "average"}}).then(setupData => {
+                            args.actor.setupSkill("Odporność", {absolute: {difficulty : "average"}}).then(setupData => {
                                 args.actor.basicTest(setupData).then(test => 
                                     {
                                         if (test.result.outcome == "failure")
@@ -403,7 +403,7 @@ game.wfrp4e.config.effectPlaceholder = {
     options: otros detalles sobre el chequeo (options.rest u options.mutate por ejemplo)
     
     Example: 
-    if (args.type == "skill" && args.item.name == "Atletismo") args.prefillModifiers.modifier += 10`,
+    if (args.type == "skill" && args.item.name == "Atletyka") args.prefillModifiers.modifier += 10`,
 
     "prePrepareData" : 
     `Este efecto se aplica antes de calcular cualquier dato del actor.
@@ -760,74 +760,74 @@ game.wfrp4e.config.effectPlaceholder = {
 
 game.wfrp4e.config.speciesSkills = {
         "human": [
-                    "Criar Animales",
-                    "Carisma",
-                    "Frialdad",
-                    "Tasar",
+                    "Obiekty Podstawowe",
+                    "Charyzma",
+                    "Opanowanie",
+                    "Wycena",
                     "Cotilleo",
-                    "Regatear",
-                    "Hablar idioma (Bretoniano)",
-                    "Hablar idioma (Tierras Desoladas)",
-                    "Mando",
+                    "Plotkowanie",
+                    "Język (Bretoński)",
+                    "Język (Jałowej Krainy)",
+                    "Dowodzenie",
                     "Sabiduría académica (Reikland)",
-                    "Cuerpo a cuerpo (Básica)",
-                    "A distancia (Arco)"
+                    "Broń Biała (Podstawowa)",
+                    "Broń Zasięgowa (Łuki)"
         ],
         "dwarf": [
-            "Consumir Alcohol",
-            "Frialdad",
-            "Aguante",
-            "Animar (Relatar)",
-            "Tasar",
-            "Intimidar",
-            "Hablar idioma (Khazalid)",
+            "Mocna Głowa",
+            "Opanowanie",
+            "Odporność",
+            "Występy (Gawędziarstwo)",
+            "Wycena",
+            "Zastraszanie",
+            "Język (Khazalid)",
             "Sabiduría académica (Enanos)",
-            "Sabiduría académica (Geología)",
-            "Sabiduría académica (Metalurgia)",
-            "Cuerpo a cuerpo (Básica)",
+            "Wiedza (Geologia)",
+            "Wiedza (Metalurgia)",
+            "Broń Biała (Podstawowa)",
             "Oficio (Cualquiera)"
         ],
         "halfling": [
-            "Carisma",
-            "Consumir Alcohol",
-            "Esquivar",
-            "Juego",
-            "Regatear",
-            "Intuición",
-            "Hablar idioma (Asambleario)",
-            "Sabiduría académica (Reikland)",
-            "Percepción",
-            "Prestidigitación",
-            "Movimiento silencioso (Cualquiera)",
-            "Oficio (Cocinero)"
+            "Charyzma",
+            "Mocna Głowa",
+            "Unik",
+            "Hazard",
+            "Plotkowanie",
+            "Intuicja",
+            "Język (Krainy Zgromadzenia)",
+            "Wiedza (Reikland)",
+            "Percepcja",
+            "Zwinne Palce",
+            "Skradanie (Dowolne)",
+            "Rzemiosło (Gotowanie)"
         ],
         "helf": [
-            "Frialdad",
-            "Animar (Cantar)",
-            "Tasar",
-            "Hablar idioma (Eltharin)",
-            "Mando",
-            "Cuerpo a cuerpo (Básica)",
-            "Orientación",
-            "Percepción",
-            "Tocar (Cualquiera)",
-            "A distancia (Arco)",
+            "Opanowanie",
+            "Występy (Śpiewanie)",
+            "Wycena",
+            "Język (Elthárin)",
+            "Dowodzenie",
+            "Broń Biała (Podstawowa)",
+            "Nawigacja",
+            "Percepcja",
+            "Muzyka (Dowolne)",
+            "Broń Zasięgowa (Łuki)",
             "Navegar",
-            "Nadar"
+            "Pływanie"
         ],
         "welf": [
-            "Atletismo",
-            "Escalar",
-            "Aguante",
-            "Animar (Cantar)",
-            "Intimidar",
-            "Hablar idioma (Eltharin)",
-            "Cuerpo a cuerpo (Básica)",
-            "Supervivencia",
-            "Percepción",
-            "A distancia (Arco)",
-            "Movimiento silencioso (Rural)",
-            "Seguir rastros"
+            "Atletyka",
+            "Wspinaczka",
+            "Odporność",
+            "Występy (Śpiewanie)",
+            "Zastraszanie",
+            "Język (Elthárin)",
+            "Broń Biała (Podstawowa)",
+            "Sztuka Przetrwania",
+            "Percepcja",
+            "Broń Zasięgowa (Łuki)",
+            "Skradanie (Wieś)",
+            "Tropienie"
         ],
     }
 
@@ -875,18 +875,18 @@ game.wfrp4e.config.subspecies = {
             reiklander: {
                 name: "Reiklandés",
                 skills: [
-                    "Criar Animales",
-                    "Carisma",
-                    "Frialdad",
-                    "Tasar",
+                    "Obiekty Podstawowe",
+                    "Charyzma",
+                    "Opanowanie",
+                    "Wycena",
                     "Cotilleo",
-                    "Regatear",
-                    "Hablar idioma (Bretoniano)",
-                    "Hablar idioma (Tierras Desoladas)",
-                    "Mando",
+                    "Plotkowanie",
+                    "Język (Bretoński)",
+                    "Język (Jałowej Krainy)",
+                    "Dowodzenie",
                     "Sabiduría académica (Reikland)",
-                    "Cuerpo a cuerpo (Básica)",
-                    "A distancia (Arco)"
+                    "Broń Biała (Podstawowa)",
+                    "Broń Zasięgowa (Łuki)"
                 ],
                 talents: [
                     "Condenado",

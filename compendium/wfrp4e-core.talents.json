@@ -53,15 +53,15 @@
 			"id": "Aethyric Attunement",
 			"name": "Afinidad con el Aethyr",
 			"description": "<p>Tu experiencia, tu talento o tu entrenamiento te permiten manipular de forma más segura los Vientos de la Magia. No sufres una Disfunción mágica si sacas un doble en un Chequeo con éxito de Canalización.</p>",
-			"tests": "Canalización (cualquiera)",
+			"tests": "Splatanie Magii (Dowolne)",
 		        "effects": [{"_id":"mqSUg3ORIh2YCotB","flags":{"wfrp4e":{"effectTrigger":"rollChannellingTest","effectApplication":"actor","script":"// Elimina la disfunción al sacar dobles y tener éxito\nif(args.test.result.outcome == \"success\" && args.test.result.minormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.minormis\n}\n// Disminuye la disfunción mayor a disfunción menor\nelse if(args.test.result.outcome == \"success\" && args.test.result.majormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.majormis\n    args.test.result.minormis = game.i18n.localize(\"ROLL.MinorMis\")\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/aethyric-attunement.png","label":"Afinidad con el Aethyr","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Alley Cat",
 			"name": "Gato callejero",
 			"description": "<p>Te sientes como en casa en los callejones sombríos. Al utilizar Movimiento silencioso (urbano), puedes invertir los dados de cualquier Chequeo fallido si eso te representa un éxito.</p>",
-			"tests": "Movimiento silencioso (urbano)",
-			"effects": [{"_id":"kS7RdyolGOxATaC3","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Movimiento silencioso (Urbano)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/alley-cat.png","label":"Gato callejero","tint":null,"transfer":true}]
+			"tests": "Skradanie (Miasto)",
+			"effects": [{"_id":"kS7RdyolGOxATaC3","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Skradanie (Miasto)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/alley-cat.png","label":"Gato callejero","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Ambidextrous",
@@ -73,7 +73,7 @@
 			"id": "Animal Affinity",
 			"name": "Afinidad animal",
 			"description": "<p>Los animales salvajes se sienten cómodos en tu presencia, y a menudo siguen tu ejemplo. Todas las criaturas con el Rasgo Bestial no entrenadas para ser beligerantes se mostrarán automáticamente tranquilas en tu presencia a menos que tengan razón para no estarlo, como porque sientan dolor, sean atacadas, sean extremadamente agresivas de forma natural o tengan cerca a sus crías.</p>",
-			"tests": "Carisma animal"
+			"tests": "Oswajanie"
 		},
 		{
 			"id": "Arcane Magic",
@@ -85,7 +85,7 @@
 			"name": "Discutidor",
 			"description": "<p>Estás acostumbrado a discutir tus posiciones y a ganar las discusiones. Si consigues un Chequeo de Carisma para debatir con un oponente, puedes elegir, o bien utilizar el NE que has obtenido o el número que te ha salido en el dado de unidades. Así, una tirada con éxito de 24 se podría utilizar para +4 NE.</p>",
 			"tests": "Chequeos de Carisma al debatir y discutir.",
-			"effects": [{"_id":"oAsvKkgS9pLtavj7","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Carisma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si estás debatiendo.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/argumentative.png","label":"Discutidor","tint":null,"transfer":true}]
+			"effects": [{"_id":"oAsvKkgS9pLtavj7","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si estás debatiendo.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/argumentative.png","label":"Discutidor","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Artistic",
@@ -98,7 +98,7 @@
 			"name": "Atractivo",
 			"description": "<p>Ya se trate de tu penetrante mirada, de tu recia estructura o quizá de la forma en que haces brillar tus perfectos dientes, sabes cómo aprovechar al máximo lo que los dioses te han concedido. Cuando utilizas con éxito el Carisma para influenciar a los que se ven atraídos hacia ti, puedes elegir entre usar los NE obtenidos o el número obtenido en tu dado de unidades. Así, una tirada con éxito de 38 se podría utilizar para +8 NE.</p>",
 			"tests": "Chequeos de Carisma para influenciar a quienes atraes.",
-			"effects": [{"_id":"pq0wuLa5jebvLTGR","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Carisma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si el objetivo se ve atraído por ti.`)\n}","preventDuplicateEffects":true,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/attractive.png","label":"Atractivo","tint":"","transfer":true}]
+			"effects": [{"_id":"pq0wuLa5jebvLTGR","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si el objetivo se ve atraído por ti.`)\n}","preventDuplicateEffects":true,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/attractive.png","label":"Atractivo","tint":"","transfer":true}]
 		},
 		{
 			"id": "Battle Rage",
@@ -140,8 +140,8 @@
 			"id": "Bookish",
 			"name": "Intelectual",
 			"description": "<p>Te sientes tan en casa en una biblioteca como un marino en el mar o un granjero en sus tierras. Al Investigar, puedes invertir los dados de cualquier Chequeo fallido si esto te reporta un éxito.</p>",
-			"tests": "Investigar",
-			"effects": [{"_id":"LKDNluFVNLBNUH4N","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Investigar\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/bookish.png","label":"Intelectual","tint":null,"transfer":true}]
+			"tests": "Badania Naukowe",
+			"effects": [{"_id":"LKDNluFVNLBNUH4N","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Badania Naukowe\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/bookish.png","label":"Intelectual","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Break and Enter",
@@ -153,7 +153,7 @@
 			"id": "Briber",
 			"name": "Sobornador",
 			"description": "<p>Tu capacidad para sobornar es excelente. El DJ debería reducir el coste base de cualquier soborno requerido en un 10% por nivel que tengas en Sobornador , hasta un mínimo del 10% del importe original.</p>",
-			"tests": "Sobornar"
+			"tests": "Przekupstwo"
 		},
 		{
 			"id": "Cardsharp",
@@ -212,7 +212,7 @@
 			"id": "Commanding Presence",
 			"name": "Presencia imponente",
 			"description": "<p>Tu presencia llena a los demás de un asombro y una admiración profundos. Tal es tu aura de autoridad que los de un Estatus menor no pueden resistirse a tus pruebas de Mando con su Voluntad. Por supuesto, eso no hace que tus enemigos sean más proclives a respetarte y obedecerte, pero la gente común raramente se te enfrenta.</p>",
-			"tests": "Mando"
+			"tests": "Dowodzenie"
 		},
 		{
 			"id": "Concoct",
@@ -259,7 +259,7 @@
 			"id": "Dealmaker",
 			"name": "Negociador",
 			"description": "<p>Eres un hábil hombre de negocios, que sabe cerrar un trato. Utilizando la habilidad de Regatear reduces o incrementas el precio de los productos en un 10% adicional.</p>\n<p>&nbsp;</p>\n<p>Nota: el DJ puede imponer un límite inferior a los precios para este caso, a fin de mostrar que un vendedor se niega a vender por debajo del coste.</p>",
-			"tests": "Regatear"
+			"tests": "Plotkowanie"
 		},
 		{
 			"id": "Detect Artifact",
@@ -277,7 +277,7 @@
 			"id": "Dirty Fighting",
 			"name": "Pelea callejera",
 			"description": "<p>Te han enseñado todos los trucos sucios del combate sin armas. Puedes causar +1 Daño adicional por cada nivel en Pelea callejera con cualquier impacto en Cuerpo a cuerpo (pelea).</p>\n<p>Nota: utilizar este Talento se considera hacer trampas en cualquier combate formal.</p>",
-			"tests": "Cuerpo a cuerpo (pelea)"
+			"tests": "Broń Biała (Bijatyka)"
 		},
 		{
 			"id": "Disarm",
@@ -567,7 +567,7 @@
 			"id": "Menacing",
 			"name": "Amenazador",
 			"description": "<p>Tienes una presencia imponente. Cuando utilizas la Habilidad Intimidar, obtienes un bonificador al NE igual a tus niveles de Amenazador.</p>",
-			"tests": "Intimidar",
+			"tests": "Zastraszanie",
 			"effects": [{"_id":"IRRiQjVGZiHjLnxt","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false,"effectTrigger":"prefillDialog","effectData":{"description":"Intimidate","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"hide":false,"script":"if (args.type == \"skill\" && args.item.name == game.i18n.localize(\"NAME.Intimidate\"))\n{\n    args.prefillModifiers.slBonus += 1\n}"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/menacing.png","label":"Amenazador","tint":null,"transfer":true}]
 		},
 		{
@@ -616,7 +616,7 @@
 			"id": "Orientation",
 			"name": "Orientarse",
 			"description": "<p>Tienes una afinidad instintiva para conocer la dirección. Sabes automáticamente en qué dirección está el norte con tan sólo mirar a las estrellas, a los árboles o a cualesquiera otros signos familiares.</p>",
-			"tests": "Orientación"
+			"tests": "Nawigacja"
 		},
 		{
 			"id": "Panhandle",
@@ -639,8 +639,8 @@
 			"id": "Pharmacist",
 			"name": "Boticario",
 			"description": "<p>Tienes una gran habilidad en farmacia, y eres mucho más capaz que otros de elaborar píldoras, pomadas, ungüentos, óleos, cremas y muchas cosas más. Puedes invertir los dados de cualquier Chequeo fallido de Oficio (Boticario) si esto te permite tener éxito en el mismo.</p>",
-			"tests": "Oficio (Boticario)",
-			"effects": [{"_id":"TFSgPCFx1KpFepgz","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Oficio (Boticario)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gregarious.png","label":"Boticario","tint":null,"transfer":true}]
+			"tests": "Rzemiosło (Aptekarstwo)",
+			"effects": [{"_id":"TFSgPCFx1KpFepgz","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Rzemiosło (Aptekarstwo)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gregarious.png","label":"Boticario","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Pilot",
@@ -745,7 +745,7 @@
 			"id": "Scale Sheer Surface",
 			"name": "Escalador",
 			"description": "<p>Eres un escalador excepcional. Puedes intentar escalar superficies aparentemente imposibles como fortificaciones, paredes de hielo, muros enlucidos y cosas similares, ignorando cualquier penalizador a los Chequeos de Escalar derivado de la dificultad de la superficie implicada.</p>",
-			"tests": "Escalar"
+			"tests": "Wspinaczka"
 		},
 		{
 			"id": "Schemer",
@@ -898,7 +898,7 @@
 			"id": "Strong Swimmer",
 			"name": "Buen nadador",
 			"description": "<p>Eres un nadador excepcionalmente bueno, y estás acostumbrado a contener el aliento un buen rato bajo el agua. Obtienes un bonificador igual a tu nivel en Buen nadador a tu Bonificador por Resistencia a efectos de contener el aliento.</p>",
-			"tests": "Nadar"
+			"tests": "Pływanie"
 		},
 		{
 			"id": "Strong-minded",
