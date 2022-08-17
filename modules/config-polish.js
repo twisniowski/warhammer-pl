@@ -3,78 +3,78 @@ Hooks.once("setup", async function () {
 const WFRP4E = {}
 
 CONFIG.JournalEntry.noteIcons = {
-    "Marcador": "systems/wfrp4e/icons/buildings/point_of_interest.png",
-    "Aldea 1": "systems/wfrp4e/icons/buildings/village1.png",
-    "Aldea 2": "systems/wfrp4e/icons/buildings/village2.png",
-    "Aldea 3": "systems/wfrp4e/icons/buildings/village3.png",
-    "Barracones Imperiales": "systems/wfrp4e/icons/buildings/empire_barracks.png",
-    "Bosque Encantado": "systems/wfrp4e/icons/buildings/haunted_wood.png",
+    "Marker": "systems/wfrp4e/icons/buildings/point_of_interest.png",
+    "Wioska 1": "systems/wfrp4e/icons/buildings/village1.png",
+    "Wioska 2": "systems/wfrp4e/icons/buildings/village2.png",
+    "Wioska 3": "systems/wfrp4e/icons/buildings/village3.png",
+    "Imperialne Koszary": "systems/wfrp4e/icons/buildings/empire_barracks.png",
+    "Nawiedzony Las": "systems/wfrp4e/icons/buildings/haunted_wood.png",
     "Aptekarz": "systems/wfrp4e/icons/buildings/apothecary.png",
-    "Camino": "systems/wfrp4e/icons/buildings/roads.png",
-    "Campamento Orco": "systems/wfrp4e/icons/buildings/orc_city.png",
-    "Cementerio": "systems/wfrp4e/icons/buildings/cemetery.png",
-    "Cerveza Enana": "systems/wfrp4e/icons/buildings/dwarf_beer.png",
-    "Ciudad Bretoniana 1": "systems/wfrp4e/icons/buildings/bret_city1.png",
-    "Ciudad Bretoniana 2": "systems/wfrp4e/icons/buildings/bret_city2.png",
-    "Ciudad Bretoniana 3": "systems/wfrp4e/icons/buildings/bret_city3.png",
-    "Ciudad Imperial 1": "systems/wfrp4e/icons/buildings/empire_city1.png",
-    "Ciudad Imperial 2": "systems/wfrp4e/icons/buildings/empire_city2.png",
-    "Ciudad Imperial 3": "systems/wfrp4e/icons/buildings/empire_city3.png",
-    "Ciudad Kislevita 1": "systems/wfrp4e/icons/buildings/kislev_city1.png",
-    "Ciudad Kislevita 2": "systems/wfrp4e/icons/buildings/kislev_city2.png",
-    "Ciudad Kislevita 3": "systems/wfrp4e/icons/buildings/kislev_city3.png",
-    "Colina de Castillo 1": "systems/wfrp4e/icons/buildings/castle_hill1.png",
-    "Colina de Castillo 2": "systems/wfrp4e/icons/buildings/castle_hill2.png",
-    "Colina de Castillo 3": "systems/wfrp4e/icons/buildings/castle_hill3.png",
-    "Colina de la Torre": "systems/wfrp4e/icons/buildings/tower_hill.png",
-    "Colina Encantada": "systems/wfrp4e/icons/buildings/haunted_hill.png",
-    "Comida": "systems/wfrp4e/icons/buildings/food.png",
-    "Comida 2": "systems/wfrp4e/icons/buildings/food2.png",
-    "Corte": "systems/wfrp4e/icons/buildings/court.png",
-    "Cueva 1": "systems/wfrp4e/icons/buildings/cave1.png",
-    "Cueva 2": "systems/wfrp4e/icons/buildings/cave2.png",
-    "Cueva 3": "systems/wfrp4e/icons/buildings/cave3.png",
-    "Culto Bretoniano": "systems/wfrp4e/icons/buildings/bretonnia_worship.png",
-    "Culto del Caos": "systems/wfrp4e/icons/buildings/chaos_worship.png",
-    "Dólmenes": "systems/wfrp4e/icons/buildings/standing_stones.png",
-    "Elfos Silvanos 1": "systems/wfrp4e/icons/buildings/welves1.png",
-    "Elfos Silvanos 2": "systems/wfrp4e/icons/buildings/welves2.png",
-    "Elfos Silvanos 3": "systems/wfrp4e/icons/buildings/welves3.png",
-    "Establos": "systems/wfrp4e/icons/buildings/stables.png",
-    "Fuerte Enano 1": "systems/wfrp4e/icons/buildings/dwarf_hold1.png",
-    "Fuerte Enano 2": "systems/wfrp4e/icons/buildings/dwarf_hold2.png",
-    "Fuerte Enano 3": "systems/wfrp4e/icons/buildings/dwarf_hold3.png",
-    "Granja": "systems/wfrp4e/icons/buildings/farms.png",
-    "Herrero": "systems/wfrp4e/icons/buildings/blacksmith.png",
-    "Puesto de Guardia": "systems/wfrp4e/icons/buildings/guards.png",
+    "Droga": "systems/wfrp4e/icons/buildings/roads.png",
+    "Obóz Orków": "systems/wfrp4e/icons/buildings/orc_city.png",
+    "Cmentarz": "systems/wfrp4e/icons/buildings/cemetery.png",
+    "Krasnoludzkie Piwo": "systems/wfrp4e/icons/buildings/dwarf_beer.png",
+    "Bretońskie Miasto 1": "systems/wfrp4e/icons/buildings/bret_city1.png",
+    "Bretońskie Miasto 2": "systems/wfrp4e/icons/buildings/bret_city2.png",
+    "Bretońskie Miasto 3": "systems/wfrp4e/icons/buildings/bret_city3.png",
+    "Imperialne Miasto 1": "systems/wfrp4e/icons/buildings/empire_city1.png",
+    "Imperialne Miasto 2": "systems/wfrp4e/icons/buildings/empire_city2.png",
+    "Imperialne Miasto 3": "systems/wfrp4e/icons/buildings/empire_city3.png",
+    "Kislevickie Miasto 1": "systems/wfrp4e/icons/buildings/kislev_city1.png",
+    "Kislevickie Miasto 2": "systems/wfrp4e/icons/buildings/kislev_city2.png",
+    "Kislevickie Miasto 3": "systems/wfrp4e/icons/buildings/kislev_city3.png",
+    "Wzgórze Zamkowe 1": "systems/wfrp4e/icons/buildings/castle_hill1.png",
+    "Wzgórze Zamkowe 2": "systems/wfrp4e/icons/buildings/castle_hill2.png",
+    "Wzgórze Zamkowe 3": "systems/wfrp4e/icons/buildings/castle_hill3.png",
+    "Wzgórze z Wieżą": "systems/wfrp4e/icons/buildings/tower_hill.png",
+    "Nawiedzone Wzgórze": "systems/wfrp4e/icons/buildings/haunted_hill.png",
+    "Jedzenie": "systems/wfrp4e/icons/buildings/food.png",
+    "Jedzenie 2": "systems/wfrp4e/icons/buildings/food2.png",
+    "Dwór": "systems/wfrp4e/icons/buildings/court.png",
+    "Jaskinia 1": "systems/wfrp4e/icons/buildings/cave1.png",
+    "Jaskinia 2": "systems/wfrp4e/icons/buildings/cave2.png",
+    "Jaskinia 3": "systems/wfrp4e/icons/buildings/cave3.png",
+    "Miejsce Kultu Bretonii": "systems/wfrp4e/icons/buildings/bretonnia_worship.png",
+    "Miejsce Kultu Chaosu": "systems/wfrp4e/icons/buildings/chaos_worship.png",
+    "Menhiry": "systems/wfrp4e/icons/buildings/standing_stones.png",
+    "Leśne Elfy 1": "systems/wfrp4e/icons/buildings/welves1.png",
+    "Leśne Elfy 2": "systems/wfrp4e/icons/buildings/welves2.png",
+    "Leśne Elfy 3": "systems/wfrp4e/icons/buildings/welves3.png",
+    "Stajnia": "systems/wfrp4e/icons/buildings/stables.png",
+    "Krasnoludzka Twierdza 1": "systems/wfrp4e/icons/buildings/dwarf_hold1.png",
+    "Krasnoludzka Twierdza 2": "systems/wfrp4e/icons/buildings/dwarf_hold2.png",
+    "Krasnoludzka Twierdza 3": "systems/wfrp4e/icons/buildings/dwarf_hold3.png",
+    "Farma": "systems/wfrp4e/icons/buildings/farms.png",
+    "Kowal": "systems/wfrp4e/icons/buildings/blacksmith.png",
+    "Strażnica": "systems/wfrp4e/icons/buildings/guards.png",
     "Magia": "systems/wfrp4e/icons/buildings/magic.png",
     "Metal": "systems/wfrp4e/icons/buildings/metal.png",
-    "Montaña 1": "systems/wfrp4e/icons/buildings/mountains1.png",
-    "Montaña 2": "systems/wfrp4e/icons/buildings/mountains2.png",
+    "Góra 1": "systems/wfrp4e/icons/buildings/mountains1.png",
+    "Góra 2": "systems/wfrp4e/icons/buildings/mountains2.png",
     "Muro de Castillo": "systems/wfrp4e/icons/buildings/castle_wall.png",
-    "Orcos": "systems/wfrp4e/icons/buildings/orcs.png",
-    "Portal del Caos": "systems/wfrp4e/icons/buildings/chaos_portal.png",
-    "Posada 1": "systems/wfrp4e/icons/buildings/inn1.png",
-    "Posada 2": "systems/wfrp4e/icons/buildings/inn2.png",
-    "Pantano": "systems/wfrp4e/icons/buildings/swamp.png",
-    "Pergamino": "systems/wfrp4e/icons/buildings/scroll.png",
-    "Puerto": "systems/wfrp4e/icons/buildings/port.png",
-    "Rebaño de Hombres Bestia 1": "systems/wfrp4e/icons/buildings/beastmen_camp1.png",
-    "Rebaño de Hombres Bestia 2": "systems/wfrp4e/icons/buildings/beastmen_camp2.png",
-    "Ruinas": "systems/wfrp4e/icons/buildings/ruins.png",
-    "Serrería": "systems/wfrp4e/icons/buildings/lumber.png",
+    "Orki": "systems/wfrp4e/icons/buildings/orcs.png",
+    "Portal Chaosu": "systems/wfrp4e/icons/buildings/chaos_portal.png",
+    "Zajazd 1": "systems/wfrp4e/icons/buildings/inn1.png",
+    "Zajazd 2": "systems/wfrp4e/icons/buildings/inn2.png",
+    "Bagno": "systems/wfrp4e/icons/buildings/swamp.png",
+    "Zwoje": "systems/wfrp4e/icons/buildings/scroll.png",
+    "Port": "systems/wfrp4e/icons/buildings/port.png",
+    "Obóz Zwierzoludzi 1": "systems/wfrp4e/icons/buildings/beastmen_camp1.png",
+    "Obóz Zwierzoludzi 2": "systems/wfrp4e/icons/buildings/beastmen_camp2.png",
+    "Ruiny": "systems/wfrp4e/icons/buildings/ruins.png",
+    "Tartak": "systems/wfrp4e/icons/buildings/lumber.png",
     "Sigmar": "systems/wfrp4e/icons/buildings/sigmar_worship.png",
-    "Templo": "systems/wfrp4e/icons/buildings/temple.png",
-    "Textil": "systems/wfrp4e/icons/buildings/textile.png",
-    "Torre 1": "systems/wfrp4e/icons/buildings/tower1.png",
-    "Torre 2": "systems/wfrp4e/icons/buildings/tower2.png",
-    "Torre de Mago": "systems/wfrp4e/icons/buildings/wizard_tower.png",
+    "Świątynia": "systems/wfrp4e/icons/buildings/temple.png",
+    "Płótna": "systems/wfrp4e/icons/buildings/textile.png",
+    "Wieża 1": "systems/wfrp4e/icons/buildings/tower1.png",
+    "Wieża 2": "systems/wfrp4e/icons/buildings/tower2.png",
+    "Wieża Czarownika": "systems/wfrp4e/icons/buildings/wizard_tower.png",
     "Ulric": "systems/wfrp4e/icons/buildings/ulric_worship.png"
 }
 
 game.wfrp4e.config.symptomEffects = {
         "blight": {
-            label: "Decaimiento",
+            label: "Uwiąd",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -84,17 +84,17 @@ game.wfrp4e.config.symptomEffects = {
                     "symptom": true,
                     "script": `
                         let difficulty = ""
-                        if (this.effect.label.includes("Moderado"))
+                        if (this.effect.label.includes("Umiarkowany"))
                             difficulty = "easy"
-                        else if (this.effect.label.includes("Severo"))
+                        else if (this.effect.label.includes("Ciężki"))
                             difficulty = "average"
                         else
                             difficulty = "veasy"
-    
+
                         if (this.actor.isOwner)
                         {
                             args.actor.setupSkill("Odporność", {absolute: {difficulty}}).then(setupData => {
-                                args.actor.basicTest(setupData).then(test => 
+                                args.actor.basicTest(setupData).then(test =>
                                     {
                                         if (test.result.outcome == "failure")
                                             args.actor.addCondition("dead")
@@ -105,7 +105,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "buboes": {
-            label: "Bubas",
+            label: "Dymienica",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -131,7 +131,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "convulsions": {
-            label: "Convulsiones",
+            label: "Konwulsje",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -141,11 +141,11 @@ game.wfrp4e.config.symptomEffects = {
                     "symptom": true,
                     "script": `
                         let modifier = 0
-                        if (this.effect.label.includes("Moderado"))
+                        if (this.effect.label.includes("Umiarkowany"))
                             modifier = -20
                         else
                             modifier = -10
-                        
+
                         let applicableCharacteristics = ["ws", "bs", "s", "ag", "t", "dex"]
                         if (args.type == "weapon")
                             args.prefillModifiers.modifier += modifier
@@ -163,7 +163,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "fever": {
-            label: "Fiebre",
+            label: "Gorączka",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -172,9 +172,9 @@ game.wfrp4e.config.symptomEffects = {
                     "effectTrigger": "prefillDialog",
                     "symptom": true,
                     "script": `
-                       
+
                     let applicableCharacteristics = ["ws", "bs", "s", "fel", "ag", "t", "dex"]
-    
+
                     if (args.type == "weapon")
                         args.prefillModifiers.modifier -= 10
                     else if (args.type == "characteristic")
@@ -192,7 +192,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "flux": {
-            label: "Diarrea",
+            label: "Biegunka",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -202,7 +202,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "lingering": {
-            label: "Persistente",
+            label: "Nawroty",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -212,7 +212,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "coughsAndSneezes": {
-            label: "Toses y estornudos",
+            label: "Kaszel i Katar",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -246,7 +246,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "malaise": {
-            label: "Malestar",
+            label: "Apatia",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -261,7 +261,7 @@ game.wfrp4e.config.symptomEffects = {
                         if (!fatigued)
                         {
                             args.actor.addCondition("fatigued")
-                            ui.notifications.notify("Añadido Fatigado a \" + args.actor.name + \" que no puede ser quitado hasta que haya desaparecido el síntoma Malestar.")
+                            ui.notifications.notify("Dodano zmęczenie dla \" + args.actor.name + \" którego nie można usunąć, aż nie miną objawy Apatii.")
                         }
                     }
                     `
@@ -269,7 +269,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "nausea": {
-            label: "Náuseas",
+            label: "Nudności",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -283,14 +283,14 @@ game.wfrp4e.config.symptomEffects = {
                         let applicableCharacteristics = ["ws", "bs", "s", "fel", "ag", "t", "dex"]
                         if (applicableCharacteristics.includes(args.test.characteristicKey))
                             this.actor.addCondition("stunned")
-    
+
                     }
                     `
                 }
             }
         },
         "pox": {
-            label: "Plaga",
+            label: "Wysypka",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -299,7 +299,7 @@ game.wfrp4e.config.symptomEffects = {
                     "effectTrigger": "prefillDialog",
                     "symptom": true,
                     "script": `
-                       
+
                         if (args.type == "characteristic" && args.item == "fel")
                                 args.prefillModifiers.modifier -= 10
                         else if (args.type == "skill")
@@ -311,7 +311,7 @@ game.wfrp4e.config.symptomEffects = {
             }
         },
         "wounded": {
-            label: "Herido",
+            label: "Uciążliwa Rana",
             icon: "modules/wfrp4e-core/icons/diseases/disease.png",
             transfer: true,
             flags: {
@@ -323,7 +323,7 @@ game.wfrp4e.config.symptomEffects = {
                         if (this.actor.isOwner)
                         {
                             args.actor.setupSkill("Odporność", {absolute: {difficulty : "average"}}).then(setupData => {
-                                args.actor.basicTest(setupData).then(test => 
+                                args.actor.basicTest(setupData).then(test =>
                                     {
                                         if (test.result.outcome == "failure")
                                             fromUuid("Compendium.wfrp4e-core.diseases.kKccDTGzWzSXCBOb").then(disease => {
@@ -338,440 +338,440 @@ game.wfrp4e.config.symptomEffects = {
     }
 
 game.wfrp4e.config.effectTriggers = {
-    "invoke" : "Invocado Manualmente",
-    "oneTime" : "Inmediato",
-    "dialogChoice" : "Elección de Diálogo",
-    "prefillDialog" : "Prellenar Diálogo",
-    "prePrepareData" : "Pre-Preparar Datos",
-    "prePrepareItems" : "Pre-Preparar Objetos de Actor",
-    "prepareData" : "Preparar Datos",
-    "preWoundCalc" : "Pre-Cálculo de Heridas",
-    "woundCalc" : "Cálculo de Heridas",
-    "preApplyDamage" : "Pre-Aplicar Daño",
-    "applyDamage" : "Aplicar Daño",
-    "preTakeDamage" : "Pre-Recibir Daño",
-    "takeDamage" : "Recibir Daño",
-    "preApplyCondition" : "Pre-Aplicar Condición",
-    "applyCondition" : "Aplicar Condición",
-    "prePrepareItem" : "Pre-Preparar Objeto",
-    "prepareItem" : "Preparar Objeto",
-    "preRollTest" : "Pre-Tirar Chequeo",
-    "preRollWeaponTest" : "Pre-Tirar Chequeo de Arma",
-    "preRollCastTest" : "Pre-Tirar Chequeo de Lanzamiento",
-    "preChannellingTest" : "Pre-Tirar Chequeo de Canalización",
-    "preRollPrayerTest" : "Pre-Tirar Chequeo de Plegaria",
-    "preRollTraitTest" : "Pre-Tirar Chequeo de Rasgo",
-    "rollTest" : "Tirar Chequeo",
-    "rollIncomeTest" : "Tirar Chequeo de Salario",
-    "rollWeaponTest" : "Tirar Chequeo de Arma",
-    "rollCastTest" : "Tirar Chequeo de Lanzamiento",
-    "rollChannellingTest" : "Tirar Chequeo de Canalización",
-    "rollPrayerTest" : "Tirar Chequeo de Plegaria",
-    "rollTraitTest" : "Tirar Chequeo de Rasgo",
-    "preOpposedAttacker" : "Pre-Enfrentado Atacante",
-    "preOpposedDefender" : "Pre-Enfrentado Defensor",
-    "opposedAttacker" : "Enfrentado Atacante",
-    "opposedDefender" : "Enfrentado Defensor",
-    "calculateOpposedDamage" : "Calcular Daño Enfrentado",
-    "targetPrefillDialog" : "Prellenar Diálogo del Objetivo",
-    "getInitiativeFormula" : "Conseguir Iniciativa",
-    "endTurn" : "Fin del Turno",
-    "endRound" : "Fin del Asalto",
-    "endCombat" : "Fin del Combate"
+    "invoke" : "Wywołanie Ręczne",
+    "oneTime" : "Jednorazowe",
+    "dialogChoice" : "Wybór z Dialogu",
+    "prefillDialog" : "Wypełniony Dialog",
+    "prePrepareData" : "Przygotowane wcześniej Dane",
+    "prePrepareItems" : "Przygotowany wcześniej Przedmiot Aktora",
+    "prepareData" : "Przygotuj Dane",
+    "preWoundCalc" : "Prekalkulacja Ran",
+    "woundCalc" : "Liczenie Ran",
+    "preApplyDamage" : "Aplikuj wstępnie Obrażenia",
+    "applyDamage" : "Aplikuj Obrażenia",
+    "preTakeDamage" : "Otrzymuj wstępnie Obrażenia",
+    "takeDamage" : "Otrzymuj Obrażenia",
+    "preApplyCondition" : "Aplikuj wstępnie Stan",
+    "applyCondition" : "Aplikuj Stan",
+    "prePrepareItem" : "Przygotuj wstępnie Przedmiot",
+    "prepareItem" : "Przygotuj Przedmiot",
+    "preRollTest" : "Rzut wstępny przed Testem",
+    "preRollWeaponTest" : "Rzut wstępny przed Testem Broni",
+    "preRollCastTest" : "Rzut wstępny przed Testem Rzucenia Zaklęcia",
+    "preChannellingTest" : "Rzut wstępny przed Testem Splątania",
+    "preRollPrayerTest" : "Rzut wstępny przed Testem Modlitwy",
+    "preRollTraitTest" : "Rzut wstępny przed Testem Cechy",
+    "rollTest" : "Rzut na Test",
+    "rollIncomeTest" : "Rzut na Test Zarabiania",
+    "rollWeaponTest" : "Rzut na Test Broni",
+    "rollCastTest" : "Rzut na Test Rzucania Zaklęcia",
+    "rollChannellingTest" : "Rzut na Test Splątania",
+    "rollPrayerTest" : "Rzut na Test Modlitwy",
+    "rollTraitTest" : "Rzut na Test Cechy",
+    "preOpposedAttacker" : "Wstępne Przeciwstawienie Atakującego",
+    "preOpposedDefender" : "Wstępne Przeciwstawienie Broniącego",
+    "opposedAttacker" : "Przeciwstawienie Atakującego",
+    "opposedDefender" : "Przeciwstawienie Broniącego",
+    "calculateOpposedDamage" : "Przelicz Obrażenia Przeciwstawne",
+    "targetPrefillDialog" : "Wstępnie wypełniony Dialog Celu",
+    "getInitiativeFormula" : "Przejmij Inicjatywę",
+    "endTurn" : "Koniec Tury",
+    "endRound" : "Koniec Rundy",
+    "endCombat" : "Koniec Walki"
 }
 
 game.wfrp4e.config.effectPlaceholder = {
 
-    "invoke" : 
-    `Este efecto sólo se aplica al pulsar el botón de Invocar.
+    "invoke" :
+    `Ten efekt działa tylko po naciśnięciu przycisku Wywołaj.
     args:
 
-    ninguno`,
-    "oneTime" : 
-    `Este efecto ocurre una vez, inmediatamente al aplicar.
+    brak`,
+    "oneTime" :
+    `Ten efekt występuje raz, natychmiast po zastosowaniu.
     args:
 
-    actor : actor propietario del efecto
+    actor : aktor właściwy dla efektu
     `,
-    "prefillDialog" : 
-    `Este efecto se aplica antes de reproducir el diálogo de tirada, y debería cambiar los valores prellenados en la sección de bonos
+    "prefillDialog" :
+    `Ten efekt jest stosowany przed pokazaniem okna dialogowego rzutu i powinien zmienić wartości wstępnie wypełnione w sekcji bonusowej.
     args:
 
     prefillModifiers : {modifier, difficulty, slBonus, successBonus}
     type: string, 'weapon', 'skill' 'characteristic', etc.
-    item: el objeto del tipo mencionado usado
-    options: otros detalles sobre el chequeo (options.rest u options.mutate por ejemplo)
-    
-    Example: 
-    if (args.type == "skill" && args.item.name == "Atletyka") args.prefillModifiers.modifier += 10`,
+    item: używany przedmiot wymienionego typu
+    options: inne szczegóły dotyczące testu (na przykład options.rest lub options.mutate)
 
-    "prePrepareData" : 
-    `Este efecto se aplica antes de calcular cualquier dato del actor.
+    Example:
+    if (args.type == "skill" && args.item.name == "Atletismo") args.prefillModifiers.modifier += 10`,
+
+    "prePrepareData" :
+    `Ten efekt jest stosowany przed obliczeniem jakichkolwiek danych aktora.
     args:
 
-    actor : actor propietario del efecto
+    actor : aktor właściwy dla efektu
     `,
 
-    "prePrepareItems" : 
-    `Este efecto se aplica antes de que los objetos se ordenen y calculen
+    "prePrepareItems" :
+    `Ten efekt jest stosowany przed sortowaniem i obliczaniem obiektów
 
-    actor : actor propietario del efecto
+    actor : aktor właściwy dla efektu
     `,
 
-    "prepareData" : 
-    `Este efecto se aplica tras calcular y procesar los datos del actor.
+    "prepareData" :
+    `Efekt ten jest stosowany po obliczeniu i przetworzeniu danych aktora.
 
     args:
 
-    actor : actor propietario del efecto
+    actor : aktor właściwy dla efektu
     `,
 
-    "preWoundCalc" : 
-    `Este efecto se aplica justo antes del cálculo de heridas, ideal para cambiar atributos o añadir multiplicadores
+    "preWoundCalc" :
+    `Ten efekt jest nakładany tuż przed obliczeniem Ran, idealny do zmiany atrybutów lub dodawania mnożników.
 
-    actor : actor propietario del efecto
-    sb : Bono por Fuerza
-    tb : Bono por Resistencia
-    wpb : Bono por Voluntad
+    actor : aktor właściwy dla efektu
+    sb : Bonus z Siły
+    tb : bonus z Wytrzymałości
+    wpb : Bonus z Siły Woli
     multiplier : {
-        sb : Multiplicador de BF
-        tb : Multiplicador de BR
-        wpb : Modificador de BVol
+        sb : Mnożnik z BS
+        tb : Mnożnik z BWt
+        wpb : Mnożnik z BSW
     }
 
     e.g. para Hardy: "args.multiplier.tb += 1"
     `,
 
-    "woundCalc" : 
-    `Este efecto ocurre tras el cálculo de heridas, ideal para multiplicar el resultado.
+    "woundCalc" :
+    `Ten efekt występuje po obliczeniu ran, idealny do pomnożenia wyniku.
 
     args:
 
-    actor : actor propietario del efecto
-    wounds : heridas calculadas
+    actor : aktor właściwy dla efektu
+    wounds : obliczone rany
 
     e.g. for Swarm: "wounds *= 5"
     `,
 
-    "preApplyDamage" : 
-    `Este efecto ocurre antes de aplicar daño en un chequeo enfrentado
+    "preApplyDamage" :
+    `Ten efekt występuje przed nałożeniem obrażeń na test przeciwstawny.
     args:
 
-    actor : actor que recibe daño
-    attacker : actor atacante
-    opposedTest : objeto que contiene los datos del chequeo enfrentado
-    damageType : tipo de daño seleccionado (ignora TB, AP, etc.)
+    actor : aktor który otrzymuje obrażenia
+    attacker : aktor atakujący
+    opposedTest : obiekt zawierający dane testu przeciwstawnego
+    damageType : wybrany typ obrażeń (ignorujący BWt, PP, etc.)
     `,
-    "applyDamage" : 
-    `Este efecto ocurre después calcular el daño en un chequeo enfrentado, pero antes de actualizar los datos del actor.
+    "applyDamage" :
+    `Ten efekt występuje po obliczeniu obrażeń w przeciwstawnym teście, ale przed aktualizacją danych aktora.
 
     args:
 
-    actor : actor que recibe daño
-    attacker : actor atacante
-    opposedTest : objeto que contiene los datos del chequeo enfrentado
-    damageType : tipo de daño seleccionado (ignora TB, AP, etc.)
-    totalWoundLoss : Heridas perdidas tras mitigaciones
-    AP : datos sobre los PA usados
-    updateMsg : secuencia inicial para el mensaje de actualización de daño
-    messageElements : despliegue de secuencias usadas para mostrar cómo se calculó la mitigación de daño
-    `,
-
-    "preTakeDamage" : 
-    `Este efecto ocurre antes de recibir daño en un chequeo enfrentado
-
-    args:
-
-    actor : actor que recibe daño
-    attacker : actor atacante
-    opposedTest : objeto que contiene los datos del chequeo enfrentado
-    damageType : tipo de daño seleccionado (ignora TB, AP, etc.)
-    `,
-    
-    "takeDamage" : 
-    `Este efecto ocurre tras calcular el daño en un chequeo enfrentado, pero antes de actualizar los datos del actor.
-
-    args:
-
-    actor : actor que recibe daño
-    attacker : actor atacante
-    opposedTest : objeto que contiene los datos del chequeo enfrentado
-    damageType : tipo de daño seleccionado (ignora TB, AP, etc.)
-    totalWoundLoss : Heridas perdidas tras mitigaciones
-    AP : datos sobre los PA usados
-    updateMsg : secuencia inicial para el mensaje de actualización de daño
-    messageElements : despliegue de secuencias usadas para mostrar cómo se calculó la mitigación de daño
+    actor : aktor który otrzymuje obrażenia
+    attacker : aktor atakujący
+    opposedTest : obiekt zawierający dane testu przeciwstawnego
+    damageType : wybrany typ obrażeń (ignorujący BWt, PP, etc.)
+    totalWoundLoss : Utracone rany po mitygacji
+    AP : dane użytych PP
+    updateMsg : sekwencja początkowa dla komunikatu o aktualizacji obrażeń
+    messageElements : wyświetlanie sekwencji użytych do pokazania, w jaki sposób obliczono mitygację obrażeń
     `,
 
-    "preApplyCondition" :  
-    `Este efecto ocurre antes de aplicar los efectos de una condición.
+    "preTakeDamage" :
+    `Ten efekt ma miejsce przed otrzymaniem obrażeń w przeciwstawnym teście.
 
     args:
 
-    effect : condición aplicada
+    actor : aktor który otrzymuje obrażenia
+    attacker : aktor atakujący
+    opposedTest : obiekt zawierający dane testu przeciwstawnego
+    damageType : wybrany typ obrażeń (ignorujący BWt, PP, etc.)
+    `,
+
+    "takeDamage" :
+    `Ten efekt występuje po obliczeniu obrażeń w przeciwstawnym teście, ale przed aktualizacją danych aktora.
+
+    args:
+
+    actor : aktor który otrzymuje obrażenia
+    attacker : aktor atakujący
+    opposedTest : obiekt zawierający dane testu przeciwstawnego
+    damageType : ybrany typ obrażeń (ignorujący BWt, PP, etc.)
+    totalWoundLoss : Utracone rany po mitygacji
+    AP : dane użytych PP
+    updateMsg : sekwencja początkowa dla komunikatu o aktualizacji obrażeń
+    messageElements : wyświetlanie sekwencji użytych do pokazania, w jaki sposób obliczono mitygację obrażeń
+    `,
+
+    "preApplyCondition" :
+    `Ten efekt występuje przed zastosowaniem efektów stanu.
+
+    args:
+
+    effect : stosowany stan
     data : {
-        msg : Mensaje de chat sobre la aplicación de la condición
-        <otros datos, posiblemente específicos de la condición>
+        msg : Wiadomość na Chacie o zastosowaniu stanu
+        <inne dane, np. specyficzne dla stanu>
     }
     `,
 
-    "applyCondition" :  
-    `Este efecto ocurre tras aplicar los efectos de una condición.
+    "applyCondition" :
+    `Ten efekt występuje po zastosowaniu efektów stanu.
 
     args:
 
-    effect : condición aplicada
+    effect : stosowany stan
     data : {
-        msg : Mensaje de chat sobre la aplicación de la condición
-        <otros datos, posiblemente específicos de la condición>
+        msg : Wiadomość na Chacie o zastosowaniu stanu
+        <inne dane, np. specyficzne dla stanu>
     }
     `,
-    "prePrepareItem" : 
-    `Este efecto se aplica antes de procesar un objeto con datos del actor.
+    "prePrepareItem" :
+    `Ten efekt jest stosowany przed przetwarzaniem obiektu z danymi aktora.
 
     args:
 
-    item : objeto a procesar
+    item : obiekt do przetwarzania
     `,
-    "prepareItem" : 
-`Este efecto se aplica tras procesar un objeto con datos del actor.
+    "prepareItem" :
+    `Ten efekt jest stosowany po przetworzeniu obiektu z danymi aktora.
 
     args:
 
-    item : objeto procesado
+    item : obiekt przetworzony
     `,
-    "preRollTest": 
-    `Este efecto se aplica antes de calcular un chequeo.
+    "preRollTest":
+    `Ten efekt jest stosowany przed obliczeniem Testu.
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
-    "preRollWeaponTest" :  
-    `Este efecto se aplica antes de calcular un chequeo de arma.
+    "preRollWeaponTest" :
+    `Ten efekt jest nakładany przed obliczeniem testu broni.
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "preRollCastTest" :  
-    `Este efecto se aplica antes de calcular un chequeo de lanzamiento.
+    "preRollCastTest" :
+    `Ten efekt jest nakładany przed obliczeniem testu rzucenia zaklęcia
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "preChannellingTest" :  
-    `Este efecto se aplica antes de calcular un chequeo de canalización.
+    "preChannellingTest" :
+    `Ten efekt jest nakładany przed obliczeniem testu splątywania
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "preRollPrayerTest" :  
-    `Este efecto se aplica antes de calcular un chequeo de plegaria.
+    "preRollPrayerTest" :
+    `Ten efekt jest nakładany przed obliczeniem testu modlitwy.
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "preRollTraitTest" :  
-    `Este efecto se aplica antes de calcular un chequeo de rasgo.
+    "preRollTraitTest" :
+    `Ten efekt jest nakładany przed obliczeniem testu cechy.
 
     args:
 
-    testData: Todos los datos necesarios para evaluar los resultados del chequeo
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    testData: Wszystkie dane niezbędne do wyliczenia wyniku
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollTest" : 
-    `Este efecto se aplica tras calcular un chequeo.
+    "rollTest" :
+    `Ten efekt jest stosowany po obliczeniu rzutu.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
-    "rollIncomeTest" : 
-    `Este efecto se aplica tras calcular un chequeo de salario.
+    "rollIncomeTest" :
+    `Efekt ten jest stosowany po obliczeniu testu zarabiania.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollWeaponTest" : 
-    `Este efecto se aplica tras calcular un chequeo de arma.
+    "rollWeaponTest" :
+    `Efekt ten jest stosowany po obliczeniu testu broni.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollCastTest" : 
-    `Este efecto se aplica tras calcular un chequeo de lanzamiento.
+    "rollCastTest" :
+    `Efekt ten jest stosowany po obliczeniu testu rzucania zaklęcia.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollChannellingTest" : 
-    `Este efecto se aplica tras calcular un chequeo de canalización.
+    "rollChannellingTest" :
+    `Efekt ten jest stosowany po obliczeniu testu splątywania.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollPrayerTest" : 
-    `Este efecto se aplica tras calcular un chequeo de plegaria.
+    "rollPrayerTest" :
+    `Efekt ten jest stosowany po obliczeniu testu modlitwy.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "rollTraitTest" : 
-    `Este efecto se aplica tras calcular un chequeo de rasgo.
+    "rollTraitTest" :
+    `Efekt ten jest stosowany po obliczeniu testu cechy.
 
     args:
 
-    test: objeto que contiene información del chequeo y resultado
-    cardOptions: Datos para la vista, título, plantilla, etc. de la tarjeta
+    test: obiekt zawierający informacje o rzucie i wynik
+    cardOptions: Dane do widoku, tytułu, szablonu itp. karty
     `,
 
-    "preOpposedAttacker" : 
-    `Este efecto se aplica antes de comenzar el cálculo del resultado de un chequeo enfrentado, como atacante.
+    "preOpposedAttacker" :
+    `Ten efekt jest stosowany przed rozpoczęciem obliczania wyniku testu przeciwstawnego dla atakującego.
 
     args:
 
-    attackerTest: objeto de chequeo del atacante
-    defenderTest: objeto de chequeo del defensor
-    opposedTest: objeto del chequeo enfrentado, antes del cálculo
+    attackerTest: obiekt testu atakującego
+    defenderTest: obiekt testu broniącego
+    opposedTest: obiekt testu przeciwstawnego, przed obliczeniami
     `,
-    "preOpposedDefender" : 
-    `Este efecto se aplica antes de comenzar el cálculo del resultado de un chequeo enfrentado, como defensor.
+    "preOpposedDefender" :
+    `Ten efekt jest stosowany przed rozpoczęciem obliczania wyniku testu przeciwstawnego dla broniącego.
 
     args:
 
-    attackerTest: objeto de chequeo del atacante
-    defenderTest: objeto de chequeo del defensor
-    opposedTest: objeto del chequeo enfrentado, antes del cálculo
+    attackerTest: obiekt testu atakującego
+    defenderTest: obiekt testu broniącego
+    opposedTest: obiekt testu przeciwstawnego, przed obliczeniami
     `,
 
-    "opposedAttacker" : 
-    `Este efecto se aplica tras comenzar el cálculo del resultado de un chequeo enfrentado, como atacante.
+    "opposedAttacker" :
+    `Ten efekt jest stosowany po rozpoczęciu testu przeciwstawnego dla atakującego.
 
     args:
 
-    attackerTest: objeto de chequeo del atacante
-    defenderTest: objeto de chequeo del defensor
-    opposedTest: objeto del chequeo enfrentado, antes del cálculo
+    attackerTest: obiekt testu atakującego
+    defenderTest: obiekt testu broniącego
+    opposedTest: obiekt testu przeciwstawnego, przed obliczeniami
     `,
 
-    "opposedDefender" : 
-    `Este efecto se aplica tras comenzar el cálculo del resultado de un chequeo enfrentado, como defensor.
+    "opposedDefender" :
+    `Ten efekt jest stosowany po rozpoczęciu testu przeciwstawnego dla broniącego.
 
     args:
 
-    attackerTest: objeto de chequeo del atacante
-    defenderTest: objeto de chequeo del defensor
-    opposedTest: objeto del chequeo enfrentado, antes del cálculo
+    attackerTest: obiekt testu atakującego
+    defenderTest: obiekt testu broniącego
+    opposedTest: obiekt testu przeciwstawnego, przed obliczeniami
     `,
 
-    "calculateOpposedDamage" : 
-    `Este efecto se aplica durante el cálculo del daño de un chequeo enfrentado. Este efecto se ejecuta en el actor atacante
+    "calculateOpposedDamage" :
+    `Ten efekt jest stosowany podczas obliczania obrażeń testu przeciwstawnego, dla atakującego
 
     args:
 
-    damage : daño inicial antes de multiplicadores
-    damageMultiplier : multiplicadores calculado en base a la diferencia de tamaño
-    sizeDiff : diferencia numérica de tamaño, que será usada para añadir dañina/impactante
-    opposedTest : opposedTest object
+    damage : początkowe obrażenia przed mnożnikami
+    damageMultiplier : mnożniki obliczone na podstawie różnicy rozmiarów
+    sizeDiff : liczbowa różnica w rozmiarze, użyta do dodatkowych obrażeń
+    opposedTest : obiekt testu przeciwstawnego
     `,
 
-    "getInitiativeFormula" : 
-    `Este efecto se ejecuta al determinar la iniciativa del actor
+    "getInitiativeFormula" :
+    `Efekt ten realizowany jest podczas określenia inicjatywy aktora
 
     args:
 
-    initiative: Valor calculado de iniciativa
+    initiative: Obliczona wartość inicjatywy
     `,
 
-    "targetPrefillDialog" : 
-    `Este efecto se aplica a otro actor cuando hacen objetivo a este actor, y debería cambiar los valores prellenados en la sección de bonos
+    "targetPrefillDialog" :
+    `Ten efekt jest stosowany do innego aktora, gdy ten aktor jest celem i należy mu zmienić wartości wstępnie wypełnione w sekcji bonusów
     args:
 
     prefillModifiers : {modifier, difficulty, slBonus, successBonus}
     type: string, 'weapon', 'skill' 'characteristic', etc.
-    item: el objeto del tipo mencionado usado
-    options: otros detalles sobre el chequeo (options.rest u options.mutate por ejemplo)
-    
-    Example: 
+    item: obiekt wspomnianego użytego typu
+    options: inne szczegóły dotyczące testu (na przykład options.rest lub options.mutate)
+
+    Example:
     if (args.type == "skill" && args.item.name == "Athletics") args.prefillModifiers.modifier += 10`,
 
-    "endTurn" : 
-    `Este efecto se ejecuta al final del turno del actor
+    "endTurn" :
+    `Ten efekt jest wykonywany na koniec tury aktora.
 
     args:
 
-    combat: combate actual
+    combat: obecna walka
     `,
 
-    "endRound" :  
-    `Este efecto se ejecuta al final del asalto
+    "endRound" :
+    `Ten efekt jest wykonywany na koniec rundy.
 
     args:
 
-    combat: combate actual
+    combat: obecna walka
     `,
-    "endCombat" :  
-    `Este efecto se ejecuta al terminar el combate
+    "endCombat" :
+    `Ten efekt jest wykonywany na koniec walki.
 
     args:
 
-    combat: combate actual
+    combat: obecna walka
     `,
 
-    "this" : 
+    "this" :
     `
-    
-    Todos los efectos tienen acceso a: 
-        this.actor : actor ejecutando el efecto
-        this.effect : efecto ejecutado
-        this.item : objeto que posee el efecto, si el efecto proviene de un objeto`
+
+    Wszystkie efekty mają dostęp do:
+        this.actor : aktor wykonujący efekt
+        this.effect : wykonywany efekt
+        this.item : obiekt, który wywołuje efekt, jeśli efekt pochodzi od obiektu`
 
 }
 
 game.wfrp4e.config.speciesSkills = {
         "human": [
-                    "Obiekty Podstawowe",
+                    "Opieka nad Zwierzętami",
                     "Charyzma",
                     "Opanowanie",
                     "Wycena",
-                    "Targowanie",
                     "Plotkowanie",
+                    "Targowanie",
                     "Język (Bretoński)",
                     "Język (Jałowej Krainy)",
                     "Dowodzenie",
-                    "Sabiduría académica (Reikland)",
+                    "Wiedza (Reikland)",
                     "Broń Biała (Podstawowa)",
-                    "Broń Zasięgowa (Łuki)"
+                    "Broń Zasięgowa (Łuk)"
         ],
         "dwarf": [
             "Mocna Głowa",
@@ -781,8 +781,8 @@ game.wfrp4e.config.speciesSkills = {
             "Wycena",
             "Zastraszanie",
             "Język (Khazalid)",
-            "Sabiduría académica (Enanos)",
-            "Wiedza (Geologia)",
+            "Wiedza (Krasnoludy)",
+            "Wiedza (Geología)",
             "Wiedza (Metalurgia)",
             "Broń Biała (Podstawowa)",
             "Rzemiosło (Dowolne)"
@@ -798,21 +798,21 @@ game.wfrp4e.config.speciesSkills = {
             "Wiedza (Reikland)",
             "Percepcja",
             "Zwinne Palce",
-            "Skradanie (Dowolne)",
+            "Skradanie (Wieś)",
             "Rzemiosło (Gotowanie)"
         ],
         "helf": [
             "Opanowanie",
             "Występy (Śpiewanie)",
             "Wycena",
-            "Język (Elthárin)",
+            "Język (Eltharin)",
             "Dowodzenie",
             "Broń Biała (Podstawowa)",
-            "Nawigacja",
-            "Percepcja",
-            "Muzyka (Dowolne)",
-            "Broń Zasięgowa (Łuki)",
             "Żeglarstwo",
+            "Percepcja",
+            "Muzyka (Dowolny instrument)",
+            "Broń Zasięgowa (Łuk)",
+            "Nawigacja",
             "Pływanie"
         ],
         "welf": [
@@ -821,11 +821,11 @@ game.wfrp4e.config.speciesSkills = {
             "Odporność",
             "Występy (Śpiewanie)",
             "Zastraszanie",
-            "Język (Elthárin)",
+            "Język (Eltharin)",
             "Broń Biała (Podstawowa)",
             "Sztuka Przetrwania",
             "Percepcja",
-            "Broń Zasięgowa (Łuki)",
+            "Broń Zasięgowa (Łuk)",
             "Skradanie (Wieś)",
             "Tropienie"
         ],
@@ -834,37 +834,37 @@ game.wfrp4e.config.speciesSkills = {
 game.wfrp4e.config.speciesTalents = {
         "human": [
             "Wróżba Losu",
-            "Espabilado, Cortés",
+            "Błyskotliwość, Charyzmatyczny",
             3
         ],
         "dwarf": [
             "Odporność na Magię",
             "Widzenie w Ciemności",
-            "Leer y escribir, Incansable",
-            "Resuelto, Decidido",
+            "Czytanie/Pisanie, Nieustępliwy",
+            "Odporność Psychiczna, Nieugięty",
             "Tragarz",
             0
         ],
         "halfling": [
-            "Wyczulony Zmysł (Smak)",
+            "Wyczulony Zmysł (smak)",
             "Widzenie w Ciemności",
-            "Resistencia (Caos)",
+            "Odporność na Chaos",
             "Mały",
             2
         ],
         "helf": [
             "Wyczulony Zmysł (Wzrok)",
-            "Sangre fría, Espabilado",
+            "Zimna Krew, Błyskotliwość",
             "Widzenie w Ciemności",
-            "Clarividencia, Sexto sentido",
+            "Percepcja Magiczna, Szósty Zmysł",
             "Czytanie/Pisanie",
             0
         ],
         "welf": [
             "Wyczulony Zmysł (Wzrok)",
-            "Recio, Clarividencia",
+            "Twardziel, Percepcja Magiczna",
             "Widzenie w Ciemności",
-            "Leer y escribir, Muy resistente",
+            "Czytanie/Pisanie, Niezwykle Odporny",
             "Włóczykij",
             0
         ]
@@ -873,24 +873,24 @@ game.wfrp4e.config.speciesTalents = {
 game.wfrp4e.config.subspecies = {
         human: {
             reiklander: {
-                name: "Reiklandés",
+                name: "Reiklander",
                 skills: [
-                    "Obiekty Podstawowe",
+                    "Opieka nad Zwierzętami",
                     "Charyzma",
                     "Opanowanie",
                     "Wycena",
-                    "Targowanie",
                     "Plotkowanie",
+                    "Targowanie",
                     "Język (Bretoński)",
                     "Język (Jałowej Krainy)",
                     "Dowodzenie",
-                    "Sabiduría académica (Reikland)",
+                    "Wiedza (Reikland)",
                     "Broń Biała (Podstawowa)",
-                    "Broń Zasięgowa (Łuki)"
+                    "Broń Zasięgowa (Łuk)"
                 ],
                 talents: [
                     "Wróżba Losu",
-		    "Espabilado, Cortés",
+		    "Błyskotliwość, Charyzmatyczny",
                     3
                 ]
             }
@@ -899,7 +899,7 @@ game.wfrp4e.config.subspecies = {
 
 game.wfrp4e.config.loreEffects = {
         "beasts": {
-            label: "Saber de las Bestias",
+            label: "Tradycja Zwierząt",
             icon: "modules/wfrp4e-core/icons/spells/beasts.png",
             transfer: true,
             flags: {
@@ -910,7 +910,7 @@ game.wfrp4e.config.loreEffects = {
                     "script": `
                     let value = 1
                     let name = this.actor.data.token.name
-                    
+
                     if (game.user.isGM) {
                         game.user.targets.forEach(t => {
                             t.actor.applyFear(value, name)
@@ -925,7 +925,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "death": {
-            label: "Saber de la Muerte",
+            label: "Tradycja Śmierci",
             icon: "modules/wfrp4e-core/icons/spells/death.png",
             transfer: true,
             flags: {
@@ -942,7 +942,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "fire": {
-            label: "Saber del Fuego",
+            label: "Tradycja Ognia",
             icon: "modules/wfrp4e-core/icons/spells/fire.png",
             transfer: true,
             flags: {
@@ -959,7 +959,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "heavens": {
-            label: "Saber de los Cielos",
+            label: "Tradycja Niebios",
             icon: "modules/wfrp4e-core/icons/spells/heavens.png",
             transfer: true,
             flags: {
@@ -969,7 +969,7 @@ game.wfrp4e.config.loreEffects = {
                     "lore": true,
                     "script": `
                 let applyAP = (args.damageType == game.wfrp4e.config.DAMAGE_TYPE.IGNORE_TB || args.damageType == game.wfrp4e.config.DAMAGE_TYPE.NORMAL)
-                
+
                 let AP = args.AP
                 let metalValue = 0;
                 for (let layer of AP.layers) {
@@ -977,12 +977,12 @@ game.wfrp4e.config.loreEffects = {
                       metalValue += layer.value
                    }
                 }
-                
+
                 if (applyAP) {
-                
+
                    args.totalWoundLoss +=  metalValue
                    let newUsed = AP.used - metalValue;
-                
+
                    let apIndex = args.messageElements.findIndex(i => i.includes(game.i18n.localize("AP")))
                    args.messageElements[apIndex] = newUsed + "/" + AP.value + " " + game.i18n.localize("AP")
                 }
@@ -991,7 +991,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "metal": {
-            label: "Saber del Metal",
+            label: "Tradycja Metalu",
             icon: "modules/wfrp4e-core/icons/spells/metal.png",
             transfer: true,
             flags: {
@@ -1009,17 +1009,17 @@ game.wfrp4e.config.loreEffects = {
                       metalValue += layer.value
                    }
                 }
-                
-                
+
+
                 if (metalValue)
-                    args.messageElements.push("-" + metalValue + " Armadura Metálica")
+                    args.messageElements.push("-" + metalValue + " Zbroja Metalowa")
                 args.totalWoundLoss += metalValue
-                
+
                 if (applyAP) {
-                
+
                    args.totalWoundLoss +=  metalValue
                    let newUsed = AP.used - metalValue;
-                
+
                    let apIndex = args.messageElements.findIndex(i => i.includes(game.i18n.localize("AP")))
                    args.messageElements[apIndex] = newUsed + "/" + AP.value + " " + game.i18n.localize("AP")
                 }
@@ -1028,7 +1028,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "life": {
-            label: "Saber de la Vida",
+            label: "Tradycja Życia",
             icon: "modules/wfrp4e-core/icons/spells/life.png",
             transfer: true,
             flags: {
@@ -1055,7 +1055,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "light": {
-            label: "Saber de la Luz",
+            label: "Tradycja Światła",
             icon: "modules/wfrp4e-core/icons/spells/light.png",
             transfer: true,
             flags: {
@@ -1076,7 +1076,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "shadow": {
-            label: "Saber de las Sombras",
+            label: "Tradycja Cieni",
             icon: "modules/wfrp4e-core/icons/spells/shadow.png",
             transfer: true,
             flags: {
@@ -1086,10 +1086,10 @@ game.wfrp4e.config.loreEffects = {
                     "lore": true,
                     "script": `
                 let applyAP = (args.damageType == game.wfrp4e.config.DAMAGE_TYPE.IGNORE_TB || args.damageType == game.wfrp4e.config.DAMAGE_TYPE.NORMAL)
-                
+
                 if (applyAP) {
                    let AP = args.AP
-                
+
                    args.totalWoundLoss += AP.used
                    let apIndex = args.messageElements.findIndex(i => i.includes(game.i18n.localize("AP")))
                    args.messageElements[apIndex] = "0/" + AP.value + " " + game.i18n.localize("AP")
@@ -1098,7 +1098,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "hedgecraft": {
-            label: "Saber de la Adivinación",
+            label: "Tradycja Guślarstwa",
             icon: "modules/wfrp4e-core/icons/spells/hedgecraft.png",
             transfer: true,
             flags: {
@@ -1111,7 +1111,7 @@ game.wfrp4e.config.loreEffects = {
             }
         },
         "witchcraft": {
-            label: "Saber de la Brujería",
+            label: "Tradycja Czarownictwa",
             icon: "modules/wfrp4e-core/icons/spells/witchcraft.png",
             transfer: true,
             flags: {
