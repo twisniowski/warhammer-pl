@@ -1,5 +1,5 @@
 {
-	"label": "Enfermedades",
+	"label": "Choroby",
 	"mapping": {
 		"duration": "data.duration.value",
 		"contraction": "data.contraction.value",

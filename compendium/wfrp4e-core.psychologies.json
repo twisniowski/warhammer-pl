@@ -1,5 +1,5 @@
 {
-	"label": "Psicologías",
+	"label": "Czynniki Psychologiczne",
 	"mapping": {
 		"effects":"effects"
 		},
@@ -21,9 +21,9 @@
 		},
 		{
 			"id": "Frenzy",
-			"name": "Furia",
+			"name": "Szał bojowy",
 			"description": "<p>Mediante un Chequeo de Voluntad, puedes inducirte a ti mismo un estado alterado, sugestionándote, aullando, mordiendo tu escudo o algo similar. Si lo consigues, te ves sujeto a la Furia .</p>\n<p>Mientras estás sujeto a la Furia , eres inmune a todas las demás Psicologías y no huyes ni te retiras por razón alguna; por el contrario, debes moverte con toda celeridad hacia el enemigo más próximo al que puedes ver, para atacarle. Por lo general, la única Acción que puedes llevar a cabo es un Chequeo de Habilidad de armas o un Chequeo de Atletyka para llegar más rápidamente hasta un enemigo. Además, puedes llevar a cabo un Chequeo de Cuerpo a cuerpo como Acción libre cada Asalto porque estás poniendo en tus ataques todo lo que tienes. Por último, obtienes un +1 a tu Bonificador por Fuerza, tal es tu ferocidad. Permaneces en Furia hasta que todos los enemigos en tu línea visual han sido pacificados, o sufres 1 Estado de <em>@Condition[Aturdido]</em> o quedas <em>@Condition[Inconsciente]</em>. Una vez se acaba tu Furia , sufres de inmediato 1 Estado de <em>@Condition[Fatigado]</em>.</p>",
-			"effects": [{"_id":"fChUE7dauqBKrKWx","flags":{"wfrp4e":{"effectApplication":"actor","effectTrigger":"prePrepareItems","script":"args.actor.characteristics.s.bonus += 1\nargs.actor.characteristics.s.calculationBonusModifier -= 1","preventDuplicateEffects":false}},"changes":[],"disabled":true,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/psychologies/psychology.png","label":"Furia","tint":null,"transfer":true}]
+			"effects": [{"_id":"fChUE7dauqBKrKWx","flags":{"wfrp4e":{"effectApplication":"actor","effectTrigger":"prePrepareItems","script":"args.actor.characteristics.s.bonus += 1\nargs.actor.characteristics.s.calculationBonusModifier -= 1","preventDuplicateEffects":false}},"changes":[],"disabled":true,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/psychologies/psychology.png","label":"Szał bojowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Hatred (Target)",

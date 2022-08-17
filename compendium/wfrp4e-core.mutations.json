@@ -1,5 +1,5 @@
 {
-	"label": "Mutaciones",
+	"label": "Mutacje",
 	"mapping": {
 		"modifier": "data.modifier.value",
 		"effects": "effects"

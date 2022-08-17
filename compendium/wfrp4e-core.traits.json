@@ -1,5 +1,5 @@
 {
-	"label": "Rasgos",
+	"label": "Cechy",
 	"mapping": {
 		"roll": "data.rollable.skill",
 		"specification_label": {
@@ -173,9 +173,9 @@
 		},
 		{
 			"id": "Construct",
-			"name": "Constructo",
+			"name": "Konstrukt",
 			"description": "<div>\n<div>\n<div>\n<p>La criatura es una construcción mágica, descerebrada, unida con tendones mágicos. Carece de los Atributos Inteligencia, Voluntad o Empatía, y no necesita nunca Chequearlos. Si no hay ningún hechicero controlándola, o no tiene el Rasgo Territorial, vagabundea descuidadamente, siguiendo los flujos de la magia ambiental. A efectos de calcular sus Heridas, utiliza su Bonificador por Fuerza siempre que se requiere el Bonificador por Voluntad. Todos sus ataques son Mágicos.</p>\n</div>\n</div>\n</div></p>",
-			"effects": [{"_id":"mkDK0Yqvb4JqL1zq","flags":{"wfrp4e":{"effectTrigger":"preWoundCalc","effectApplication":"actor","script":"args.wpb = args.sb","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Constructo","tint":null,"transfer":true}]
+			"effects": [{"_id":"mkDK0Yqvb4JqL1zq","flags":{"wfrp4e":{"effectTrigger":"preWoundCalc","effectApplication":"actor","script":"args.wpb = args.sb","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Konstrukt","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Corrosive Blood",
@@ -250,13 +250,13 @@
 		},
 		{
 			"id": "Frenzy",
-			"name": "Furia",
+			"name": "Szał bojowy",
 			"description": "<p>Mediante un Chequeo de Voluntad, puedes inducirte a ti mismo un estado alterado, sugestionándote, aullando, mordiendo tu escudo o algo similar. Si lo consigues, te ves sujeto a la Furia.</p>\n<p>Mientras estás sujeto a la Furia , eres inmune a todas las demás Psicologías y no huyes ni te retiras por razón alguna; por el contrario, debes moverte con toda celeridad hacia el enemigo más próximo al que puedes ver, para atacarle. Por lo general, la única Acción que puedes llevar a cabo es un Chequeo de Habilidad de armas o un Chequeo de Atletismo para llegar más rápidamente hasta un enemigo. Además, puedes llevar a cabo un Chequeo de Cuerpo a cuerpo como Acción libre cada Asalto porque estás poniendo en tus ataques todo lo que tienes. Por último, obtienes un +1 a tu Bonificador por Fuerza, tal es tu ferocidad. Permaneces en Furia hasta que todos los enemigos en tu línea visual han sido pacificados, o sufres 1 Estado de <em>@Condition[Aturdido]</em> o quedas <em>@Condition[Inconsciente]</em>. Una vez se acaba tu Furia , sufres de inmediato 1 Estado de <em>@Condition[Fatigado]</em>.</p>\n<em><strong>Nota de Foundry</strong>: El efecto está desactivado por defecto, activarlo en el apartado 'efectos' al entrar en Furia.</p>",
 			"effects": [{"_id":"jTfCjCCrfFHKqXhz","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.characteristics.s.bonus += 1\nargs.actor.characteristics.s.calculationBonusModifier -= 1","preventDuplicateEffects":true}},"changes":[],"disabled":true,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Furia","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Fury",
-			"name": "Frenesí",
+			"name": "Furia",
 			"description": "<p>La criatura puede provocarse a sí misma una rabia que absorbe toda su atención. Puede gastar toda su Ventaja (mínimo 1) para convertir en sujeto de su Odio a los oponentes que están en combate cercano. Si la criatura dispone por lo menos de 3 Ventajas, en vez de ello puede gastarla toda para entrar en Furia.\r\r</p>"
 		},
 		{
@@ -327,9 +327,9 @@
 		},
 		{
 			"id": "Magic Resistance",
-			"name": "Resistencia a la magia",
+			"name": "Odporność na Magię",
 			"description": "<p>La Magia tiene un efecto reducido sobre la criatura. Los NE de cualquier hechizo que la afecta se reducen en la cifra entre paréntesis. Así pues, Resistencia a la magia 2 reduciría en 2 los NE. \r\r</p>",
-			"effects": [{"_id":"PWNOSwxsePCN7sKH","flags":{"wfrp4e":{"effectTrigger":"targetPrefillDialog","effectApplication":"actor","script":"if (args.type == \"cast\")\n       args.prefillModifiers.slBonus -= 2","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Resistencia a la magia","tint":null,"transfer":true}]
+			"effects": [{"_id":"PWNOSwxsePCN7sKH","flags":{"wfrp4e":{"effectTrigger":"targetPrefillDialog","effectApplication":"actor","script":"if (args.type == \"cast\")\n       args.prefillModifiers.slBonus -= 2","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Odporność na Magię","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Magical",
@@ -415,7 +415,7 @@
 		},
 		{
 			"id": "Spellcaster",
-			"name": "Hechicero",
+			"name": "Rzucanie Czarów",
 			"description": "<p>La criatura puede lanzar hechizos; el Saber de la Magia específico se indicará entre paréntesis.</p>"
 		},
 		{
@@ -476,9 +476,9 @@
 		},
 		{
 			"id": "Tough",
-			"name": "Recio",
+			"name": "Twardy",
 			"description": "<p>La criatura resiste mucho más daño de lo normal y es poco probable que se eche para atrás. Obtiene un +10 a la Resistencia y a la Voluntad. \r\r</p>",
-			"effects": [{"_id":"X8KrugiMugs70khd","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.t.initial","value":"10","mode":2},{"key":"data.characteristics.wp.initial","value":"10","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Recio","tint":null,"transfer":true}]
+			"effects": [{"_id":"X8KrugiMugs70khd","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.t.initial","value":"10","mode":2},{"key":"data.characteristics.wp.initial","value":"10","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Twardy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Tracker",
@@ -493,7 +493,7 @@
 		},
 		{
 			"id": "Undead",
-			"name": "Muerto viviente",
+			"name": "Ożywieniec",
 			"description": "<p>Los muertos vivientes no están vivos ni muertos, lo que significa que no necesitan los prerrequisitos habituales de la vida: aire, comida, agua... Este Rasgo suele utilizarse comúnmente cuando un hechizo, milagro u otra aptitud afecta sólo a los muertos vivientes. \r\r</p>"
 		},
 		{

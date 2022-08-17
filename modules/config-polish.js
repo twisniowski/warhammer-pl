@@ -9,7 +9,7 @@ CONFIG.JournalEntry.noteIcons = {
     "Aldea 3": "systems/wfrp4e/icons/buildings/village3.png",
     "Barracones Imperiales": "systems/wfrp4e/icons/buildings/empire_barracks.png",
     "Bosque Encantado": "systems/wfrp4e/icons/buildings/haunted_wood.png",
-    "Boticario": "systems/wfrp4e/icons/buildings/apothecary.png",
+    "Aptekarz": "systems/wfrp4e/icons/buildings/apothecary.png",
     "Camino": "systems/wfrp4e/icons/buildings/roads.png",
     "Campamento Orco": "systems/wfrp4e/icons/buildings/orc_city.png",
     "Cementerio": "systems/wfrp4e/icons/buildings/cemetery.png",
@@ -764,7 +764,7 @@ game.wfrp4e.config.speciesSkills = {
                     "Charyzma",
                     "Opanowanie",
                     "Wycena",
-                    "Cotilleo",
+                    "Targowanie",
                     "Plotkowanie",
                     "Język (Bretoński)",
                     "Język (Jałowej Krainy)",
@@ -785,14 +785,14 @@ game.wfrp4e.config.speciesSkills = {
             "Wiedza (Geologia)",
             "Wiedza (Metalurgia)",
             "Broń Biała (Podstawowa)",
-            "Oficio (Cualquiera)"
+            "Rzemiosło (Dowolne)"
         ],
         "halfling": [
             "Charyzma",
             "Mocna Głowa",
             "Unik",
             "Hazard",
-            "Plotkowanie",
+            "Targowanie",
             "Intuicja",
             "Język (Krainy Zgromadzenia)",
             "Wiedza (Reikland)",
@@ -812,7 +812,7 @@ game.wfrp4e.config.speciesSkills = {
             "Percepcja",
             "Muzyka (Dowolne)",
             "Broń Zasięgowa (Łuki)",
-            "Navegar",
+            "Żeglarstwo",
             "Pływanie"
         ],
         "welf": [
@@ -833,39 +833,39 @@ game.wfrp4e.config.speciesSkills = {
 
 game.wfrp4e.config.speciesTalents = {
         "human": [
-            "Condenado",
+            "Wróżba Losu",
             "Espabilado, Cortés",
             3
         ],
         "dwarf": [
-            "Resistencia a la magia",
-            "Visión nocturna",
+            "Odporność na Magię",
+            "Widzenie w Ciemności",
             "Leer y escribir, Incansable",
             "Resuelto, Decidido",
-            "Fornido",
+            "Tragarz",
             0
         ],
         "halfling": [
-            "Sentidos desarrollados (Gusto)",
-            "Visión nocturna",
+            "Wyczulony Zmysł (Smak)",
+            "Widzenie w Ciemności",
             "Resistencia (Caos)",
-            "Pequeño",
+            "Mały",
             2
         ],
         "helf": [
-            "Sentidos desarrollados (Vista)",
+            "Wyczulony Zmysł (Wzrok)",
             "Sangre fría, Espabilado",
-            "Visión nocturna",
+            "Widzenie w Ciemności",
             "Clarividencia, Sexto sentido",
-            "Leer y escribir",
+            "Czytanie/Pisanie",
             0
         ],
         "welf": [
-            "Sentidos desarrollados (Vista)",
+            "Wyczulony Zmysł (Wzrok)",
             "Recio, Clarividencia",
-            "Visión nocturna",
+            "Widzenie w Ciemności",
             "Leer y escribir, Muy resistente",
-            "Errante",
+            "Włóczykij",
             0
         ]
     }
@@ -879,7 +879,7 @@ game.wfrp4e.config.subspecies = {
                     "Charyzma",
                     "Opanowanie",
                     "Wycena",
-                    "Cotilleo",
+                    "Targowanie",
                     "Plotkowanie",
                     "Język (Bretoński)",
                     "Język (Jałowej Krainy)",
@@ -889,7 +889,7 @@ game.wfrp4e.config.subspecies = {
                     "Broń Zasięgowa (Łuki)"
                 ],
                 talents: [
-                    "Condenado",
+                    "Wróżba Losu",
 		    "Espabilado, Cortés",
                     3
                 ]

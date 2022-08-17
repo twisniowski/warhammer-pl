@@ -1,5 +1,5 @@
 {
-"label": "Plegarias",
+"label": "Modlitwy",
 "mapping": {
     "duration": {
       "path": "data.duration.value",
@@ -51,7 +51,7 @@
 		{
 			"id": "Beacon of Righteous Virtue",
 			"name": "Faro de Virtud Recta",
-			"description": "<p>Mientras vociferas plegarias en nombre de Sigmar, te infundes del fuego sagrado de la rectitud. Todos tus aliados con Línea visual hasta ti eliminan de inmediato todos los Estados de Quebrantado y obtienen el Talento @Compendium[wfrp4e-core.talents.8pVzgPkgWpTJvfhG]{Intrépido} mientras el Milagro está activo y permanecen en tu Línea visual. Todos los pieles verdes con Línea visual hasta ti se ven sujetos a @Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Miedo 1}.</p>",
+			"description": "<p>Mientras vociferas plegarias en nombre de Sigmar, te infundes del fuego sagrado de la rectitud. Todos tus aliados con Línea visual hasta ti eliminan de inmediato todos los Estados de Quebrantado y obtienen el Talento @Compendium[wfrp4e-core.talents.8pVzgPkgWpTJvfhG]{Nieustraszony} mientras el Milagro está activo y permanecen en tu Línea visual. Todos los pieles verdes con Línea visual hasta ti se ven sujetos a @Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Miedo 1}.</p>",
 			"effects": [{"_id":"FaH4jPWjtPWfjjv2","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let broken = args.actor.hasCondition(\"broken\")\nif (broken)\n    args.actor.removeCondition(\"broken\", broken.flags.wfrp4e.value)"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Faro de Virtud Recta","tint":null,"transfer":false}]
 		},
 		{
@@ -209,7 +209,7 @@
 		{
 			"id": "Dooming",
 			"name": "Fatalidad",
-			"description": "<p>Mirando al fondo de los ojos de tu objetivo mientras murmuras un lamento a Morr, se te concede una visión del destino final de tu objetivo, un atisbo de que lo le depara el futuro, casi siempre relacionado con su muerte. Este Milagro sólo se puede llevar a cabo una vez sobre un personaje, tras lo cual el Talento @Compendium[wfrp4e-core.talents.fn8QNQQ1S2rh12Us]{Condenado} se puede comprar con PX, como si estuviera en la Carrera del objetivo.</p>"
+			"description": "<p>Mirando al fondo de los ojos de tu objetivo mientras murmuras un lamento a Morr, se te concede una visión del destino final de tu objetivo, un atisbo de que lo le depara el futuro, casi siempre relacionado con su muerte. Este Milagro sólo se puede llevar a cabo una vez sobre un personaje, tras lo cual el Talento @Compendium[wfrp4e-core.talents.fn8QNQQ1S2rh12Us]{Wróżba Losu} se puede comprar con PX, como si estuviera en la Carrera del objetivo.</p>"
 		},
 		{
 			"id": "Drowned Man's Face",
@@ -245,13 +245,13 @@
 		{
 			"id": "Howl of the Wolf",
 			"name": "Aullido del lobo",
-			"description": "<p>Aúllas pidiendo la ayuda de Ulric, y éste envía a un servidor divino menor en forma de un lobo blanco. El lobo lucha contra tus enemigos mientras dura el Milagro, antes de desvanecerse en los Terrenos de Caza de Ulric con un aullido espectral y espeluznante. Los lobos blancos tienen las estadísticas de un lobo con los Rasgos de criatura @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Frenesí}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Mágico}, and @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño (Grande)}.</p>"
+			"description": "<p>Aúllas pidiendo la ayuda de Ulric, y éste envía a un servidor divino menor en forma de un lobo blanco. El lobo lucha contra tus enemigos mientras dura el Milagro, antes de desvanecerse en los Terrenos de Caza de Ulric con un aullido espectral y espeluznante. Los lobos blancos tienen las estadísticas de un lobo con los Rasgos de criatura @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Mágico}, and @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño (Grande)}.</p>"
 		},
 		{
 			"id": "Inspiring",
-			"name": "Inspirador",
-			"description": "<p>Tus conmovedoras palabras inspiran disciplina y coordinación entre tus filas. Los objetivos afectados obtienen el Talento @Compendium[wfrp4e-core.talents.J9MK0AIaTbvd5oF6]{Entrenado} +1.</p>",
-			"effects": [{"_id":"PG0aFGzMCDuLR7fK","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.J9MK0AIaTbvd5oF6\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Inspirador","tint":"","transfer":false}]
+			"name": "Waleczność",
+			"description": "<p>Tus conmovedoras palabras inspiran disciplina y coordinación entre tus filas. Los objetivos afectados obtienen el Talento @Compendium[wfrp4e-core.talents.J9MK0AIaTbvd5oF6]{Musztra} +1.</p>",
+			"effects": [{"_id":"PG0aFGzMCDuLR7fK","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.J9MK0AIaTbvd5oF6\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Waleczność","tint":"","transfer":false}]
 		},
 		{
 			"id": "King of the Wild",
@@ -267,7 +267,7 @@
 		{
 			"id": "Leaping Stag",
 			"name": "Salto del ciervo",
-			"description": "<p>Cantas al Padre Taal y él te concede su favor, imbuyéndote con fuerza y agilidad. Obtienes un +1 al Movimiento y un Talento @Compendium[wfrp4e-core.talents.CV9btQn09S9Fn8Jk]{Piernas recias} +1. Además, superas automáticamente todos los Chequeos de <strong>Atletyka</strong> para saltar con por lo menos +0 NE; si tu puntuación es más baja, aumenta el NE a 0.</p>",
+			"description": "<p>Cantas al Padre Taal y él te concede su favor, imbuyéndote con fuerza y agilidad. Obtienes un +1 al Movimiento y un Talento @Compendium[wfrp4e-core.talents.CV9btQn09S9Fn8Jk]{Silne Nogi} +1. Además, superas automáticamente todos los Chequeos de <strong>Atletyka</strong> para saltar con por lo menos +0 NE; si tu puntuación es más baja, aumenta el NE a 0.</p>",
 			"effects": [{"_id":"DIcpr650MAJVHQ5u","flags":{"wfrp4e":{"effectApplication":"apply"}},"changes":[{"key":"data.details.move.value","value":"1","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Aumento de Movimiento","tint":null,"transfer":false},{"_id":"q7pJlPm8uR0UxxN1","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.CV9btQn09S9Fn8Jk\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Salto del ciervo","tint":"","transfer":false}]
 		},
 		{
@@ -298,8 +298,8 @@
 		{
 			"id": "Ranald's Grace",
 			"name": "Gracia de Ranald",
-			"description": "<p>Llamas a Ranald para que tu objetivo pueda lidiar con los acertijos de la realidad. Tu objetivo obtiene +10 a la Agilidad, +10 al Movimiento silencioso y +1 al Talento @Compendium[wfrp4e-core.talents.g4Q6AtzZuo5iIvD4]{Caer como los gatos} todo el tiempo que dura el Milagro.</p>",
-			"effects": [{"_id":"yAJjiwiK0OSoIrkf","flags":{"wfrp4e":{"effectApplication":"apply","effectTrigger":"prefillDialog","script":"if (args.type == \"skill\" && args.item.name.includes(\"Skradanie\"))\n    args.prefillModifiers.modifier += 10"}},"changes":[{"key":"data.characteristics.ag.modifier","value":"10","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gracia de Ranald","tint":null,"transfer":false},{"_id":"y7N8PrEOVgsRaJGR","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.g4Q6AtzZuo5iIvD4\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Caer como los gatos","tint":"","transfer":false}]
+			"description": "<p>Llamas a Ranald para que tu objetivo pueda lidiar con los acertijos de la realidad. Tu objetivo obtiene +10 a la Agilidad, +10 al Movimiento silencioso y +1 al Talento @Compendium[wfrp4e-core.talents.g4Q6AtzZuo5iIvD4]{Na Cztery Łapy} todo el tiempo que dura el Milagro.</p>",
+			"effects": [{"_id":"yAJjiwiK0OSoIrkf","flags":{"wfrp4e":{"effectApplication":"apply","effectTrigger":"prefillDialog","script":"if (args.type == \"skill\" && args.item.name.includes(\"Skradanie\"))\n    args.prefillModifiers.modifier += 10"}},"changes":[{"key":"data.characteristics.ag.modifier","value":"10","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gracia de Ranald","tint":null,"transfer":false},{"_id":"y7N8PrEOVgsRaJGR","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.g4Q6AtzZuo5iIvD4\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Na Cztery Łapy","tint":"","transfer":false}]
 		},
 		{
 			"id": "Rhya's Children",
@@ -340,9 +340,9 @@
 		},
 		{
 			"id": "Sea Legs",
-			"name": "Equilibrio en cubierta",
+			"name": "Urodzony Żeglarz",
 			"description": "<p>Tu objetivo queda inmediatamente cubierto de agua de mar, y se tambalea como si estuviera en la inestable cubierta de un navío azotado por una tormenta. Agitan su cabello vientos espectrales y un torrente de espuma azota su piel. Sufre 1 Estado de @Condition[Cegado], @Condition[Ensordecido] y @Condition[Fatigado], y además deberá tener éxito en un Chequeo <strong>Normal (+20)</strong> de <strong>Agilidad</strong> para poder utilizar su Movimiento. Si falla, pasa además al Estado @Condition[Tumbado].</p>",
-			"effects": [{"_id":"s0zdvcCpdHza4MZf","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"args.actor.addCondition(\"blinded\")\nargs.actor.addCondition(\"deafened\")\nargs.actor.addCondition(\"fatigued\")"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Equilibrio en cubierta","tint":null,"transfer":false}]
+			"effects": [{"_id":"s0zdvcCpdHza4MZf","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"args.actor.addCondition(\"blinded\")\nargs.actor.addCondition(\"deafened\")\nargs.actor.addCondition(\"fatigued\")"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Urodzony Żeglarz","tint":null,"transfer":false}]
 		},
 		{
 			"id": "Shackles of Truth",
@@ -426,7 +426,7 @@
 		{
 			"id": "Ulric's Fury",
 			"name": "Furia de Ulric",
-			"description": "<p>Entonas cánticos furiosos y la ferocidad de Ulric se extiende. Los objetivos obtienen la Psicología @Compendium[wfrp4e-core.psychologies.DrNUTPeodEgpWTnT]{Furia}.</p>"
+			"description": "<p>Entonas cánticos furiosos y la ferocidad de Ulric se extiende. Los objetivos obtienen la Psicología @Compendium[wfrp4e-core.psychologies.DrNUTPeodEgpWTnT]{Szał bojowy}.</p>"
 		},
 		{
 			"id": "Unblemished Innocence",
@@ -452,7 +452,7 @@
 		{
 			"id": "Wisdom of the Owl",
 			"name": "Sabiduría de la lechuza",
-			"description": "<p>Pides a Verena que te imbuya de su sabiduría y su conocimiento. Obtienes un bonificador +20 a todos los Chequeos de Inteligencia mientras dura este Milagro. Además, tus pupilas se dilatan mucho y tu mirada se convierte en lacerante e inquietante: obtienes @Compendium[wfrp4e-core.talents.0hn6UaKq8CoZP2zD]{Amenazador} +1 y el Talento @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Sentidos desarrollados (vista)}.</p>",
+			"description": "<p>Pides a Verena que te imbuya de su sabiduría y su conocimiento. Obtienes un bonificador +20 a todos los Chequeos de Inteligencia mientras dura este Milagro. Además, tus pupilas se dilatan mucho y tu mirada se convierte en lacerante e inquietante: obtienes @Compendium[wfrp4e-core.talents.0hn6UaKq8CoZP2zD]{Groźny} +1 y el Talento @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Wyczulony Zmysł (Wzrok)}.</p>",
 			"effects": [{"_id":"2lds6IDIyorYrvY4","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"apply","script":"if (args.type == \"characteristic\" && args.item == \"int\")\n                    {\n                            args.prefillModifiers.modifier += 20\n                    }\n                    else if (args.type == \"skill\")\n                    {\n                        if (args.item.characteristic.key == \"int\")\n                            args.prefillModifiers.modifier += 20\n                    }"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Sabiduría de la lechuza","tint":null,"transfer":false}]
 		},
 		{

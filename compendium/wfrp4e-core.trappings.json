@@ -1,5 +1,5 @@
 {
-	"label": "Accesorios",
+	"label": "Wyposażenie",
 	"mapping": { 
 		"penalties": {
 			"path": "data.penalty.value",
@@ -15,108 +15,108 @@
 	"entries": [
 		{
 			"id": "Abacus",
-			"name": "Ábaco",
+			"name": "Liczydło",
 			"description": ""
 		},
 		{
 			"id": "Ale, Keg",
-			"name": "Cerveza, barril",
-			"description": "<p>Capacidad: 3 galones. Los barriles vacíos se pueden rellenar por 18 p.</p>"
+			"name": "Beczułka piwa",
+			"description": "<p>Pojemność około 10 litrów. Puste beczułki można napełnić za 2 s.</p>"
 		},
 		{
 			"id": "Ale, pint",
-			"name": "Cerveza, pinta",
+			"name": "Pół litra piwa",
 			"description": ""
 		},
 		{
 			"id": "Amulet",
-			"name": "Amuleto",
+			"name": "Amulet",
 			"description": ""
 		},
 		{
 			"id": "Animal Trap",
-			"name": "Trampa para animales",
-			"description": "<p>Se usa para cazar (Ver @Compendium[wfrp4e-core.skills.os4NKy5Oy6sRt1eh]{Buscar comida y hierbas}).</p>"
+			"name": "Sidła na zwierzęta",
+			"description": "<p>Używane do chwytania zwierzyny (patrz @Compendium[wfrp4e-core.skills.os4NKy5Oy6sRt1eh]{Zbieranie pożywienia i ziół}).</p>"
 		},
 		{
 			"id": "Antitoxin Kit",
-			"name": "Botiquín contra venenos",
-			"description": "<p>Contiene un pequeño cuchillo, hierbas y un frasco de sanguijuelas. Un Chequeo con éxito de Sanar con un botiquín contra veneno elimina todos los Estados de @Condition[Envenenado]. El tratamiento dura por lo menos 2 Asaltos.</p>"
+			"name": "Zestaw na zatrucia",
+			"description": "<p>Zawiera nożyk, zioła i słoik pijawek. Udany Test Leczenia z użyciem zestawu na zatrucia pozwala usunąć wszystkie Stany @Condition[Zatrucie]. Kuracja zabiera co najmniej dwie Rundy.</p>"
 		},
 		{
 			"id": "Arrow",
-			"name": "Flecha",
+			"name": "Strzała",
 			"description": null
 		},
 		{
 			"id": "Backpack",
-			"name": "Mochila",
-			"description": "<p>Cuenta cómo ‘puesta’ cuando la llevas a la espalda.</p>"
+			"name": "Plecak",
+			"description": "<p>Nałożony na plecy liczy się jako „noszony na sobie” </p>"
 		},
 		{
 			"id": "Ball",
-			"name": "Pelota",
+			"name": "Piłka",
 			"description": ""
 		},
 		{
 			"id": "Bandage",
-			"name": "Vendaje",
-			"description": "<p>Un Chequeo de <strong>Sanar</strong> o <strong>Destreza</strong> con éxito elimina +1 Estado de @Condition[Sangrando] adicional.</p>"
+			"name": "Bandaż",
+			"description": "<p>Udany Test Leczenia lub Zręczności pozwala usunąć jeden dodatkowy Stan @Condition[Krwawienie].</p>"
 		},
 		{
 			"id": "Barrel",
-			"name": "Barril",
-			"description": "<p>Capacidad: 32 galones de líquido.</p>"
+			"name": "Beczka",
+			"description": "<p>Pojemność: 145 litrów płynu.</p>"
 		},
 		{
 			"id": "Bastard Sword",
-			"name": "Espada bastarda",
+			"name": "Półtorak",
 			"description": ""
 		},
 		{
 			"id": "Baton",
-			"name": "Bastón",
+			"name": "Pałka",
 			"description": ""
 		},
 		{
 			"id": "Bedroll",
-			"name": "Saco de dormir",
-			"description": "<p>Cuando se descansa se obtiene un bonificador +20 a los Chequeos de Aguante hechos para resistir la exposición al frío.</p>"
+			"name": "Zwijane posłanie",
+			"description": "<p>Testy Odporności przeciwko efektom zimna otrzymują premię +20 podczas odpoczynku.</p>"
 		},
 		{
 			"id": "Black Lotus",
-			"name": "Loto negro",
-			"description": "<p>Esta mortífera planta crece en las junglas del sur y se utiliza como veneno para recubrir cuchillos. Las víctimas que sufren por lo menos 1 Herida de una cuchilla recubierta con esta savia sufren de inmediato 2 Estados de @Condition[Envenenado], que se pueden resistir mediante un Chequeo <strong>Complicado (–10)</strong> de <strong>Aguante</strong>.</p>"
+			"name": "Czarny lotos",
+			"description": "<p>Ta śmiercionośna roślina rośnie w dżunglach Krain Południowych i wykorzystywana jest do zatruwania ostrzy. Ofiary, które odniosą co najmniej 1 obrażenie od ostrza pokrytego sokiem tej rośliny, natychmiast otrzymują 2 Stany @Condition[Zatrucie]. Przed działaniem chroni udany Trudny (–10) Test Odporności.</p>"
 		},
 		{
 			"id": "Blanket",
-			"name": "Manta",
-			"description": "<p>Cuando se descansa se obtiene un bonificador +20 a los Chequeos de Aguante hechos para resistir la exposición al frío.</p>"
+			"name": "Koc",
+			"description": "<p>Testy Odporności przeciwko efektom zimna otrzymują premię +20 podczas odpoczynku.</p>"
 		},
 		{
 			"id": "Blunderbuss",
-			"name": "Trabuco",
+			"name": "Garłacz",
 			"description": "",
-			"special": "Los trabucos son las únicas armas indicadas que pueden usar la munición del tipo ‘Bala pequeña’ o ‘Munición improvisada’. Todas las demás armas de Pólvora negra y de Ingeniería usan balas normales."
+			"special": "Garłacze to jedyna z wymienionych broni, która wykorzystuje mały śrut lub śrut improwizowany. Wszystkie pozostałe typy Broni Prochowej i Eksperymentalnej wykorzystują pociski."
 		},
 		{
 			"id": "Boat Hook",
-			"name": "Bichero",
+			"name": "Bosak",
 			"description": ""
 		},
 		{
 			"id": "Boiled Leather Breastplate",
-			"name": "Coraza de Cuero Hervido",
+			"name": "Kolet z hartowanej skóry",
 			"description": ""
 		},
 		{
 			"id": "Bolas",
-			"name": "Boleadoras",
+			"name": "Bolas",
 			"description": ""
 		},
 		{
 			"id": "Bolt",
-			"name": "Virote",
+			"name": "Bełt",
 			"description": ""
 		},
 		{
@@ -126,57 +126,57 @@
 		},
 		{
 			"id": "Book, Apothecary",
-			"name": "Libro, boticario",
-			"description": "<p>Los libros de boticario suelen estar escritos a mano. Un libro de boticario básico contiene descripciones de los ingredientes y diagramas con instrucciones para los procesos de preparación. También se suelen incluir fórmulas para tónicos digestivos, pociones curativas y pociones de vitalidad (ver Hierbas y Pociones). Los textos avanzados contienen fórmulas para pociones más exóticas.</p>"
+			"name": "Księga, aptekarstwo",
+			"description": "<p>Księgi aptekarskie są zwykle pisane ręcznie. Podstawowa książka aptekarska zawiera opisy składników oraz przedstawione na wykresach instrukcje procesu warzenia mikstur. Zwykle podane są w niej formuły toników na trawienie, mikstur leczniczych i eliksirów żywotności (patrz Zioła i mikstury). Zaawansowane teksty zawierają formuły bardziej egzotycznych mikstur.</p>"
 		},
 		{
 			"id": "Book, Art",
-			"name": "Libro, arte",
-			"description": "<p>Los libros de arte se presentan de muchas formas y contienen (el texto de) obras de teatro, poemas y baladas, o quizás arreglos musicales garrapateados sobre pergaminos sueltos. También incluyen tratados sobre la perspectiva, la forma y el estilo, a menudo escritos por famosos pintores o escultores (como por ejemplo Leonardo da Miragliano) que se imprimen masivamente.</p>"
+			"name": "Libro, sztuka",
+			"description": "Sztuki teatralne, poematy i ballady, a czasem kompozycje muzyczne zapisane na luźnych kartach – książki artystyczne występują pod wieloma postaciami. Ponadto zawierają traktaty na temat perspektywy, formy i stylu, często pisane przez słynnych malarzy lub rzeźbiarzy, takich jak Leonardo da Miragliano, i przeznaczone do masowego druku.</p>"
 		},
 		{
 			"id": "Book, Cryptography",
-			"name": "Libro, criptografía",
-			"description": "<p>Si bien las cifras individuales y las claves de encriptación se pueden escribir en una página o dos, los libros de criptografía son a menudo códices escritos a mano que tratan de las matemáticas, la numerología y el encriptado polialfabético.</p>"
+			"name": "Księga, kryptografia",
+			"description": "<p>Podczas gdy pojedyncze szyfry i klucze kodujące bywają zanotowane na jednej lub dwóch stronach, księgi kryptograficzne to często ręcznie pisane kodeksy traktujące o matematyce, numerologii i szyfrach polialfabetycznych.</p>"
 		},
 		{
 			"id": "Book, Engineer",
-			"name": "Libro, ingeniería",
-			"description": "<p>La mayoría de libros sobre ingeniería están impresos. La ingeniería es una ciencia avanzada en el Imperio, en gran medida debido al Colegio de Ingenieros Imperial de Altdorf y el Gremio de Ingenieros de los enanos. Debido a esto, los textos sobre ingeniería a menudo tienen como autores, coautores o editores a enanos.</p>"
+			"name": "Księga, inżynieria",
+			"description": "<p>Większość książek inżynieryjnych jest drukowana. Inżynieria to w Imperium nauka zaawansowana, głównie dzięki Imperialnej Akademii Inżynierii w Altdorfie i krasnoludzkiej Gildii Inżynierów. Z tego względu teksty traktujące o inżynierii są zwykle pisane, współtworzone lub redagowane przez krasnoludy.</p>"
 		},
 		{
 			"id": "Book, Law",
-			"name": "Libro, derecho",
-			"description": "<p>Las leyes varían de forma considerable de una región a otra. Las ciudades con imprenta recopilan su legislación en volúmenes encuadernados, mientras que los jueces de las poblaciones más pequeñas a menudo se basan en documentos manuscritos de hace siglos. Los libros de derecho utilizados por los abogados ambulantes o por los jueces, a menudo combinan páginas impresas y manuscritas de diferentes poblaciones del Imperio, reunidas y encuadernadas juntas bajo la misma cubierta.</p>"
+			"name": "Księga, prawo",
+			"description": "<p>Przepisy prawne znacznie różnią się między poszczególnymi regionami. Miasta posiadające prasy drukarskie wydają zbiory rozporządzeń w oprawionych tomiszczach, podczas gdy w mniejszych miastach sędziowie często polegają na manuskryptach spisanych setki lat wcześniej. Księgi prawne używane przez podróżujących prawników lub sędziów nierzadko łączą drukowane i ręcznie pisane stronice pochodzące z różnych miast z całego Imperium, zebrane i oprawione pod jedną okładką.</p>"
 		},
 		{
 			"id": "Book, Magic",
-			"name": "Libro, magia",
-			"description": "<p>Los grimorios (los libros de hechizos) los suelen escribir a mano los hechiceros y a menudo están protegidos por candados. A veces también están protegidos por alarmas o custodias mágicas. Llevar encima un grimorio es un delito de herejía si el hechicero que es su propietario no tiene una licencia expedida por los Colegios de Magia.</p>"
+			"name": "Księga, magia",
+			"description": "<p>Księgi zaklęć są zwykle spisywane przez czarodziejów, a ich okładki często bywają zabezpieczone zamknięciami na klucz. Czasami tomy chronione są także magicznymi alarmami lub pieczęciami. Posiadanie księgi zaklęć jest karalne jako herezja, o ile jej posiadacz nie jest czarodziejem licencjonowanym przez Kolegia Magii.</p>"
 		},
 		{
 			"id": "Book, Medicine",
-			"name": "Libro, medicina",
-			"description": "<p>Los textos médicos pueden estar o bien escritos a mano o bien impresos, dependiendo del prestigio del físico que sea su autor. Las iluminaciones son comunes, y suelen incluir dibujos detallados de autopsias y diagramas de operaciones.</p>"
+			"name": "Księga, medycyna",
+			"description": "<p>Teksty medyczne mogą być pisane ręcznie lub drukowane, w zależności od prestiżu lekarza będącego ich autorem. Zazwyczaj występują w nich ilustracje, zwykle włącznie z rysunkami autopsji i diagramami procedur lekarskich.</p>"
 		},
 		{
 			"id": "Book, Religion",
-			"name": "Libro, religión",
-			"description": "<p>Los libros de religión pueden adoptar cualquier forma en el Imperio, que es muy reputado por su observancia religiosa. Hay un mercado ávido de los textos más populares, la mayoría de los cuales se imprimen en ediciones baratas.</p>"
+			"name": "Księga, religia",
+			"description": "<p>Księgi religijne dostępne są w Imperium we wszelakich formach. To kraina znana z przywiązania do religii. Istnieje chłonny rynek na najpopularniejsze teksty, z których większość jest tanio produkowana z użyciem pras drukarskich.</p>"
 		},
 		{
 			"id": "Boots",
-			"name": "Botas",
+			"name": "Wysokie buty",
 			"description": ""
 		},
 		{
 			"id": "Bow",
-			"name": "Arco",
+			"name": "Łuk",
 			"description": ""
 		},
 		{
 			"id": "Bowl",
-			"name": "Cuenco",
+			"name": "Miska",
 			"description": ""
 		},
 		{
@@ -186,298 +186,298 @@
 		},
 		{
 			"id": "Broom",
-			"name": "Escoba",
+			"name": "Miotła",
 			"description": ""
 		},
 		{
 			"id": "Bucket",
-			"name": "Cubo",
+			"name": "Wiadro",
 			"description": ""
 		},
 		{
 			"id": "Bugman’s XXXXXX Ale, pint",
-			"name": "Cerveza Bugman XXXXXX, pinta",
-			"description": "<p>Los mercaderes atraviesan el Viejo Mundo para comprar esta potente cerveza enana de la famosa cervecería fundada por Josef Bugman. La cerveza Bugman se distribuye en la mayoría de grandes ciudades. Una jarra de Bugman cuenta como 4 de cerveza normal a efectos de emborracharse (ver Consumir Alcohol), y concede inmunidad a los Chequeos de Miedo durante 1d10 horas.</p>"
+			"name": "Pół litra przesławnego Piwa Bugmana",
+			"description": "<p>Kupcy przemierzają cały Stary Świat, by nabyć to krzepkie, krasnoludzkie piwo ze słynnego browaru założonego przez Josefa Bugmana. Ten rześki i podnoszący na duchu napój dostarczany jest do większości głównych miast. Jeśli chodzi o spożycie alkoholu, jeden kubek Bugmana liczy się jako 4 porcje zwykłego piwa i zapewnia odporność na Testy Strachu przez 1k10 godzin.</p>"
 		},
 		{
 			"id": "Bullet and Powder",
-			"name": "Balas y pólvora",
+			"name": "Pocisk i proch",
 			"description": ""
 		},
 		{
 			"id": "Candle",
-			"name": "Vela",
-			"description": "<p>Proporciona iluminación hasta 10 yardas cuando se enciende.</p>"
+			"name": "Świeca",
+			"description": "<p>Oświetla obszar w promieniu 10 metrów.</p>"
 		},
 		{
 			"id": "Canvas Tarp",
-			"name": "Lona embreada",
+			"name": "Płócienna plandeka",
 			"description": ""
 		},
 		{
 			"id": "Cart",
-			"name": "Carreta",
-			"description": "<p>Se requieren un conductor y un animal de tiro.</p>"
+			"name": "Furmanka",
+			"description": "<p>Potrzebny jest jeden woźnica i jedno zwierzę pociągowe.</p>"
 		},
 		{
 			"id": "Cask",
-			"name": "Barrilete",
-			"description": "<p>Capacidad: 10 galones de líquido.</p>"
+			"name": "Beczułka",
+			"description": "<p>Pojemność: 45 litrów płynu.</p>"
 		},
 		{
 			"id": "Cavalry Hammer",
-			"name": "Martillo de caballería",
+			"name": "Młot kawaleryjski",
 			"description": ""
 		},
 		{
 			"id": "Chalk",
-			"name": "Tiza",
+			"name": "Kreda",
 			"description": ""
 		},
 		{
 			"id": "Charcoal stick",
-			"name": "Carboncillo",
+			"name": "Węgiel do rysowania",
 			"description": ""
 		},
 		{
 			"id": "Chicken",
-			"name": "Gallina",
+			"name": "Kurczak",
 			"description": ""
 		},
 		{
 			"id": "Chisel",
-			"name": "Cincel",
+			"name": "Dłuto",
 			"description": ""
 		},
 		{
 			"id": "Cloak",
 			"name": "Capa",
-			"description": "<p>Protege de los elementos a quien la lleva.</p>"
+			"description": "<p>Chroni noszącego przed niesprzyjającymi warunkami pogodowymi.</p>"
 		},
 		{
 			"id": "Clothing",
-			"name": "Ropas",
+			"name": "Ubranie",
 			"description": ""
 		},
 		{
 			"id": "Coach",
-			"name": "Diligencia",
-			"description": "<p>Lo normal son cuatro caballos y dos conductores.</p>"
+			"name": "Powóz",
+			"description": "<p>Standardem są dwaj powożący i cztery konie.</p>"
 		},
 		{
 			"id": "Coat",
-			"name": "Abrigo",
-			"description": "<p>Protege de los elementos y del frío extremo a quien lo lleva; sin un buen abrigo o similar, sufres penalizadores para resistir la exposición al frío.</p>"
+			"name": "Opończa",
+			"description": "<p>Chroni noszącego przed niesprzyjającymi warunkami pogodowymi i niskimi temperaturami. Jeśli nie masz dobrej opończy lub czegoś podobnego, otrzymujesz kary z powodu zimna.</p>"
 		},
 		{
 			"id": "Comb",
-			"name": "Peine",
+			"name": "Grzebień",
 			"description": ""
 		},
 		{
 			"id": "Cooking Pot",
-			"name": "Cacerola",
+			"name": "Kociołek do gotowania",
 			"description": ""
 		},
 		{
 			"id": "Coracle",
 			"name": "Coracle",
-			"description": "<p>Los coracles son botes pequeños y ligeros en los que cabe una persona y se pueden transportar fácilmente. Están hechos de cuero o de corteza extendidos sobre un armazón de madera, y se propulsan con un solo remo.</p>"
+			"description": "<p>To małe, lekkie łódki z wydłubanego pnia drzewa mieszczące jedną osobę. Możne je dość łatwo przenosić, a przynajmniej ciągnąć za sobą. Porusza się je za pomocą jednego wiosła</p>"
 		},
 		{
 			"id": "Costume",
-			"name": "Disfraz",
+			"name": "Kostium",
 			"description": ""
 		},
 		{
 			"id": "Courtly Garb",
-			"name": "Atuendo cortesano",
-			"description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
+			"name": "Strój dworski",
+			"description": "<p>Strój szlachty charakteryzujący się upiększeniami, takimi jak koronkowe kołnierze i rękawy, wyśmienitej jakości tkaninami i szpiczastym obuwiem. Także służący chodzą odziani w dworskie stroje podczas bankietów i ceremonii, chociaż ich opończe i gorsety są mniej ostentacyjne niż ubiory szlachetnie urodzonych, dlatego można je nabyć za pół ceny.</p>"
 		},
 		{
 			"id": "Crossbow",
-			"name": "Ballesta",
+			"name": "Kusza",
 			"description": ""
 		},
 		{
 			"id": "Crossbow Pistol",
-			"name": "Pistola ballesta",
+			"name": "Kusza pistoletowa",
 			"description": ""
 		},
 		{
 			"id": "Crowbar",
-			"name": "Palanqueta",
+			"name": "Łom",
 			"description": ""
 		},
 		{
 			"id": "Crutch",
-			"name": "Muleta",
+			"name": "Kule",
 			"description": ""
 		},
 		{
 			"id": "Cup",
-			"name": "Copa",
+			"name": "Kubek",
 			"description": ""
 		},
 		{
 			"id": "Cutlery",
-			"name": "Cubertería",
+			"name": "Sztućce",
 			"description": ""
 		},
 		{
 			"id": "Dagger",
-			"name": "Daga",
+			"name": "Sztylet",
 			"description": ""
 		},
 		{
 			"id": "Dart",
-			"name": "Dardo",
+			"name": "Strzałka",
 			"description": ""
 		},
 		{
 			"id": "Davrich Lamp",
-			"name": "Lámpara de Davrich",
-			"description": "<p>Una lámpara de seguridad que emite la luz de una vela, desarrollada originalmente para las minas de Reikland por el maestro ingeniero Davrich Stephansson. se ilumina brillantemente en presencia de ‘grisú’ (gases explosivos); al cabo de [[/r 1d10]] Asaltos de exposición a la lámpara, el grisú explotará. Es de sabios retirarse antes de que ello suceda.</p>"
+			"name": "Lampa Davricha",
+			"description": "<p>Lampa z zabezpieczonym płomieniem, świecąca blaskiem świecy. Pierwotnie opracowana przez mistrza inżynierii Davricha Stephanssona z myślą o wykorzystywaniu w kopalniach Reiklandu. Rozbłyska jasno w otoczeniu „gazu kopalnianego” (wybuchowego!). Po 1k10 Rundach działania w kontakcie z gazem kopalnianym lampa eksploduje. Rozsądnie jest wycofać się, zanim do tego dojdzie.</p>"
 		},
 		{
 			"id": "Deck of Cards",
-			"name": "Baraja",
+			"name": "Talia kart",
 			"description": ""
 		},
 		{
 			"id": "Destrier",
-			"name": "Destrero",
-			"description": "<p>Un caballo entrenado para la guerra.</p>"
+			"name": "Rumak",
+			"description": "<p>Koń wyszkolony do udziału w walce.</p>"
 		},
 		{
 			"id": "Dice",
-			"name": "Dados",
+			"name": "Kości do gry",
 			"description": ""
 		},
 		{
 			"id": "Digestive Tonic",
-			"name": "Tónico digestivo",
-			"description": "<p>Proporciona un +20 a los Chequeos para recuperarse de problemas de estómago del tipo diarrea ronera o disentería.</p>"
+			"name": "Tonik na trawienie",
+			"description": "<p>Zapewnia +20 do Testów na wyleczenie takich dolegliwości żołądkowych, jak Smrodliwe Wiatry czy Czerwonka.</p>"
 		},
 		{
 			"id": "Disguise Kit",
-			"name": "Material de disfraz",
-			"description": "<p>Contiene suficientes accesorios para hasta 4 disfraces (p.ej. pelucas y maquillaje) y también materiales para cambiar de apariencia utilizados por quienes disponen de la Habilidad Animar (actuar) (p.ej. cera, falsa sangre y prótesis).</p>"
+			"name": "Zestaw do charakteryzacji",
+			"description": "<p>Zawiera rekwizyty wystarczające do przygotowania czterech przebrań (np. peruki i makijaż), a także materiały pozwalające na zmianę wyglądu. Używane są one przez osoby posiadające Umiejętność Występy (Aktorstwo) (np. wosk, sztuczna krew i protezy).</p>"
 		},
 		{
 			"id": "Dog collar and lead",
-			"name": "Collar de perro y traílla",
+			"name": "Obroża i smycz dla psa",
 			"description": ""
 		},
 		{
 			"id": "Doll",
-			"name": "Muñeca",
+			"name": "Lalka",
 			"description": ""
 		},
 		{
 			"id": "Draught Horse",
-			"name": "Caballo de tiro",
+			"name": "Koń pociągowy",
 			"description": ""
 		},
 		{
 			"id": "Ear Pick",
-			"name": "Limpiaorejas",
+			"name": "Narzędzie do czyszczenia uszu",
 			"description": ""
 		},
 		{
 			"id": "Earth Root",
-			"name": "Raíz de la tierra",
-			"description": "<p>Esta hierba se ingiere para negar los efectos de las bubas causadas por la peste negra (aunque la hinchazón aún es significativa). Además, obtienes un bonificador +10 a todos los Chequeos relativos a dicha enfermedad. <strong>Dosis</strong>: 1 al día.</p>"
+			"name": "Ziemny korzeń",
+			"description": "<p>To zioło konsumowane jest w celu uśmierzenia efektów ropniaków powodowanych przez Czarną Zarazę (chociaż pozostają spore obrzęki). Co więcej, zapewnia to +10 do wszystkich Testów związanych z chorobą. Dawkowanie: 1 dawka dziennie.</p>"
 		},
 		{
 			"id": "Elf Arrow",
-			"name": "Flecha élfica",
+			"name": "Strzała elfia",
 			"description": ""
 		},
 		{
 			"id": "Elf Bow",
-			"name": "Arco élfico",
+			"name": "Łuk elfi",
 			"description": ""
 		},
 		{
 			"id": "Engineering Marvel",
-			"name": "Maravilla de la ingeniería",
-			"description": "<p>Sólo para los tremendamente ricos, encargas una obra de arte a uno de los Gremios de Ingenieros, que te permite ignorar por completo la pérdida de una oreja, mano, brazo o pierna, con el silbido del vapor y los chasquidos de la maquinaria reemplazando a la sangre y el músculo. Si alguna vez sufres una Herida crítica en la maravilla, automáticamente se rompe, y necesita ser llevada a arreglar, lo que resulta bastante caro (por lo menos un 10% del precio base, dependiendo de la naturaleza de la Herida crítica sufrida).</p>"
+			"name": "Cud inżynierii",
+			"description": "<p>Tylko dla niezmiernie bogatych, których stać na zamówienie prawdziwego dzieła sztuki u jednej z Gildii Inżynierów. Proteza pozwala całkowicie ignorować utratę ucha, dłoni, ręki lub nogi. Sycząca para i tykające mechanizmy zastępują krew i mięśnie. Jeśli bohater otrzyma kiedykolwiek Ranę Krytyczną zadaną cudowi inżynierii, proteza automatycznie psuje się i będzie wymagała kosztownej naprawy (co najmniej 10% ceny podstawowej, w zależności od natury otrzymanej Rany Krytycznej).</p>"
 		},
 		{
 			"id": "Eye patch",
-			"name": "Parche de ojo",
-			"description": "<p>A menudo decorado, un parche de ojo se utiliza para cubrir cuencas oculares vacías.</p>"
+			"name": "Opaska na oko",
+			"description": "<p>Opaski na oko, często zdobione, zakrywają blizny na oczodołach.</p>"
 		},
 		{
 			"id": "Face Powder",
-			"name": "Polvo facial",
+			"name": "Puder do twarzy",
 			"description": ""
 		},
 		{
 			"id": "False Eye",
-			"name": "Ojo postizo",
-			"description": "<p>Particularmente populares entre los ricos que prefieren no lucir toscos parches de ojo, los ojos postizos son de muchas formas y materiales, desde madera hasta vidrio pulido.</p>"
+			"name": "Sztuczne oko",
+			"description": "<p>Szczególnie popularne wśród bogaczy, którzy nie chcą nosić topornych opasek na oko. Sztuczne oczy mogą mieć różne formy, od drewnianych po wykonane z polerowanego szkła.</p>"
 		},
 		{
 			"id": "False Leg",
-			"name": "Pierna postiza",
-			"description": "<p>Una pierna postiza (o tan sólo un pie postizo, por la mitad de precio) te permite ignorar la pérdida de 1 punto de Movimiento debida a la parte corporal perdida. Además, por 100 PX puedes recuperar el último punto de pérdida de Movimiento al entrenarte para utilizar tu nueva parte corporal, y por 200 PX aprender de nuevo a utilizar la Habilidad de Esquivar. Sin embargo, todo esto requiere que no pierdas tu pierna postiza.</p>"
+			"name": "Sztuczna noga",
+			"description": "<p>Sztuczna noga (albo tylko sztuczna stopa, za pół ceny) pozwala zignorować utratę 1 punktu Szybkości z powodu braku kończyny. Co więcej, wydając 100 PD, bohater może odzyskać ostatni punkt straconej Szybkości, dzięki treningowi używania swojej nowej części ciała. Natomiast za 200 PD może ponownie nauczyć się wykonywania Uniku. Wszystko to jednak możliwe jest pod warunkiem, że bohater nie straci swojej sztucznej nogi.</p>"
 		},
 		{
 			"id": "Faxtoryll",
-			"name": "Faxtoryll",
-			"description": "<p>Cuando se extienden sobre una herida, los emplastos de este coagulante herbáceo eliminan todos los Estados de Sangrando sin necesidad de un Chequeo de Sanar.<strong>Dosis</strong>: 1 por Herida crítica.</p>",
-			"effects": [{"_id":"rzyXt1SCCnDq5tnt","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false,"effectTrigger":"invoke","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No queda más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet bleeding = this.actor.hasCondition(\"bleeding\")\nif (bleeding)\n{\n   ui.notifications.notify(`Eliminados ${bleeding.flags.wfrp4e.value} Estados de Sangrando`)\n   this.actor.removeCondition(\"bleeding\", bleeding.flags.wfrp4e.value)\n}"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/faxtoryll.png","label":"Faxtoryll","tint":null,"transfer":true}]
+			"name": "Fakstoryl",
+			"description": "<p>Nacieranie rany okładami przygotowanymi z tego ziołowego koagulantu usuwa wszelkie Stany Krwawienie bez Testu Leczenia. Dawkowanie: 1 dawka na Ranę Krytyczną.</p>",
+			"effects": [{"_id":"rzyXt1SCCnDq5tnt","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false,"effectTrigger":"invoke","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No queda más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet bleeding = this.actor.hasCondition(\"bleeding\")\nif (bleeding)\n{\n   ui.notifications.notify(`Eliminados ${bleeding.flags.wfrp4e.value} Estados de Sangrando`)\n   this.actor.removeCondition(\"bleeding\", bleeding.flags.wfrp4e.value)\n}"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/faxtoryll.png","label":"Fakstoryl","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Fish Hooks",
-			"name": "Anzuelos",
-			"description": "<p>Se pueden utilizar para pescar (ver @Compendium[wfrp4e-core.skills.os4NKy5Oy6sRt1eh]{Buscar comida y hierbas}).</p>"
+			"name": "Haczyki na ryby",
+			"description": "<p>Można za ich pomocą łowić ryby (patrz @Compendium[wfrp4e-core.skills.os4NKy5Oy6sRt1eh]{Zbieranie pożywienia i ziół}).</p>"
 		},
 		{
 			"id": "Flail",
-			"name": "Mayal",
+			"name": "Korbacz",
 			"description": ""
 		},
 		{
 			"id": "Flask",
-			"name": "Frasco",
-			"description": "<p>Capacidad: 1 pinta de líquido.</p>"
+			"name": "Butelka",
+			"description": "<p>Pojemność: pół litra płynu.</p>"
 		},
 		{
 			"id": "Flask of Spirits",
-			"name": "Frasco de alcohol",
+			"name": "Flaszka mocnego alkoholu",
 			"description": ""
 		},
 		{
 			"id": "Floor Brush",
-			"name": "Cepillo de suelo",
+			"name": "Szczotka do podłogi",
 			"description": ""
 		},
 		{
 			"id": "Foil",
-			"name": "Florete",
+			"name": "Floret",
 			"description": ""
 		},
 		{
 			"id": "Food, groceries/day",
-			"name": "Comida, diaria/día",
+			"name": "Jedzenie na zimno na 1 dzień",
 			"description": ""
 		},
 		{
 			"id": "Gavel",
-			"name": "Maza",
+			"name": "Młotek sędziego",
 			"description": ""
 		},
 		{
 			"id": "Gilded Nose",
-			"name": "Nariz dorada",
-			"description": "<p>Aunque la mayoría están hechas de madera o de cerámica, el término nariz dorada es ampliamente utilizado. Con ella puedes ignorar la pérdida de Empatía por carecer de nariz.</p>"
+			"name": "Złoty nos",
+			"description": "<p>Chociaż większość sztucznych nosów wykonuje się z drewna lub porcelany, i tak powszechnie stosowane jest określenie „złoty nos”. Bohater może ignorować utratę Ogłady z powodu braku nosa.</p>"
 		},
 		{
 			"id": "Gloves",
-			"name": "Guantes",
+			"name": "Rękawiczki",
 			"description": ""
 		},
 		{
@@ -487,284 +487,284 @@
 		},
 		{
 			"id": "Grain Flail",
-			"name": "Mayal para grano",
+			"name": "Cep bojowy",
 			"description": ""
 		},
 		{
 			"id": "Grappling Hook",
-			"name": "Garfio de abordaje",
-			"description": "<p>Junto con una cuerda, permite trepar por superficies no escalables.</p>"
+			"name": "Kotwiczka",
+			"description": "<p>W połączeniu z liną umożliwia wspinaczkę po stromych powierzchniach.</p>"
 		},
 		{
 			"id": "Great Axe",
-			"name": "Gran hacha",
+			"name": "Wielki topór",
 			"description": ""
 		},
 		{
 			"id": "Guild License",
-			"name": "Licencia gremial",
-			"description": "<p>Las licencias gremiales suelen estar impresas en pergaminos individuales, y van provistas de un sello oficial y de la firma del maestre local del gremio. Las licencias gremiales no se compran; por el contrario, se conceden a los miembros del gremio según las tradiciones y las leyes de cada gremio.</p>"
+			"name": "Licencja cechu/gildii",
+			"description": "<p>Licencje są zwykle drukowane na jednym arkuszu pergaminu, opatrzone oficjalną pieczęcią i podpisane przez mistrza lokalnej organizacji. Takich licencji nie można zakupić: są wręczane członkom cechu lub gildii, zgodnie z tradycjami i prawami danej instytucji.</p>"
 		},
 		{
 			"id": "Halberd",
-			"name": "Alabarda",
+			"name": "Halabarda",
 			"description": ""
 		},
 		{
 			"id": "Hammer",
-			"name": "Martillo",
+			"name": "Młotek",
 			"description": ""
 		},
 		{
 			"id": "Hand Mirror",
-			"name": "Espejo de mano",
+			"name": "Lusterko ręczne",
 			"description": ""
 		},
 		{
 			"id": "Hand Weapon",
-			"name": "Arma de mano",
+			"name": "Broń ręczna",
 			"description": ""
 		},
 		{
 			"id": "Sword",
-			"name": "Espada",
+			"name": "Miecz",
 			"description": ""
 		},
 		{
 			"id": "Fang",
-			"name": "Colmillo",
+			"name": "Kieł",
 			"description": ""
-		},		
+		},
 		{
 			"id": "Handgun",
-			"name": "Arcabuz",
+			"name": "Krótki pistolet",
 			"description": ""
 		},
 		{
 			"id": "Hat",
-			"name": "Sombrero",
-			"description": "<p>Los sombreros de calidad son símbolos de estatus en los pueblos y ciudades del Imperio. Cuanto más llamativo el sombrero, mejor.</p>"
+			"name": "Kapelusz",
+			"description": "<p>Świetnej jakości kapelusze stanowią symbol statusu w miastach i miasteczkach Imperium. Im bardziej ekstrawagancki kapelusz, tym lepiej.</p>"
 		},
 		{
 			"id": "Healing Draught",
-			"name": "Poción curativa",
-			"description": "<p>Si tienes más de 0 Heridas, recuperas de inmediato tantas Heridas como tu Bonificador por Resistencia. <strong>Dosis</strong>: 1 por encuentro.</p>",
-			"effects": [{"_id":"K7C1LFtqdLQ5bhFS","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let quantity = this.item.quantity.value - 1\nif (quantity < 0)\n   return ui.notifications.error(\"No quedan más pociones\")\n\n\nlet wounds = this.actor.status.wounds\nif (wounds.value == 0)\n  return ui.notifications.error(\"Sin efecto con 0 Heridas\")\n\nui.notifications.notify(`Curadas ${this.actor.characteristics.t.bonus} Heridas`)\n\nawait this.item.update({\"data.quantity.value\" : quantity})\nthis.actor.modifyWounds(this.actor.characteristics.t.bonus)","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/healing-draught.png","label":"Poción curativa","tint":null,"transfer":true}]
+			"name": "Mikstura lecznicza",
+			"description": "<p>Jeśli bohater ma więcej niż 0 Żywotności, natychmiast leczy tyle jej punktów, ile wynosi jego Bonus z Wytrzymałość. Dawkowanie: 1 dawka na spotkanie.</p>",
+			"effects": [{"_id":"K7C1LFtqdLQ5bhFS","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let quantity = this.item.quantity.value - 1\nif (quantity < 0)\n   return ui.notifications.error(\"No quedan más pociones\")\n\n\nlet wounds = this.actor.status.wounds\nif (wounds.value == 0)\n  return ui.notifications.error(\"Sin efecto con 0 Heridas\")\n\nui.notifications.notify(`Curadas ${this.actor.characteristics.t.bonus} Heridas`)\n\nawait this.item.update({\"data.quantity.value\" : quantity})\nthis.actor.modifyWounds(this.actor.characteristics.t.bonus)","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/healing-draught.png","label":"Mikstura lecznicza","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Healing Poultice",
-			"name": "Emplasto curativo",
-			"description": "<p>Esta cataplasma medicinal maloliente está hecha de excrementos y orina de animales combinados con cierta cantidad de hierbas comunes como por ejemplo sigmafoil, tarrabeth y valeriana. No sufres ninguna Infección menor de una Herida crítica tratada con un emplasto curativo.</p>"
+			"name": "Kataplazm leczniczy",
+			"description": "<p>Ten okład leczniczy o paskudnym zapachu wykonany jest ze zwierzęcego łajna i uryny, połączonych z pewną liczbą pospolitych ziół, takich jak sigmafoil, tarabet i waleriana. Rana Krytyczna obłożona kataplazmem leczniczym nie jest zagrożona Mniejszą Infekcją.</p>"
 		},
 		{
 			"id": "Heartkill",
-			"name": "Rompecorazones",
-			"description": "<p>Combinando los venenos de una anfisbaena (una rara serpiente de dos cabezas) y de un escuerzo alado se obtiene un veneno inodoro e incoloro. Cuando se ingiere, la letal mezcla inflige 4 Estados de @Condition[Envenenado], que se pueden resistir mediante un Chequeo <strong>Complicado (–10)</strong> de  <strong>Aguante</strong>.</p>"
+			"name": "Sercobój",
+			"description": "<p>Łącząc jady amfisbeny (rzadkiego dwugłowego węża) i dżaberucha, otrzymuje się bezwonną, bezbarwną truciznę. Po spożyciu ta zabójcza mikstura wywołuje 4 Stany Zatrucie. Przed działaniem chroni udany Trudny (–10) Test Odporności.</p>"
 		},
 		{
 			"id": "Heavy Crossbow",
-			"name": "Ballesta pesada",
+			"name": "Ciężka kusza",
 			"description": ""
 		},
 		{
 			"id": "Hochland Long Rifle",
-			"name": "Fusil largo de Hochland",
+			"name": "Muszkiet hochlandzki",
 			"description": ""
 		},
 		{
 			"id": "Hoe",
-			"name": "Azada",
+			"name": "Motyka",
 			"description": ""
 		},
 		{
 			"id": "Homing Pigeon",
-			"name": "Palomas mensajeras",
+			"name": "Gołąb pocztowy",
 			"description": ""
 		},
 		{
 			"id": "Hood",
-			"name": "Capucha",
+			"name": "Kaptur",
 			"description": ""
 		},
 		{
 			"id": "Hook",
-			"name": "Garfio",
-			"description": "<p>Llevas un garfio donde solías tener una mano. Una herramienta sorprendentemente ágil una vez te acostumbras a ella, puedes comprar de nuevo el penalizador -20 a todos los Chequeos que implican dos manos a razón de 100 PX por cada 5 que restas del penalizador, eliminándolo por completo si te gastas 400 PX. <strong>Anexo</strong>: en combate cerrado, los garfios cuentan como dagas.</p>"
+			"name": "Hak",
+			"description": "<p>Bohater ma przymocowany hak w miejscu utraconej dłoni. To zaskakująco sprawnie działające narzędzie, gdy się do niego przywyknie. Pozwala zniwelować karę -20 do wszystkich Testów związanych z używaniem obu dłoni. Każde wydane 100 PD to 5 punktów odejmowanych od kary. Całkowite usunięcie kary wymaga wydania 400 PD. Bonus: W walce w zwarciu haki traktowane są jak sztylety.</p>"
 		},
 		{
 			"id": "Hunting Dog",
-			"name": "Perro de caza",
+			"name": "Pies myśliwski",
 			"description": ""
 		},
 		{
 			"id": "Improvised Shot and Powder",
-			"name": "Munición improvisada y pólvora",
+			"name": "Improwizowany śrut i proch",
 			"description": ""
 		},
 		{
 			"id": "Improvised Weapon",
-			"name": "Arma improvisada",
+			"name": "Broń improwizowana",
 			"description": ""
 		},
 		{
 			"id": "Incendiary",
-			"name": "Incendiaria",
+			"name": "Ładunek zapalający",
 			"description": "",
-			"special": "Un arma Incendiaria impone a cada objetivo impactado 1 + NE Estados de Ardiendo.",
-			"effects": [{"_id":"BRhiXQ6Pig4FoZlF","flags":{"wfrp4e":{"effectApplication":"apply","effectTrigger":"oneTime","script":"let ablaze = {{SL}} + 1\nargs.actor.addCondition(\"ablaze\", ablaze)","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/weapons/incendiary.png","label":"Incendiaria","tint":null,"transfer":true}]
+			"special": "Objęty działaniem ładunku zapalającego cel otrzymuje 1+PS Stanów Podpalenie.",
+			"effects": [{"_id":"BRhiXQ6Pig4FoZlF","flags":{"wfrp4e":{"effectApplication":"apply","effectTrigger":"oneTime","script":"let ablaze = {{SL}} + 1\nargs.actor.addCondition(\"ablaze\", ablaze)","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/weapons/incendiary.png","label":"Ładunek zapalający","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Instrument",
-			"name": "Instrumento musical",
-			"description": "<p>En esta categoría se incluyen diversos instrumentos. El precio y la impedimenta normales reflejan instrumentos de tamaño medio (por ejemplo, una mandolina, una cornamusa o un tambor pequeño). Los instrumentos pequeños salen a mitad de precio y tienen 0 puntos de Impedimenta (por ejemplo, una flauta travesera, una flauta dulce, o una pandereta). Los instrumentos más grandes salen por el doble de precio y tienen 2 puntos de Impedimenta (por ejemplo, un arpa, un laúd o un tambor grande).</p>"
+			"name": "Instrument",
+			"description": "<p>Do tej kategorii należą różne instrumenty muzyczne. Standardowa cena i Obciążenie odpowiadają instrumentom średniej wielkości (np. mandolinie, trąbce od powozu, niewielkiemu bębnowi). Małe instrumenty dostępne są za pół ceny i zabierają 0 punktów Obciążenia (np. flet prosty lub poprzeczny, tamburyno). Większe instrumenty dostępne są za dwukrotnie wyższą cenę i zabierają 2 punkty Obciążenia (np. harfa, lutnia, duży bęben).</p>"
 		},
 		{
 			"id": "Javelin",
-			"name": "Jabalina",
+			"name": "Oszczep",
 			"description": ""
 		},
 		{
 			"id": "Jewellry",
-			"name": "Joyas",
-			"description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
+			"name": "Biżuteria",
+			"description": "<p>Ceny różnią się w zależności od jakości wykonania, typu wykorzystanego metalu i wartości wstawionych klejnotów. Generalnie pospolite pierścienie bez żadnych klejnotów kosztują 10 monet o wartości równej rodzajowi wykorzystanego metalu (tj. brązu, srebra lub złota), podczas gdy naszyjniki kosztują 20 monet tego samego rodzaju metalu.</p>"
 		},
 		{
 			"id": "Jug",
-			"name": "Jarra",
-			"description": "<p>Capacidad: 1 galón de líquido.</p>"
+			"name": "Dzban",
+			"description": "<p>Pojemność: 4,5 litra płynu.</p>"
 		},
 		{
 			"id": "Key",
-			"name": "Llave",
+			"name": "Klucz",
 			"description": ""
 		},
 		{
 			"id": "Knife",
-			"name": "Cuchillo",
+			"name": "Nóż",
 			"description": ""
 		},
 		{
 			"id": "Knife",
-			"name": "Cuchillo",
+			"name": "Nóż",
 			"description": ""
 		},
 		{
 			"id": "Knuckledusters",
-			"name": "Puño americano",
+			"name": "Kastet",
 			"description": ""
 		},
 		{
 			"id": "Lamp Oil",
-			"name": "Aceite de lámpara",
-			"description": "<p>Contiene suficiente combustible para 4 horas de uso normal, o bien 8 horas de llama baja equivalente a una vela.</p>"
+			"name": "Oliwa do lampy",
+			"description": "<p>Zawiera paliwo wystarczające na 4 godziny świecenia blaskiem średniego płomienia lub 8 godzin słabego płomienia odpowiadającego jasności świecy.</p>"
 		},
 		{
 			"id": "Lance",
-			"name": "Lanza de caballería",
+			"name": "Kopia",
 			"description": "",
-			"special": "Las lanzas cuentan como armas Improvisadas si se utilizan en un Asalto en el que no has Cargado."
+			"special": "Kopie liczą się jako Broń Improwizowana, jeśli używane są podczas Rundy, w której nie wykonano Szarży."
 		},
 		{
 			"id": "Lantern",
-			"name": "Linterna",
-			"description": "<p>Proporciona iluminación en 20 yardas.</p>"
+			"name": "Latarnia",
+			"description": "<p>Oświetla obszar w promieniu 20 metrów.</p>"
 		},
 		{
 			"id": "Lasso",
-			"name": "Lazo",
+			"name": "Arkan",
 			"description": "",
-			"special": "Las armas Enmarañantes no tienen banda de alcance sino tan solo el alcance indicado."
+			"special": "Broń Unieruchamiająca nie ma zasięgu podzielonego na zakresy, a tylko działa na podany dystans."
 		},
 		{
 			"id": "Lead Bullet",
-			"name": "Bala de plomo",
+			"name": "Pocisk ołowiany",
 			"description": ""
 		},
 		{
 			"id": "Leaflet",
-			"name": "Folleto",
+			"name": "Broszura",
 			"description": ""
 		},
 		{
 			"id": "Leather Jack",
-			"name": "Chaqueta de cuero",
+			"name": "Skórzana kurta",
 			"description": ""
 		},
 		{
 			"id": "Leather Jerkin",
-			"name": "Chaleco de cuero",
+			"name": "Skórzany kaftan",
 			"description": ""
 		},
 		{
 			"id": "Leather Leggings",
-			"name": "Calzas de cuero",
+			"name": "Skórzane nogawice",
 			"description": ""
 		},
 		{
 			"id": "Leather Skullcap",
-			"name": "Capacete de cuero",
+			"name": "Skórzany hełm",
 			"description": ""
 		},
 		{
 			"id": "Legal Document",
-			"name": "Documento legal",
-			"description": "<p>Un documento legal sencillo, como por ejemplo un testamento, un pagaré o una carta de intenciones.</p>"
+			"name": "Dokument prawny",
+			"description": "<p>Dokument wykorzystywany w codziennym obrocie prawnym, taki jak testament, poświadczenie pożyczki lub list intencyjny</p>"
 		},
 		{
 			"id": "Light Warhorse",
-			"name": "Caballo de guerra ligero",
+			"name": "Lekki koń bojowy",
 			"description": ""
 		},
 		{
 			"id": "Lock Picks",
-			"name": "Ganzúas",
-			"description": "<p>Un surtido de pequeñas herramientas de formas variadas, necesarias para utilizar la Habilidad Forzar cerraduras sin penalizadores.</p>"
+			"name": "Wytrychy",
+			"description": "<p>Wybór małych narzędzi o różnych kształtach, umożliwiających korzystanie bez kar z Umiejętności Otwieranie Zamków.</p>"
 		},
 		{
 			"id": "Longbow",
-			"name": "Arco largo",
+			"name": "Łuk długi",
 			"description": ""
 		},
 		{
 			"id": "Mad Cap Mushrooms",
-			"name": "Setas rusulas de la locura",
-			"description": "<p>Los goblins fanáticos consumen estos hongos alucinógenos antes de la batalla. Inducen una furia bersérker, que añade +10 a la Fuerza, +4 Heridas y proporciona el Talento Frenesí. Cuando el efecto se disipa, el usuario pierde 1d10 Heridas. Los que no son pieles verdes deben también superar un Chequeo <strong>Desafiante (+0)</strong> de <strong>Aguante</strong>, o contraer una Infección menor. <strong>Duración</strong>: permanecen activas cuando se mastican y otros [[/r 2d10]] minutos adicionales.</p>"
+			"name": "Grzybki Szalonego Kapelusznika",
+			"description": "<p>Te halucynogenne grzyby jedzone są przed bitwą przez goblińskich fanatyków. Wywołują furię berserkera, zapewniającą +10 do Siły, +4 do Żywotności i Talent Szał Bojowy. Po ustąpieniu efektów konsument grzybków traci 1k10 Żywotności. Istoty inne niż zielonoskórzy muszą także przejść udany Wymagający (+0) Test Odporności, inaczej nabawiają się Mniejszej Infekcji. Czas trwania: Aktywne podczas przeżuwania plus dodatkowe 2k10 minut.</p>"
 		},
 		{
 			"id": "Mail Chausses",
-			"name": "Calzas de malla",
+			"name": "Nogawice kolcze",
 			"description": ""
 		},
 		{
 			"id": "Mail Coat",
-			"name": "Cota de malla",
+			"name": "Kolczuga",
 			"description": ""
 		},
 		{
 			"id": "Mail Coif",
-			"name": "Cofia de malla",
+			"name": "Czepiec kolczy",
 			"description": "",
-			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Cofia de malla","tint":null,"transfer":true}]
+			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Czepiec kolczy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Mail Shirt",
-			"name": "Camisote de malla",
+			"name": "Kaftan kolczy",
 			"description": ""
 		},
 		{
 			"id": "Main Gauche",
-			"name": "Daga de guardamano",
+			"name": "Lewak",
 			"description": ""
 		},
 		{
 			"id": "Manacles",
-			"name": "Grilletes",
-			"description": "<p>Los presos que intentan zafarse de unos grilletes sufren 1 Herida y deben superar 1 Chequeo <strong>Muy difícil (-30)</strong> de <strong>Fuerza</strong>.</p>"
+			"name": "Kajdany",
+			"description": "<p>Jeżeli więzień podejmuje próbę oswobodzenia się z kajdan, otrzymuje 1 obrażenie i musi przejść Bardzo Trudny (-30) Test Siły.</p>"
 		},
 		{
 			"id": "Mandrake Root",
-			"name": "Raíz de mandrágora",
-			"description": "<p>Este agente delirante (muy adictivo) crece bajo los patíbulos, y se mastica para mantener calmada una mente inquieta. Sus usuarios deben superar un Chequeo de Voluntad cada Asalto para llevar a cabo una Acción o bien un Movimiento (elige uno de los dos); además, el Movimiento se reduce a la mitad. Sin embargo, los Chequeos de Frialdad obtienen un Bonificador +20. <strong>Duración</strong>: activa mientras se mastica y otros [[/r 1d10*10]] minutos adicionales.</p>"
+			"name": "Korzeń mandragory",
+			"description": "<p>Ten silnie uzależniający halucynogen wyrasta pod szubienicami. Jego żucie uspokaja wzburzony umysł. Użytkownicy muszą co Rundę przechodzić Test Siły Woli, który określi, czy wykonują Akcję, czy Ruch (wybierz jedno); co więcej, Szybkość jest zmniejszona o połowę. Jednakże Testy Opanowania dostają premię +20. Czas trwania: Aktywne podczas przeżuwania plus dodatkowe 1k10x10 minut.</p>"
 		},
 		{
 			"id": "Map",
@@ -773,338 +773,338 @@
 		},
 		{
 			"id": "Mask",
-			"name": "Máscara",
+			"name": "Maska",
 			"description": ""
 		},
 		{
 			"id": "Match",
-			"name": "Cerillas",
+			"name": "Zapałka",
 			"description": ""
 		},
 		{
 			"id": "Meal, inn",
-			"name": "Comida, posada",
+			"name": "Ciepły posiłek w gospodzie",
 			"description": ""
 		},
 		{
 			"id": "Military Flail",
-			"name": "Mayal militar",
+			"name": "Kiścień",
 			"description": ""
 		},
 		{
 			"id": "Monkey",
-			"name": "Mono",
+			"name": "Małpa",
 			"description": ""
 		},
 		{
 			"id": "Moonflower",
-			"name": "Flor de luna",
-			"description": "<p>Este tranquilizante es un musgo seco que sólo crece en las hojas de los árboles del bosque de Laurelorn. Los elfos utilizan la flor de luna para tratar la peste negra, concediendo un bonificador +30 a todos los Chequeos asociados para resistir a la enfermedad, pero sólo a los elfos; por lo demás no tiene efecto alguno sobre su especie. Otros pueden inhalar los vapores de hervir el musgo y si no superan un Chequeo <strong>Muy difícil (–30)</strong> de <strong>Voluntad</strong>, pasan al Estado Inconsciente ; si lo superan, obtienen un bonificador +20 a los Chequeos de Frialdad y sufren 1 Estado de Fatigado . La flor de luna la utilizan los físicos más caros como anestésico. <strong>Duración</strong>: [[/r 1d10+5]] horas.</p>"
+			"name": "Księżycowy kwiat",
+			"description": "<p>Ten środek uspokajający to suszony mech, który rośnie wyłącznie na liściach w lesie Laurelorn. Elfy wykorzystują księżycowy kwiat do leczenia Czarnej Dżumy. Członkowie tej rasy otrzymują premię +30 do każdego Testu opierania się tej chorobie. Poza tym środek nie wywołuje u nich żadnych innych efektów. Inni mogą wdychać opary gotującego się mchu i jeśli nie uda im się Bardzo Trudny (–30) Test Siły Woli, otrzymują Stan Utrata przytomności; jeśli Test jest udany, otrzymują premię +20 do Testów Opanowania i zyskują Stan Wyczerpanie. Najdrożsi lekarze stosują księżycowy kwiat jako środek znieczulający. Czas trwania: 1k10+5 godzin.</p>"
 		},
 		{
 			"id": "Mop",
-			"name": "Mopa",
+			"name": "Mop",
 			"description": ""
 		},
 		{
 			"id": "Mule",
-			"name": "Mula",
+			"name": "Muł",
 			"description": " "
 		},
 		{
 			"id": "Nails",
-			"name": "Clavos",
+			"name": "Gwoździe",
 			"description": ""
 		},
 		{
 			"id": "Nightshade",
-			"name": "Sombra nocturna",
-			"description": "<p>Consumir esta hierba hace que la víctima se suma en un sueño profundo al cabo de entre 2 y 3 horas, a menos que supere un Chequeo de Aguante. Un sopor de sombra nocturna dura [[/r 1d10+4]] horas. <strong>Dosis</strong>: 1 por persona.</p>"
+			"name": "Nocny cień",
+			"description": "<p>Spożycie tego zioła powoduje, że ofiara zapada w głęboki sen po 2-3 godzinach, o ile nie przejdzie udanego Testu Odporności. Sen wywołany przez nocny cień trwa 1k10+4 godziny. Dawkowanie: 1 dawka na osobę.</p>"
 		},
 		{
 			"id": "Paint Brush",
-			"name": "Brocha de pintar",
+			"name": "Pędzel do malowania",
 			"description": ""
 		},
 		{
 			"id": "Pan",
-			"name": "Sartén",
+			"name": "Patelnia",
 			"description": ""
 		},
 		{
 			"id": "Parchment/sheet",
-			"name": "Pergamino/hoja",
+			"name": "Arkusz pergaminu",
 			"description": ""
 		},
 		{
 			"id": "Perfume",
-			"name": "Perfume",
+			"name": "Perfumy",
 			"description": ""
 		},
 		{
 			"id": "Pestle & Mortar",
-			"name": "Almirez y mano",
+			"name": "Moździerz z tłuczkiem",
 			"description": ""
 		},
 		{
 			"id": "Pewter Stein",
-			"name": "Pichel de peltre",
-			"description": "<p>Jarra/Taza de cerveza hecha de peltre.</p>"
+			"name": "Kufel cynowy",
+			"description": "<p>Kufel na piwo wykonany z cyny.</p>"
 		},
 		{
 			"id": "Pick",
-			"name": "Pico",
+			"name": "Nadziak",
 			"description": ""
 		},
 		{
 			"id": "Pick",
-			"name": "Pico",
+			"name": "Nadziak",
 			"description": null
 		},
 		{
 			"id": "Pike",
-			"name": "Pica",
+			"name": "Pika",
 			"description": ""
 		},
 		{
 			"id": "Pins",
-			"name": "Agujas",
+			"name": "Zapinki",
 			"description": ""
 		},
 		{
 			"id": "Pipe and Tobacco",
-			"name": "Pipa y tabaco",
+			"name": "Fajka i tytoń",
 			"description": ""
 		},
 		{
 			"id": "Pistol",
-			"name": "Pistola",
+			"name": "Pistolet",
 			"description": ""
 		},
 		{
 			"id": "Placard",
-			"name": "Cartel",
+			"name": "Afisz",
 			"description": ""
 		},
 		{
 			"id": "Plate",
-			"name": "Plato",
+			"name": "Talerz",
 			"description": ""
 		},
 		{
 			"id": "Plate Bracers",
-			"name": "Brazales de placas",
+			"name": "Naramienniki płytowe",
 			"description": ""
 		},
 		{
 			"id": "Plate Breastplate",
-			"name": "Coraza de placas",
+			"name": "Napierśnik płytowy",
 			"description": ""
 		},
 		{
 			"id": "Plate Helm",
-			"name": "Yelmo de placas",
+			"name": "Hełm płytowy",
 			"description": "",
 			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 20","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Yelmo de placas","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Plate Leggings",
-			"name": "Grebas de placas",
+			"name": "Nagolenniki płytowe",
 			"description": "",
-			"effects": [{"_id":"u46Xpql4mjj6JOD0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name.includes(\"Skradanie\"))\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png","label":"Grebas de placas","tint":null,"transfer":true}]
+			"effects": [{"_id":"u46Xpql4mjj6JOD0","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name.includes(\"Skradanie\"))\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png","label":"Nagolenniki płytowe","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Plate Open Helm",
-			"name": "Yelmo abierto de placas",
+			"name": "Otwarty hełm płytowy",
 			"description": "",
-			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Yelmo abierto de placas","tint":null,"transfer":true}]
+			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Otwarty hełm płytowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Pole (3 yards)",
-			"name": "Pértiga (3 yardas)",
-			"description": "<p>Una vara larga usada para impulsar los botes; cuenta como un @Compendium[wfrp4e-core.trappings.mRU10yAWWWs5WoKt]{Arma Improvisada}.</p>"
+			"name": "Drąg (3 metry)",
+			"description": "<p>Długi drąg używany do manewrowania łodzią. Może zostać użyty jako @Compendium[wfrp4e-core.trappings.mRU10yAWWWs5WoKt]{Broń improwizowana}.</p>"
 		},
 		{
 			"id": "Pony",
-			"name": "Poni",
+			"name": "Kucyk",
 			"description": ""
 		},
 		{
 			"id": "Pouch",
-			"name": "Bolsa",
+			"name": "Sakiewka",
 			"description": ""
 		},
 		{
 			"id": "Quarterstaff",
-			"name": "Bastón",
+			"name": "Kostur",
 			"description": ""
 		},
 		{
 			"id": "Quill Pen",
-			"name": "Cálamo",
+			"name": "Pióro do pisania",
 			"description": ""
 		},
 		{
 			"id": "Rags",
-			"name": "Harapos",
+			"name": "Szmaty",
 			"description": ""
 		},
 		{
 			"id": "Rake",
-			"name": "Rastrillo",
+			"name": "Grabie",
 			"description": ""
 		},
 		{
 			"id": "Ranald's Delight",
-			"name": "Delicia de Ranald",
-			"description": "<p>Este estimulante altamente adictivo es un compuesto sintético hecho a base de azufre, mercurio y otros elementos. Inhalar el polvo proporciona un bonificador +1 al Movimiento, y un + 10 a Habilidad de armas, Fuerza, Resistencia y Agilidad. Esto dura 3 horas, después de las cuales el usuario sufre un penalizador de -2 al Movimiento y un -20 a Habilidad de armas, Fuerza, Resistencia y Agilidad. <strong>Duración</strong>: 1 día.</p>",
-			"effects":[{"_id":"TApb9RQHQJcksYYL","flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"changes":[{"key":"data.details.move.value","mode":2,"value":"1"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.modifier","mode":2,"value":"10"},{"key":"data.characteristics.t.modifier","mode":2,"value":"10"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"-1"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"-1"}],"duration":{"startTime":null,"seconds":10800},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Delicia de Ranald","transfer":true,"disabled":true,"tint":null},{"_id":"vLMdJ6dsFuAAIee5","changes":[{"key":"data.details.move.value","mode":2,"value":"-2"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.t.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"2"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"2"}],"disabled":true,"duration":{"startTime":null,"seconds":86400},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Efectos Secundarios de la Delicia de Ranald","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"tint":null}]
+			"name": "Rozkosz Ranalda",
+			"description": "<p>Ten silnie uzależniający stymulant to syntetyczny związek chemiczny wyrabiany z siarki, rtęci i innych pierwiastków. Wdychanie proszku zapewnia premię +1 do Szybkości i +10 do Walki Wręcz, Siły, Wytrzymałości i Zwinności. Trwa to przez 3 godziny, po upływie których użytkownik otrzymuje karę -2 do Szybkości i -20 do WW, S, Wt i Zw. Czas trwania: 1 dzień.</p>",
+			"effects":[{"_id":"TApb9RQHQJcksYYL","flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"changes":[{"key":"data.details.move.value","mode":2,"value":"1"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.modifier","mode":2,"value":"10"},{"key":"data.characteristics.t.modifier","mode":2,"value":"10"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"-1"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"-1"}],"duration":{"startTime":null,"seconds":10800},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Rozkosz Ranalda","transfer":true,"disabled":true,"tint":null},{"_id":"vLMdJ6dsFuAAIee5","changes":[{"key":"data.details.move.value","mode":2,"value":"-2"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.t.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"2"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"2"}],"disabled":true,"duration":{"startTime":null,"seconds":86400},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Efectos Secundarios de la Delicia de Ranald","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"tint":null}]
 		},
 		{
 			"id": "Rapier",
-			"name": "Espada ropera",
+			"name": "Rapier",
 			"description": ""
 		},
 		{
 			"id": "Rations, 1 day",
-			"name": "Raciones, 1 día",
+			"name": "Prowiant na 1 dzień",
 			"description": ""
 		},
 		{
 			"id": "Reading Lens",
-			"name": "Lente de aumento",
-			"description": "<p>Las lentes de vidrio provistas de un mango proporcionan un bonificador +20 a los Chequeos de <em>Leer y escribir</em> llevados a cabo para descifrar escritura minúscula o ininteligible. Los Chequeos de Percepción para buscar pequeños detalles como puertas o compartimentos secretos también obtienen un bonificador +20.</p>"
+			"name": "Soczewki do czytania",
+			"description": "<p>Szklane soczewki z uchwytem zapewniające premię +20 do Testów Czytania/Pisania, gdy trzeba odcyfrować drobny lub nieczytelny tekst. Testy Percepcji wykonywane w celu znalezienia szczegółów takich jak sekretne drzwi lub pomieszczenia także otrzymują premię +20.</p>"
 		},
 		{
 			"id": "Religious Symbol",
-			"name": "Símbolo religioso",
+			"name": "Symbol religijny",
 			"description": ""
 		},
 		{
 			"id": "Repeater Handgun",
-			"name": "Arma corta de repetición",
+			"name": "Krótki pistolet samopowtarzalny",
 			"description": ""
 		},
 		{
 			"id": "Repeater Pistol",
-			"name": "Pistola de repetición",
+			"name": "Pistolet samopowtarzalny",
 			"description": ""
 		},
 		{
 			"id": "Riding Horse",
-			"name": "Caballo de monta",
+			"name": "Koń wierzchowy",
 			"description": ""
 		},
 		{
 			"id": "River Barge",
-			"name": "Gabarra fluvial",
-			"description": "<p>Lo normal es una tripulación de tres personas.</p>"
+			"name": "Barka rzeczna",
+			"description": "<p>Standardem jest trzyosobowa załoga.</p>"
 		},
 		{
 			"id": "Robes",
-			"name": "Ropajes",
+			"name": "Szata",
 			"description": ""
 		},
 		{
 			"id": "Rock",
-			"name": "Piedra",
+			"name": "Kamień",
 			"description": ""
 		},
 		{
 			"id": "Room, common/night",
-			"name": "Habitación, sala común/noche",
-			"description": "<p>Los huéspedes que duermen en la sala común han de tener cuidado con los ladrones.</p>"
+			"name": "Wspólna izba na 1 noc",
+			"description": "<p>Goście śpiący we wspólnych izbach powinni uważać na złodziejów.</p>"
 		},
 		{
 			"id": "Room, private/night",
-			"name": "Habitación, posada/ noche",
-			"description": "<p>Acomoda a 2 huéspedes. Las habitaciones grandes cuestan el doble y acomodan a 4 huéspedes.</p>"
+			"name": "Prywatny pokój na 1 noc",
+			"description": "<p>Może pomieścić 2 gości. Duże pokoje kosztują podwójną cenę i mieszczą 4 gości.</p>"
 		},
 		{
 			"id": "Rope, 10 yards",
-			"name": "Soga, 10 yardas",
+			"name": "Lina, 10 metrów",
 			"description": ""
 		},
 		{
 			"id": "Row Boat",
-			"name": "Bote de remos",
-			"description": "<p>Lo normal es un remero.</p>"
+			"name": "Łódź wiosłowa",
+			"description": "<p>Standardem jest jeden wioślarz.</p>"
 		},
 		{
 			"id": "Sack",
-			"name": "Saco",
-			"description": "<p>Requiere una mano para llevarlo.</p>"
+			"name": "Sakwa",
+			"description": "<p>Trzeba nieść 1 ręką.</p>"
 		},
 		{
 			"id": "Sack, Large",
-			"name": "Saco grande",
-			"description": "<p>Requiere una mano para llevarlo (o las dos manos si está lleno).</p>"
+			"name": "Duży worek",
+			"description": "<p>Trzeba nieść 1 ręką (lub 2 rękami, jeśli jest pełny).</p>"
 		},
 		{
 			"id": "Saddle and Harness",
-			"name": "Silla de montar y arreos",
+			"name": "Uprząż z siodłem",
 			"description": ""
 		},
 		{
 			"id": "Saddlebags",
-			"name": "Alforjas",
+			"name": "Juki",
 			"description": ""
 		},
 		{
 			"id": "Salwort",
-			"name": "Salicornia",
-			"description": "<p>Cuando se sostiene bajo la nariz de alguien, el aroma de un ramito aplastado de esta hierba elimina 1 Estado de Aturdido. <strong>Dosis</strong>: 1 por encuentro.</p>",
-			"effects": [{"_id":"JGCSlLxbbXCPlkIY","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet stunned= this.actor.hasCondition(\"stunned\")\nif (stunned)\n{\n   ui.notifications.notify(`Eliminado 1 Estado de Aturdido`)\n   this.actor.removeCondition(\"stunned\", 1)\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png","label":"Salicornia","tint":null,"transfer":true}]
+			"name": "Salwort",
+			"description": "<p>Zmiażdżoną gałązkę tego zioła należy podłożyć pod nos pacjenta, który dzięki temu pozbywa się 1 Stanu Oszołomienie. Dawkowanie: 1 dawka na potyczkę.</p>",
+			"effects": [{"_id":"JGCSlLxbbXCPlkIY","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet stunned= this.actor.hasCondition(\"stunned\")\nif (stunned)\n{\n   ui.notifications.notify(`Eliminado 1 Estado de Aturdido`)\n   this.actor.removeCondition(\"stunned\", 1)\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png","label":"Salwort","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Saw",
-			"name": "Sierra",
+			"name": "Piła",
 			"description": ""
 		},
 		{
 			"id": "Scepter",
-			"name": "Cetro",
-			"description": "<p>Los funcionarios de mayor rango llevan cetros para indicar su estatus.</p>"
+			"name": "Berło",
+			"description": "<p>Oficjalni urzędnicy najwyższego szczebla noszą berła, które stanowią symbol ich pozycji.</p>"
 		},
 		{
 			"id": "Scroll Case",
-			"name": "Estuche de pergaminos",
-			"description": "<p>Cuenta cómo ‘puesta’ cuando la llevas al hombro.</p>"
+			"name": "Tuba na zwoje",
+			"description": "<p>Przerzucona przez ramię liczy się jako „noszona na sobie”.</p>"
 		},
 		{
 			"id": "Shield",
-			"name": "Escudo",
+			"name": "Tarcza",
 			"description": ""
 		},
 		{
 			"id": "Shield (Buckler)",
-			"name": "Escudo (Rodela)",
+			"name": "Tarcza (puklerz)",
 			"description": ""
 		},
 		{
 			"id": "Shield (Large)",
-			"name": "Escudo (Grande)",
+			"name": "Tarcza (duża)",
 			"description": ""
 		},
 		{
 			"id": "Shoes",
-			"name": "Zapatos",
+			"name": "Buty",
 			"description": ""
 		},
 		{
 			"id": "Shortbow",
-			"name": "Arco corto",
+			"name": "Krótki łuk",
 			"description": ""
 		},
 		{
 			"id": "Sickle",
-			"name": "Hoz",
+			"name": "Sierp",
 			"description": ""
 		},
 		{
 			"id": "Signet Ring",
-			"name": "Anillo de sello",
-			"description": "<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>"
+			"name": "Sygnet",
+			"description": "<p>Złote pierścienie z wygrawerowanymi pieczęciami noszone są przez szlachtę i reprezentantów cechów, którzy używają ich do odciskania znaków herbowych lub insygniów w wosku, pieczętując listy.</p>"
 		},
 		{
 			"id": "Silver Shilling",
@@ -1113,200 +1113,200 @@
 		},
 		{
 			"id": "Sling",
-			"name": "Honda",
+			"name": "Proca",
 			"description": ""
 		},
 		{
 			"id": "Sling Bag",
-			"name": "Bandolera",
-			"description": "<p>Cuenta cómo ‘puesta’ cuando la llevas al hombro.</p>"
+			"name": "Torba na ramię",
+			"description": "<p>Przerzucona przez ramię liczy się jako „noszona na sobie”.</p>"
 		},
 		{
 			"id": "Small shot and Powder",
-			"name": "Balas pequeñas y pólvora",
+			"name": "Mały śrut i proch",
 			"description": ""
 		},
 		{
 			"id": "Spade",
-			"name": "Pala",
+			"name": "Szpadel",
 			"description": ""
 		},
 		{
 			"id": "Spear",
-			"name": "Lanza",
+			"name": "Włócznia",
 			"description": ""
 		},
 		{
 			"id": "Spike",
-			"name": "Escarpia",
+			"name": "Kołek",
 			"description": ""
 		},
 		{
 			"id": "Spirits, pint",
-			"name": "Alcohol, pinta",
+			"name": "Pół litra mocnego trunku",
 			"description": ""
 		},
 		{
 			"id": "Spit",
-			"name": "Saliva",
-			"description": "<p>Extraído de las sanguijuelas camaleónicas que se encuentran en las marismas del Imperio, este alucinógeno extraordinariamente poderoso proporciona visiones de algo que se desea profundamente, como por ejemplo un amante perdido, un amigo muerto o un hijo desaparecido. Denominada ‘saliva’ en las calles, es muy popular entre quienes se han dado a la desesperación. Una vez expuesto a ella, deberás superar un Chequeo <strong>Muy difícil (–30)</strong> de <strong>Resistencia</strong> o te perderás en una fantasía completamente real, de cuyo contenido se ocupará el DJ. <strong>Duración</strong>: [[/r 1d10]] minutos.</p>"
+			"name": "Pluja",
+			"description": "<p>Ten niezwykle silny halucynogen, pozyskiwany z kameleopijawek znajdowanych na bagniskach Imperium, sprowadza wizję czegoś głęboko pożądanego, jak utraconego kochanka, zmarłego przyjaciela lub zaginionego dziecka. Narkotyk zwany jest na ulicy plują i cieszy się popularnością wśród tych, którzy poddali się rozpaczy. Po jego użyciu trzeba przejść udany Bardzo Trudny (–30) Test Odporności, inaczej użytkownik zatraca się w niezwykle przekonującej fantazji, której treść zależy od MG. Czas trwania: 1k10 minut.</p>"
 		},
 		{
 			"id": "Stables/night",
-			"name": "Establos/noche",
+			"name": "Stajnia na 1 noc",
 			"description": ""
 		},
 		{
 			"id": "Staff Sling",
-			"name": "Bastón honda",
+			"name": "Proca drzewcowa",
 			"description": ""
 		},
 		{
 			"id": "Stamp, engraved",
-			"name": "Sello, grabado",
+			"name": "Grawerowana pieczęć",
 			"description": ""
 		},
 		{
 			"id": "Stone Bullet",
-			"name": "Bala de piedra",
+			"name": "Pocisk kamienny",
 			"description": ""
 		},
 		{
 			"id": "Storm Lantern",
-			"name": "Quinqué",
-			"description": "<p>Unos postigos protegen la llama del viento, y también permiten que la luz se dirija en un arco de 90° o se oscurezca por completo. Proporciona iluminación hasta 20 yardas, 30 cuando se enfoca.</p>"
+			"name": "Lampa sztormowa",
+			"description": "<p>Przesłony chronią płomień przed wiatrem, a także umożliwiają skupienie światła w łuku 90° lub całkowite zaciemnienie. Oświetla obszar w promieniu 20 metrów lub 30 metrów, gdy światło jest skupione.</p>"
 		},
 		{
 			"id": "Swordbreaker",
-			"name": "Rompespadas",
+			"name": "Łamacz mieczy",
 			"description": ""
 		},
 		{
 			"id": "Tattoo",
-			"name": "Tatuaje",
+			"name": "Tatuaż",
 			"description": ""
 		},
 		{
 			"id": "Telescope",
-			"name": "Telescopio",
+			"name": "Teleskop",
 			"description": ""
 		},
 		{
 			"id": "Tent",
-			"name": "Tienda de campaña",
-			"description": ""
+			"name": "Namiot",
+			"description": "Średniej wielkości namiot mogący pomieścić 4 osoby śpiące w ciasnej przestrzeni. Małe namioty mieszczą 2 osoby i dostępne są za pół ceny oraz zabierają 1 punkt Obciążenia. Duże namioty mieszczą 8 osób i dostępne są za dwukrotnie wyższą cenę oraz zabierają 4 punkty Obciążenia."
 		},
 		{
 			"id": "Throwing Axe",
-			"name": "Hacha arrojadiza",
+			"name": "Topór do rzucania",
 			"description": ""
 		},
 		{
 			"id": "Throwing Knife",
-			"name": "Cuchillo arrojadizo",
+			"name": "Nóż do rzucania",
 			"description": ""
 		},
 		{
 			"id": "Tinderbox",
-			"name": "Yesquero",
+			"name": "Pudełko na hubkę i krzesiwo",
 			"description": ""
 		},
 		{
 			"id": "Tongs, steel",
-			"name": "Tenazas, acero",
+			"name": "Stalowe szczypce",
 			"description": ""
 		},
 		{
 			"id": "Trade Tools (Type)",
-			"name": "Herramientas de un Oficio (Tipo)",
-			"description": "<p><strong>Boticario</strong>: Las herramientas incluyen un almirez con su mano, cucharillas, frascos, y una balanza con sus pesos. Los talleres también incluyen mecheros de aceite y estantes llenos de ingredientes.</p>\n<p>&nbsp;</p>\n<p><strong>Artesano</strong>: el abanico potencial de herramientas utilizadas por los Artesanos es enorme. Los grupos de ejemplos incluyen:</p>\n<ul type=\"disc\">\n<li><strong>Carpintero</strong>: martillo y clavos, sierra, vara de medir, tiza y plomadas. Los talleres también incluyen tornos, cepillos de carpintero, sargentos y una buena cantidad de madera.</li>\n</ul>\n<ul type=\"disc\">\n<li><strong>Grabador</strong>: gubias, sacabocados, cera, ácido, martillo y cinceles. Los talleres también incluyen troqueles y prensas.</li>\n</ul>\n<ul type=\"disc\">\n<li><strong>Herrero</strong>: martillo, pinzas, perforadoras, estampadoras, brocas y barrenas. Los talleres también incluyen un yunque, una fragua, un bloque de estampación, martillos pilones y lingotes de metal.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Otros tipos de artesanos</strong>: Albañil, Alfarero, Armero, Calígrafo, Calafate, Cantero, Cartógrafo, Cerero, Cervecero, Cocinero, Curtidor, Embalsamador, Fabricante de arcos, Fabricante de armaduras, Fabricante de armas, Guarnicionero, Joyero, Orfebre, Pintor, Sastre, Soplador de vidrio, Tallador, Tallista, Tejedor, Tonelero, Vinatero y Zapatero.</p>\n<p>&nbsp;</p>\n<p><strong>Artista</strong>: pinceles y pintura, martillo y cinceles, limas y escofinas y espátulas. Los talleres también incluyen caballetes o pedestales y materiales en forma de tela, pergamino, vitela, madera, arcilla o piedra sin tallar.</p>\n<p><strong>Ingeniero</strong>: reloj de arena, vara de medir, mecha, escuadra y cartabón. Los talleres también incluyen poleas, sogas y mesas de dibujo.</p>\n<p><strong>Herbolario</strong>: mortero y mano de mortero, cuchillitos, tijeras de podar y guantes. Los talleres también incluyen tendederos para secar, filtros, embudos, cuencos y frascos.</p>\n<p><strong>Navegante</strong>: cuadrante, astrolabio, cartas de navegación y compases, reloj de arena y escandallo.</p>\n<p><strong>Físico</strong>: agujas y sutura, vendas, escalpelo, vinagre, fórceps y un espéculo. Los talleres también incluyen dibujos de anatomía, accesorios surtidos y una mesa de operaciones.</p>"
+			"name": "Narzędzia Pracy (Typ)",
+			"description": "<p><strong>Aptekarz</strong>: Narzędzia obejmują moździerz z tłuczkiem, łyżki, słoiki oraz wagę szalkową.\nWarsztat wyposażony jest także w palniki olejowe i półki pełne składników.\n<strong>Artysta</strong>: Pędzle i farby, młotek i dłuta, pilniki i skrobaki.\nWarsztat zawiera także sztalugi lub postumenty i zapas płócien, pergaminu, welinu, drewna, gliny lub nieociosanego kamienia.\n<strong>Inżynier</strong>: Klepsydra, przymiar, lont, cyrkiel i przykładnica.\nWarsztat zawiera także wielokrążki, liny i deski kreślarskie.\n<strong>Lekarz</strong>: Igły i szwy, bandaże, skalpel, ocet, pincety i wziernik.\nWarsztat zawiera także rysunki anatomiczne, różne przybory i stół operacyjny.\n<strong>Nawigator</strong>: Kwadrant, astrolabium, wykresy i kompasy, klepsydra i sonda na linie.\n<strong>Rzemieślnik</strong>: Potencjalny wybór narzędzi używanych przez rzemieślników jest szeroki. Przykładowe zestawy:\n• Grawer: Rylce, punktaki, wosk, kwas, młotek i dłuta.\nWarsztat zawiera także skrawarki i prasy.\n• Kowal: Młotek, cęgi, punktaki, kształtowniki, świdry i wiertła.\nWarsztat zawiera także kowadło, piec, dziurkownicę, młot kowalski oraz sztaby metalu.\n• Stolarz: Młotek i gwoździe, piła, przymiar, kreda, pion na sznurku.\nWarsztat zawiera także tokarki, heble, imadła i zapas drewna.\nPrzykłady innych rzemieślników: balsamista, bednarz, browarnik, dmuchacz szkła, garbarz, garncarz, jubiler, kaligraf, kamieniarz, kartograf, krawiec, kucharz, malarz, murarz, płatnerz, rusznikarz, rymarz, snycerz, szewc, szkutnik, szlifierz, świecarz, tkacz, winiarz, wytwórca łuków, zbrojmistrz i złotnik.\nZielarz: Moździerz z tłuczkiem, nożyki, sekator i rękawice.\nWarsztat zawiera także stojaki do suszenia ziół, filtry, lejki, miseczki i słoiki.</p>"
 		},
 		{
 			"id": "Tweezers",
-			"name": "Pinzas",
+			"name": "Pinceta",
 			"description": ""
 		},
 		{
 			"id": "Unarmed",
-			"name": "Sin armas",
+			"name": "Pięści i kopniaki",
 			"description": ""
 		},
 		{
 			"id": "Uniform",
-			"name": "Uniforme",
+			"name": "Mundur",
 			"description": ""
 		},
 		{
 			"id": "Vitality Draught",
-			"name": "Poción de vitalidad",
-			"description": "<p>Beber esta poción elimina instantáneamente todos los Estados de @Condition[Fatigado].</p>",
-			"effects": [{"_id":"9ArLjt6oQqMDFsDu","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let item = this.item.toObject()\nitem.data.quantity.value--\nif (item.data.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedDocument(\"Item\", item)\n\nlet fatigued= this.actor.hasCondition(\"fatigued\")\nif (fatigued)\n{\n   ui.notifications.notify(`Eliminados ${fatigued.conditionValue} Estados de Fatigado`)\n   this.actor.removeCondition(\"fatigued\", fatigued.conditionValue)\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/vitality-draught.png","label":"Poción de vitalidad","tint":"","transfer":true}]
+			"name": "Eliksir żywotności",
+			"description": "<p>Wypicie tego eliksiru natychmiast usuwa wszelkie Stany @Condition[Wyczerpanie].</p>",
+			"effects": [{"_id":"9ArLjt6oQqMDFsDu","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let item = this.item.toObject()\nitem.data.quantity.value--\nif (item.data.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedDocument(\"Item\", item)\n\nlet fatigued= this.actor.hasCondition(\"fatigued\")\nif (fatigued)\n{\n   ui.notifications.notify(`Eliminados ${fatigued.conditionValue} Estados de Fatigado`)\n   this.actor.removeCondition(\"fatigued\", fatigued.conditionValue)\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/vitality-draught.png","label":"Eliksir żywotności","tint":"","transfer":true}]
 		},
 		{
 			"id": "Wagon",
-			"name": "Carromato",
-			"description": "<p>Lo normal son dos caballos y un conductor.</p>"
+			"name": "Wóz",
+			"description": "<p>Standardem jest jeden woźnica i dwa konie.</p>"
 		},
 		{
 			"id": "Walking Cane",
-			"name": "Bastón de paseo",
-			"description": "<p>Los bastones de madera pulida provistos de conteras de metal son un símbolo de estatus entre los ciudadanos más adinerados.</p>"
+			"name": "Laska",
+			"description": "<p>Laski z polerowanego drewna zakończone metalowym okuciem są symbolem pozycji społecznej majętniejszych mieszczan.</p>"
 		},
 		{
 			"id": "Warhammer",
-			"name": "Martillo de guerra",
+			"name": "Młot bojowy",
 			"description": ""
 		},
 		{
 			"id": "Waterskin",
-			"name": "Cantimplora",
-			"description": "<p>Cuenta cómo ‘puesta’ cuando la llevas al hombro.</p>"
+			"name": "Bukłak",
+			"description": "<p>Pojemność: 4,5 litra płynu.</p>"
 		},
 		{
 			"id": "Weirdroot",
-			"name": "Raíz extraña",
-			"description": "<p>Una de las drogas callejeras más comunes del Imperio, la raíz extraña se mastica, aportando una sensación de euforia y alucinaciones placenteras, que algunos sugieren podrían estar conectadas con los Vientos de la Magia. La droga concede un bonificador +10 a los Chequeos de Resistencia y de Voluntad, y a la vez un penalizador -10 a los Chequeos de Agilidad, Iniciativa e Inteligencia. <strong>Duración</strong>: activa mientras se mastica y otros [[/r 1d10 * 10]] minutos adicionales.</p>",
-			"effects": [{"_id":"Sq1UQ9Xo4cuwWy2K","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"apply","script":"if (args.type == \"characteristic\") {\n  if (args.item == \"wp\" || args.item == \"t\")\n    args.prefillModifiers.modifier += 10\n  else if (args.item == \"ag\" || args.item == \"i\" || args.item == \"int\")\n    args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"skill\") {\n  if (args.item.characteristic.key == \"wp\" || args.item.characteristic.key == \"t\")\n  args.prefillModifiers.modifier += 10\n  else if (args.item.characteristic.key == \"ag\" || args.item.characteristic.key == \"i\" || args.item.characteristic.key == \"int\")\n    args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"cast\") {\n  args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"channelling\") {\n  args.prefillModifiers.modifier += 10\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/weirdroot.png","label":"Raíz extraña","tint":null,"transfer":true}]
+			"name": "Dziwnokorzeń",
+			"description": "<p>Jeden z najpowszechniejszych narkotyków ulicznych w Imperium. Żuty dziwnokorzeń wywołuje euforię i przyjemne halucynacje. Niektórzy sugerują, że mogą być one powiązane z Wiatrami Magii. Narkotyk zapewnia premię +10 do Testów Odporności i Siły Woli, ale także karę -10 do Testów Zwinności, Inicjatywy i Inteligencji. Czas trwania: Aktywne podczas przeżuwania plus dodatkowe 1k10x10 minut.</p>",
+			"effects": [{"_id":"Sq1UQ9Xo4cuwWy2K","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"apply","script":"if (args.type == \"characteristic\") {\n  if (args.item == \"wp\" || args.item == \"t\")\n    args.prefillModifiers.modifier += 10\n  else if (args.item == \"ag\" || args.item == \"i\" || args.item == \"int\")\n    args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"skill\") {\n  if (args.item.characteristic.key == \"wp\" || args.item.characteristic.key == \"t\")\n  args.prefillModifiers.modifier += 10\n  else if (args.item.characteristic.key == \"ag\" || args.item.characteristic.key == \"i\" || args.item.characteristic.key == \"int\")\n    args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"cast\") {\n  args.prefillModifiers.modifier -= 10\n}\nelse if (args.type == \"channelling\") {\n  args.prefillModifiers.modifier += 10\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/weirdroot.png","label":"Dziwnokorzeń","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Whip",
-			"name": "Látigo",
+			"name": "Bicz",
 			"description": "",
-			"special": "Las armas Enmarañantes no tienen banda de alcance sino tan solo el alcance indicado."
+			"special": "Broń Unieruchamiająca nie ma zasięgu podzielonego na zakresy, a tylko działa na podany dystans."
 		},
 		{
 			"id": "Wine & Spirits, drink",
-			"name": "Vino y alcohol, trago",
+			"name": "Kielich wina lub mocnego trunku",
 			"description": ""
 		},
 		{
 			"id": "Wine, bottle",
-			"name": "Vino, botella",
+			"name": "Butelka wina",
 			"description": ""
 		},
 		{
 			"id": "Wooden Teeth",
-			"name": "Dientes de madera",
-			"description": "<p>Los dientes falsos a menudo están bellamente tallados y pintados, y a veces son una mejora significativa respecto a los originales. Ignoras todos los penalizadores por la pérdida de dientes.</p>"
+			"name": "Drewniane zęby",
+			"description": "<p>Sztuczne zęby są często pięknie rzeźbione i pomalowane, a czasami stanowią znaczące ulepszenie w stosunku do oryginalnych. Bohater ignoruje wszelkie kary wynikające z braku własnych zębów.</p>"
 		},
 		{
 			"id": "Workshop (Type)",
-			"name": "Taller (Tipo)",
-			"description": "<p><strong>Boticario</strong>: Las herramientas incluyen un almirez con su mano, cucharillas, frascos, y una balanza con sus pesos. Los talleres también incluyen mecheros de aceite y estantes llenos de ingredientes.</p>\n<p>&nbsp;</p>\n<p><strong>Artesano</strong>: el abanico potencial de herramientas utilizadas por los Artesanos es enorme. Los grupos de ejemplos incluyen:</p>\n<ul type=\"disc\">\n<li><strong>Carpintero</strong>: martillo y clavos, sierra, vara de medir, tiza y plomadas. Los talleres también incluyen tornos, cepillos de carpintero, sargentos y una buena cantidad de madera.</li>\n</ul>\n<ul type=\"disc\">\n<li><strong>Grabador</strong>: gubias, sacabocados, cera, ácido, martillo y cinceles. Los talleres también incluyen troqueles y prensas.</li>\n</ul>\n<ul type=\"disc\">\n<li><strong>Herrero</strong>: martillo, pinzas, perforadoras, estampadoras, brocas y barrenas. Los talleres también incluyen un yunque, una fragua, un bloque de estampación, martillos pilones y lingotes de metal.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Otros tipos de artesanos</strong>: Albañil, Alfarero, Armero, Calígrafo, Calafate, Cantero, Cartógrafo, Cerero, Cervecero, Cocinero, Curtidor, Embalsamador, Fabricante de arcos, Fabricante de armaduras, Fabricante de armas, Guarnicionero, Joyero, Orfebre, Pintor, Sastre, Soplador de vidrio, Tallador, Tallista, Tejedor, Tonelero, Vinatero y Zapatero.</p>\n<p>&nbsp;</p>\n<p><strong>Artista</strong>: pinceles y pintura, martillo y cinceles, limas y escofinas y espátulas. Los talleres también incluyen caballetes o pedestales y materiales en forma de tela, pergamino, vitela, madera, arcilla o piedra sin tallar.</p>\n<p><strong>Ingeniero</strong>: reloj de arena, vara de medir, mecha, escuadra y cartabón. Los talleres también incluyen poleas, sogas y mesas de dibujo.</p>\n<p><strong>Herbolario</strong>: mortero y mano de mortero, cuchillitos, tijeras de podar y guantes. Los talleres también incluyen tendederos para secar, filtros, embudos, cuencos y frascos.</p>\n<p><strong>Navegante</strong>: cuadrante, astrolabio, cartas de navegación y compases, reloj de arena y escandallo.</p>\n<p><strong>Físico</strong>: agujas y sutura, vendas, escalpelo, vinagre, fórceps y un espéculo. Los talleres también incluyen dibujos de anatomía, accesorios surtidos y una mesa de operaciones.</p>"
+			"name": "Warsztat (Typ)",
+			"description": "<p><strong>Aptekarz</strong>: Narzędzia obejmują moździerz z tłuczkiem, łyżki, słoiki oraz wagę szalkową.\nWarsztat wyposażony jest także w palniki olejowe i półki pełne składników.\n<strong>Artysta</strong>: Pędzle i farby, młotek i dłuta, pilniki i skrobaki.\nWarsztat zawiera także sztalugi lub postumenty i zapas płócien, pergaminu, welinu, drewna, gliny lub nieociosanego kamienia.\n<strong>Inżynier</strong>: Klepsydra, przymiar, lont, cyrkiel i przykładnica.\nWarsztat zawiera także wielokrążki, liny i deski kreślarskie.\n<strong>Lekarz</strong>: Igły i szwy, bandaże, skalpel, ocet, pincety i wziernik.\nWarsztat zawiera także rysunki anatomiczne, różne przybory i stół operacyjny.\n<strong>Nawigator</strong>: Kwadrant, astrolabium, wykresy i kompasy, klepsydra i sonda na linie.\n<strong>Rzemieślnik</strong>: Potencjalny wybór narzędzi używanych przez rzemieślników jest szeroki. Przykładowe zestawy:\n• Grawer: Rylce, punktaki, wosk, kwas, młotek i dłuta.\nWarsztat zawiera także skrawarki i prasy.\n• Kowal: Młotek, cęgi, punktaki, kształtowniki, świdry i wiertła.\nWarsztat zawiera także kowadło, piec, dziurkownicę, młot kowalski oraz sztaby metalu.\n• Stolarz: Młotek i gwoździe, piła, przymiar, kreda, pion na sznurku.\nWarsztat zawiera także tokarki, heble, imadła i zapas drewna.\nPrzykłady innych rzemieślników: balsamista, bednarz, browarnik, dmuchacz szkła, garbarz, garncarz, jubiler, kaligraf, kamieniarz, kartograf, krawiec, kucharz, malarz, murarz, płatnerz, rusznikarz, rymarz, snycerz, szewc, szkutnik, szlifierz, świecarz, tkacz, winiarz, wytwórca łuków, zbrojmistrz i złotnik.\nZielarz: Moździerz z tłuczkiem, nożyki, sekator i rękawice.\nWarsztat zawiera także stojaki do suszenia ziół, filtry, lejki, miseczki i słoiki.</p>"
 		},
 		{
 			"id": "Worms",
-			"name": "Gusanos de pesca",
+			"name": "Robaki",
 			"description": ""
 		},
 		{
 			"id": "Writing Kit",
-			"name": "Material de escritura",
-			"description": "<p>Contiene un cálamo, un tintero y un secante.</p>"
+			"name": "Zestaw do pisania",
+			"description": "<p>Zawiera pióro, kałamarz i suszkę do osuszania pióra z atramentu.</p>"
 		},
 		{
 			"id": "Zweihander",
-			"name": "Zweihänder (Mandoble)",
+			"name": "Miecz dwuręczny",
 			"description": ""
 		}
 	]
