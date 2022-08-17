@@ -354,80 +354,81 @@
 		},
 		{
 			"id": "Eye Colour - Dwarf",
-			"name": "Color de Ojos - Enano",
+			"name": "Kolor Oczu - Krasnolud",
 			"results": {
-				"2-2": "Carb\u00F3n",
-				"3-3": "Plomo",
-				"4-4": "Acero",
-				"5-7": "Azul",
-				"8-11": "Casta\u00F1o terroso",
-				"12-14": "Casta\u00F1o oscuro",
-				"15-17": "Avellana",
-				"18-18": "Verde",
-				"19-19": "Cobre",
-				"20-20": "Oro"
+				"2-2": "Czarny jak Węgiel",
+				"3-3": "Szary jak ołów",
+				"4-4": "Stalowoszary",
+				"5-7": "Niebieski",
+				"8-11": "Brązowy jak ziemia",
+				"12-14": "Ciemnobrązowy",
+				"15-17": "Orzechowy",
+				"18-18": "Zielony",
+				"19-19": "Ciemny miedziany",
+				"20-20": "Złoty"
 				}
 		},
 		{
 			"id": "Eye Colour - Halfling",
-			"name": "Color de Ojos - Halfling",
+			"name": "Kolor Oczu - Niziołek",
 			"results": {
-				"2-2": "Gris claro",
-				"3-3": "Gris",
-				"4-4": "Azul claro",
-				"5-7": "Azul",
-				"8-11": "Verde",
-				"12-14": "Avellana",
-				"15-17": "Casta\u00F1o",
-				"18-18": "Cobre",
-				"19-20": "Casta\u00F1o oscuro"
+				"2-2": "Jasnoszary",
+				"3-3": "Szary",
+				"4-4": "Błękitny",
+				"5-7": "Niebieski",
+				"8-11": "Turkusowy",
+				"12-14": "Orzechowy",
+				"15-17": "Brązowy",
+				"18-18": "Miedziany",
+				"19-19": "Brązowy",
+				"20-20": "Ciemnobrązowy"
 				}
 		},
 		{
 			"id": "Eye Colour - High Elf",
-			"name": "Color de Ojos - Alto Elfo",
+			"name": "Kolor Oczu - Wysoki Elf",
 			"results": {
-				"2-2": "Azabache",
-				"3-3": "Amatista",
-				"4-4": "Aguamarina",
-				"5-7": "Zafiro",
-				"8-11": "Turquesa",
-				"12-14": "Esmeralda",
-				"15-17": "\u00C1mbar",
-				"18-18": "Cobre",
-				"19-19": "Citrino",
-				"20-20": "Oro"
+				"2-2": "Czarny jak smoła",
+				"3-3": "Ametystowy",
+				"4-4": "Akwamaryna",
+				"5-7": "Szafirowy",
+				"8-11": "Kasztanowy",
+				"12-14": "Szmaragdowy",
+				"15-17": "Bursztynowy",
+				"18-18": "Miedziany",
+				"19-19": "Cytrynowożółty",
+				"20-20": "Złoty"
 				}
 		},
 		{
 			"id": "Eye Colour - Human",
-			"name": "Color de Ojos - Humano",
+			"name": "Kolor Oczu - Człowiek",
 			"results": {
-				"2-2": "A elegir",
-				"3-3": "Verde",
-				"4-4": "Azul claro",
-				"5-7": "Azul",
-				"8-11": "Gris claro",
-				"12-14": "Gris",
-				"15-17": "Casta\u00F1o",
-				"18-18": "Avellana",
-				"19-19": "Casta\u00F1o oscuro",
-				"20-20": "Negro"
+				"2-2": "Dowolny wybór",
+				"3-3": "Zielony",
+				"4-4": "Jasnoniebieski",
+				"5-7": "Niebieski",
+				"8-11": "Blady Szary",
+				"12-14": "Szary",
+				"15-17": "Brązowy",
+				"18-18": "Orzechowy",
+				"19-19": "Ciemnobrązowy",
+				"20-20": "Czarny"
 				}
 		},
 		{
 			"id": "Eye Colour - Wood Elf",
-			"name": "Color de Ojos - Elfo Silvano",
+			"name": "Kolor Oczu - Leśny Elf",
 			"results": {
-				"2-2": "Marfil",
-				"3-3": "Carb\u00F3n",
-				"4-4": "Verde hiedra",
-				"5-7": "Verde musgo",
-				"8-14": "Casta\u00F1o",
-				"15-17": "Casta\u00F1o oscuro",
-				"18-18": "Tostado",
-				"19-19": "Casta\u00F1o arenoso",
-				"20-20": "Violeta"
+				"2-2": "Koloru kości słoniowej",
+				"3-3": "Antracyt",
+				"4-4": "Zielony jak bluszcz",
+				"5-7": "Zielony jak mech",
+				"8-14": "Kasztanowy",
+				"15-17": "Ciemnobrązowy",
+				"18-18": "Jasnobrązowy",
+				"19-19": "Brązowy",
+				"20-20": "Fiołkowy"
 				}
 		},
 		{
@@ -444,111 +445,112 @@
 		},
 		{
 			"id": "Hair Colour - Dwarf",
-			"name": "Color del Cabello - Enano",
+			"name": "Kolor Włosów - Krasnolud",
 			"results": {
-				"2-2": "Blanco",
-				"3-3": "Gris",
-				"4-4": "Rubio claro",
-				"5-7": "Dorado",
-				"8-11": "Cobrizo",
-				"12-14": "Bronce",
-				"15-17": "Casta\u00F1o",
-				"18-18": "Casta\u00F1o oscuro",
-				"19-19": "Casta\u00F1o rojizo",
-				"20-20": "Negro"
+				"2-2": "Blond",
+				"3-3": "Siwy",
+				"4-4": "Jasny blond",
+				"5-7": "Brązowy",
+				"8-11": "Miedziany",
+				"12-14": "Brąz",
+				"15-17": "Brąz",
+				"18-18": "Ciemny brąz",
+				"19-19": "Rudy brąz",
+				"20-20": "Czarny"
 				}
 		},
 		{
 			"id": "Hair Colour - Halfling",
-			"name": "Color del Cabello - Halfling",
+			"name": "Kolor Włosów - Niziołek",
 			"results": {
-				"2-2": "Gris",
-				"3-3": "Rubio intenso",
-				"4-4": "Bermejo",
-				"5-7": "Miel",
-				"8-11": "Casta\u00F1o",
-				"12-14": "Rojo",
-				"15-17": "Mostaza",
-				"18-18": "Marfil",
-				"19-19": "Chocolate",
-				"20-20": "Regaliz"
+				"2-2": "Biały",
+				"3-3": "Lniany",
+				"4-4": "Rudawy",
+				"5-7": "Złoty",
+				"8-11": "Kasztanowy",
+				"12-14": "Rudy",
+				"15-17": "Musztardowy",
+				"18-18": "Migdałowy",
+				"19-19": "Czekoladowy",
+				"20-20": "Lukrecjowy"
 				}
 		},
 		{
 			"id": "Hair Colour - High Elf",
-			"name": "Color del Cabello - Alto Elfo",
+			"name": "Kolor Włosów - Wysoki Elf",
 			"results": {
-				"2-2": "Plata",
-				"3-3": "Blanco",
-				"4-4": "Rubio claro",
-				"5-7": "Rubio",
-				"8-11": "Rubio amarillento",
-				"12-14": "Rubio cobrizo",
-				"15-17": "Rubio rojizo",
-				"18-18": "Caoba",
-				"19-19": "Rojo",
-				"20-20": "Negro"
+				"2-2": "Srebrnosiwy",
+				"3-3": "Popielaty",
+				"4-4": "Jasny blond",
+				"5-7": "Miodowoblond",
+				"8-11": "Żółty",
+				"12-14": "Miedziany blond",
+				"15-17": "Blond",
+				"18-18": "Migdałowy",
+				"19-19": "Czerwony",
+				"20-20": "Czarny"
 				}
 		},
 		{
 			"id": "Hair Colour - Human",
-			"name": "Color del Cabello - Humano",
+			"name": "Kolor Włosów - Człowiek",
 			"results": {
-				"2-2": "Rubio blanquecino",
-				"3-3": "Rubio dorado",
-				"4-7": "Casta\u00F1o dorado",
-				"8-11": "Casta\u00F1o claro",
-				"12-14": "Casta\u00F1o oscuro",
-				"15-17": "Negro",
-				"18-18": "Caoba",
-				"19-19": "Rojo",
-				"20-20": "Gris"
+				"2-2": "Biały",
+				"3-3": "Złoty blond",
+				"4-4": "Rudoblond",
+				"5-7": "Złoty",
+				"8-11": "Jasny brąz",
+				"12-14": "Ciemny brąz",
+				"15-17": "Czarny",
+				"18-18": "Kasztanowy",
+				"19-19": "Rudy",
+				"20-20": "Siwy"
 				}
 		},
 		{
 			"id": "Hair Colour - Wood Elf",
-			"name": "Color del Cabello - Elfo Silvano",
+			"name": "Kolor Włosów - Leśny Elf",
 			"results": {
-				"2-2": "Plata de abedul",
-				"3-3": "Rubio ceniza",
-				"4-4": "Oro ros\u00E1ceo",
-				"5-7": "Rubio miel",
-				"8-11": "Casta\u00F1o",
-				"12-14": "Caoba",
-				"15-17": "Casta\u00F1o oscuro",
-				"18-18": "Siena",
-				"19-19": "\u00C9bano",
-				"20-20": "Negro azulado"
+				"2-2": "Brzozowobiały",
+				"3-3": "Blond",
+				"4-4": "Różowe złoto",
+				"5-7": "Miodowoblond",
+				"8-11": "Brązowy",
+				"12-14": "Mahoniowy",
+				"15-17": "Ciemny brąz",
+				"18-18": "Sjena",
+				"19-19": "Hebanowy",
+				"20-20": "Niebiesko-czarny"
 				}
 		},
 		{
 			"id": "Hit Location",
-			"name": "Ubicaci\u00F3n de Impacto",
+			"name": "Lokacje Trafień",
 			"results": {
-				"1-9": "Cabeza",
-				"10-24": "Brazo Izquierdo",
-				"25-44": "Brazo Derecho",
-				"45-79": "Cuerpo",
-				"80-89": "Pierna Izquierda",
-				"90-100": "Pierna Derecha"
+				"1-9": "Głowa",
+				"10-24": "Lewa Ręka",
+				"25-44": "Prawa Ręka",
+				"45-79": "Korpus",
+				"80-89": "Lewa Noga",
+				"90-100": "Prawa Noga"
 				}
 		},
 		{
 			"id": "Hit Location - Snake",
-			"name": "Ubicaci\u00F3n de Impacto - Serpiente",
+			"name": "Lokacje Trafień - Węże",
 			"results": {
-				"1-19": "Cabeza",
-				"20-100": "Cuerpo"
+				"1-19": "Głowa",
+				"20-100": "Korpus"
 				}
 		},
 		{
 			"id": "Hit Location - Spider",
-			"name": "Ubicaci\u00F3n de Impacto - Ara\u00F1a",
+			"name": "Lokacje Trafień - Pająki",
 			"results": {
-				"1-9": "Cabeza",
-				"10-44": "Patas",
-				"45-79": "Patas",
-				"80-100": "Cuerpo"
+				"1-9": "Głowa",
+				"10-44": "Nogi",
+				"45-79": "Nogi",
+				"80-100": "Korpus"
 				}
 		},
 		{
@@ -927,28 +929,28 @@
 		},
 		{
 			"id": "Major Miscast Table",
-			"name": "Tabla de Disfunciones Mayores",
+			"name": "Tabela Większych Manifestacji",
 			"results": {
-				"1-5": "<b>Voces fantasmales</b>: todo el mundo en un radio igual a tu Voluntad oye susurros de voces oscuramente seductoras que emanan del Reino del Caos. Toda criatura inteligente deber\u00E1 superar un Chequeo Normal (+20) de Frialdad o anotarse 1 punto de Corrupci\u00F3n.",
-				"6-10": "<b>Ojos brujos</b>: tus ojos se vuelven de un color antinatural asociado a tu Saber durante [[1d10]] horas. Mientras tus ojos permanecen descoloridos, sufres 1 Estado de Cegado que no se puede resolver por medio alguno.",
-				"11-15": "<b>Choque del Aethyr</b>: sufres [[1d10]] Heridas, ignorando tu Bonificador por Resistencia y tus puntos de Armadura. Deber\u00E1s superar un Chequeo Normal (+20) de Aguante, o sufrir tambi\u00E9n 1 Estado de Aturdido.",
-				"16-20": "<b>Habitante de la muerte</b>: tus pasos dejan la muerte tras de s\u00ED. Durante las siguientes [[1d10]] horas, toda vida vegetal cerca de ti se marchita y se muere.",
-				"21-25": "<b>Rebeli\u00F3n intestinal</b>: tus tripas se mueven de forma incontrolable, y pierdes el control de los esf\u00EDnteres. Sufres 1 Estado de Fatigado , que no se puede eliminar hasta que te cambias de ropa y te limpias.",
-				"26-30": "<b>Fuego del alma</b>: sufres 1 Estado de Ardiendo , cuando te rodean llamas imp\u00EDas de un color asociado a tu Saber.",
-				"31-35": "<b>Don de lenguas</b>: balbuceas de forma ininteligible durante [[1d10]] Asaltos. Durante este tiempo, no puedes comunicarte verbalmente ni llevar a cabo ning\u00FAn Chequeo de Lanzamiento, aunque por lo dem\u00E1s puedes actuar normalmente.",
-				"36-40": "<b>Plagado</b>: debes enfrentarte a una plaga de ratas, ara\u00F1as gigantes, serpientes o bestias del Aethyr similares (a elecci\u00F3n del DJ). Utiliza los perfiles est\u00E1ndar para el tipo de criatura relevante, a\u00F1adiendo el Rasgo de criatura Plaga. Al cabo de 1d10 Asaltos, si no ha sido destruida todav\u00EDa, la plaga se retira.",
-				"41-45": "<b>Mu\u00F1eco de trapo</b>: eres despedido [[1d10]] yardas por el aire en una direcci\u00F3n aleatoria, sufriendo [[1d10]] Heridas al aterrizar (que ignoran los puntos de Armadura) y pasas al Estado Tumbado.",
-				"46-50": "<b>Miembro congelado</b>: un miembro (determinado al azar) se te congela durante 1d10 horas. El miembro queda in\u00FAtil durante ese tiempo, como si hubiera sido Amputado.",
-				"51-55": "<b>Vista oscurecida</b>: pierdes el beneficio del Talento Clarividencia durante [[1d10]] horas. Los Chequeos de Canalizaci\u00F3n tambi\u00E9n sufren un penalizador -20 mientras esto sucede.",
-				"56-60": "<b>Premonici\u00F3n ca\u00F3tica</b>: obtienes una reserva adicional de [[1d10]] puntos de Fortuna (con la que puedes superar tu l\u00EDmite natural). Cada vez que gastas uno de estos puntos, te anotas 1 punto de Corrupci\u00F3n. Todos los puntos que conserves al final de la sesi\u00F3n se perder\u00E1n.",
-				"61-65": "<b>Levitaci\u00F3n</b>: te ves por los aires impulsado por los Vientos de la Magia, flotando [[1d10]] yardas por encima del suelo durante [[1d10]] minutos. Otros personajes te pueden mover a la fuerza, y t\u00FA te puedes mover utilizando hechizos, alas o cosas similares, pero si se te deja a tus propios medios, vuelves de forma continua a tu posici\u00F3n de levitar. Consulta las reglas de @Compendium[wfrp4e-core.journal-entries.IyLwbcF2271ZKPzC]{Ca\u00EDda} para lo que sucede cuando acaba la levitaci\u00F3n.",
-				"66-70": "<b>Regurgitaci\u00F3n</b>: vomitas de forma incontrolable, arrojando m\u00E1s v\u00F3mito maloliente del que tu cuerpo podr\u00EDa contener. Sufres 1 Estado de Aturdido, que dura [[1d10]] Asaltos.",
-				"71-75": "<b>Terremoto del Caos</b>: todas las criaturas en un radio de [[1d100]] yardas deber\u00E1n superar un Chequeo Normal (+20) de Atletismo o pasar al Estado Tumbado.",
-				"76-80": "<b>Coraz\u00F3n de traidor</b>: los Dioses Oscuros te animan a cometer una horrenda perfidia. Si atacas o traicionas de alguna otra forma a un aliado hasta el alcance m\u00E1ximo de tus capacidades, recuperas todos tus puntos de Fortuna. Si haces que otro Personaje pierda un punto de Destino, obtienes +1 punto de Destino.",
-				"81-85": "<b>Debilitamiento asqueroso</b>: te anotas 1 punto de Corrupci\u00F3n, pasas al Estado Tumbado y te anotas 1 Estado de Fatigado.",
-				"86-90": "<b>Hedor infernal</b>: \u00A1Ahora s\u00ED que hueles realmente mal! Obtienes el Rasgo de criatura @Compendium[wfrp4e-core.traits.MVI0lXcg6vvtooAF]{Molesto} y probablemente la enemistad de cualquiera que tenga sentido del olfato. Esto dura [[1d10]] horas.",
-				"91-95": "<b>Drenaje de poder</b>: eres incapaz de utilizar el Talento que normalmente empleas para lanzar hechizos (por lo general Magia arcana, aunque podr\u00EDa ser Magia del Caos o un Talento similar), durante [[1d10]] minutos.",
-				"96-100": "<b>Retroalimentaci\u00F3n del Aethyr</b>: cualquiera que est\u00E9 en un radio en yardas igual a tu Bonificador por Voluntad (tanto amigos como enemigos) sufrir\u00E1 [[1d10]] Heridas, ignorando el Bonificador por Resistencia y los puntos de Armadura, y pasar\u00E1 al Estado Tumbado. Si no hay objetivos dentro de dicho radio, la magia no tiene d\u00F3nde disiparse, por lo que tu cabeza explota, mat\u00E1ndote instant\u00E1neamente"
+				"1-5": "<b>Upiorne głosy</b>: Każdy w promieniu tylu metrów, ile wynosi Siła Woli postaci, słyszy mroczne, nęcące szepty, które są emanacją Dziedziny Chaosu. Wszystkie myślące stworzenia muszą zdać Przeciętny (+20) Test Opanowania albo otrzymują 1 Punkt Zepsucia.",
+				"6-10": "<b>Przeklęty wzrok</b>: Oczy postaci nabierają nienaturalnego koloru, odpowiedniego dla Tradycji zaklęcia, na [[1d10]] godzin. W tym czasie postać cierpi z powodu 1 poziomu Oślepienia, co nie może zostać wyleczone ani rozproszone żadnym sposobem.",
+				"11-15": "<b>Wstrząs Eteru</b>: Postać otrzymuje [[1d10]] Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Musi także zdać Przeciętny (+20) Test Odporności, w przeciwnym wypadku otrzyma również 1 poziom Oszołomienia.",
+				"16-20": "<b>Spacer śmierci</b>: Wszędzie, gdzie stąpa postać, pojawia się śmierć. Przez najbliższe [[1d10]] godzin wszelkie rośliny obok postaci usychają i giną.",
+				"21-25": "<b>Żołądkowa rewolucja</b>: Wnętrzności zaczynają poruszać się w niekontrolowany sposób, a postać wypróżnia się wbrew swojej woli. Otrzymuje 1 poziom Wyczerpania, którego nie da się usunąć inaczej niż kąpielą i zmianą ubrania.",
+				"26-30": "<b>Ogień duszy</b>: Postać otrzymuje 1 poziom Podpalenia, trawiona przez potworne płomienie w kolorze Tradycji zaklęcia.",
+				"31-35": "<b>Dar języków</b>:  Postać przez [[1d10]] Rund trajkocze niezrozumiale. Podczas trwania tego efektu nie może porozumiewać się werbalnie ani podejmować Testów Rzucania Zaklęć, choć oprócz tego zachowuje się zupełnie normalnie.",
+				"36-40": "<b>Rój</b>: Postać zostaje zaatakowana przez chmarę eterycznych szczurów, gigantycznych pająków, węży lub innych podobnych stworzeń (decyduje MG). Użyj standardowych charakterystyk, odpowiednich dla danego gatunku stworzenia, dodając Cechę Stworzenia Rój. Po [[1d10]] Rundach, jeśli nie zostały zniszczone wcześniej, stwory znikają.",
+				"41-45": "<b>Szmaciana lalka</b>: Postać zostaje wyrzucona w powietrze i leci [[1d10]] metrów w losowym kierunku. Otrzymuje [[1d10]] Obrażeń ignorujących Punkty Pancerza, zostaje również Powalona.",
+				"46-50": "<b>Zmrożone kończyny</b>: Jedna kończyna (losowa) zostaje zamrożona na [[1d10]] godzin. Przez ten czas jest zupełnie bezużyteczna, jakby została Amputowana.",
+				"51-55": "<b>Mroczna ślepota</b>: Na [[1d10]] godzin postać traci swój Talent Percepcja Magiczna. Wszelkie Testy Splatania Magii otrzymują karę -20.",
+				"56-60": "<b>Chaotyczna dalekowzroczność</b>: Otrzymujesz premiową pulę [[1d10]] Punktów Szczęścia (które mogą przekroczyć normalny limit). Za każdym razem, gdy postać korzysta z tych punktów, otrzymuje 1 Punkt Zepsucia. Wszelkie pozostałe Punkty Szczęścia zdobyte w ten sposób przepadają po zakończeniu sesji gry.",
+				"61-65": "<b>Lewitacja</b>: Wiatry Magii porywają postać w powietrze. Na [[1d10]] minut unosi się [[1d10]] metrów nad ziemią. Inne postaci mogą ją przemieszczać siłą. Ponadto postać może poruszać się sama dzięki zaklęciom, skrzydłom i innym zabiegom, ale jeśli zostanie pozostawiona sama sobie, uniesie się z powrotem jak balonik. Lewitacja kończy się upadkiem.",
+				"66-70": "<b>Wymioty</b>:  Postać wymiotuje, wyrzucając z siebie o wiele więcej odrażająco śmierdzących wymiocin, niż mogłoby pomieścić ciało. Postać otrzymuje 1 poziom Oszołomienia, który utrzymuje się przez [[1d10]] Rund.",
+				"71-75": "<b>Trzęsienie Chaosu</b>: Wszystkie stworzenia w promieniu [[1d100]] metrów muszą zdać Przeciętny (+20) Test Atletyki albo zostaną Powalone.",
+				"76-80": "<b>Zdrada w sercu</b>: Mroczni Bogowie nakłaniają postać do wybitnie perfidnego czynu. Jeśli postać zaatakuje lub w inny sposób zdradzi sojusznika (z całą mocą i bez ograniczeń), odzyskuje wszystkie Punkty Szczęścia. Jeśli zmusi inną postać do wydania Punktu Przeznaczenia, sama otrzymuje 1 Punkt Przeznaczenia.",
+				"81-85": "<b>Plugawa niemoc</b>: Postać otrzymuje 1 Punkt Zepsucia, 1 poziom Wyczerpania i zostaje Powalona.",
+				"86-90": "<b>Odór z piekła rodem</b>:To jest dopiero smród! Postać otrzymuje Cechę Stworzenia @Compendium[wfrp4e-core.traits.MVI0lXcg6vvtooAF]{Dekoncentrujący}, a najpewniej też wrogość czegokolwiek, co ma zmysł powonienia. Efekt utrzymuje się przez [[1d10]] godzin.",
+				"91-95": "<b>Wyssanie mocy</b>:  Przez [[1d10]] minut postać nie jest w stanie używać Talentów związanych z rzucaniem czarów (zazwyczaj Magii Tajemnej, choć może to być również Magia Chaosu lub podobny Talent).",
+				"96-100": "<b>Reakcja Eteru</b>: Każdy – wróg czy przyjaciel – w promieniu tylu metrów, ile wynosi Bonus z Siły Woli postaci, otrzymuje [[1d10]] Obrażeń, które ignorują Bonus z Wytrzymałości i Punkty Pancerza. Wszyscy w tym promieniu zostają też Powaleni. Jeśli na tym obszarze nie ma żadnych celów, magia nie ma się gdzie ulotnić, więc wzbiera wewnątrz czaszki, rozsadzając ją od środka. Postać ginie natychmiast."
 				}
 		},
 		{
@@ -983,28 +985,28 @@
 		},
 		{
 			"id": "Minor Miscast Table",
-			"name": "Tabla de Disfunciones Menores",
+			"name": "Tabela Mniejszych Manifestacji",
 			"results": {
-				"1-5": "<b>Signo del brujo</b>: la siguiente criatura viva que nazca en un radio de una milla resultar\u00E1 mutada.",
-				"6-10": "<b>Leche agria</b>: toda la leche en un radio de [[1d100]] yardas se agria de inmediato.",
-				"11-15": "<b>Marchitamiento</b>: tantos campos como tu Bonificador por Voluntad en un radio de tantas millas como tu Bonificador por Voluntad se marchitan, y todas las cosechas se pudren de la noche a la ma\u00F1ana.",
-				"16-20": "<b>Cera del alma</b>: tus o\u00EDdos se taponan instant\u00E1neamente con una gruesa cera. Sufres 1 Estado de @Condition[Ensordecido], que no se elimina hasta que alguien te los limpia (mediante un uso con \u00E9xito de la Habilidad Sanar).",
-				"21-25": "<b>Luz bruja</b>: brillas con una luz inquietante relacionada con tu Saber, emitiendo la misma iluminaci\u00F3n que una fogata grande, y que dura [[1d10]] Asaltos.",
-				"26-30": "<b>Susurros mal\u00E9ficos</b>: debes superar un Chequeo <b>Normal (+20)</b> de <b>Voluntad</b> o anotarte 1 punto de Corrupci\u00F3n.",
-				"31-35": "<b>Ruptura</b>: te sangran profusamente la nariz, los ojos y los o\u00EDdos. Sufres [[1d10]] Estados de @Condition[Sangrando].",
-				"36-40": "<b>Terremoto an\u00EDmico</b>: pasas al Estado @Condition[Tumbado].",
-				"41-45": "<b>Desatar</b>: sobre tu persona, toda hebilla se abre y todo nudo se desata, lo que puede causar que se caiga el cintur\u00F3n, que se te abran las bolsas, que se te caiga la mochila y que la armadura se te suelte.",
-				"46-50": "<b>Atuendo descarriado</b>: tus ropas parecen moverse con mente propia. Sufres 1 Estado de @Condition[Enmara\u00F1ado] con una Fuerza de [[1d10x5]] para resistirte.",
-				"51-55": "<b>Maldici\u00F3n de la templanza</b>: todo el alcohol en un radio de [[1d100]] yardas se estropea, pasando a tener un sabor amargo y repugnante.",
-				"56-60": "<b>Drenaje del alma</b>: sufres 1 Estado de @Condition[Fatigado], que dura [[1d10]] horas.",
-				"61-65": "<b>Llevado a la distracci\u00F3n</b>: si estabas en combate, sufres 1 Estado de @Condition[Sorprendido]. De lo contrario, quedas completamente sobresaltado, con el coraz\u00F3n a toda velocidad e incapaz de concentrarte durante unos momentos.",
-				"66-70": "<b>Visiones imp\u00EDas</b>: visiones fugaces de actos profanos e imp\u00EDos te hostigan. Sufres 1 Estado de @Condition[Cegado]: deber\u00E1s superar un Chequeo <b>Desafiante (+0)</b> de <b>Frialdad</b> o sufrir otro.",
-				"71-75": "<b>Lengua empalagosa</b>: todos tus Chequeos de Hablar idioma (incluidos los de Lanzar hechizos) sufren un penalizador -10 durante [[1d10]] Asaltos.",
-				"76-80": "<b>\u00A1El horror!</b>: deber\u00E1s superar un Chequeo <b>Dif\u00EDcil (-20)</b> de <b>Frialdad</b> o sufrir 1 Estado de @Condition[Quebrantado].",
-				"81-85": "<b>Maldici\u00F3n de la corrupci\u00F3n</b>: te anotas 1 punto de Corrupci\u00F3n.",
-				"86-90": "<b>Problemas por partida doble</b>: el efecto del hechizo que lanzas se repite en otro lugar en un radio de [[1d10]] millas. A discreci\u00F3n del DJ, donde fuera posible deber\u00EDa tener consecuencias.",
-				"91-95": "<b>Desventura m\u00FAltiple</b>: tira dos veces en @Table[minormis]{esta misma Tabla} repitiendo cualquier resultado entre 91 y 100.",
-				"96-100": "<b>Caos en cascada</b>: tira de nuevo, pero en la Tabla de @Table[majormis]."
+				"1-5": "<b>Wiedźmi znak</b>: Pierwsza istota, która urodzi się w promieniu dwóch kilometrów, będzie zmutowana.",
+				"6-10": "<b>Skwaśniałe mleko</b>: Wszelkie mleko w promieniu [1d100] metrów natychmiast kwaśnieje.",
+				"11-15": "<b>Nieurodzaj</b>: Liczbę pól uprawnych równą Bonusowi z Siły Woli w promieniu Bonus z Siły Woli kilometrów dotyka klęska żywiołowa i w ciągu jednej nocy wszystkie plony gniją.",
+				"16-20": "<b>Woskowina</b>: Uszy czarodzieja natychmiast zatykają się przez nadmiar gęstej woskowiny. Postać otrzymuje 1 poziom Ogłuszenia, który nie może zostać usunięty, dopóki ktoś nie wyczyści uszu postaci (udany Test Leczenia).",
+				"21-25": "<b>Wiedźmi blask</b>: Na [[1d10]] Rund postać żarzy się dziwnym blaskiem, który emituje tyle światła, co ognisko. Kolor zależny jest od Tradycji zaklęcia.",
+				"26-30": "<b>Straszliwe szepty</b>: Wykonaj Przeciętny (+20) Test Siły Woli. Jeśli się on nie powiedzie, postać otrzymuje 1 Punkt Zepsucia.",
+					"31-35": "<b>Krwotok</b>: Nos, oczy i uszy zaczynają obficie krwawić. Postać otrzymuje [[1d10]] poziomów Krwawienia.",
+				"36-40": "<b>Trzęsienie duszy</b>: Postać zostaje Powalona.",
+				"41-45": "<b>Otwarcie</b>: Wszystkie klamry i troki przy ciele rzucającego rozpinają się i rozwiązują, co powoduje, że spadają pasy, otwierają się sakwy i torby, odpadają kawałki pancerza itd.",
+				"46-50": "<b>Krnąbrne odzienie</b>: Ubrania postaci zaczynają się skręcać, jakby nagle otrzymały wolną wolę. Postać otrzymuje 1 poziom Pochwycenia, którego Siła równa jest [[1d10x5]].",
+				"51-55": "<b>Klątwa abstynencji</b>: Wszelki alkohol w promieniu [[1d100]] metrów psuje się i staje się gorzki i paskudny w smaku.",
+				"56-60": "<b>Wyssanie duszy</b>:  Postać otrzymuje 1 poziom Wyczerpania, który utrzymuje się przez [[1d10]] godzin.",
+				"61-65": "<b>Rozproszenie uwagi</b>: Jeśli postać zaangażowana jest w walkę, staje się Zaskoczona. Jeśli nie jest to scena walki, postać ogarnia strach, serce wali jej jak młotem, nie jest w stanie skupić się na niczym przez kilka chwil.",
+				"66-70": "<b>Bezbożne wizje</b>: Przez krótką chwilę postać nawiedzają bluźniercze i bezbożne wizje. Postać otrzymuje 1 poziom Oślepienia i musi zdać Wymagający (+0) Test Opanowania albo otrzymuje kolejny poziom Oślepienia.",
+				"71-75": "<b>Język w supeł</b>: Wszystkie Testy językowe (w tym Testy Rzucenia Zaklęć) otrzymują karę -10 na [[1d10]] Rund.",
+				"76-80": "<b>Zgroza!</b>: Postać musi zdać Trudny (-20) Test Opanowania albo otrzymuje 1 poziom Paniki.",
+				"81-85": "<b>Klątwa zepsucia</b>: Postać otrzymuje 1 Punkt Zepsucia.",
+				"86-90": "<b>Przesunięcie</b>: Efekt rzuconego zaklęcia pojawia się [[2d10]] kilometrów od rzucającego. W zależności od MG, jeśli to możliwe, taka sytuacja powinna mieć odpowiednie konsekwencje.",
+				"91-95": "<b>Wielopech</b>: Wykonaj dwa rzuty i zastosuj odpowiednie efekty obydwu. Przerzuć, jeśli kolejny wynik będzie się mieścił w przedziale 91-100.",
+				"96-100": "<b>Fala Chaosu</b>: Rzuć ponownie, ale tym razem porównaj efekt z @Table[majormis]{Tabelą Większych Manifestacji}."
 				}
 		},
 		{
@@ -1078,7 +1080,7 @@
 		},
 		{
 			"id": "Talents - Character Creation",
-			"name": "Talentos - Creaci\u00F3n de Personaje"
+			"name": "Talenty - Tworzenie Postaci"
 		},
 		{
 			"id": "The Swirling Winds",
