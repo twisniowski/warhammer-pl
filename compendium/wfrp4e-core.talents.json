@@ -811,13 +811,13 @@
 		{
 			"id": "Slayer",
 			"name": "Zabójca",
-			"description": "<p>Al determinar el Daño utiliza el Bonificador por Resistencia de tu oponente como tu Bonificador por Fuerza si es superior; determina siempre esto antes de que cualquier otra regla modifique tu Fuerza o tu Bonificador por fuerza. Además, si tu objetivo es más grande que tú y consigues un Crítico, multiplica todo el Daño cuerpo a cuerpo que causas por el número de pasos mayor que es tu objetivo (así, 2 pasos = x2, 3 pasos = x3, y así sucesivamente); esta multiplicación se calcula una vez se han aplicado todos los modificadores. Consulta @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño}.</p>",
+			"description": "<p>Al determinar el Daño utiliza el Bonificador por Resistencia de tu oponente como tu Bonificador por Fuerza si es superior; determina siempre esto antes de que cualquier otra regla modifique tu Fuerza o tu Bonificador por fuerza. Además, si tu objetivo es más grande que tú y consigues un Crítico, multiplica todo el Daño cuerpo a cuerpo que causas por el número de pasos mayor que es tu objetivo (así, 2 pasos = x2, 3 pasos = x3, y así sucesivamente); esta multiplicación se calcula una vez se han aplicado todos los modificadores. Consulta @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Rozmiar}.</p>",
 			"effects": [{"_id":"ScsXdMC7SqNirMwx","flags":{"wfrp4e":{"effectTrigger":"calculateOpposedDamage","effectApplication":"actor","script":"if (args.sizeDiff <= -2 && args.opposedTest.attackerTest.result.critical)\n        args.damageMultiplier = Math.abs(args.sizeDiff)\n\n      let sBonusDiff = args.opposedTest.defenderTest.actor.characteristics.t.bonus - args.opposedTest.attackerTest.actor.characteristics.s.bonus\n     let weapon = args.opposedTest.attackerTest.item\n      if (sBonusDiff > 0 && weapon && weapon.damage.value.includes(\"SB\"))\n        args.damage += sBonusDiff","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/slayer.png","label":"Zabójca","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Small",
 			"name": "Mały",
-			"description": "<p>Eres mucho más bajito que la mayoría de gente del Viejo Mundo. Las reglas completas de los diferentes Tamaños están en el Rasgo @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño}</p>"
+			"description": "<p>Eres mucho más bajito que la mayoría de gente del Viejo Mundo. Las reglas completas de los diferentes Tamaños están en el Rasgo @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Rozmiar}</p>"
 		},
 		{
 			"id": "Sniper",
