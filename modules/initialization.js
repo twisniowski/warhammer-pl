@@ -33,51 +33,51 @@ class WFRP4eCoreInitWrapper extends FormApplication {
 class WFRP4eContentInitialization extends Dialog {
     constructor() {
         super({
-            title: "Inicialización del Contenido de WFRP4e",
+            title: "Inicjalizacja zawartości WFRP4e",
             content:
                 `<img src="/modules/wfrp4e-core/art/ui/logo.webp" style="margin-right: auto;margin-left: auto;width: 40%;display: block;"/>
-            <p class="notes">¿Inicializar el Módulo de Contenido de WFRP4e?<br><br>Importa o actualiza todos los Diarios y Escenas en tu mundo, los ordena en carpetas, y coloca notas en los mapas</p>
+            <p class="notes">Zainicjalizować moduł zawartości WFRP4e?<br><br>Zaimportuje lub zaktualizuje to wszystkie dzienniki i sceny w twoim świecie, posortuje w folderach i umieści notatki na mapach</p>
             <ul>
-            <li>131 Entradas de Diario (Trasfondo y Reglas)</li>
-            <li>19 Carpetas que organizan las entradas anteriores</li>
-            <li>3 Escenas - Incluyendo el Mapa de Reikland con Anotaciones</li>
+            <li>131 wpisy do dzienników (Tło i Zasady)</li>
+            <li>19 foldery, porządkujące poprzednie wpisy</li>
+            <li>3 Sceny - w tym mapa Reiklandu z adnotacjami</li>
             </ul>
             <p class="notes">
             Warhammer Fantasy Roleplay 4th Edition Core Module.<br><br>
 
             No part of this publication may be reproduced, distributed, stored in a retrieval system, or transmitted in any form by any means, electronic, mechanical, photocopying, recording or otherwise without the prior permission of the publishers.<br><br>
-            
+
             Warhammer Fantasy Roleplay 4th Edition © Copyright Games Workshop Limited 2020. Warhammer Fantasy Roleplay 4th Edition, the Warhammer Fantasy Roleplay 4th Edition logo, GW, Games Workshop, Warhammer, The Game of Fantasy Battles, the twin-tailed comet logo, and all associated logos, illustrations, images, names, creatures, races, vehicles, locations, weapons, characters, and the distinctive likeness thereof, are either ® or TM, and/or © Games Workshop Limited, variably registered around the world, and used under licence. Cubicle 7 Entertainment and the Cubicle 7 Entertainment logo are trademarks of Cubicle 7 Entertainment Limited. All rights reserved.<br><br>
-            
+
             <img src="modules/wfrp4e-core/c7.png" height=50 width=50/>   <img src="modules/wfrp4e-core/warhammer.png" height=50 width=50/>
             <br>
             Published by: <b>Cubicle 7 Entertainment Ltd</b><br>
             Foundry Edition by <b>Russell Thurman (Moo Man)</b><br>
             Special thanks to: <b>Games Workshop, Fatshark</b><br><br>
-            
+
             <a href="mailto: info@cubicle7games.com">info@cubicle7games.com</a>`,
             module: game.modules.get("wfrp4e-core"),
             buttons: {
                 initialize: {
-                    label: "Inicializar",
+                    label: "Inicjalizuj",
                     callback: async () => {
                         game.settings.set("wfrp4e-core", "initialized", true)
                         await new WFRP4eContentInitialization().initialize()
-                        ui.notifications.notify("Inicialización Completada")
+                        ui.notifications.notify("Inicjalizacja Zakończona")
                     }
                 },
                 update: {
-                    label: "Actualizar",
+                    label: "Aktualizuj",
                     callback: async () => {
                         let updater = await game.wfrp4e.apps.ModuleUpdater.create(game.modules.get("wfrp4e-core"), this)
                         updater.render(true)
                     }
                 },
                 no: {
-                    label: "No",
+                    label: "Nie",
                     callback: () => {
                         game.settings.set("wfrp4e-core", "initialized", true)
-                        ui.notifications.notify("Inicialización Saltada.")
+                        ui.notifications.notify("Pominięto inicjalizację.")
                     }
                 }
             }
@@ -101,7 +101,7 @@ class WFRP4eContentInitialization extends Dialog {
 
     async initialize() {
         return new Promise((resolve) => {
-            fetch(`modules/wfrp4e-castellano/modules/initialization.json`).then(async r => r.json()).then(async json => {
+            fetch(`modules/warhammer-pl/modules/initialization.json`).then(async r => r.json()).then(async json => {
                 let createdFolders = await Folder.create(json)
                 for (let folder of createdFolders)
                     this.folders[folder.data.type][folder.data.name] = folder;
@@ -144,7 +144,7 @@ class WFRP4eContentInitialization extends Dialog {
             }
             switch (documents[0].documentName) {
                 case "Actor":
-                    ui.notifications.notify(this.data.module.data.title + ": Inicializando Actores")
+                    ui.notifications.notify(this.data.module.data.title + ": Inicjalizacja Aktorów")
                     let existingDocuments = documents.filter(i => game.actors.has(i.id))
                     let newDocuments = documents.filter(i => !game.actors.has(i.id))
                     let createdActors = await Actor.create(newDocuments.map(c => c.data))
@@ -154,21 +154,21 @@ class WFRP4eContentInitialization extends Dialog {
                     {
                         let existing = game.actors.get(doc.id)
                         await existing.update(doc.toObject())
-                        ui.notifications.notify(`Actualizado documento existente ${doc.name}`)
+                        ui.notifications.notify(`Zaktualizowano istniejący dokument ${doc.name}`)
                     }
                     break;
                 case "Item":
-                    ui.notifications.notify(this.data.module.data.title + ": Inicializando Objetos")
+                    ui.notifications.notify(this.data.module.data.title + ": Inicjalizacja Obiektów")
                     await Item.create(documents.map(c => c.data))
                     break;
                 case "JournalEntry":
-                    ui.notifications.notify(this.data.module.data.title + ": Inicializando Diarios")
+                    ui.notifications.notify(this.data.module.data.title + ": Inicjalizacja Dzienników")
                     let createdEntries = await JournalEntry.create(documents.map(c => c.data))
                     for (let entry of createdEntries)
                         this.journals[entry.data.name] = entry
                     break;
 		case "RollTable":
-                    ui.notifications.notify(this.data.module.data.title + ": Inicializando Tablas")
+                    ui.notifications.notify(this.data.module.data.title + ": Inicjalizacja Tabel")
                     await RollTable.create(documents.map(c => c.data))
                     break;
             }
@@ -176,7 +176,7 @@ class WFRP4eContentInitialization extends Dialog {
     }
 
     async initializeScenes() {
-        ui.notifications.notify(this.data.module.data.title + ": Inicializando Escenas")
+        ui.notifications.notify(this.data.module.data.title + ": Inicjalizacja Scen")
         for (let pack of this.scenePacks)
         {
             let m = game.packs.get(pack)

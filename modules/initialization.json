@@ -1,7 +1,7 @@
 [
     {
         "_id": "s1OKLt8NaSnDVP4D",
-        "name": "Reglas Caseras de Moo",
+        "name": "Zasady domowe Moo",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -12,12 +12,12 @@
                 "sourceId": "Folder.s1OKLt8NaSnDVP4D"
             },
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
-        "name": "Bestiario",
+        "name": "Bestiariusz",
         "type": "JournalEntry",
         "sort": 600000,
         "flags": {},
@@ -27,7 +27,7 @@
         "_id": "UQFDMkdBcfIo5dsW"
     },
     {
-        "name": "Entre Aventuras",
+        "name": "Pomiędzy Przygodami",
         "type": "JournalEntry",
         "sort": 300000,
         "flags": {},
@@ -38,7 +38,7 @@
     },
     {
         "_id": "cqEvw1RQ13nRhW9U",
-        "name": "Tablas de Carrera",
+        "name": "Tabele Profesji",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -46,20 +46,20 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
-        "name": "Personaje",
+        "name": "Postać",
         "type": "JournalEntry",
         "sort": 2200000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             }
         },
         "parent": "IRYcgcaFaECyX1Zl",
@@ -69,7 +69,7 @@
     },
     {
         "_id": "roxBZKpboomqALA6",
-        "name": "Creaci\u00F3n de Personaje",
+        "name": "Tworzenie Postaci",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -77,20 +77,20 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
-        "name": "Empresas de Clase",
+        "name": "Zajęcia Klasowe",
         "type": "JournalEntry",
         "sort": 2600000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Empresas"
+                "initialization-parent": "Zajęcia"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Empresas"
+                "initialization-parent": "Zajęcia"
             }
         },
         "parent": "1I1wYpOqZEJ0884c",
@@ -99,15 +99,15 @@
         "_id": "sfFei0QOoIkDMthL"
     },
     {
-        "name": "Combate",
+        "name": "Walka",
         "type": "JournalEntry",
         "sort": 2300000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             }
         },
         "parent": "IRYcgcaFaECyX1Zl",
@@ -117,7 +117,7 @@
     },
     {
         "_id": "IOi5NXhlmBA1Dsdj",
-        "name": "B\u00E1sico",
+        "name": "Podstawa",
         "type": "RollTable",
         "parent": null,
         "sorting": "a",
@@ -127,7 +127,7 @@
     },
     {
         "_id": "zJOG90LgQOqGoTHU",
-        "name": "Tablas de Corrupci\u00F3n y Mutaci\u00F3n",
+        "name": "Tabele Zepsucia i Mutacji",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -135,13 +135,13 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
         "_id": "Sx2Ll81ooGBdzZVR",
-        "name": "Tablas de Impactos Cr\u00EDticos",
+        "name": "Tabele Trafień Krytycznych",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -149,20 +149,20 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
-        "name": "Empresas",
+        "name": "Zajęcia",
         "type": "JournalEntry",
         "sort": 100000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Entre Aventuras"
+                "initialization-parent": "Pomiędzy Przygodami"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Entre Aventuras"
+                "initialization-parent": "Pomiędzy Przygodami"
             }
         },
         "parent": "tSDVDL203n1CuHrx",
@@ -171,15 +171,15 @@
         "_id": "1I1wYpOqZEJ0884c"
     },
     {
-        "name": "Empresas Generales",
+        "name": "Zajęcia Ogólne",
         "type": "JournalEntry",
         "sort": 2500000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Empresas"
+                "initialization-parent": "Zajęcia"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Empresas"
+                "initialization-parent": "Zajęcia"
             }
         },
         "parent": "1I1wYpOqZEJ0884c",
@@ -189,7 +189,7 @@
     },
     {
         "_id": "TkFGqnexnGTXOcxn",
-        "name": "Libreta de DJ",
+        "name": "Książeczka MG",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -197,12 +197,12 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
     {
-        "name": "Gu\u00EDa del DJ",
+        "name": "Przewodnik MG",
         "type": "JournalEntry",
         "sort": 550000,
         "flags": {},
@@ -213,7 +213,7 @@
     },
     {
         "_id": "3PxykgIU3sc9vLkF",
-        "name": "Ubicaci\u00F3n de Impacto",
+        "name": "Lokacje Trafień",
         "type": "RollTable",
         "parent": "IOi5NXhlmBA1Dsdj",
         "sorting": "a",
@@ -221,7 +221,7 @@
         "color": null,
         "flags": {
             "wfrp4e-core": {
-                "initialization-parent": "B\u00E1sico"
+                "initialization-parent": "Podstawa"
             }
         }
     },
@@ -236,7 +236,7 @@
         "_id": "GofHd2OC7ZxP1IDb"
     },
     {
-        "name": "Monta\u00F1as, Colinas y Vorbergland",
+        "name": "Góry, Wzgórza i Vorbergland",
         "type": "JournalEntry",
         "sort": 100000,
         "flags": {
@@ -253,15 +253,15 @@
         "_id": "yKYgy9O51CS8e9Hg"
     },
     {
-        "name": "Movimiento",
+        "name": "Poruszanie się",
         "type": "JournalEntry",
         "sort": 2400000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             }
         },
         "parent": "IRYcgcaFaECyX1Zl",
@@ -270,7 +270,7 @@
         "_id": "uzl4zHdCaGnMWXtk"
     },
     {
-        "name": "Pol\u00EDtica",
+        "name": "Polityka",
         "type": "JournalEntry",
         "sort": 2800000,
         "flags": {
@@ -297,7 +297,7 @@
         "_id": "Cdh9UvSEATC30mCb"
     },
     {
-        "name": "Religi\u00F3n y Creencias",
+        "name": "Religie i Wyznania",
         "type": "JournalEntry",
         "sort": 400000,
         "flags": {},
@@ -307,7 +307,7 @@
         "_id": "bK2eIyxrofXjg00b"
     },
     {
-        "name": "R\u00EDos, Canales y Lagos",
+        "name": "Rzeki, Kanały i Jeziora",
         "type": "JournalEntry",
         "sort": 400000,
         "flags": {
@@ -324,7 +324,7 @@
         "_id": "8jHwmGu6kPEWTJqp"
     },
     {
-        "name": "Reglas",
+        "name": "Zasady",
         "type": "JournalEntry",
         "sort": 200000,
         "flags": {},
@@ -334,7 +334,7 @@
         "_id": "IRYcgcaFaECyX1Zl"
     },
     {
-        "name": "Asentamientos",
+        "name": "Osady",
         "type": "JournalEntry",
         "sort": 500000,
         "flags": {
@@ -351,15 +351,15 @@
         "_id": "7NWSyuqdErdKoYho"
     },
     {
-        "name": "Especies",
+        "name": "Rasy",
         "type": "JournalEntry",
         "sort": 3100000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Personaje"
+                "initialization-parent": "Postać"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Personaje"
+                "initialization-parent": "Postać"
             }
         },
         "parent": "RoZNad8gIntnckpH",
@@ -368,15 +368,15 @@
         "_id": "A4wl41c2o2B0yOS3"
     },
     {
-        "name": "La Gu\u00EDa del Consumidor",
+        "name": "Przewodnik Konsumenta",
         "type": "JournalEntry",
         "sort": 2900000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             },
             "wfrp4e-core": {
-                "initialization-parent": "Reglas"
+                "initialization-parent": "Zasady"
             }
         },
         "parent": "IRYcgcaFaECyX1Zl",
@@ -385,7 +385,7 @@
         "_id": "oS6anqRkw9A1B7X5"
     },
     {
-        "name": "Las Malditas y F\u00E9tidas Marismas",
+        "name": "Przeklęte i Cuchnące Mokradła",
         "type": "JournalEntry",
         "sort": 300000,
         "flags": {
@@ -402,7 +402,7 @@
         "_id": "LlyUrNlYvg976rlG"
     },
     {
-        "name": "Los Ocho Saberes",
+        "name": "Osiem Tradycji",
         "type": "JournalEntry",
         "sort": 2700000,
         "flags": {
@@ -419,7 +419,7 @@
         "_id": "3seuJGqgWKfkEe3c"
     },
     {
-        "name": "Los Bosques Oscuros y L\u00FAgubres",
+        "name": "Ponure Ciemne Lasy",
         "type": "JournalEntry",
         "sort": 200000,
         "flags": {
@@ -436,15 +436,15 @@
         "_id": "hdy66q2fdVO9hOQe"
     },
     {
-        "name": "Listas de Accesorios",
+        "name": "Lista Wyposażenia",
         "type": "JournalEntry",
         "sort": 100000,
         "flags": {
             "wfrp4e": {
-                "initialization-parent": "La Gu\u00EDa del Consumidor"
+                "initialization-parent": "Przewodnik Konsumenta"
             },
             "wfrp4e-core": {
-                "initialization-parent": "La Gu\u00EDa del Consumidor"
+                "initialization-parent": "Przewodnik Konsumenta"
             }
         },
         "parent": "oS6anqRkw9A1B7X5",
