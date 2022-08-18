@@ -239,7 +239,7 @@
 		},
 		{
 			"id": "Fear",
-			"name": "Miedo",
+			"name": "Strach",
 			"description": "<p>La criatura causa un Miedo sobrenatural en otras criaturas, de una potencia igual a su Valor.</p>\n<p>El rasgo Miedo representa una aversión extrema hacia algo. Las criaturas que causan Miedo tienen un Nivel de Miedo; este valor refleja el NE que debes obtener en un Chequeo prolongado de Frialdad para vencer tu Miedo. Puedes continuar haciendo Chequeos al final de cada Asalto hasta que tu NE iguala o supera el Nivel de Miedo de la criatura. Hasta que lo consigues, estás sujeto al Miedo.</p>\n<p>Cuando te ves sujeto al Miedo , sufres &ndash;1 NE todos los Chequeos para afectar a la fuente del mismo. No te puedes acercar a lo que te provoca el Miedo sin superar un Chequeo <strong>Desafiante (+0)</strong> de <strong>Frialdad.</strong>. Si se acerca más a ti, deberás superar un Chequeo <strong>Desafiante (+0)</strong> de <strong>Frialdad.</strong>, o sufrir 1 Estado de @Condition[Quebrantado].</p>",
 			"effects": [{"_id":"ODxbsuuS0splmVEN","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let value = parseInt(this.item.specification.value)\nlet name = this.actor.data.token.name\n\nif (game.user.isGM && game.user.targets.size)\n{\n  game.user.targets.forEach(t => {\n    t.actor.applyFear(value, name)\n  })\n  game.user.updateTokenTargets([]);\n}\nelse \n{\n  game.wfrp4e.utility.postFear(value, name)\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Miedo","tint":null,"transfer":true}]
 		},
@@ -256,7 +256,7 @@
 		},
 		{
 			"id": "Fury",
-			"name": "Furia",
+			"name": "Nienawiść",
 			"description": "<p>La criatura puede provocarse a sí misma una rabia que absorbe toda su atención. Puede gastar toda su Ventaja (mínimo 1) para convertir en sujeto de su Odio a los oponentes que están en combate cercano. Si la criatura dispone por lo menos de 3 Ventajas, en vez de ello puede gastarla toda para entrar en Furia.\r\r</p>"
 		},
 		{
