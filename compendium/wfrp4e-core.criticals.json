@@ -224,7 +224,7 @@
 		{
 			"id": "Gut Wound",
 			"name": "Herida en las tripas",
-			"description": "<p>Contraes una @Compendium[wfrp4e-core.diseases.kKccDTGzWzSXCBOb]{Herida supurante} y sufres 2 Estados de @Condition[Sangrando].</p>",
+			"description": "<p>Contraes una @Compendium[wfrp4e-core.diseases.kKccDTGzWzSXCBOb]{Ropiejąca Rana} y sufres 2 Estados de @Condition[Sangrando].</p>",
 			"effects": [{"_id":"KSraZUHBV7dm7jom","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"actor","script":"fromUuid(\"Compendium.wfrp4e-core.diseases.kKccDTGzWzSXCBOb\").then(disease=> {\n args.actor.createEmbeddedDocuments(\"Item\", [disease.toObject()])\n})","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/injuries/tornbody.png","label":"Herida en las tripas","tint":"","transfer":true},{"_id":"4eZoTEFC5ZbQifn7","flags":{"wfrp4e":{"trigger":"endRound","value":2},"core":{"statusId":"bleeding"}},"changes":[],"duration":{"startTime":null},"icon":"systems/wfrp4e/icons/conditions/bleeding.png","label":"Sangrando","transfer":true,"disabled":false}]
 		},
 		{
