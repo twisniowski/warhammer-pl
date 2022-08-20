@@ -229,7 +229,7 @@
 		{
 			"id": "Fury's Call",
 			"name": "Llamada de la furia",
-			"description": "<p>Tus apasionadas plegarias instilan en tus aliados un feroz desdén por sus enemigos. Todos los aliados afectados obtienen la Psicología @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Odio} hacia cualquiera contra el que se enfrentan en combate.</p>",
+			"description": "<p>Tus apasionadas plegarias instilan en tus aliados un feroz desdén por sus enemigos. Todos los aliados afectados obtienen la Psicología @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Nienawiść} hacia cualquiera contra el que se enfrentan en combate.</p>",
 			"effects": [{"_id":"Bt7ExFoPhWP05nr8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.psychologies.5hH73j2NgPdsLCZN\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Llamada de la furia","tint":"","transfer":false}]
 		},
 		{
@@ -245,7 +245,7 @@
 		{
 			"id": "Howl of the Wolf",
 			"name": "Aullido del lobo",
-			"description": "<p>Aúllas pidiendo la ayuda de Ulric, y éste envía a un servidor divino menor en forma de un lobo blanco. El lobo lucha contra tus enemigos mientras dura el Milagro, antes de desvanecerse en los Terrenos de Caza de Ulric con un aullido espectral y espeluznante. Los lobos blancos tienen las estadísticas de un lobo con los Rasgos de criatura @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Mágico}, and @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño (Grande)}.</p>"
+			"description": "<p>Aúllas pidiendo la ayuda de Ulric, y éste envía a un servidor divino menor en forma de un lobo blanco. El lobo lucha contra tus enemigos mientras dura el Milagro, antes de desvanecerse en los Terrenos de Caza de Ulric con un aullido espectral y espeluznante. Los lobos blancos tienen las estadísticas de un lobo con los Rasgos de criatura @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Magiczny}, and @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño (Grande)}.</p>"
 		},
 		{
 			"id": "Inspiring",
@@ -409,7 +409,7 @@
 		{
 			"id": "Tooth and Claw",
 			"name": "Colmillo y garra",
-			"description": "<p>Pides a Taal que te conceda el feroz poder de su reino. Obtienes los Rasgos de criatura @Compendium[wfrp4e-core.traits.pLW9SVX0TVTYPiPv]{Mordisco} (Bonificador por Fuerza +3) y @Compendium[wfrp4e-core.traits.AtpAudHA4ybXVlWM]{Arma} (Bonificador por Fuerza +4). Estos ataques son Mágicos.</p>",
+			"description": "<p>Pides a Taal que te conceda el feroz poder de su reino. Obtienes los Rasgos de criatura @Compendium[wfrp4e-core.traits.pLW9SVX0TVTYPiPv]{Ugryzienie} (Bonificador por Fuerza +3) y @Compendium[wfrp4e-core.traits.AtpAudHA4ybXVlWM]{Broń} (Bonificador por Fuerza +4). Estos ataques son Mágicos.</p>",
 			"effects": [{"_id":"1TWDvZQnuHAsfxxd","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"await fromUuid(\"Compendium.wfrp4e-core.traits.pLW9SVX0TVTYPiPv\").then(item => {\n   item = item.toObject()\n   item.data.specification.value = 3\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})\n\nfromUuid(\"Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM\").then(item => {\n   item = item.toObject()\n    item.data.specification.value = 4\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Colmillo y garra","tint":"","transfer":false}]
 		},
 		{
@@ -437,7 +437,7 @@
 		{
 			"id": "Vanquish the Unrighteous",
 			"name": "Derrota a los injustos",
-			"description": "<p>Tus plegarias instilan en tus aliados elegidos un furioso desdén por los enemigos de Sigmar. Todos los aliados afectados obtienen la Psicología @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Odio} contra los pieles verdes, los muertos vivientes y todos los que están asociados con el Caos.</p>"
+			"description": "<p>Tus plegarias instilan en tus aliados elegidos un furioso desdén por los enemigos de Sigmar. Todos los aliados afectados obtienen la Psicología @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Nienawiść} contra los pieles verdes, los muertos vivientes y todos los que están asociados con el Caos.</p>"
 		},
 		{
 			"id": "Waterwalk",
