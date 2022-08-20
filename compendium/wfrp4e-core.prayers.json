@@ -56,8 +56,8 @@
 		},
 		{
 			"id": "Becalm",
-			"name": "Encalmar",
-			"description": "<p>Robas el viento de las velas de una nave. Queda completamente encalmada. Incluso en tiempo tormentoso, una zona de extraña calma y aguas mansas rodea el bajel mientras que los vendavales, las cortinas de agua y las olas enormes lo rodean y chocan a su alrededor. Este área de calma se extiende tantas yardas alrededor del navío como tu Iniciativa y si a éste lo propulsa algún otro método (como por ejemplo, remos), el área de calma viaja con él.</p>"
+			"name": "Cisza morska",
+			"description": "<p>Kradniesz wiatr z żagli statku lub łodzi. Bez wiatru jednostka żeglowna zostaje kompletnie unieruchomiona. Nawet podczas sztormu powstaje obszar dziwnie spokojnej i gładkiej wody, która otacza łódź, mimo iż dookoła szaleje wicher, leje deszcz, a wysokie jak wieże fale przewalają się tu i ówdzie, grożąc zatopieniem statku. Obszar ten rozciąga się dookoła łodzi na tyle metrów, ile wynosi Inicjatywa, a jeśli statek jest napędzany w inny sposób, np. wiosłami, obszar przemieszcza się razem z nim.</p>"
 		},
 		{
 			"id": "Bitter Catharsis",
@@ -70,7 +70,7 @@
 			"name": "Gorejące słońce",
 			"description": "<p>Wzywasz Myrmidię, by poraziła niegodnych wrogów na polu bitwy, a jej odpowiedź przybiera postać oślepiającego rozbłysku złotego światła. Wszyscy, którzy nie wyznają Myrmidii, a spojrzą w twoim kierunku, otrzymają 1 poziom @Condition[Oślepienie]. Za każde +2 PS otrzymują +1 poziom @Condition[Oślepienie].</p>",
 			"overcast": "Oślepienie",
-			"effects": [{"_id":"JlsdDkPK9j9Y65sB","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (\"{{outcome}}\" == \"success\")\n{\n    let blinded = 1 + {{overcast.usage.other.count}}\n    args.actor.addCondition(\"blinded\", blinded)\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gorejące słońce","tint":"","transfer":false}]
+			"effects": [{"_id":"JlsdDkPK9j9Y65sB","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (\"{{outcome}}\" == \"success\")\n{\n    let blinded = 1 + {{overcast.usage.other.count}}\n    args.actor.addCondition(\"blinded\", blinded)\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gorejące Słońce","tint":"","transfer":false}]
 		},
 		{
 			"id": "Blessing of Battle",
@@ -92,7 +92,7 @@
 		{
 			"id": "Blessing of Conscience",
 			"name": "Błogosławieństwo Sumienia",
-			"description": "<p>Cel musi wykonać <strong>Przeciętny (+20) Test Siły Woli </strong>, aby wykonać Akcję, która naruszałaby jedno z przykazań twojego bóstwa. Jeśli Test się nie uda, cel ogarnia wstyd i nie podejmuje żadnej Akcji..</p>"
+			"description": "<p>Cel musi wykonać <strong>Przeciętny (+20) Test Siły Woli </strong>, aby wykonać Akcję, która naruszałaby jedno z przykazań twojego bóstwa. Jeśli Test się nie uda, cel ogarnia wstyd i nie podejmuje żadnej Akcji...</p>"
 		},
 		{
 			"id": "Blessing of Courage",
@@ -214,7 +214,7 @@
 		{
 			"id": "Drowned Man's Face",
 			"name": "Twarz topielca",
-			"description": "<p>Błagasz Mananna o to, by utopił twoich wrogów. Gdy Cud jest aktywny, płuca celów nieustannie wypełniają się słoną wodą, a ich włosy powiewają w powietrzu, jakby były pod wodą. Cel otrzymuje 1 poziom @Condition [Wyczerpania] i podczas trwania Cudu stosuje się do niego wszystkie zasady Utonięcia i Uduszenia (strona 181). Po zakończeniu Cudu cel musi wykonać <strong>Trudny (-20) Test Odpornośći</strong>. Jeśli się nie powiedzie, cel otrzymuje @Condition[Powalenie].</p>"
+			"description": "<p>Błagasz Mananna o to, by utopił twoich wrogów. Gdy Cud jest aktywny, płuca celów nieustannie wypełniają się słoną wodą, a ich włosy powiewają w powietrzu, jakby były pod wodą. Cel otrzymuje 1 poziom @Condition[Wyczerpanie]{Wyczerpania} i podczas trwania Cudu stosuje się do niego wszystkie zasady Utonięcia i Uduszenia. Po zakończeniu Cudu cel musi wykonać <strong>Trudny (-20) Test Odpornośći</strong>. Jeśli się nie powiedzie, cel otrzymuje @Condition[Powalenie].</p>"
 		},
 		{
 			"id": "Eagle's Eye",
@@ -228,9 +228,9 @@
 		},
 		{
 			"id": "Fury's Call",
-			"name": "Llamada de la furia",
+			"name": "Zew Furii",
 			"description": "<p>Twoje żarliwe modlitwy napełniają twoich sojuszników szaleńczą pogardą wobec wrogów. Wszyscy sojusznicy objęci Cudem otrzymują @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Nienawiść} wobec każdego, kto zetrze się z nimi w walce.</p>",
-			"effects": [{"_id":"Bt7ExFoPhWP05nr8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.psychologies.5hH73j2NgPdsLCZN\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Llamada de la furia","tint":"","transfer":false}]
+			"effects": [{"_id":"Bt7ExFoPhWP05nr8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.psychologies.5hH73j2NgPdsLCZN\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Zew Furii","tint":"","transfer":false}]
 		},
 		{
 			"id": "Heed Not the Witch",
@@ -245,7 +245,7 @@
 		{
 			"id": "Howl of the Wolf",
 			"name": "Aullido del lobo",
-			"description": "<p>Wyjesz jak wilk, prosząc Ulryka o pomoc, a ten zsyła pomniejszego Sługę bożego w postaci Białego Wilka. Wilk będzie walczył z twoimi wrogami przez Czas Cudu, zanim zniknie i wróci na Łowisko Ulryka, wydawszy ostatnie, widmowe wycie, które mrozi krew w żyłach. Białe Wilki mają statystyki normalnych wilków (strona 317), ale dodatkowo odznaczają się także Cechami Stworzenia @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Magiczny}, i @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Rozmiar (Duży)}.</p>"
+			"description": "<p>Wyjesz jak wilk, prosząc Ulryka o pomoc, a ten zsyła pomniejszego Sługę bożego w postaci Białego Wilka. Wilk będzie walczył z twoimi wrogami przez Czas Cudu, zanim zniknie i wróci na Łowisko Ulryka, wydawszy ostatnie, widmowe wycie, które mrozi krew w żyłach. Białe Wilki mają statystyki normalnych wilków, ale dodatkowo odznaczają się także Cechami Stworzenia @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Magiczny}, i @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Rozmiar (Duży)}.</p>"
 		},
 		{
 			"id": "Inspiring",
@@ -256,19 +256,19 @@
 		{
 			"id": "King of the Wild",
 			"name": "Władca zwierząt",
-			"description": "<p>Intonujesz niską pieśń, a Taal odpowiada stworzeniem dzikiego zwierzęcia odpowiedniego dla danej okolicy, które będzie wykonywać twoje polecenia przez Czas Cudu. Przykładowe zwierzęta do wezwania znajdziesz w <strong>Zwierzyńcu Reiklandu</strong> (strona 314).</p>"
+			"description": "<p>Intonujesz niską pieśń, a Taal odpowiada stworzeniem dzikiego zwierzęcia odpowiedniego dla danej okolicy, które będzie wykonywać twoje polecenia przez Czas Cudu. Przykładowe zwierzęta do wezwania znajdziesz w <strong>Zwierzyńcu Reiklandu</strong>.</p>"
 		},
 		{
 			"id": "Last Rites",
 			"name": "Wieczny odpoczynek",
 			"description": "<p>Śpiewasz uroczyste requiem nad zwłokami. Cud gwarantuje, że dusza zostanie odesłana przez portal do dziedziny Morra. Ponadto ciało to nie będzie mogło zostać wskrzeszone żadnym z zaklęć z Tradycji Nekromancji. Jeśli celem Cudu jest stworzenie o Cesze <em>Ożywieniec</em> lub <em>Konstrukt</em>, zostanie zniszczone.</p>",
-			"effects": [{"_id":"gvhH2LxUqQQxN6R8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (args.actor.has(\"Ożywieniec\") && args.actor.has(\"Konstrukt\"))\n   args.actor.addCondition(\"dead\")","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"RWieczny odpoczynek","tint":"","transfer":false}]
+			"effects": [{"_id":"gvhH2LxUqQQxN6R8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (args.actor.has(\"Ożywieniec\") && args.actor.has(\"Konstrukt\"))\n   args.actor.addCondition(\"dead\")","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Wieczny odpoczynek","tint":"","transfer":false}]
 		},
 		{
 			"id": "Leaping Stag",
 			"name": "Rączy jeleń",
 			"description": "<p>Śpiewasz ku czci Ojca Taala, który w zamian błogosławi cię szybkością i zwinnością. Zyskujesz +1 do Szybkości oraz 1 poziom Talentu @Compendium[wfrp4e-core.talents.CV9btQn09S9Fn8Jk]{Silne Nogi} +1. Ponadto automatycznie udają ci się wszystkie Testy<strong>Atletyka</strong> (na poziomie co najmniej 0 PS). Jeśli Test zakończy się poniżej 0 PS, podnieś wynik do 0 PS.</p>",
-			"effects": [{"_id":"DIcpr650MAJVHQ5u","flags":{"wfrp4e":{"effectApplication":"apply"}},"changes":[{"key":"data.details.move.value","value":"1","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Aumento de Movimiento","tint":null,"transfer":false},{"_id":"q7pJlPm8uR0UxxN1","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.CV9btQn09S9Fn8Jk\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Rączy jeleń","tint":"","transfer":false}]
+			"effects": [{"_id":"DIcpr650MAJVHQ5u","flags":{"wfrp4e":{"effectApplication":"apply"}},"changes":[{"key":"data.details.move.value","value":"1","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Zwiększenie Ruchu","tint":null,"transfer":false},{"_id":"q7pJlPm8uR0UxxN1","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.CV9btQn09S9Fn8Jk\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Rączy jeleń","tint":"","transfer":false}]
 		},
 		{
 			"id": "Lord of the Hunt",
@@ -347,7 +347,7 @@
 		{
 			"id": "Shackles of Truth",
 			"name": "Kajdany Vereny",
-			"description": "<p>Błagasz Verenę, prosząc o jej osąd nad domniemanym przestępcą. Jeśli twój cel popełnił przestępstwo, a twierdzi, że tego nie zrobił, na czas trwania tego Cudu otrzyma 1 poziom @Condition[Pochwycenia] który nie może zostać usunięty, dopóki Cud jest w mocy. Jeśli twoje oskarżenia okażą się błędne, Verena nie będzie pochwalać twojego braku wyczucia – otrzymasz 1 Punkt Grzechu i natychmiast musisz wykonać rzut oraz porównać jego wynik z tabelą <strong>Gniew Bogów.</strong></p>"
+			"description": "<p>Błagasz Verenę, prosząc o jej osąd nad domniemanym przestępcą. Jeśli twój cel popełnił przestępstwo, a twierdzi, że tego nie zrobił, na czas trwania tego Cudu otrzyma 1 poziom @Condition[Pochwycenie]{Pochwycenia} który nie może zostać usunięty, dopóki Cud jest w mocy. Jeśli twoje oskarżenia okażą się błędne, Verena nie będzie pochwalać twojego braku wyczucia – otrzymasz 1 Punkt Grzechu i natychmiast musisz wykonać rzut oraz porównać jego wynik z tabelą <strong>Gniew Bogów.</strong></p>"
 		},
 		{
 			"id": "Shallya's Tears",
@@ -364,14 +364,14 @@
 		{
 			"id": "Sigmar's Fiery Hammer",
 			"name": "Młot Sigmara",
-			"description": "<p>Skandujesz błogosławieństwa w imieniu Sigmara. Jeśli dzierżysz młot bojowy, uznaje się go za Magiczny, zadający Obrażenia zwiększone o Bonus z Ogłady. Ponadto każdy trafiony cel otrzymuje @Condition[Podpalenie] i @Condition[Powalenie] jeden poziom.</p>"
+			"description": "<p>Skandujesz błogosławieństwa w imieniu Sigmara. Jeśli dzierżysz młot bojowy, uznaje się go za Magiczny, zadający Obrażenia zwiększone o Bonus z Ogłady. Ponadto każdy trafiony cel otrzymuje @Condition[Podpalenie] i @Condition[Powalenie] (jeden poziom).</p>"
 		},
 		{
 			"id": "Soulfire",
 			"name": "Płomień wiary",
-			"description": "<p>Wzywasz potęgę Sigmara, by zmiażdżyła wrogów Imperium. Święty ogień eksploduje wprost z twojego ciała w promieniu tylu metrów, ile wynosi Bonus z Ogłady. Wszystkie cele w zasięgu otrzymują 1k10 Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Cele, które mają Cechę Stworzenia <em>Ożywieniec</em> lub <em>Demoniczne</em> otrzymują dodatkowo 1 poziom <em>Podpalenie</em>. Za każde +2 PS możesz zwiększyć promień okręgu o tyle metrów, ile wynosi Bonus z Ogłady, lub zadać dodatkowe 2 Obrażenia wszelkim zielonoskórym, ożywieńcom lub sługom Niszczycielskich Potęg.</p>",
+			"description": "<p>Wzywasz potęgę Sigmara, by zmiażdżyła wrogów Imperium. Święty ogień eksploduje wprost z twojego ciała w promieniu tylu metrów, ile wynosi Bonus z Ogłady. Wszystkie cele w zasięgu otrzymują 1k10 Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Cele, które mają Cechę Stworzenia <em>Ożywieniec</em> lub <em>Demoniczny</em> otrzymują dodatkowo 1 poziom <em>Podpalenie</em>. Za każde +2 PS możesz zwiększyć promień okręgu o tyle metrów, ile wynosi Bonus z Ogłady, lub zadać dodatkowe 2 Obrażenia wszelkim zielonoskórym, ożywieńcom lub sługom Niszczycielskich Potęg.</p>",
 			"overcast": "Większy zasięg",
-			"effects": [{"_id":"qpp49hHsrz2VmP1E","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nif (args.actor.has(\"Ożywieniec\") || args.actor.has(\"Demoniczne\"))\n{\n  args.actor.addCondition(\"ablaze\")\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Płomień wiary","tint":"","transfer":false}]
+			"effects": [{"_id":"qpp49hHsrz2VmP1E","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nif (args.actor.has(\"Ożywieniec\") || args.actor.has(\"Demoniczny\"))\n{\n  args.actor.addCondition(\"ablaze\")\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Płomień wiary","tint":"","transfer":false}]
 		},
 		{
 			"id": "Spear of Myrmidia",
@@ -397,7 +397,7 @@
 		{
 			"id": "Tanglefoot",
 			"name": "Oplątanie",
-			"description": "<p>Błagasz Taala w modlitwach, by chronił swe dzikie ostępy. Korzenie, pnącza i gałązki oplatają się dookoła twoich wrogów. Wszystkie cele w promieniu tylu metrów, ile wynosi twój Bonus z Ogłady, otrzymują 1 poziom @Condition[Pochwycenia]. Za każde +2 PS możesz zwiększyć zasięg o tyle metrów, ile wynosi twój Bonus z Ogłady, lub zwiększyć poziomy @Condition[Pochwycenia]. W przypadkach prób uwolnienia się Oplątanie ma Siłę równą twojej Sile Woli.</p>",
+			"description": "<p>Błagasz Taala w modlitwach, by chronił swe dzikie ostępy. Korzenie, pnącza i gałązki oplatają się dookoła twoich wrogów. Wszystkie cele w promieniu tylu metrów, ile wynosi twój Bonus z Ogłady, otrzymują 1 poziom @Condition[Pochwycenie]{Pochwycenia}. Za każde +2 PS możesz zwiększyć zasięg o tyle metrów, ile wynosi twój Bonus z Ogłady, lub zwiększyć poziomy @Condition[Pochwycenie]{Pochwycenia}. W przypadkach prób uwolnienia się Oplątanie ma Siłę równą twojej Sile Woli.</p>",
 			"overcast": "Pochwycenia",
 			"effects": [{"_id":"FbFPvypAtB428U0r","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let num = 1 + {{overcast.usage.other.count}}\nif (!num || num <= 0)\n   num = 1\n\nargs.actor.addCondition(\"entangled\", num)","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Oplątanie","tint":null,"transfer":false}]
 		},
@@ -447,7 +447,7 @@
 		{
 			"id": "Winter's Bite",
 			"name": "Odmrożenia",
-			"description": "<p>Ryczysz modlitwy do Ulryka, sławiąc jego nienasycony topór Blitzbeil. Jeśli dzierżysz topór, uznaje się go za Magiczny. Ponadto broń zadaje Obrażenia zwiększone o PS, a każda żywa istota trafiona toporem musi także wykonać <strong>Wymagający (+0) Test Odporności.</strong> Jeśli ten się nie powiedzie, istota otrzyma również 1 poziom @Condition[Oszołomienia]. Trafione cele tracą za to wszystkie poziomy @Condition[Krwawienia] ponieważ krew zamarza im w żyłach. Podczas trwania Cudu Obrażenia zadane ciosem twojego topora nie mogą wywołać @Condition[Krwawienia].</p>"
+			"description": "<p>Ryczysz modlitwy do Ulryka, sławiąc jego nienasycony topór Blitzbeil. Jeśli dzierżysz topór, uznaje się go za Magiczny. Ponadto broń zadaje Obrażenia zwiększone o PS, a każda żywa istota trafiona toporem musi także wykonać <strong>Wymagający (+0) Test Odporności.</strong> Jeśli ten się nie powiedzie, istota otrzyma również 1 poziom @Condition[Oszołomienie]{Oszołomienia}. Trafione cele tracą za to wszystkie poziomy @Condition[Krwawienie]{Krwawienia} ponieważ krew zamarza im w żyłach. Podczas trwania Cudu Obrażenia zadane ciosem twojego topora nie mogą wywołać @Condition[Krwawienie]{Krwawienia}.</p>"
 		},
 		{
 			"id": "Wisdom of the Owl",
