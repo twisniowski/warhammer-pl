@@ -16,238 +16,238 @@
 		{
 			"id": "Accurate Shot",
 			"name": "Celny Strzał",
-			"description": "<p>Eres un tirador excepcional y sabes dónde disparar a un enemigo para causar el máximo de daño. Infliges tu nivel de Disparo infalible en Daño adicional con todas las armas a distancia.</p>",
+			"description": "<p>Jesteś strzelcem wyborowym i wiesz, gdzie posłać pocisk, by poczynić największe szkody. Używając broni strzeleckich, zadajesz dodatkowe obrażenia, równe liczbie wykupień tego Talentu.</p>",
 			"effects": [{"_id":"ors3yseo6f4uQCgq","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.data.flags.rangedDamageIncrease += 1"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/accurate-shot.png","label":"Celny Strzał","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Acute Sense",
 			"name": "Wyczulony Zmysł",
-			"description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+			"description": "<p>Jeden z twoich pięciu zmysłów jest tak wyczulony, że wyczuwasz to, co umyka innym. Możesz wykonać Test Percepcji, by dowiedzieć się czegoś więcej niż inni, opierając się na tym szczególnym zmyśle. Przykładowo może to być dostrzeżenie dalekiego orła, którego nie widzą inni, wywęszenie prawie niewyczuwalnej trucizny, dosłyszenie bicia serca myszy kryjącej się w ścianie, wyczucie dotykiem ukrytej wiadomości wyskrobanej na papierze czy porównanie smaku dwóch piw od tego samego piwowara, by dowiedzieć się, czy zostały nalane z dwóch różnych beczek.</p>",
 			"tests": "Percepcja (Zmysł)"
 		},
 		{
 			"id": "Acute Sense (Sight)",
 			"name": "Wyczulony Zmysł (Wzrok)",
-			"description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+			"description": "<p>Jeden z twoich pięciu zmysłów jest tak wyczulony, że wyczuwasz to, co umyka innym. Możesz wykonać Test Percepcji, by dowiedzieć się czegoś więcej niż inni, opierając się na tym szczególnym zmyśle. Przykładowo może to być dostrzeżenie dalekiego orła, którego nie widzą inni, wywęszenie prawie niewyczuwalnej trucizny, dosłyszenie bicia serca myszy kryjącej się w ścianie, wyczucie dotykiem ukrytej wiadomości wyskrobanej na papierze czy porównanie smaku dwóch piw od tego samego piwowara, by dowiedzieć się, czy zostały nalane z dwóch różnych beczek.</p>",
 			"tests": "Percepcja (Wzrok)"
 		},
 		{
 			"id": "Acute Sense (Hearing)",
 			"name": "Wyczulony Zmysł (Słuch)",
-			"description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+			"description": "<p>Jeden z twoich pięciu zmysłów jest tak wyczulony, że wyczuwasz to, co umyka innym. Możesz wykonać Test Percepcji, by dowiedzieć się czegoś więcej niż inni, opierając się na tym szczególnym zmyśle. Przykładowo może to być dostrzeżenie dalekiego orła, którego nie widzą inni, wywęszenie prawie niewyczuwalnej trucizny, dosłyszenie bicia serca myszy kryjącej się w ścianie, wyczucie dotykiem ukrytej wiadomości wyskrobanej na papierze czy porównanie smaku dwóch piw od tego samego piwowara, by dowiedzieć się, czy zostały nalane z dwóch różnych beczek.</p>",
 			"tests": "Percepcja (Słuch)"
 		},
 		{
 			"id": "Acute Sense (Taste)",
 			"name": "Wyczulony Zmysł (Smak)",
-			"description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+			"description": "<p>Jeden z twoich pięciu zmysłów jest tak wyczulony, że wyczuwasz to, co umyka innym. Możesz wykonać Test Percepcji, by dowiedzieć się czegoś więcej niż inni, opierając się na tym szczególnym zmyśle. Przykładowo może to być dostrzeżenie dalekiego orła, którego nie widzą inni, wywęszenie prawie niewyczuwalnej trucizny, dosłyszenie bicia serca myszy kryjącej się w ścianie, wyczucie dotykiem ukrytej wiadomości wyskrobanej na papierze czy porównanie smaku dwóch piw od tego samego piwowara, by dowiedzieć się, czy zostały nalane z dwóch różnych beczek.</p>",
 			"tests": "Percepcja (Smak)"
 		},
 		{
 			"id": "Acute Sense (Smell)",
 			"name": "Wyczulony Zmysł (Węch)",
-			"description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+			"description": "<p>Jeden z twoich pięciu zmysłów jest tak wyczulony, że wyczuwasz to, co umyka innym. Możesz wykonać Test Percepcji, by dowiedzieć się czegoś więcej niż inni, opierając się na tym szczególnym zmyśle. Przykładowo może to być dostrzeżenie dalekiego orła, którego nie widzą inni, wywęszenie prawie niewyczuwalnej trucizny, dosłyszenie bicia serca myszy kryjącej się w ścianie, wyczucie dotykiem ukrytej wiadomości wyskrobanej na papierze czy porównanie smaku dwóch piw od tego samego piwowara, by dowiedzieć się, czy zostały nalane z dwóch różnych beczek.</p>",
 			"tests": "Percepcja (Węch)"
 		},
 		{
 			"id": "Aethyric Attunement",
 			"name": "Zmysł Magii",
-			"description": "<p>Tu experiencia, tu talento o tu entrenamiento te permiten manipular de forma más segura los Vientos de la Magia. No sufres una Disfunción mágica si sacas un doble en un Chequeo con éxito de Canalización.</p>",
+			"description": "<p>Twoje doświadczenie, wrodzony talent i wyszkolenie pozwalają ci bezpiecznie manipulować Wiatrami Magii. Jeśli rzucisz dublet podczas udanego Testu Splatania Magii, nie działa na ciebie zasada manifestacji.</p>",
 			"tests": "Splatanie Magii (Dowolne)",
 		        "effects": [{"_id":"mqSUg3ORIh2YCotB","flags":{"wfrp4e":{"effectTrigger":"rollChannellingTest","effectApplication":"actor","script":"// Elimina la disfunción al sacar dobles y tener éxito\nif(args.test.result.outcome == \"success\" && args.test.result.minormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.minormis\n}\n// Disminuye la disfunción mayor a disfunción menor\nelse if(args.test.result.outcome == \"success\" && args.test.result.majormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.majormis\n    args.test.result.minormis = game.i18n.localize(\"ROLL.MinorMis\")\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/aethyric-attunement.png","label":"Zmysł Magii","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Alley Cat",
 			"name": "Ulicznik",
-			"description": "<p>Te sientes como en casa en los callejones sombríos. Al utilizar Movimiento silencioso (urbano), puedes invertir los dados de cualquier Chequeo fallido si eso te representa un éxito.</p>",
+			"description": "<p>Wśród cieni zaułków czujesz się jak w domu. Kiedy wykorzystujesz Umiejętność Skradanie (Miasto) i jeśli Test ci się nie powiedzie, możesz zamienić kolejność kości, jeśli nowy wynik zapewniłby ci sukces.</p>",
 			"tests": "Skradanie (Miasto)",
 			"effects": [{"_id":"kS7RdyolGOxATaC3","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Skradanie (Miasto)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/alley-cat.png","label":"Ulicznik","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Ambidextrous",
 			"name": "Oburęczność",
-			"description": "<p>Puedes utilizar tu mano torpe mucho mejor que la mayoría de personas, o bien por entrenamiento o por talento innato. Sólo sufres un penalizador -10 a los Chequeos que se basan tan solo en tu mano secundaria, no -20. Si adquieres este Talento dos veces, no sufres penalizador alguno.</p>",
+			"description": "<p>Twoja słabsza ręka jest sprawniejsza niż u innych ludzi. Być może zostałeś tego nauczony, być może to wrodzona cecha, ale efekt jest ten sam: modyfikator do Testów wykonywanych „drugą” ręką zostaje zmniejszony z -20 do -10. Jeśli wykupisz ten Talent drugi raz, modyfikatora nie stosuje się do twojej postaci.</p>",
 			"effects": [{"_id":"jc0qgnuBJlMsA5Yn","flags":{"wfrp4e":{"effectApplication":"actor","effectTrigger":"prepareData","script":"args.actor.data.flags.ambi+= 1"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/ambidextrous.png","label":"Oburęczność","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Animal Affinity",
 			"name": "Posłuch u Zwierząt",
-			"description": "<p>Los animales salvajes se sienten cómodos en tu presencia, y a menudo siguen tu ejemplo. Todas las criaturas con el Rasgo Bestial no entrenadas para ser beligerantes se mostrarán automáticamente tranquilas en tu presencia a menos que tengan razón para no estarlo, como porque sientan dolor, sean atacadas, sean extremadamente agresivas de forma natural o tengan cerca a sus crías.</p>",
+			"description": "<p>Dzikie zwierzęta dobrze się czują w twojej obecności i często są posłuszne twoim poleceniom. Wszystkie istoty o Cesze Zwierzę, których nie wytresowano, by były agresywne, uspokajają się w twojej obecności, chyba że mają powód, by zachować czujność. Ból, napaść czy naturalna wysoka agresja lub opieka nad młodymi mogą sprawić, że zwierzę nie podda się działaniu tego Talentu.</p>",
 			"tests": "Oswajanie"
 		},
 		{
 			"id": "Arcane Magic",
 			"name": "Magia Tajemna",
-			"description": "<p>&nbsp;</p>\n<p>Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nº de hechizos actualmente conocidos</p>\n</td>\n<td>\n<p>Coste en PX de un nuevo hechizo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;...y así sucesivamente.</p>\n<p>&nbsp;</p>\n<p>Por lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en el Capítulo 8: Magia. En circunstanciLo normales, no puedes aprender más de un talento de Magia arcana (Saber) . Además, cuando tienes el Talento Magia arcana , no puedes aprender los Talentos Bendecir ni Invocar . Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+			"description": "<p>Studiowałeś jedną z ośmiu tradycji magii: Cienia, Metalu, Niebios, Ognia, Śmierci, Światła, Zwierząt lub Życia albo praktykujesz którąś z mniej znanych: Guślarstwa czy Nekromancji. Możesz zapamiętywać czary ze swojej wybranej tradycji, płacąc za nie podany niżej koszt w Punktach Doświadczenia:</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Liczba już znanych czarów</p>\n</td>\n<td>\n<p>Koszt nowego czaru w PD</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus z Inteligencji × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PD</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus z Inteligencji × 2</p>\n</td>\n<td>\n<p>200 PD</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus z Inteligencji × 3</p>\n</td>\n<td>\n<p>300 PD</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus z Inteligencji × 4</p>\n</td>\n<td>\n<p>400 PD</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;...i tak dalej.</p>\n<p>&nbsp;</p>\n<p>Jeśli twój Bonus z Inteligencji równy jest 4, to pierwsze cztery czary będą cię kosztowały 100 PD, kolejne 4 już 200 PD i tak dalej. Obszerniejsze zasady dotyczące nauki nowych zaklęć znajdują się w Rozdziale 8: Magia. W normalnych warunkach nie możesz nabyć więcej niż jednego Talentu Magia Tajemna (Tradycja). Co więcej, jeśli posiadasz Talent Magia Tajemna (Tradycja), nie możesz wykupić Talentów Błogosławieństwo i Inwokacja. Za 100 PD możesz wyzbyć się tego Talentu, natychmiast tracąc dostęp do wszystkich zapewnianych przez niego czarów.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
 		},
 		{
 			"id": "Argumentative",
 			"name": "Przekonujący",
-			"description": "<p>Estás acostumbrado a discutir tus posiciones y a ganar las discusiones. Si consigues un Chequeo de Carisma para debatir con un oponente, puedes elegir, o bien utilizar el NE que has obtenido o el número que te ha salido en el dado de unidades. Así, una tirada con éxito de 24 se podría utilizar para +4 NE.</p>",
+			"description": "<p>Przywykłeś do debatowania i obrony swojego zdania. Jeśli uda ci się Test Charyzmy, możesz normalnie obliczyć PS lub określić ich liczbę, odczytując wynik z kości jedności. Udany Test z wynikiem 24 może dać ci więc 4 PS.</p>",
 			"tests": "Charyzma, gdy prowadzisz debatę lub się z kimś spierasz na argumenty.",
-			"effects": [{"_id":"oAsvKkgS9pLtavj7","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si estás debatiendo.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/argumentative.png","label":"Przekonujący","tint":null,"transfer":true}]
+			"effects": [{"_id":"oAsvKkgS9pLtavj7","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} PS jeśli debatujesz.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/argumentative.png","label":"Przekonujący","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Artistic",
 			"name": "Talent Artystyczny",
-			"description": "<p>Tienes un talento natural para el arte, y eres capaz de hacer bocetos precisos con solo el tiempo y los materiales adecuados. Esta capacidad tiene unos cuantos usos en el juego, que van desde crear pasquines de ‘Se busca’ a esbozar diarios precisos, además de beneficios puntuales a determinar por el DJ. Además, añade Arte (cualquiera) a cualquier Carrera en la que entras; si ya está en la misma, puedes adquirir la Habilidad a razón de 5 PX menos por Avance.</p>",
+			"description": "<p>Posiadasz wrodzoną smykałkę do którejś z dziedzin sztuki. Szkice czy wprawki jesteś w stanie zrobić praktycznie od ręki, pod warunkiem, że posiadasz odpowiednie przybory. Swój talent możesz spożytkować na wiele sposobów: narysować afisz z wizerunkiem ściganego, prowadzić dokładne dzienniki graficzne lub wykorzystać go w inny, zaaprobowany przez MG, sposób. Co więcej, dodajesz Umiejętność Sztuka (Dowolna) do swojej każdej bieżącej Profesji, a jeśli znajduje się ona na liście, koszt każdego Rozwinięcia spada o 5 PD.</p>",
 			"tests": "Sztuka (Dowolna)"
 		},
 		{
 			"id": "Attractive",
 			"name": "Atrakcyjny",
-			"description": "<p>Ya se trate de tu penetrante mirada, de tu recia estructura o quizá de la forma en que haces brillar tus perfectos dientes, sabes cómo aprovechar al máximo lo que los dioses te han concedido. Cuando utilizas con éxito el Carisma para influenciar a los que se ven atraídos hacia ti, puedes elegir entre usar los NE obtenidos o el número obtenido en tu dado de unidades. Así, una tirada con éxito de 38 se podría utilizar para +8 NE.</p>",
+			"description": "<p>Może to przenikliwe spojrzenie lub zgrabna sylwetka, a może to, jak w uśmiechu odsłaniasz biel swoich zębów. Wiesz, jak najlepiej pokazać to, czym obdarzyli cię bogowie. Jeżeli uda ci się Test Charyzmy wobec osób, którym się podobasz, możesz obliczyć PS normalnie albo uzyskać ich tyle, ile wypadło na kostce jedności. Na przykład udany Test przy wyrzuceniu 38 oznaczałby wtedy 8 PS.</p>",
 			"tests": "Charyzma, by wpłynąć na tych, którym się podobasz.",
-			"effects": [{"_id":"pq0wuLa5jebvLTGR","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si el objetivo se ve atraído por ti.`)\n}","preventDuplicateEffects":true,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/attractive.png","label":"Atrakcyjny","tint":"","transfer":true}]
+			"effects": [{"_id":"pq0wuLa5jebvLTGR","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Charyzma\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} PS jeśli jesteś atrakcyjny dla celu.`)\n}","preventDuplicateEffects":true,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/attractive.png","label":"Atrakcyjny","tint":"","transfer":true}]
 		},
 		{
 			"id": "Battle Rage",
 			"name": "Bitewna Furia",
-			"description": "<p>Eres más capaz de controlar tu Furia en combate. Puedes acabar tu Furia mediante un Chequeo con éxito de Frialdad al final del asalto.</p>",
+			"description": "<p>Jesteś w stanie lepiej kontrolować swój Szał Bojowy. Udany Test Opanowania pozwala ci otrząsnąć się z niego na końcu rundy.</p>",
 			"tests": "Broń Biała pod wpływem Szału Bojowego."
 		},
 		{
 			"id": "Beat Blade",
 			"name": "Zbicie Broni",
-			"description": "<p>Te han entrenado para propinar golpes controlados al arma de tu oponente, creando una abertura para un ataque, o simplemente evitando un ataque inminente. Como acción, puedes elegir Golpear el filo antes de tirar los dados. Haz un Chequeo de Cuerpo a cuerpo; si tienes éxito, tu oponente se anota -1 Ventaja y un -1 adicional por cada NE que consigues. Este Chequeo no es Enfrentado. Este talento no tiene utilidad si tu oponente no va armado o si su Tamaño es mayor que el tuyo.</p>",
+			"description": "<p>Zostałeś wyszkolony w zadawaniu krótkich i gwałtownych uderzeń w oręż przeciwnika, dzięki czemu możesz sam zaatakować lub powstrzymać nadchodzący cios. W ramach swojej Akcji możesz zadeklarować Zbicie Broni przed rzutem. Wykonaj Test Broni Białej, a jeśli się powiedzie, twój przeciwnik traci -1 Przewagę oraz kolejną -1 za każdy twój PS. Ten Test nie jest Testem Przeciwstawnym. Nie możesz korzystać z tego Talentu, jeśli wrogowie nie używają broni lub są większego rozmiaru niż ty.</p>",
 			"tests": "Broń Biała, by zbić broń."
 			},
 		{
 			"id": "Beneath Notice",
 			"name": "Niegodny Uwagi",
-			"description": "<p>Los mandamases no prestan atención alguna a tu presencia, sabiendo que estás muy por debajo de su nivel. Suponiendo que vayas correctamente vestido y no estés en una posición incongruente, aquellos de un Grado de Estatus superior tenderán a ignorarte a menos que tu presencia se convierta en inapropiada, lo que facilitará que oigas conversaciones que quizás no deberías. Además, los personajes de un Grado de Estatus superior al tuyo no obtienen ventaja alguna golpeándote o hiriéndote en combate, puesto que no hay nada que ganar derrotando a un perro callejero tan bajo como tú.</p>",
+			"description": "<p>Wielcy i możni nie zwracają na ciebie uwagi. Jeśli jesteś zwyczajnie ubrany i nie zachowujesz się niestosownie, osoby z wyższego poziomu Statusu nie przejmują się tobą, chyba że twoja obecność jest wybitnie niestosowna. Talent ten sprawia, że masz wiele okazji do podsłuchania rozmów, których nie powinieneś być świadkiem. Co więcej, osoby o wyższym poziomie Statusu nie otrzymują Przewagi za uderzenie ciebie lub zadanie obrażeń w walce, ponieważ pomiatanie takim łachudrą jak ty nie przynosi im żadnego honoru.</p>",
 			"tests": "Skradanie, kiedy jesteś na widoku."
 		},
 		{
 			"id": "Berserk Charge",
 			"name": "Berserkerska Szarża",
-			"description": "<p>Te lanzas contra tus enemigos con un abandono imprudente, utilizando la fuerza de tu carga para añadir peso a tus golpes. Cuando Cargas, sumas +1 al Daño a todos los ataques Cuerpo a cuerpo por cada nivel que tienes en este talento.</p>",
+			"description": "<p>Nie licząc się z niebezpieczeństwem, rzucasz się na przeciwników, by pędem i siłą zadawać mocniejsze ciosy. Kiedy Szarżujesz, zadajesz +1 punkt obrażeń we wszystkich atakach Walki Wręcz za każde wykupienie tego Talentu.</p>",
 			"tests": "Broń Biała w Rundzie, w której Szarżowałeś.",
 			"effects": [{"_id":"6dxDagVXzDKL4vgR","flags":{"wfrp4e":{"effectTrigger":"rollWeaponTest","effectApplication":"actor","script":"if (args.test.result.charging)\n{\n   args.test.result.damage += 1\n   args.test.result.additionalDamage += 1\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/berserk-charge.png","label":"Berserkerska Szarża","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Blather",
 			"name": "Gadanina",
-			"description": "<p>Denominado ‘abrir la boca y dejar que las tripas gruñan’ en Nordland o simplemente ‘decir tonterías’ en Ostland, el Parloteo implica hablar de forma rápida e incesante, o hablar de forma voluble y prolongada sobre temas intrascendentes o directamente inanes, y se utiliza para confundir y aturullar verbalmente a un objetivo. Utilizas tu Habilidad de Carisma para Parlotear . Intenta un Chequeo <strong>Enfrentado Carisma/Inteligencia</strong>. Un éxito hace que tu oponente sufta 1 Estado de Aturdido . Además, por cada nivel que tengas en Parloteo , tu oponente sufrirá otro Estado de Aturdido . Los objetivos Aturdidos por Parloteo no pueden hacer otra cosa que quedársete mirando embobados mientras intentan seguir o entender lo que dices. Una vez se acaba el último estado de Aturdido , el objetivo consigue finalmente meter baza y puede que esté algo irritado contigo, al fin y al cabo llevas bastante rato diciendo tonterías o hablando de nada en concreto. Si dejas de hablar, tu oponente pierde de inmediato todos los Estados de Aturdido originados por tu Parloteo . En general, sólo puedes intentar el Parloteo una vez por escena, o quizá más tiempo si lo permite el DJ, puesto que el objetivo se habitúa rápidamente a tus payasadas.</p>",
+			"description": "<p>W Nordlandzie mówi się, że otwierasz usta, a kiszki przez ciebie przemawiają, w Ostlandzie zaś, że pleciesz bzdury. Gadanina to wylewanie strumienia słów lub niepotrzebne i kwieciste rozwodzenie się nad sprawami trywialnymi lub wręcz pozbawionymi sensu, by wprowadzić rozmówcę w zdumienie i zakłopotanie. Do Gadaniny wykorzystujesz Umiejętność Charyzma w Teście Przeciwstawnym z Inteligencją. Sukces oznacza, że twój rozmówca znajduje się w Stanie Oszołomienie. Każdy poziom Gadaniny sprawia, że cel otrzymuje Stan kolejny raz. Taka osoba bądź istota stoi oniemiała, próbując zrozumieć, o czym mówisz i czego chcesz. Kiedy zagadany osobnik otrząśnie się z oszołomienia i zrozumie, co się działo, może nie być szczęśliwy z tego, jak go zmieszałeś. Ostatecznie zawracałeś mu głowę głupotami. Kiedy przestaniesz nawijać, cel natychmiast otrząśnie się ze Stanu Oszołomienie spowodowanego Gadaniną. Tego Talentu możesz używać tylko raz na danej osobie podczas jednej sceny (a nawet jeszcze rzadziej, jeśli MG tak uzna). Może zdarzyć się tak, że ten sam człowiek drugi raz na twoje paplanie nie da się już nabrać.</p>",
 			"tests": "Charyzma, by kogoś zagadać."
 		},
 		{
 			"id": "Bless",
 			"name": "Błogosławieństwo",
-			"description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en el Capítulo 7: Religión y creencias. En circunstanciLo normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez .</p>"
+			"description": "<p>Któryś z bogów czuwa nad tobą i odpowiada na twoje proste modlitwy. Możesz wykorzystywać błogosławieństwa swojego pana, co opisano w Rozdziale 7: Religie i wierzenia. Normalnie możesz znać tylko jedną boską tradycję na Talent Błogosławieństwo.</p>"
 		},
 		{
 			"id": "Bookish",
 			"name": "Mól Książkowy",
-			"description": "<p>Te sientes tan en casa en una biblioteca como un marino en el mar o un granjero en sus tierras. Al Investigar, puedes invertir los dados de cualquier Chequeo fallido si esto te reporta un éxito.</p>",
+			"description": "<p>W bibliotece czujesz się tak naturalnie, jak żeglarz na morzu czy rolnik na polu. Wykorzystując Umiejętność Badania Naukowe, możesz odwrócić kolejność kostek nieudanego Testu, jeśli zapewni ci to sukces.</p>",
 			"tests": "Badania Naukowe",
 			"effects": [{"_id":"LKDNluFVNLBNUH4N","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Badania Naukowe\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/bookish.png","label":"Mól Książkowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Break and Enter",
 			"name": "Wtargnięcie z Włamaniem",
-			"description": "<p>Eres un experto en echar puertas abajo rápidamente y en entrar en sitios a la fuerza. Puedes sumar +1 Daño por cada nivel en este talento al determinar el daño contra objetos inanimados como ventanas, arcones, puertas y objetos similares.</p>",
+			"description": "<p>Jesteś ekspertem od wykopywania drzwi z zawiasów i niszczenia sprzętów. Zadajesz +1 punkt obrażeń za każdy wykupiony Talent Wtargnięcie z Włamaniem, kiedy próbujesz wybić okna, wyważyć drzwi, podważyć wieko skrzyni itp.</p>",
 			"tests": "Broń Biała, gdy próbujesz zniszczyć lub przesunąć przedmioty."
 		},
 		{
 			"id": "Briber",
 			"name": "Łapówkarz",
-			"description": "<p>Tu capacidad para sobornar es excelente. El DJ debería reducir el coste base de cualquier soborno requerido en un 10% por nivel que tengas en Sobornador , hasta un mínimo del 10% del importe original.</p>",
+			"description": "<p>Wiesz, jak dawać w łapę. MG powinien obniżyć podstawę wyliczenia łapówki o 10% za każde wykupienie tego Talentu. Minimalna wartość łapówki nie może spaść poniżej 10% wyjściowej stawki.</p>",
 			"tests": "Przekupstwo"
 		},
 		{
 			"id": "Cardsharp",
 			"name": "Szuler",
-			"description": "<p>Estás acostumbrado a jugar y a ganar a las cartas, aunque tus métodos pueden implicar alguna que otra trampa. Cuando utilizas con éxito Jugar o Prestidigitación al jugar a cartas, puedes elegir o bien utilizar el NE obtenido, o el número que ha salido en el dado de las unidades. Así, una tirada con éxito de 28 se podría utilizar para +8 NE. Si juegas una partida real de cartas para representar lo que está sucediendo en la partida, puedes obtener un número de cartas adicionales por mano igual a tu nivel de Fullero, y luego descartar las que te sobren hasta tener una mano de la cantidad apropiada antes de cada ronda de juego.</p>",
+			"description": "<p>Przywykłeś do tego, że w grze w karty zwykle wygrywasz, choć twoje metody mogą być odrobinę nieuczciwe. Jeśli powiedzie ci się Test Hazardu lub Zwinnych Palców, możesz wybrać, czy skorzystać z normalnie uzyskanych PS, czy ich liczbę wyznaczyć, korzystając z cyfry jedności rzutu. W ten sposób wynik udanego Testu 28 oznaczałby uzyskanie +8 PS. Jeśli na sesji rzeczywiście używacie kart, możesz otrzymać w rozdaniu dodatkową liczbę kart, równą liczbie wykupień tego Talentu, wybrać najlepsze i odłożyć tyle, byś miał na ręku odpowiednią liczbę.</p>",
 			"tests": "Hazard i Zwinne Palce w grach karcianych"
 		},
 		{
 			"id": "Careful Strike",
 			"name": "Cios Mierzony",
-			"description": "<p>Tienes habilidad en golpear a tu enemigo exactamente donde quieres, ya sea a distancia o en cuerpo a cuerpo. Puedes modificar el resultado de tu Ubicación de impacto en ± 10 por cada vez que tienes este talento. Así que, si tuvieras este Talento dos veces e impactaras en la Ubicación de impacto 34 (brazo derecho), podrías modificar hacia abajo hasta 14 (brazo izquierdo) o hacia arriba hasta 54 (cuerpo).</p>",
+				"description": "<p>Czy w walce wręcz, czy strzelając, umiesz trafiać tam, gdzie najbardziej zaboli. Możesz zmodyfikować Miejsce Trafienia +/-10 za każde wykupienie tego Talentu. Na przykład, jeśli kupiłeś go dwa razy, a wynik 34 wskazuje na prawe ramię, to możesz zmniejszyć go do 14 i trafić w lewe ramię lub zwiększyć do 54 i ugodzić w korpus.</p>",
 			"effects": [{"_id":"c66r2RrClNOTONMB","flags":{"wfrp4e":{"effectTrigger":"rollWeaponTest","effectApplication":""}},"changes":[],"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/careful-strike.png","label":"Cios Mierzony","transfer":true,"disabled":false}]
 		},
 		{
 			"id": "Carouser",
 			"name": "Hulaka",
-			"description": "<p>Eres un bebedor experto y sabes cómo ir de fiesta a lo grande. Puedes invertir los dados de cualquier Chequeo fallido de Consumir alcohol si esto te lo convierte en un Éxito.</p>",
+			"description": "<p>Wiesz, jak pić i jak dobrze się bawić. Możesz zamienić kostki nieudanego Testu Mocnej Głowy, jeśli nowy wynik będzie sukcesem.</p>",
 			"tests": "Charyzma i Plotkowanie podczas przyjęć, Mocna Głowa",
 			"effects": [{"_id":"rdiV37QZ38bf5z2P","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false,"effectTrigger":"preRollTest","script":"if (args.test.item && args.test.item.name == \"Consumir Alcohol\")\n    args.test.preData.canReverse = true"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/carouser.png","label":"Hulaka","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Cat-tongued",
 			"name": "Gładkie Słówka",
-			"description": "<p>Como Ranald, el dios bromista, mezclas verdades y mentiras como si no hubiera diferencia. Cuando utilizas el Carisma para mentir, quienes escuchan no tienen derecho a oponerse a tu Carisma con su Intuición para detectar si hay algo sospechoso en lo que dices.</p>",
+			"description": "<p>Jak Ranald Podstępny, potrafisz tak przeplatać prawdę z kłamstwem, że nie można odróżnić jednego od drugiego. Gdy wykorzystujesz Charyzmę do kłamania, twoi rozmówcy nie mogą wykonywać Przeciwstawnego Testu Intuicji, by sprawdzić, czy przypadkiem ich nie okłamujesz.</p>",
 			"tests": "Charyzma podczas kłamania."
 		},
 		{
 			"id": "Catfall",
 			"name": "Na Cztery Łapy",
-			"description": "<p>Eres ágil y equilibrado como un gato, y eres capaz de caer distancias mucho mayores que mucha otra gente sin sufrir daño. Siempre que caes, intentas un Chequeo de Atletismo. Si tienes éxito, reduces la distancia caída en una yarda, +1 yarda adicional por cada +1 NE obtenido, a efectos de calcular el daño.</p>",
+			"description": "<p>Jesteś zręczny jak kot i potrafisz utrzymać równowagę równie dobrze co on. Jeśli spadniesz, to nie ucierpisz tak bardzo jak inni. Kiedy dojdzie do upadku, wykonaj Test Atletyki. Jeśli zakończy się powodzeniem, to obliczając odniesione obrażenia, zmniejsz wysokość, z której spada postać, o 1 metr + 1 metr na każdy PS uzyskany podczas Testu.</p>",
 			"tests": "Atletyka podczas spadania"
 		},
 		{
 			"id": "Chaos Magic",
 			"name": "Magia Chaosu",
-			"description": "<p>Por accidente o por diseño has perdido una parte de tu alma a manos de uno de los Dioses Oscuros, y ahora puedes practicar la sucia magia del Caos. Tu pernicioso patrón te concede acceso de inmediato a un solo hechizo del Saber elegido (los más comunes son los Saberes de Nurgle, Slaanesh o Tzeentch) y te anotas 1 punto de Corrupción cuando el hechizo (que nunca olvidarás) se infiltra en tu mente.</p>\n<p>Cada vez que adquieres este Talento, que siempre cuesta 100 PX por vez en lugar del coste normal, aprendes un nuevo hechizo de tu Saber elegido y te anotas 1 punto de Corrupción.</p>"
+			"description": "<p>Przez przypadek (lub wręcz przeciwnie) część twojej duszy przypadła jednemu z Mrocznych Bogów i jesteś w stanie korzystać z wszetecznej magii Chaosu. Twój złowrogi patron zapewnia ci dostęp do jednego czaru z wybranej tradycji (najczęściej Nurgla, Slaanesha lub Tzeentcha), a wraz z nim otrzymujesz Punkt Zepsucia, gdy bluźniercza formuła wypala się w twoim umyśle, byś nigdy jej nie zapomniał. Za każdym razem, gdy wykupujesz ten Talent, musisz zapłacić za niego 100 PD, a więc jest inaczej niż w przypadku innych tradycji. W zamian za to otrzymujesz czar z wybranej tradycji i 1 Punkt Zepsucia. Więcej informacji na temat czarów znajduje się w Rozdziale 8: Magia. W normalnych warunkach możesz znać tylko jedną tradycję magii Chaosu.</p>"
 		},
 		{
 			"id": "Combat Aware",
 			"name": "Zmysł Bitewny",
-			"description": "<p>Estás acostumbrado a escrutar el campo de batalla a fin de tomar decisiones rápidas, de acuerdo con las cambiantes corrientes de la guerra. Puedes llevar a cabo un Chequeo <strong>Desafiante (+0) de Percepción</strong> para ignorar la Sorpresa, modificado por las circunstancias de la forma habitual.</p>",
+			"description": "<p>Szybki rzut oka na pole bitwy pozwala ci błyskawicznie ocenić sytuację i podjąć decyzję, co robić. Możesz wykonać Wymagający (+0) Test Percepcji, by nie być zaskoczonym. Trudność tego Testu może być modyfikowana przez warunki na polu walki.</p>",
 			"tests": "Percepcja w trakcie walki."
 		},
 		{
 			"id": "Combat Master",
 			"name": "Mistrz Walki",
-			"description": "<p>Tus años acumulados de experiencia de combate te permiten mantener a raya a combatientes menores. Por cada nivel en este Talento, cuentas como una persona más a efectos de determinar si un bando tiene superioridad numérica sobre el otro. Este Talento sólo entra en juego cuando te ves superado en número.</p>"
+			"description": "<p>Lata nagromadzonego doświadczenia pozwalają ci trzymać przeciwników w szachu. Każde wykupienie tego Talentu sprawia, że gdy określana jest przewaga liczebna w walce, ty liczysz się jak jedna osoba więcej (dwie przy pierwszym wykupieniu, trzy przy drugim itd.). Talent ten działa tylko wtedy, gdy przeciwników jest faktycznie więcej od grupy, w której znajduje się postać.</p>"
 		},
 		{
 			"id": "Combat Reflexes",
 			"name": "Bitewny Refleks",
-			"description": "<p>Reaccionas como el fogonazo de un relámpago. Suma 10 a tu Iniciativa por cada nivel en este Talento cuando determinas la Iniciativa de Combate.</p>",
+			"description": "<p>Reagujesz szybko jak błyskawica, dlatego za każde wykupienie tego Talentu otrzymujesz +10 do Inicjatywy, gdy określana jest kolejność Inicjatywy.</p>",
 			"effects": [{"_id":"7i8RGItRAF5GLESP","flags":{"wfrp4e":{"effectTrigger":"getInitiativeFormula","effectApplication":"actor","script":"let initiativeSetting = game.settings.get(\"wfrp4e\", \"initiativeRule\")\n\nswitch (initiativeSetting) {\n  case \"default\":\n    args.initiative += \"+10\"\n    break;\n\n  case \"sl\":\n    args.initiative += \"+1\"\n    break;\n\n  case \"d10Init\":\n    args.initiative += \"+10\"\n    break;\n\n  case \"d10InitAgi\":\n    args.initiative += \"+1\"\n    break;\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/combat-reflexes.png","label":"Bitewny Refleks","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Commanding Presence",
 			"name": "Władcza Postura",
-			"description": "<p>Tu presencia llena a los demás de un asombro y una admiración profundos. Tal es tu aura de autoridad que los de un Estatus menor no pueden resistirse a tus pruebas de Mando con su Voluntad. Por supuesto, eso no hace que tus enemigos sean más proclives a respetarte y obedecerte, pero la gente común raramente se te enfrenta.</p>",
+			"description": "<p>Twoja fizjonomia powoduje u innych cichy podziw i zachwyt. Aura władczości sprawia, że ci o niższym Statusie nie mogą przeciwstawiać się swoją Siłą Woli, gdy inicjujesz Test Dowodzenia. Wrogowie będą bardziej oporni na działanie twej aury, ale pospolity gmin rzadko ośmieli się sprzeciwić.</p>",
 			"tests": "Dowodzenie"
 		},
 		{
 			"id": "Concoct",
 			"name": "Przyrządzanie Mikstur",
-			"description": "<p>Tienes habilidad en elaborar pociones, filtros y bebedizos a la carrera. Puedes llevar a cabo una Empresa de Artesanía gratuita para utilizar Sabiduría académica (Boticario) sin necesidad de un Taller. Las demás Empresas de Artesanía utilizan las reglLo normales.</p>",
+			"description": "<p>Wiesz, jak przyrządzać napary, wywary i susze. Możesz podjąć się jednego darmowego Zajęcia Wytwórstwa, by użyć Rzemiosła (Aptekarstwa) bez dostępu do Warsztatu. Pozostałe Zajęcia Wytwórstwa należy przeprowadzić normalnie.</p>",
 			"tests": "Rzemiosło (Aptekarstwo)"
 		},
 		{
 			"id": "Contortionist",
 			"name": "Człowiek Guma",
-			"description": "<p>Puedes retorcer y manipular tu cuerpo de muchas formas aparentemente antinaturales. Esto te permite deslizarte a través de espacios increíblemente estrechos y doblar tu cuerpo de formas extrañas, lo que concede beneficios determinados por el DJ, posiblemente combinados con un Chequeo con éxito de Agilidad.</p>",
+			"description": "<p>Jesteś w stanie wyginać swoje ciało i manipulować nim na sposoby, które zdają się przeczyć naturze. Dzięki temu możesz przeciskać się przez niewielkie otwory lub zmuszać członki do nieprawdopodobnych rzeczy. Granice tego wyznacza MG i udany Test Zwinności.</p>",
 			"tests": "Kuglarstwo lub Testy Zwinności w sytuacji, gdy przydaje się gibkość."
 		},
 		{
 			"id": "Coolheaded",
 			"name": "Zimna Krew",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica de Voluntad inicial, que no cuenta contra tus Avances.</p>",
+			"description": "<p>Zyskujesz premię +5 do początkowej wartości Siły Woli, co nie wlicza się do sumy Rozwinięć.</p>",
 			"effects": [{"_id":"QTmmZBqgkJMBn9KT","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.wp.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/coolheaded.png","label":"Zimna Krew","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Crack the Whip",
 			"name": "Z Bata",
-			"description": "<p>Sabes cómo sacar el máximo partido de tus animales. Cuando un animal que controlas huye o corre, obtienes un +1 al Movimiento si estás utilizando un látigo.</p>",
+			"description": "<p>Wiesz, jak zmusić zwierzę do większego wysiłku. Kiedy Ucieka ono lub Biegnie, jego szybkość zwiększa się o +1, gdy popędzasz je batem lub biczem.</p>",
 			"tests": "Powożenie lub Jeździectwo podczas Ucieczki lub Biegu."
 		},
 		{
 			"id": "Craftsman",
 			"name": "Wytwórca",
-			"description": "<p>Tienes un auténtico talento creativo. Suma la Habilidad de Oficio asociada a cualquier Carrera en la que entras. Si dicha Habilidad de Oficio ya está en tu Carrera, en lugar de ello puedes comprarla a razón de 5 PX menos por Avance.</p>",
+			"description": "<p>Jesteś prawdziwie uzdolniony. Dodaj rzemiosło powiązane z tym Talentem do listy Umiejętności aktualnej Profesji. Jeśli już wcześniej było na niej wymienione, za każde jego Rozwinięcie płacisz 5 PD mniej.</p>",
 			"tests": "Rzemiosło (Dowolne)"
 		},
 		{
 			"id": "Criminal",
 			"name": "Przestępca",
-			"description": "<p>Eres un delincuente activo que obtiene dinero de fuentes ilícitas, y que no siempre actúa de forma discreta. A efectos de conseguir dinero, o bien en forma de Ganar dinero durante el juego o bien llevando a cabo una Empresa de Salario , consulta la tabla siguiente:</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nivel de Carrera</p>\n</td>\n<td>\n<p>Dinero adicional por vez que se adquiere el Talento</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>+2d10 peniques de bronce</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>+1d10 chelines de plata</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3&nbsp;</p>\n</td>\n<td>\n<p>+2d10 chelines de plata</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>+1 corona de oro</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<p>A causa de tu naturaleza obviamente delictiva, los demás te consideran de un Estatus inferior al suyo, a menos que también dispongan del Talento Delincuente , en cuyo caso el Estatus se compara de la forma habitual; quizá llevas tatuajes de bandas, tienes un aspecto huidizo o un aspecto tosco, a elección tuya. Debido a ello, las fuerzas de la ley locales siempre sospechan de ti y de tus motivaciones, lo que no hace más que empeorar cuantas más veces has adquirido este Talento, con las implicaciones exactas determinadas por el DJ. Los delincuentes que carecen del Talento ganan significativamente menos, pero no es obvio que sean del tipo que acostumbra a infringir la ley, por lo que mantienen su Estatus. Con el consentimiento del DJ, puedes gastar PX para eliminar niveles del Talento Delincuente por el mismo coste en PX que te costó comprarlos.</p>",
+			"description": "<p>Jesteś bandytą, który zarabia na swojej działalności i niekiedy się z tym nie kryje. Jeśli w trakcie gry będziesz zarabiał lub oddasz się Zajęciu Dochód, odwołaj się do poniższej tabeli:</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Poziom Profesji</p>\n</td>\n<td>\n<p>Dodatkowe pieniądze na liczbę wykupień Talentu</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>+2k10 miedzianych pensów</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>+1k10 srebrnych szylingów</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3&nbsp;</p>\n</td>\n<td>\n<p>+2k10 srebrnych szylingów</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>+1 złota korona</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<p>Ponieważ nie kryjesz się ze swoją przestępczą naturą, inni automatycznie uważają cię za osobę niższego Statusu, chyba że sami posiadają ten Talent. Wtedy wasz Status jest ustalany normalnie. Od ciebie zależy, jak można poznać, że jesteś kryminalistą: czy to więzienne tatuaże, czy obcesowy sposób bycia. Lokalne władze\ni straże są wobec ciebie podejrzliwe i zawsze patrzą ci na ręce, a im więcej razy wykupisz ten Talent, tym za większego zbira uchodzisz. Bezpośrednie skutki zależą od MG. Kryminaliści bez Talentu Przestępca zarabiają znacznie mniejsze pieniądze, ale zachowują dawny Status. Za zgodą MG możesz wydać tyle PD, ile cię kosztował, by pozbyć się tego Talentu.</p>",
 			"effects": [{"_id":"tS0NjO6ujjQH6sV9","flags":{"wfrp4e":{"effectTrigger":"rollIncomeTest","effectApplication":"actor","script":"console.log(args)","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/criminal.png","label":"Przestępca","tint":null,"transfer":true}]
 		},
 		{
@@ -258,782 +258,782 @@
 		{
 			"id": "Dealmaker",
 			"name": "Żyłka Handlowa",
-			"description": "<p>Eres un hábil hombre de negocios, que sabe cerrar un trato. Utilizando la habilidad de Regatear reduces o incrementas el precio de los productos en un 10% adicional.</p>\n<p>&nbsp;</p>\n<p>Nota: el DJ puede imponer un límite inferior a los precios para este caso, a fin de mostrar que un vendedor se niega a vender por debajo del coste.</p>",
+			"description": "<p>Jesteś sprawnym przekupniem i znasz sposoby na dobicie targu. Kiedy używasz Umiejętności Targowanie, obniżasz lub podwyższasz cenę o dodatkowe 10%.</p>\n<p>&nbsp;</p>\n<p>Uwaga: MG ma prawo do limitowania zmniejszania cen, by pokazać, że kupiec nie sprzeda przedmiotu poniżej poniesionych przez siebie kosztów.</p>",
 			"tests": "Targowanie"
 		},
 		{
 			"id": "Detect Artifact",
 			"name": "Rozpoznanie Artefaktu",
-			"description": "<p>Eres capaz de notar cuándo hay magia en un artefacto. Puedes intentar un Chequeo de Intuición por cada artefacto mágico tocado. Si tienes éxito, notas que el objeto es mágico; además, cada NE proporciona también una regla especial específica de las que utiliza el objeto, si las hay. Normalmente, sólo puedes intentar este Chequeo una vez por artefacto tocado.</p>",
+			"description": "<p>Jesteś w stanie wykryć, czy w danym przedmiocie zaklęta jest magia. Możesz wykonać Test Intuicji, gdy go dotykasz. Jeśli Test się powiedzie, każdy PS pozwala ci poznać jedną zasadę, która ma zastosowanie wobec przedmiotu (jeśli tak w ogóle jest). W zwykłych przypadkach możesz wykonać tylko jeden Test wobec danego artefaktu.</p>",
 			"tests": "Test Intuicji związany z wykrywaniem magicznych artefaktów."
 		},
 		{
 			"id": "Diceman",
 			"name": "Szuler Kościany",
-			"description": "<p>Eres un maestro con los dados, y toda afirmación de que haces trampas está claramente equivocada. Cuando utilizas con éxito Jugar o Prestidigitación en una partida de dados, puedes elegir entre utilizar los NE obtenidos con la tirada de dado o el número que ha salido en el dado de las unidades. Así, una tirada con éxito de 06 se podría utilizar para +6 NE. Si utilizáis cualquier juego de dados de la vida real para representar los juegos de dados de la partida, tiras siempre tantos dados adicionales como tu nivel de Experto en dados y eliges los mejores resultados.</p>",
+			"description": "<p>Jesteś mistrzem gry w kości, a zarzuty oszustwa są nieuzasadnione. Kiedy z powodzeniem używasz Umiejętności Hazard czy Zwinne Palce podczas gry w kości, możesz albo zachować obliczoną normalnie liczbę PS, albo określić ich liczbę przez wynik na kości jedności. W ten sposób wynik rzutu 06 może oznaczać +6 PS. Jeśli podczas sesji będziecie naprawdę grali w kości, rzucasz tyloma więcej, ile razy wykupiłeś ten Talent, i wybierasz najlepsze rezultaty.</p>",
 			"tests": "Hazard lub Zwinne Palce podczas gier kościanych."
 		},
 		{
 			"id": "Dirty Fighting",
 			"name": "Cios Poniżej Pasa",
-			"description": "<p>Te han enseñado todos los trucos sucios del combate sin armas. Puedes causar +1 Daño adicional por cada nivel en Pelea callejera con cualquier impacto en Cuerpo a cuerpo (pelea).</p>\n<p>Nota: utilizar este Talento se considera hacer trampas en cualquier combate formal.</p>",
+			"description": "<p>Nauczyłeś się brudnych sztuczek, stosowanych podczas walki bez broni. Zadajesz +1 punkt obrażeń za każde wykupienie tego Talentu, gdy trafisz przeciwnika, używając Umiejętności Broń Biała (Bijatyka).</p>\n<p>Uwaga: wykorzystanie tego Talentu w pojedynku bokserskim jest uważane za oszustwo.</p>",
 			"tests": "Broń Biała (Bijatyka)"
 		},
 		{
 			"id": "Disarm",
 			"name": "Rozbrojenie",
-			"description": "<p>Eres capaz de desarmar a un oponente con un cuidadoso giro de la muñeca o un golpe bien apuntado a su mano. Como acción, puedes intentar un Chequeo <strong>Enfrentado de Cuerpo a cuerpo/Cuerpo a cuerpo.</strong>. Si ganas, tu oponente pierde un arma empuñada, que sale despedida 1d10 pies en una dirección aleatoria (los efectos subsiguientes los determinará el DJ). Si ganas por 2 NE, puedes decidir tú lo lejos que va a parar el arma, en lugar de tirando dados; si ganas por 4 NE, también puedes elegir la dirección en la que sale el arma; si ganas por 6 NE o más, puedes hacerte con el arma de tu oponente si tienes una mano libre, atrapándola en el aire con un floreo. Este Talento es inútil si tu oponente va desarmado o si es de un Tamaño mayor que tú.</p>",
+			"description": "<p>Celnym uderzeniem lub sprawnym ruchem nadgarstka jesteś w stanie wytrącić broń przeciwnikowi z dłoni. W ramach swojej Akcji wykonaj Przeciwstawny Test Broni Białej przeciwko wrogiemu Testowi Broni Białej. Jeśli ci się powiedzie, wybijasz broń z ręki przeciwnika, która odlatuje o 1k3 metry w losowym kierunku. MG może zadecydować o tym, co dzieje się jeszcze. Jeśli wygrasz o 2 PS, ty decydujesz, jak daleko odleci broń, zamiast określać to losowo. Jeśli wygrasz o 4 PS, możesz też zadecydować, w którą stronę pofrunie. Jeżeli wygrasz Test o 6 PS lub więcej, łapiesz oręż przeciwnika, o ile masz wolną rękę. Ten Talent na nic się nie przyda, jeśli wróg nie używa broni lub jest większy od ciebie.</p>",
 			"tests": "Broń Biała w sytuacjach związanych z tym Talentem."
 		},
 		{
 			"id": "Distract",
 			"name": "Rozproszenie Uwagi",
-			"description": "<p>Estás entrenado en movimientos sencillos para distraer o sobresaltar a tu oponente, desviando su atención de tus verdaderas intenciones. Puedes utilizar tu Movimiento para llevar a cabo una Distracción. Esto se resuelve mediante un Chequeo <strong>Enfrentado de Atletismo/ Frialdad</strong>. Si ganas, tu oponente no puede obtener Ventaja alguna hasta el final del siguiente Asalto.</p>",
+			"description": "<p>Jesteś wytrenowany tak, by twoje ruchy rozpraszały uwagę przeciwnika i ułatwiały jego zaskoczenie. Możesz wykorzystać swój Ruch, aby użyć Rozpraszania Uwagi. Jest to Test Przeciwstawny Atletyki przeciw Opanowaniu przeciwnika. Jeśli wygrasz, twój przeciwnik nie może zbierać Przewagi aż do końca następnej Rundy.</p>",
 			"tests": "Test Przeciwstawny Atletyki przeciw Opanowaniu przeciwnika."
 		},
 		{
 			"id": "Doomed",
 			"name": "Wróżba Losu",
-			"description": "<p>A la edad de 10 años, un sacerdote de Morr de los denominados Presagiadores te llevó aparte para predecir tu muerte en un ritual de mayoría de edad cargado de incienso denominado la Condena. De acuerdo con tu DJ, construid una Condena adecuada. Si tu personaje muere de una forma que encaja con tu Condena, tu siguiente personaje obtiene un bonificador de la mitad de los PX totales que tu personaje muerto obtuvo durante su estancia en la partida.</p>"
+			"description": "<p>Gdy miałeś 10 lat kapłan Morra, zwany Czarnowidzem, zabrał cię do siebie, by na osobności przepowiedzieć ci twą zgubę. Dokonało się to podczas obrzędu w oparach kadzidła, nazywanego Wróżbą Losu. Omówcie tę sprawę z MG i wymyślcie coś odpowiedniego. Jeśli twoja postać zginie w okolicznościach, które przypominają te z przepowiedni, kolejna postać którą stworzysz otrzymuje połowę jej punktów doświadczenia, które pierwsza zdobyła podczas gry.</p>"
 		},
 		{
 			"id": "Drilled",
 			"name": "Musztra",
-			"description": "<p>Se te ha entrenado para luchar hombro con hombro con otros soldados. Si un enemigo te hace perder Ventaja cuando estás junto a un aliado activo que también tiene el Talento Entrenado , puedes conservar 1 punto de Ventaja perdido por cada vez que has adquirido el Talento Entrenado .</p>",
+			"description": "<p>Zostałeś wyszkolony w walce obok innych żołnierzy. Jeśli przeciwnik sprawi, że stracisz Przewagę, a znajdujesz się obok innej, aktywnej postaci z Talentem Musztra, możesz zachować 1 Przewagę za każde wykupienie tego Talentu.</p>",
 			"tests": "Broń Biała, kiedy jesteś w pobliżu sojuszniczej postaci z tym Talentem."
 		},
 		{
 			"id": "Dual Wielder",
 			"name": "Dwie Bronie",
-			"description": "<p>Cuando empuñas dos armas, puedes atacar con ambas como tu Acción. Tira para impacto con el arma que empuñas en tu mano principal. Si aciertas, determina el Daño de la forma habitual, pero recuerda la tirada de dado, puesto que la usarás de nuevo. Si el primer golpe impacta, una vez se resuelve, el arma de tu mano secundaria ('mano torpe') puede entonces tomar como objetivo a un oponente disponible a tu elección, utilizando la misma tirada de dado del primer golpe, pero invertida. Así pues, si sacaste 34 al impacto con la primera arma, usarás 43 para impactar con la segunda. Recuerda modificar esta segunda tirada con tu penalizador por mano torpe (-20 a menos que dispongas del Talento Ambidiestro). Este segundo ataque es Enfrentado a una nueva tirada de defensa, y el daño que causa se calcula de la forma habitual. La única excepción a lo antedicho es que saques un Crítico en tu primer golpe. En ese caso, utiliza la tirada de la Tabla de Críticos como tirada del segundo ataque. Así pues, si conseguiste un crítico a la cabeza y sacaste un 56 en la Tabla de Críticos para una Herida grave en el Ojo, tu segundo ataque tendrá un valor de impacto de 56. Si eliges atacar con las dos armas, todas tus tiradas defensivas hasta el inicio de tu siguiente Turno sufrirán un penalizador -10. No obtienes Ventaja cuando atacas con éxito o hieres a un oponente cuando empuñas dos armas si no aciertas con ambos ataques.</p>",
+			"description": "<p>Kiedy jesteś uzbrojony w dwie bronie, podczas swojej Akcji możesz zaatakować obydwiema naraz. Najpierw wykonaj Test trafienia dla broni, którą trzymasz w wiodącej ręce, a jeśli trafisz, określ normalnie obrażenia. Zostaw kości 1k100 na stole, przydadzą się za chwilę. Skoro pierwszy atak się udał i zostały zadane obrażenia, możesz użyć drugiej broni, by uderzyć jeszcze raz. Wykorzystujesz wynik pierwszego rzutu, ale odwracasz kolejność kostek. I tak rzut na trafienie 34 stanie się 43. Pamiętaj, by obniżyć go o modyfikator wynikający z walki słabszą ręką (-20, chyba że posiadasz Talent Oburęczność). Drugi atak też jest Testem Przeciwstawnym. Twój przeciwnik wykonuje Test obrony, na nowo określane są obrażenia. Wyjątkiem jest sytuacja, gdy pierwszy atak zakończył się Trafieniem Krytycznym. Jeśli tak się stanie, wykorzystaj wynik rzutu w Tabeli Trafień Krytycznych do określenia, czy drugi atak trafił, czy nie. Na przykład, jeśli pierwszy atak trafił przeciwnika krytycznie w głowę, a wynik rzutu w Tabeli Trafień Krytycznych to 56 (Poważna rana oka), to korzystasz z tego rezultatu jako wyniku rzutu na trafienie w drugim ataku. Jeśli atakujesz obydwiema broniami, twoje rzuty na obronę obarczone są modyfikatorem -10 do końca twojej następnej Tury. Nie zyskujesz Przewagi za trafienie lub zranienie przeciwnika, jeśli korzystasz z tego Talentu, chyba że trafisz obydwoma atakami.</p>",
 			"tests": "Broń Biała lub Zasięgowa, kiedy atakujesz dwoma sztukami oręża."
 		},
 		{
 			"id": "Embezzle",
 			"name": "Defraudant",
-			"description": "<p>Eres hábil en sisar dinero a tus jefes sin ser detectado. Siempre que obtienes dinero con Ganar dinero (durante el juego o llevando a cabo una Empresa de Salario ) puedes intentar un Chequeo <strong>Enfrentado de Inteligencia</strong> contra tu jefe (suponiendo que lo tengas). Si ganas, sisas 2d10 + NE peniques de bronce, 1d10 + NE chelines de plata o bien 1 + NE coronas de oro (dependiendo del tamaño del negocio, que determinará el DJ) sin ser detectado. Si tu jefe gana por 6 NE o más, consigues el dinero, pero tu desfalco es detectado; lo que sucede después queda a discreción del DJ. Cualquier otro resultado significa que has fracasado a la hora de embolsarte dinero.</p>",
+			"description": "<p>Potrafisz podprowadzać pieniądze swoich pryncypałów tak, by tego nie odkryli. Kiedy pozyskujesz dochód podczas zarabiania (w trakcie gry lub oddając się Zajęciu Dochód), możesz wykonać Przeciwstawny Test Inteligencji przeciwko swojemu pracodawcy (jeśli masz takowego). Jeżeli wygrasz, niepostrzeżenie podprowadzasz 2k10 + PS miedzianych pensów, 1k10 srebrnych szylingów lub 1 + PS złotych koron (w zależności od wielkości obrotów, co jest w gestii MG). Jeśli twój pracodawca wygra o +6 PS, zgarniasz pieniądze, ale zostajesz nakryty. Konsekwencje zależą od MG. Inne wyniki oznaczają, że nie udało ci się zrobić defraudacji i nie ukradłeś żadnych pieniędzy.</p>",
 			"tests": "Inteligencja (Defraudacja)"
 		},
 		{
 			"id": "Enclosed Fighter",
 			"name": "Walka w Ciasnocie",
-			"description": "<p>Has aprendido a sacar el máximo partido de los combates en lugares reducidos. Ignoras los penalizadores al Cuerpo a cuerpo que causan los espacios confinados como por ejemplo los túneles, la línea del frente, las trincheras y cosas similares, y puedes utilizar tu Habilidad de Esquivar, incluso si normalmente no se te permitiría debido a la falta de espacio.</p>",
+			"description": "<p>Nauczyłeś się, jak najlepiej wykorzystywać w walce zamknięte przestrzenie. Nie dotyczą cię modyfikatory do Testów Broni Białej wynikające z walki w ciasnocie tuneli, okopów, jam gladiatorskich i im podobnych. Co więcej, możesz wykonywać Unik nawet wtedy, gdy nie mógłbyś tego zrobić z braku miejsca.</p>",
 			"tests": "Unik w ciasnej przestrzeni."
 		},
 		{
 			"id": "Etiquette",
 			"name": "Etykieta",
-			"description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+			"description": "<p>Dopóki jesteś odpowiednio ubrany i zachowujesz się należycie, potrafisz wtopić się w tłum wybranej grupy społecznej. Oto przykłady kilku z nich: Członkowie Gildii lub Cechu, Kultyści, Przestępcy, Służba, Szlachta, Uczeni, Żołnierze. Jeśli nie posiadasz tego Talentu, ci, którzy go mają, łatwo zauważą, że nie pasujesz do obcego środowiska. Widać to w zachowaniu bohatera. To oczywiście zależy od odgrywania, ale MG może wprowadzić tu odpowiedni modyfikator do Testów Ogłady.</p>",
 			"tests": "Charyzma lub Plotkowanie (Grupa Społeczna)."
 		},
 		{
 			"id": "Fast Hands",
 			"name": "Ruchliwe Dłonie",
-			"description": "<p>Puedes mover las manos con sorprendente destreza. Los presentes no tienen derecho a Chequeos de Percepción pasivos para darse cuenta de tu uso de la Habilidad Prestidigitación, y en su lugar tan sólo pueden enfrentarse a tus Chequeos de Prestidigitación si sospechan de forma activa y están vigilando tus movimientos. Además, todo intento de utilizar Cuerpo a cuerpo (pelea) para simplemente tocar a un oponente te da un bonificador +10 x tu nivel en Manos rápidas .</p>",
+			"description": "<p>Manipulujesz dłońmi z zaskakującą zręcznością. Gapiom i przypadkowym obserwatorom nie przysługuje bierny Test Percepcji, gdy wykorzystujesz Umiejętność Zwinne Palce, chyba że żywią oni wobec ciebie podejrzenia i obserwują twoje ruchy. Testy Broni Białej (Bijatyki) wykonywane, by dotknąć przeciwnika, wykonujesz z premią +10 x liczba wykupień tego Talentu.</p>",
 			"tests": "Zwinne Palce, Broń Biała (Bijatyka), aby dotknąć przeciwnika."
 		},
 		{
 			"id": "Fast Shot",
 			"name": "Błyskawiczny Strzał",
-			"description": "<p>Si dispones de un arma a distancia cargada, puedes dispararla fuera del Orden de Iniciativa normal antes de que cualquier otro combatiente reaccione en el Asalto siguiente. Tiras para impactar utilizando los modificadores normales. Utilizar Disparo rápido requiere a la vez tu Acción y tu Movimiento para el siguiente turno, y contarán como gastados cuando llegue. Si dos o más personajes utilizan Disparo rápido, quien ha adquirido más veces el Talento va primero. Si más de un personaje ha adquirido Disparo rápido un número igual de veces, los disparos de todos ellos son simultáneos y se deben resolver al mismo tiempo.</p>",
+			"description": "<p>Jeśli posiadasz naładowaną broń dystansową, możesz z niej wystrzelić poza Kolejnością Inicjatywy, zanim zareaguje którykolwiek z uczestników walki. Rzut na trafienie wykonaj z uwzględnieniem wszystkich modyfikatorów. Użycie tego Talentu wymaga poświęcenia zarówno Akcji, jak i Ruchu z nadchodzącej Tury i kiedy nadejdzie twoja kolej, będą one traktowane jako wykorzystane. Jeśli ten Talent chcą wykorzystać dwie lub więcej postaci, pierwsza strzela ta, która wykupiła go więcej razy. Jeśli i na tym polu mamy remis, obydwie postacie strzelają równocześnie i wynik ich ataków powinien być rozliczony jednocześnie.</p>",
 			"tests": "Broń Zasięgowa, gdy wykorzystujesz Talent Błyskawiczny Strzał."
 		},
 		{
 			"id": "Fearless",
 			"name": "Nieustraszony",
-			"description": "<p>Eres, o bien lo suficientemente valiente o lo suficientemente insensato como para que el miedo a ciertos enemigos se haya convertido en un recuerdo lejano. Mediante un único Chequeo <strong>Normal (+20%)</strong> de <strong>Frialdad</strong>, puedes ignorar cualquier efecto de Intimidar, Miedo o Terror por parte del enemigo especificado cuando te encuentras con él. Los enemigos típicos incluyen hombres bestia, pieles verdes, forajidos, vampiros, vigilantes y brujas.</p>",
+			"description": "<p>Jesteś tak odważny lub szalony, że strach przed pewnymi istotami jest dla ciebie wspomnieniem. Za pomocą jednego Przeciętnego (+20) Testu Opanowania możesz sprawić, że nie dotyczą cię efekty Zastraszania, Strachu i Grozy, powodowane przez określoną grupę wrogów. Oto typowe przykłady takich wrogów: Banici, Czarownice, Strażnicy, Wampiry, Zielonoskórzy, Zwierzoludzie.</p>",
 			"tests": "Opanowanie przeciwko wrogiemu Zastraszaniu oraz Testom Strachu i Grozy."
 		},
 		{
 			"id": "Feint",
 			"name": "Finta",
-			"description": "<p>Has entrenado cómo llevar a cabo ataques falsos en combate cerrado para engañar a tu oponente. Ahora puedes llevar a cabo una Finta como Acción contra cualquier oponente que utiliza un arma. Esto se resuelve mediante un Chequeo <strong>Enfrentado de Cuerpo a cuerpo (esgrima)/Cuerpo a cuerpo</strong>. Si ganas y atacas al mismo oponente antes del final del siguiente Asalto, puedes añadir el NE de tu Finta a tu tirada de ataque.</p>",
+			"description": "<p>Pilnie ćwiczyłeś pozorowane ataki w zwarciu, by zmylić przeciwnika. W ramach swojej Akcji możesz wykonać fintę przeciwko uzbrojonemu przeciwnikowi. O jej powodzeniu rozstrzyga Przeciwstawny Test Broni Białej (Szermierczej) przeciw Broni Białej wroga. Jeśli go wygrasz i przed końcem następnej rundy zaatakujesz tego samego przeciwnika, możesz dodać PS z finty do swojego Testu ataku.</p>",
 			"tests": "Broń Biała (Szermiercza) podczas Finty."
 		},
 		{
 			"id": "Field Dressing",
 			"name": "Pierwsza Pomoc",
-			"description": "<p>Estas acostumbrado a tratar heridas rápidamente. Si fallas un Chequeo de Sanar utilizando Vendas, puedes invertir el resultado si esto te representa un éxito; sin embargo, si lo haces, no puedes obtener más que +1 NE, puesto que te centras en la velocidad y no en la precisión.</p>",
+			"description": "<p>Potrafisz szybko opatrywać rany. Kiedy nie uda ci się Test Leczenia podczas używania Bandaży, możesz odwrócić kolejność kostek, jeśli to przyniesie ci sukces. Jeśli tak zrobisz, nie możesz uzyskać więcej niż +1 PS, ponieważ skupiasz się na szybkim, a nie dokładnym założeniu opatrunku.</p>",
 			"tests": "Leczenie podczas Rundy walki."
 		},
 		{
 			"id": "Fisherman",
 			"name": "Rybak",
-			"description": "<p>Eres un pescador muy capaz y conoces las mejores formas de obtener capturas. Suponiendo que haya una masa de agua lo suficientemente grande cerca, se supone que eres automáticamente capaz de pescar lo suficiente como para alimentarte a ti mismo y a tantos otros como tu nivel en Pescador , si cada día pasas por lo menos 1 hora dedicado a esta actividad. Puedes conseguir más pescado utilizando las reglLo normales de forrajeo.</p>",
+			"description": "<p>Jesteś obrotnym rybakiem i wiesz, jak zapełnić sieci. Jeżeli masz dostęp do odpowiednio dużego zbiornika wodnego, jesteś w stanie wyżywić siebie oraz tyle osób, ile razy wykupiłeś ten Talent, jeśli poświęcisz godzinę dziennie na wędkowanie. Liczbę złowionych ryb możesz zwiększyć, stosując zasady zbieractwa.</p>",
 			"tests": "Dowolne wiążące się z rybołówstwem."
 		},
 		{
 			"id": "Flagellant",
 			"name": "Biczownik",
-			"description": "<p>Has dedicado tu dolor al servicio de tu dios. Cada día, debes invertir media campana (media hora) rezando mientras mantienes un número de Heridas sufridas igual a tu nivel de Flagelante. Hasta la siguiente vez que duermes, si dispones el Talento Furia puedes entrar inmediatamente en Furia sin hacer Chequeo alguno.</p>\n<p>El Talento Furia se añade a la lista de Talentos de cualquier Carrera en la que estás. Si te olvidas de flagelarte en un día determinado, o permites que tu castigada carne se cure, no puedes gastar Resiliencia ni Resolución hasta que te flagelas de nuevo.</p>",
+			"description": "<p>Swój ból ofiarowałeś wyznawanemu bogu. Każdego dnia musisz spędzić pół dzwonu (pół godziny) na modlitwie, otrzymując obrażenia na poziomie liczby wykupień tego Talentu. Jeśli posiadasz Talent Szał Bojowy, to do położenia się na najbliższy spoczynek możesz natychmiast wpaść w Szał Bojowy bez wykonywania Testów. Szał Bojowy zostaje dodany do listy Talentów dostępnych dla twojej bieżącej Profesji. Jeśli zaniedbasz biczowanie przez jeden dzień lub pozwolisz, by poszarpana skóra została uleczona, nie będziesz mógł wydawać Punktów Bohatera ani Determinacji, póki się znów nie wybiczujesz.</p>",
 			"tests": "Opieranie się Niszczycielskim Potęgom."
 		},
 		{
 			"id": "Flee!",
 			"name": "Chodu!",
-			"description": "<p>Cuando tu vida peligra, eres capaz de impresionantes ráfagas develocidad. Tu Atributo de Movimiento cuenta como 1 punto más cuando Huyes</p>",
+			"description": "<p>Kiedy na szali znajduje się twoje życie, potrafisz niezwykle sprawnie przebierać nogami. Podczas Ucieczki twoja Szybkość jest traktowana, jakby była o 1 wyższa.</p>",
 			"tests": "Atletyka, gdy Uciekasz"
 		},
 		{
 			"id": "Fleet Footed",
 			"name": "Bardzo Szybki",
-			"description": "<p>Obtienes +1 a tu Atributo de Movimiento.</p>",
+			"description": "<p>Twoja Szybkość zwiększa się o +1.</p>",
 			"effects": [{"_id":"3fOs9R0x04viu1cj","flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","script":"args.actor.details.move.value += 1","preventDuplicateEffects":false,"hide":false}},"changes":[{"key":"data.details.move.value","mode":2,"value":"1"}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/fleet-footed.png","label":"Bardzo Szybki","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Frenzy",
 			"name": "Szał bojowy",
-			"description": "<p style=\"user-select: text; color: #111111;\">Mediante un Chequeo de Voluntad, puedes inducirte a ti mismo un estado alterado, sugestionándote, aullando, mordiendo tu escudo o algo similar. Si lo consigues, te ves sujeto a la Furia .</p>\n<p style=\"user-select: text; color: #111111;\">Mientras estás sujeto a la Furia , eres inmune a todas las demás Psicologías y no huyes ni te retiras por razón alguna; por el contrario, debes moverte con toda celeridad hacia el enemigo más próximo al que puedes ver, para atacarle. Por lo general, la única Acción que puedes llevar a cabo es un Chequeo de Habilidad de armas o un Chequeo de Atletismo para llegar más rápidamente hasta un enemigo. Además, puedes llevar a cabo un Chequeo de Cuerpo a cuerpo como Acción libre cada Asalto porque estás poniendo en tus ataques todo lo que tienes. Por último, obtienes un +1 a tu Bonificador por Fuerza, tal es tu ferocidad. Permaneces en Furia hasta que todos los enemigos en tu línea visual han sido pacificados, o sufres 1 Estado de @Condition[Aturdido] o quedas @Condition[Inconsciente]. Una vez se acaba tu Furia , sufres de inmediato 1 Estado de @Condition[Fatigado].</p>",
+			"description": "<p style=\"user-select: text; color: #111111;\">Dzięki Testowi Siły Woli postać może wprowadzić się w stan furii, motywując się, wyjąc, gryząc tarczę itd. Jeśli Test się uda, postać wpada w Szał Bojowy.</p>\n<p style=\"user-select: text; color: #111111;\">W trakcie Szału Bojowego postać jest niewrażliwa na wszystkie inne Czynniki Psychologiczne i nie ucieknie ani nie wycofa się z żadnego powodu. Mało tego – musi zawsze poruszać się z pełną prędkością w stronę najbliższego widzianego przeciwnika, by go zaatakować. Ogólnie rzecz biorąc, jedynymi Akcjami, jakie można wtedy wykonać, są Testy Broni Białej w zwarciu albo Atletyki, by szybciej dobiec do przeciwnika. Poza tym w każdej Rundzie postać otrzymuje Akcję Darmową w postaci dodatkowego ataku wręcz, ponieważ naprawdę daje z siebie wszystko. A jakby tego było mało, zaciekłość i brutalność skutkuje podniesieniem Bonusu z Siły o +1. Postać pozostaje w Szale Bojowym, dopóki wszyscy wrogowie w polu widzenia nie zostaną unieszkodliwieni albo dopóki postać nie otrzyma przynajmniej 1 poziomu Oszołomienia lub nie nastąpi Utrata Przytomności. Po zakończeniu Szału Bojowego postać natychmiast otrzymuje 1 poziom Wyczerpania.</p>\n",
 			"effects": [{"_id":"y1pfxqA1jLh5Ywca","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.characteristics.s.bonus += 1\nargs.actor.characteristics.s.calculationBonusModifier -= 1","preventDuplicateEffects":false}},"changes":[],"disabled":true,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/frenzy.png","label":"Szał bojowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Frightening",
 			"name": "Straszny",
-			"description": "<p>Cualquiera en sus cabales se lo piensa dos veces antes de acercarse a ti. Si quieres, tienes un Índice de Miedo de 1. Suma +1 a esta cifra cada vez adicional que adquieres este talento.</p>"
+			"description": "<p>Każdy przy zdrowych zmysłach pomyśli dwa razy, zanim do ciebie podejdzie. Możesz zadecydować, że w danej sytuacji wzbudzasz Strach na poziomie 1. Każde wykupienie tego Talentu podwyższa siłę Strachu o +1.</p>"
 		},
 		{
 			"id": "Furious Assault",
 			"name": "Wściekły Atak",
-			"description": "<p>Tus golpes se suceden con rapidez, lloviendo sobre tus oponentes con la furia de Ulric. Una vez por Asalto, si aciertas a un oponente en combate cerrado, puedes gastar de inmediato una Ventaja o tu Movimiento para hacer un ataque adicional (suponiendo que aún te quede por hacer tu Movimiento).</p>",
+			"description": "<p>Lawinowo zadajesz ciosy, zasypując wroga furią Ulryka. Raz na Rundę, jeśli trafisz przeciwnika w Walce Wręcz, możesz zużyć Przewagę albo spożytkować Ruch (zakładając, że w tej Rundzie możesz się jeszcze ruszyć), by wykonać od razu dodatkowy atak.</p>",
 			"tests": "Broń Biała podczas wykonywania dodatkowych ataków."
 		},
 		{
 			"id": "Gregarious",
 			"name": "Towarzyski",
-			"description": "<p>Te gusta hablar con otra gente y parece que a ellos les gusta hablar contigo. Puedes invertir cualquier Chequeo fallido de cotilleo si esto permite que el Chequeo tenga éxito.</p>",
+			"description": "<p>Po prostu lubisz sobie pogadać z ludźmi, a oni z tobą. Możesz odwrócić kolejność kostek nieudanego Testu Plotkowania, jeśli nowy wynik będzie oznaczał udany Test.</p>",
 			"tests": "Plotkowanie z wędrowcami",
-			"effects": [{"_id":"TFSgPCFx1KpFepgz","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Cotilleo\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gregarious.png","label":"Towarzyski","tint":null,"transfer":true}]
+			"effects": [{"_id":"TFSgPCFx1KpFepgz","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Plotkowanie\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gregarious.png","label":"Towarzyski","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Gunner",
 			"name": "Artylerzysta",
-			"description": "<p>Puedes recargar armas de pólvora negra con facilidad practicada. Sumas tantos NE como tu nivel en Pistolero experto a cualquier Chequeo Prolongado para recargar un arma de Pólvora negra.</p>",
+			"description": "<p>Z łatwością przeładowujesz broń prochową. Dodaj PS równe liczbie wykupień tego Talentu do każdego Wydłużonego Testu związanego z przeładowaniem broni prochowej.</p>",
 			"effects": [{"_id":"SVUtglybdq15RZEK","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.options.reload && args.options.weapon && args.options.weapon.weaponGroup.value == \"blackpowder\")\n   args.prefillModifiers.slBonus += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gunner.png","label":"Artylerzysta","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Hardy",
 			"name": "Twardziel",
-			"description": "<p>Obtienes una suma permanente a tus Heridas igual a tu Bonificador por Resistencia. Si tu Bonificador por Resistencia se incrementa, también lo hace el número de Heridas que proporciona este Talento.</p>",
+			"description": "<p>Na stałe zwiększasz swoją Żywotność o Bonus z Wytrzymałości. Jeśli ten się zwiększy, wraz z nim wzrośnie również twoja Żywotność wynikająca z tego Talentu.</p>",
 			"effects": [{"_id":"REeG0AV5Sm4fTAIJ","flags":{"wfrp4e":{"effectTrigger":"preWoundCalc","effectApplication":"actor","script":"args.multiplier.tb += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/hardy.png","label":"Twardziel","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Hatred",
 			"name": "Nienawiść",
-			"description": "<p>Te consume el odio contra algo del Viejo Mundo, tal y como se describe en @JournalEntry[Psicología]. Cada vez que adquieres este Talento desarrollas un nuevo odio hacia un nuevo grupo. Ejemplos de lo que podrías elegir incluyen: hombres bestia, pieles verdes, monstruos, forajidos, sigmaritas, muertos vivientes o brujos.</p>",
-			"tests": "Siła Woli (Grupa Odporności)",
-			"effects": [{"_id":"3vgrN50Ul3S5T2j6","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/hatred.png","label":"Nienawiść","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Chequeos de Combate contra el Grupo Odiado","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"hide":false,"preventDuplicateEffects":false}},"tint":null}]
+			"description": "<p>Coś w Starym Świecie powoduje twoją nienawiść, jak to opisano w dziale @JournalEntry[Psychologia]{Psychologia}. Każde wykupienie tego Talentu to jej nowy obiekt, a przykładowe grupy to: Banici, Czarownice, Ożywieńcy, Potwory, Sigmaryci, Zielonoskórzy, Zwierzoludzie.</p>",
+			"tests": "Siła Woli (Opanowanie)",
+			"effects": [{"_id":"3vgrN50Ul3S5T2j6","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/hatred.png","label":"Nienawiść","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Testy bojowe przeciwko znienawidzonej grupie","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"hide":false,"preventDuplicateEffects":false}},"tint":null}]
 		},
 		{
 			"id": "Holy Hatred",
 			"name": "Święta Nienawiść",
-			"description": "<p>De tus plegarias gotea el odio que sientes hacia tus blasfemos enemigos. Infliges +1 Daño con tus Milagros por cada nivel que tienes en este Talento.</p>",
+			"description": "<p>Twoje modlitwy ociekają nienawiścią wobec bluźnierców. Swoimi cudami zadajesz +1 punkt obrażeń za każde wykupienie tego Talentu.</p>",
 			"effects": [{"_id":"3f87V2dvHVJTzwC7","flags":{"wfrp4e":{"effectTrigger":"prePrepareItem","effectApplication":"actor","script":"if (args.item.type == \"prayer\" && (args.item.damage.value || args.item.damage.dice))\n    args.item.damage.value += \"+1\"","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/holy-hatred.png","label":"Święta Nienawiść","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Holy Visions",
 			"name": "Święte Wizje",
-			"description": "<p>Puedes ver claramente las grandes obras de los dioses a tu alrededor. Sabes automáticamente cuándo entras en terreno sagrado y puedes llevar a cabo un Chequeo de Intuición para obtener visiones (a menudo oscuras, y vistas a través del paradigma de tu culto o de tu sistema de creencias individual) respecto a la zona local si en ella han tenido lugar en el pasado acontecimientos significativos.</p>",
+			"description": "<p>Wyraźnie widzisz boskie dzieła wokół siebie. Zawsze wiesz, kiedy wkraczasz na świętą ziemię, i możesz wykonać Test Intuicji, by zstąpiła na ciebie wizja (często niejasna i postrzegana przez paradygmat twojej wiary lub osobistych wartości) opisująca okolicę i to, co najważniejszego się w niej wydarzyło w przeszłości.</p>",
 			"tests": "Testy Intuicji, kiedy znajdujesz się na świętej ziemi"
 		},
 		{
 			"id": "Hunter's Eye",
 			"name": "Oko Łowcy",
-			"description": "<p>Eres un cazador experto y conoces las mejores técnicas para encontrar caza. Cuando viajas a través de tierras bien provistas, se supone que eres automáticamente capaz de cazar lo suficiente como para alimentarte a ti mismo y a tantos otros como tu nivel en Vista excelente , si dispones de tiempo y del equipo correcto. Puedes conseguir más comida además de ésta utilizando las reglLo normales de forrajeo.</p>",
+			"description": "<p>Jesteś dobrym myśliwym i znasz najlepsze sposoby szukania zwierzyny. Kiedy podróżujesz po bogatych w nią ziemiach, jesteś automatycznie w stanie wyżywić siebie i tylu towarzyszy, ile razy wykupiłeś ten Talent, jeśli tylko masz czas, by zapolować, oraz odpowiednie wyposażenie.</p>",
 			"tests": "Dowolny wiążący się z Tropieniem lub polowaniem na zwierzynę"
 		},
 		{
 			"id": "Impassioned Zeal",
 			"name": "Porywająca Gorliwość",
-			"description": "<p>Cuando hablas de tu causa, caso o religión, tus palabras se llenan de pasión y de un celo ferviente. Puedes doblar tu Empatía efectos de determinar el número de gente influenciada por tu nivel de Orador cuando hablas de tu causa.</p>",
+			"description": "<p>Kiedy mówisz o czymś, co cię pasjonuje, o swoich przekonaniach czy religii, twoje słowa przepełnia gorliwość, a nawet fanatyzm. Możesz podwoić swoją Ogładę, gdy określasz liczbę osób, na które wpływa twój Talent Mówca, gdy poruszasz ważny dla ciebie temat.</p>",
 			"tests": "Charyzmy, kiedy mówisz o ważnej dla ciebie sprawie"
 		},
 		{
 			"id": "Implacable",
 			"name": "Nieubłagany",
-			"description": "<p>Cuesta bastante acabar contigo. Puedes ignorar las Heridas perdidas debido a un Estado de Sangrando . Cada nivel en este Talento te permite ignorar las Heridas perdidas debido a un Estado de Sangrando adicional.</p>"
+			"description": "<p>Trzeba nie lada wysiłku, by cię wykończyć. Twojej postaci nie dotyczy utrata żywotności, spowodowana Stanem Krwawienie. Każde wykupienie tego Talentu powoduje, że możesz zignorować jedną ranę spowodowaną przez ten Stan.</p>"
 		},
 		{
 			"id": "In-fighter",
 			"name": "Skrócenie Dystansu",
-			"description": "<p>Eres hábil en acercarte mucho a un oponente. No sufres penalizador alguno por luchar contra un oponente que tiene un arma de mayor alcance que la tuya. Además, si utilizas las reglas opcionales del combate cercano, obtienes un bonificador +10 al impacto contra tu oponente.</p>",
+			"description": "<p>Wiesz, jak przyciągnąć do siebie przeciwnika, i nie dotyczą cię modyfikatory za walkę z wrogiem, który ma broń dłuższą od ciebie. Jeśli używasz opcjonalnych zasad walki kontaktowej , otrzymujesz premię +10 do trafienia przeciwnika.</p>",
 			"tests": "Walka w zwarciu lub gdy wchodzisz do zwarcia",
 			"effects":[{"_id":"Eu8Ajiixpb7rdqVW","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/in-fighter.png","label":"Skrócenie Dystansu","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","hide":false,"preventDuplicateEffects":false,"script":"if (args.type == \"weapon\" && this.actor.hasSystemEffect(\"infighting\"))\n{\n     args.prefillModifiers.modifier += 10\n}"}},"tint":null}]
 		},
 		{
 			"id": "Inspiring",
 			"name": "Inspirujący",
-			"description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+					"description": "<p>Twoje słowa i zachęty mogą przechylić szalę zwycięstwa w bitwie. Poniższa tabela pokazuje, ile osób ulegnie wpływowi Dowodzenia podczas wojny.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Liczba wykupień talentu</p>\n</td>\n<td>\n<p>Liczba żołnierzy pod twoim wpływem</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Normalna × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Normalna × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>Normalna × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>Normalna × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>Normalna × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>Normalna × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>Normalna × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>Normalna × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>Wszyscy, którzy cię słyszą</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
 			"tests": "Dowodzenie podczas wojny"
 		},
 		{
 			"id": "Instinctive Diction",
 			"name": "Precyzyjne Inkantowanie",
-			"description": "<p>Comprendes de forma instintiva el idioma de la Magia, y eres capaz de articular rápidamente las frases más complejas sin equivocarte. No sufres una Disfunción mágica si sacas un doble en un Chequeo con éxito de Hablar idioma (magia).</p>",
-			"tests": "Hablar idioma (magia) al lanzar un hechizo",
+			"description": "<p>Instynktownie pojmujesz język magiczny i bez omyłki jesteś w stanie wypowiadać skomplikowane formuły. Jeśli rzucisz dublet podczas udanego Testu Języka (Magicznego), nie dochodzi do manifestacji.</p>",
+			"tests": "Język (Magiczny) podczas rzucania czaru",
 			"effects": [{"_id":"PixW61vvKOev7oHu","flags":{"wfrp4e":{"effectTrigger":"rollCastTest","effectApplication":"actor","script":"// Elimina una disfunciónal sacar dobles y tener éxito\nif(args.test.result.outcome == \"success\" && args.test.result.minormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.minormis\n}\n// Disminuir la disfunción mayor a disfunción menor\nelse if(args.test.result.outcome == \"success\" && args.test.result.majormis && args.test.result.roll % 11 == 0)\n{\n    delete args.test.result.majormis\n    args.test.result.minormis = game.i18n.localize(\"ROLL.MinorMis\")\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/instinctive-diction.png","label":"Precyzyjne Inkantowanie","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Invoke",
 			"name": "Inwokacja",
-			"description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en el <strong>Capítulo 7: Religión y creencias</strong>. En circunstanciLo normales no podrías aprender más que un Talento de Invocar (Saber divino) . Además, no puedes aprender los Talentos Magia menor ni Magia arcana cuando tienes el Talento Invocar . Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
+			"description": "<p>Zostałeś pobłogosławiony przez swego boskiego patrona, dzięki czemu zyskujesz zdolność czynienia jednego z jego Cudów. Możesz wykupywać kolejne cuda za 100 PD pomnożone przez liczbę obecnie znanych cudów. Pełne zasady tego, jak się ich uczysz, znajdują się w Rozdziale 7: Religie i wierzenia. W normalnych okolicznościach nie możesz wykupić tego Talentu więcej niż jeden raz. Co więcej, nie możesz też kupić Talentów Magia Prosta i Magia Tajemna, jeśli posiadasz Talent Inwokacja. Po wydaniu 100 PD możesz się pozbyć tego Talentu, ale natychmiast utracisz dostęp do wszystkich zapewnianych przez niego cudów. Narażasz się też na gniew swego boga, a MG obmyśli, jak będzie się on przejawiał.</p>"
 		},
 		{
 			"id": "Iron Jaw",
 			"name": "Żelazna Szczęka",
-			"description": "<p>Estás hecho de una pasta muy dura y puedes resistir incluso los golpes más fuertes. Cuando sufres 1 o más Estados de Aturdido puedes llevar a cabo de inmediato un Chequeo Desafiante (+0) de Aguante para evitarlo, y cada NE elimina 1 estado de Aturdido adicional.</p>",
+			"description": "<p>Jesteś twardy i potrafisz wytrzymać najsilniejsze ciosy. Jeśli jakiś efekt nakłada na postać co najmniej jeden Stan Oszołomienie, gracz może wykonać Wymagający (+0) Test Wytrzymałości, by go zignorować. Każdy PS pozwala ci uniknąć dodatkowego Stanu.</p>",
 			"tests": "Odporność wykonywana przeciw Oszołomieniu"
 		},
 		{
 			"id": "Iron Will",
 			"name": "Żelazna Wola",
-			"description": "<p>Tienes una voluntad indomable y jamás te inclinarás voluntariamente ante otro. El uso de la Habilidad Intimidar no te causa Miedo, y no te impide manifestar tu oposición al intimidador.</p>",
+			"description": "<p>Masz w sobie niezłomną wolę i sam z siebie nigdy się nie cofniesz. Wykorzystanie przeciwko tobie Zastraszania nie powoduje u ciebie Strachu i nie uciszy cię w wygłaszaniu poglądów przeciwko agresorom.</p>",
 			"tests": "Opanowanie przeciwstawiane Zastraszaniu"
 		},
 		{
 			"id": "Jump Up",
 			"name": "Sprężynka",
-			"description": "<p>Es difícil mantenerte en el suelo. Puedes llevar a cabo un Chequeo <strong>Desafiante (+0)</strong> de <strong>Atletismo</strong> para ponerte en pie de inmediato cada vez que pasas al Estado Tumbado . Este Chequeo de Atletismo a menudo se modifica por la Fuerza que hay tras el golpe que te derriba: por cada +10 puntos de Fuerza en los que el golpe supera tu Resistencia, sufres un penalizador -10 al Chequeo de Atletismo, y viceversa.</p>"
+			"description": "<p>Ciebie nie da się obalić na ziemię. Możesz wykonać Wymagający (+0) Test Atletyki, by natychmiast wstać po tym, jak nałożony zostanie na ciebie Stan Powalony. Ten Test Atletyki jest modyfikowany przez siłę uderzenia, które posłało cię na ziemię. Za każde 10 punktów Siły wroga ponad twoją Wytrzymałość otrzymujesz modyfikator -10 do Testu Atletyki. Jeśli Siła przeciwnika była niższa od twojej Wytrzymałości, otrzymujesz +10 za każde 10 punktów różnicy.</p>"
 		},
 		{
 			"id": "Kingpin",
 			"name": "Szycha",
-			"description": "<p>Te has ganado un aire de respetabilidad a pesar de tus nefarias costumbres. Puedes ignorar la pérdida de Estatus debido al Talento Delincuente .</p>"
+			"description": "<p>Pomimo powiązań z półświatkiem otacza cię aura szacunku. Twojej postaci nie dotyczy utrata Statusu spowodowana przez Talent Przestępca.</p>"
 		},
 		{
 			"id": "Lightning Reflexes",
 			"name": "Szybki Refleks",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica inicial de Agilidad (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Zyskujesz premię +5 do początkowej wartości Zwinności. Nie liczy się ona do sumy Rozwinięć.</p>",
 			"effects": [{"_id":"Zz5EI68iOab1vbmQ","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.ag.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/lightning-reflexes.png","label":"Szybki Refleks","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Linguistics",
 			"name": "Poliglota",
-			"description": "<p>Tienes una afinidad natural por los idiomas. Tras una exposición de un mes a cualquier idioma, cuentas la Habilidad de Hablar idioma asociada como una Habilidad básica si llevas a cabo un Chequeo con éxito de Inteligencia (que se puede intentar una vez al mes). <strong>Nota</strong>: la Lingüística sólo funciona con idiomas utilizados para comunicarse frecuentemente con los demás, por lo que no funciona con Hablar idioma (magia).</p>",
+			"description": "<p>Masz naturalną łatwość uczenia się języków. Wystarczy ci miesiąc obcowania z którymś i udany Test Inteligencji (można go powtórzyć raz na miesiąc), byś mógł traktować jego znajomość jako Umiejętność Podstawową. <strong>Uwaga</strong>: ten Talent działa tylko na języki, którymi często porozumiewają się istoty, a więc nie na Język (magiczny).</p>",
 			"tests": "Języki (Wszystkie)"
 		},
 		{
 			"id": "Lip Reading",
 			"name": "Czytanie z Ruchu Warg",
-			"description": "<p>Puedes saber lo que la gente dice tan sólo mirándole a los labios; no necesitas oír lo que están diciendo. Si tienes una línea visual ininterrumpida hasta la parte inferior del rostro de quien habla, puedes intentar un Chequeo de Percepción para entender lo que está diciendo.</p>",
+			"description": "<p>Patrząc na usta innych, potrafisz dowiedzieć się, co mówią. Jeśli możesz bez przeszkód obserwować dolną część twarzy istoty, wolno ci wykonać Test Percepcji, by zrozumieć, co mówi.</p>",
 			"tests": "Testy Percepcji związane z wykorzystaniem tego Talentu"
 		},
 		{
 			"id": "Luck",
 			"name": "Szczęście",
-			"description": "<p>Dicen que cuando naciste, Ranald sonrió. El número máximo de tus Puntos de Fortuna es ahora igual a tu número actual de puntos de Destino, más el número de veces que has adquirido Suerte .</p>"
+			"description": "<p>Powiadają, że kiedy się rodziłeś, Ranald się uśmiechnął. Maksymalna liczba twoich Punktów Szczęścia jest równa sumie liczby Punktów Przeznaczenia i liczby wykupień tego Talentu.</p>"
 		},
 		{
 			"id": "Magic Resistance",
 			"name": "Odporność na Magię",
-			"description": "<p>El NE de cualquier hechizo que te afecta se reduce en 2 por cada punto que tienes en este Talento. El NE de un hechizo sólo lo modifica el talento de Resistencia a la magia mayor de los que puede haber en su área objetivo. Además, nunca podrás aprender los Talentos <em>Magia arcana</em>, <em>Bendecir</em>, <em>Invocar</em>, <em>Magia menor</em>, o <em>¡Brujo!</em>.</p>",
+			"description": "<p>Jesteś uodporniony na zaklęcia. Poziom Sukcesów czarów rzucanych na Ciebie jest obniżony o 2 za każde wykupienie tego Talentu. Poziom Sukcesów jest obniżany tylko od najwyższej Odporności na Magię w obszarze oddziaływania czaru. Co więcej, nie możesz wykupić Talentów: <em>Magia Tajemna</em>, <em>Błogosławieństwo</em>, <em>Inwokacja</em>, <em>Magia Prosta</em> i <em>Czarownica!</em>.</p>",
 			"effects": [{"_id":"EsoBJtVEVYxCXdRb","flags":{"wfrp4e":{"effectTrigger":"targetPrefillDialog","effectApplication":"actor","script":"if (args.type == \"cast\")\n       args.prefillModifiers.slBonus -= 2","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/magic-resistance.png","label":"Odporność na Magię","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Magical Sense",
 			"name": "Wykrywanie Magii",
-			"description": "<p>Eres capaz de detectar en los demás los Vientos de la Magia. Puedes intentar un Chequeo <strong>Normal (+20)</strong> de <strong>Intuición</strong> al encontrarte con un hechicero. Si lo consigues, detectas que el objetivo es un hechicero. Además, si consigues un Éxito asombroso (+6), también puedes determinar la mayor Especialización en Canalización del objetivo.</p>",
+			"description": "<p>Potrafisz wyczuć obecność Wiatrów Magii w innych. Możesz wykonać Przeciętny (+20) Test Intuicji, gdy spotykasz się z osobą władającą czarami. Jeśli się on powiedzie, wyczuwasz jej zdolności. To nie wszystko, jeśli osiągniesz Zdumiewający (+6) Sukces możesz także określić najwyższą Specjalizację Splatania Magii tej osoby.</p>",
 			"tests": "Intuicja, by wykrywać czarodziejów"
 		},
 		{
 			"id": "Magnum Opus",
 			"name": "Arcydzieło",
-			"description": "<p>Eres un maestro indiscutible en tu campo, capaz de crear obras de tan increíble complejidad que los demás sólo pueden relajarse y maravillarse de tu genio. Cada vez que adquieres este Talento puedes crear una obra de arte única y extraordinaria con una de tus Habilidades de Arte u Oficio. Esta obra no tiene parangón en su campo, una pieza única que siempre impresionará y que concede bonificadores a determinar por el DJ, lo más normal es que sea a los Chequeos de Empatía por parte de quienes han sido testigos de tu asombrosa labor. Vender la pieza te reportará por lo menos diez veces su valor normal, y a veces mucho más que eso.</p>"
+			"description": "<p>Jesteś niekwestionowanym mistrzem w swojej dziedzinie, tworzącym dzieła tak złożone, że inni mogą je tylko podziwiać, zachwycając się twoim geniuszem. Za każdym razem, gdy wykupujesz ten Talent, tworzysz niezwykłe dzieło, wykorzystując Umiejętność Sztuka lub Rzemiosło. Nie ma ono sobie równych, będzie po wieki inspirowało, zadziwiało i budziło zachwyt swoją wyjątkowością. MG określa premie, które ci przysługują z tej racji. Zwykle wpływają one na Testy Ogłady w kontaktach z tymi, którzy podziwiają twoją sztukę. Sprzedaż dzieła powinna dać ci przynajmniej dziesięciokrotną wartość zwykłej ceny, a czasami nawet więcej.</p>"
 		},
 		{
 			"id": "Marksman",
 			"name": "Strzelec Wyborowy",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Habilidad de proyectiles inicial (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Otrzymujesz stałą premię +5 do początkowych Umiejętności Strzeleckich, która nie liczy się do sumy Rozwinięć.</p>",
 			"effects": [{"_id":"o9nh6cysRfyobzdc","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.bs.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/marksman.png","label":"Strzelec Wyborowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Master Orator",
 			"name": "Krasomówstwo",
-			"description": "<p>Eres hábil en inflamar a las multitudes. Obtienes un bonificador al NE igual a tus niveles de Orador maestro a cualquier Chequeo de Carisma cuando hablas en público ante una multitud.</p>",
-			"effects": [{"_id":"6m85TVcbkk2geHrE","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Chequeo de Carisma cuando hablas en público ante una multitud","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/master-orator.png","label":"Krasomówstwo","tint":null,"transfer":true}]
+			"description": "<p>Wiesz, jak porwać tłum. Kiedy wykonujesz Test Charyzmy podczas przemawiania do tłumu, otrzymujesz premię w wysokości tylu PS, ile razy wkupiłeś ten Talent.</p>",
+			"effects": [{"_id":"6m85TVcbkk2geHrE","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Test Charyzmy podczas publicznego przemówienia","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/master-orator.png","label":"Krasomówstwo","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Master Tradesman",
 			"name": "Mistrz Rzemiosła",
-			"description": "<p>Eres excepcionalmente hábil en tu Oficio. Reduces en tantos puntos como tu nivel de Artesano maestro el NE requerido de cualquier Chequeo Prolongado utilizando tu Habilidad de Oficio.</p>",
+			"description": "<p>Jesteś wybitnie wykwalifikowany w danym rzemiośle. Możesz zmniejszyć liczbę wymaganych PS podczas Testu Wydłużonego tego Rzemiosła o tyle, ile razy wykupiłeś ten Talent.</p>",
 			"tests": "Pasujący Wydłużony Test tego Rzemiosła"
 		},
 		{
 			"id": "Master of Disguise",
 			"name": "Mistrz Charakteryzacji",
-			"description": "<p>Eres un experto en adoptar la apariencia y los manierismos de otros. Con tan sólo cambios de postura, de expresión facial y un uso cuidadoso de las ropas apropiadas, ya no pareces ser tú mismo sin necesidad de utilizar material de disfraz.</p>",
+			"description": "<p>Jesteś ekspertem, jeśli chodzi o przejmowanie manieryzmów i upodabnianie się do kogoś. Zmieniając postawę, wykrzywiając twarz i dobierając ubranie, przestajesz przypominać siebie, nawet jeśli nie masz pod ręką zestawu do charakteryzacji.</p>",
 			"tests": "Występy (Aktorstwo), gdy udajesz kogoś innego"
 		},
 		{
 			"id": "Menacing",
 			"name": "Groźny",
-			"description": "<p>Tienes una presencia imponente. Cuando utilizas la Habilidad Intimidar, obtienes un bonificador al NE igual a tus niveles de Amenazador.</p>",
+			"description": "<p>Twoja postura i wygląd budzą obawę. Kiedy wykonujesz Test Zastraszania, uzyskujesz dodatkowe PS równe liczbie wykupień tego Talentu.</p>",
 			"tests": "Zastraszanie",
 			"effects": [{"_id":"IRRiQjVGZiHjLnxt","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false,"effectTrigger":"prefillDialog","effectData":{"description":"Intimidate","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"hide":false,"script":"if (args.type == \"skill\" && args.item.name == game.i18n.localize(\"NAME.Intimidate\"))\n{\n    args.prefillModifiers.slBonus += 1\n}"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/menacing.png","label":"Groźny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Mimic",
 			"name": "Naśladowca",
-			"description": "<p>Tienes buen oído para los acentos y los dialectos, y los puedes reproducir de forma precisa. Puedes reproducir cualquier acento con el que has estado en contacto por lo menos un día mediante un Chequeo de Iniciativa; este Chequeo se puede intentar una vez al día. Una vez lo consigues, siempre puedes limitar el acento y los lugareños creen que eres uno de ellos.</p>",
+			"description": "<p>Masz ucho do gwar oraz do dialektów i potrafisz je naśladować. Jeśli osłuchasz się któregoś przez jeden dzień, możesz wykonać Test Inicjatywy (jeden na dzień) i jeśli się powiedzie, będziesz potrafił naśladować ten akcent. Miejscowi będą uważali, że gadasz po ichniemu i jesteś swój.</p>",
 			"tests": "Występy (Aktorstwo), podczas których ważny jest akcent."
 		},
 		{
 			"id": "Night Vision",
 			"name": "Widzenie w Ciemności",
-			"description": "<p>Puedes ver muy bien en la oscuridad natural. Suponiendo que tengas por lo menos una fuente de luz débil (como por ejemplo la de las estrellas, la de la luna o la bioluminiscencia) puedes ver con claridad a 20 yardas por nivel de Visión nocturna . Además, puedes extender la distancia de iluminación efectiva de cualquier fuente de luz en 20 yardas por nivel de Visión nocturna .</p>",
+			"description": "<p>Bardzo dobrze widzisz w naturalnych ciemnościach. Jeśli masz źródło choćby słabego blasku (światło gwiazd, księżyca czy bioluminescencję), widzisz wyraźnie na 20 metrów na każde wykupienie tego Talentu. To nie koniec. Dla ciebie oświetlenie okolicy sięga dalej o 20 metrów na każde wykupienie tego Talentu.</p>",
 			"tests": "Percepcja przy słabym świetle"
 		},
 		{
 			"id": "Nimble Fingered",
 			"name": "Zręczny",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Destreza inicial (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Zyskujesz premię +5 do początkowej wartości Zręczności. Nie liczy się ona do sumy Rozwinięć.</p>",
 			"effects": [{"_id":"iT6aqNkxEikCpTEY","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.dex.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/nimble-fingered.png","label":"Zręczny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Noble Blood",
 			"name": "Błękitna Krew",
-			"description": "<p>O bien naciste en la nobleza o bien fuiste elevado a la misma debido a acontecimientos del juego. Suponiendo que te vistas de la forma apropiada, siempre se te considerará de un Estatus superior a los demás, a menos que ellos tengan también el Talento Sangre noble , en cuyo caso el Estatus se comparará de la forma habitual.</p>",
+			"description": "<p>Albo urodziłeś się w rodzinie szlacheckiej, albo zostałeś wywyższony już podczas gry. Jeśli jesteś odpowiednio ubrany, inni zawsze traktują cię jak kogoś ze sfer wyższych niż ich, chyba że ktoś z nich także posiada ten Talent. Wtedy normalnie porównuje się Status.</p>",
 			"tests": "Wszystkie Testy, na które wpływa twój Status"
 		},
 		{
 			"id": "Nose for Trouble",
 			"name": "Nos do Kłopotów",
-			"description": "<p>Estás acostumbrado a meterte en problemas y, preferiblemente, a salir de ellos. Puedes intentar un Chequeo de Intuición para divisar a quienes buscan causar problemas o hacerte daño, incluso si normalmente no se te permitiría (debido a Talentos o a un Hechizo, por ejemplo). Este Chequeo será normalmente Enfrentado si los otros están escondidos, y es posible que el DJ prefiera llevarlo a cabo él mismo en secreto para que no sepas el resultado si fallas. Si algún alborotador al que divisas inicia combate, puedes ignorar cualquier Estado de <em>Sorprendido</em> que inflige de forma normal.</p>",
+			"description": "<p>Wiesz, jak wpaść w kłopoty i – jeszcze lepiej – jak się z nich wyłgać. Możesz wykonać Test Intuicji, by zorientować się, kto potencjalnie może sprawiać problemy. Test ten przysługuje ci, nawet gdyby nie wolno ci było go wykonać (z powodu działania innych Talentów, czarów itp.). Test ów będzie zapewne Przeciwstawny, jeśli napastnicy się kryją. MG może go wykonać w ukryciu za ciebie, byś nie wiedział, czy zakończy się on porażką, czy sukcesem. Jeśli zauważony przez ciebie wichrzyciel rozpocznie walkę, nie działa na ciebie Stan <em>Zaskoczenie</em>.</p>",
 			"tests": "Każdy, by wypatrzeć potencjalne problemy"
 		},
 		{
 			"id": "Numismatics",
 			"name": "Numizmatyka",
-			"description": "<p>Estás bien versado en las diferentes monedas del Viejo Mundo, y se te da bien determinar su valor. Puedes juzgar el verdadero valor de una moneda sólo por experiencia, sin siquiera necesitar un Chequeo. Además, puedes identificar monedas falsificadas con un Chequeo Sencillo de Tasar; nunca se ve enfrentado al NE del falsificador.</p>",
+			"description": "<p>Doskonale znasz się na różnych walutach Starego Świata i potrafisz oceniać ich wartość. Na podstawie swojego doświadczenia, bez konieczności wykonywania Testu, umiesz powiedzieć, ile warta jest moneta. Prosty Test Wyceny pozwoli ci wykryć podrabianą. Nie jest on przeciwstawiany PS uzyskanym wcześniej przez fałszerza.</p>",
 			"tests": "Wycena podczas ustalania wartości monet."
 		},
 		{
 			"id": "Old Salt",
 			"name": "Wilk Morski",
-			"description": "<p>Eres un marinero experto, y estás muy habituado a la vida del mar. Puedes ignorar todos los modificadores negativos a los Chequeos en el mar derivados del mal tiempo, del movimiento del navío y de cosas similares. Además, y a efectos de la tripulación mínima de un navío en alta mar, cuentas como dos marineros.</p>",
+			"description": "<p>Jesteś doświadczonym żeglarzem i przywykłeś do życia na morzu. Nie dotyczą cię negatywne modyfikatory do Testów spowodowane przez kiepską pogodę, kołysanie statku itp. Co więcej, liczysz się za dwóch członków załogi, gdy trzeba obsadzić jednostkę wychodzącą w morze.</p>",
 			"tests": "Żeglowanie (każdy statek morski)"
 		},
 		{
 			"id": "Orientation",
 			"name": "Wyczucie Kierunku",
-			"description": "<p>Tienes una afinidad instintiva para conocer la dirección. Sabes automáticamente en qué dirección está el norte con tan sólo mirar a las estrellas, a los árboles o a cualesquiera otros signos familiares.</p>",
+			"description": "<p>Instynktownie wyczuwasz kierunki świata. Zawsze wiesz, gdzie jest północ, jeśli tylko możesz zerknąć na gwiazdy, drzewa czy jakąkolwiek inną wskazówkę.</p>",
 			"tests": "Nawigacja"
 		},
 		{
 			"id": "Panhandle",
 			"name": "Naciągacz",
-			"description": "<p>Eres un mendigo experto, capaz de hacer que incluso el individuo más insensible contribuya a tu causa. Puedes llevar a cabo un Chequeo de Carisma cada media hora cuando mendigas, no cada hora.</p>",
+			"description": "<p>Doskonaliłeś się w żebraniu tak długo, że teraz wzruszysz nawet osobę o sercu z najtwardszego kamienia. Testy Charyzmy podczas żebrania wykonujesz co pół godziny, a nie co godzinę.</p>",
 			"tests": "Charyzma (Żebractwo)"
 		},
 		{
 			"id": "Perfect Pitch",
 			"name": "Słuch Absolutny",
-			"description": "<p>Tienes un tono perfecto, y eres capaz de reproducir las notas perfectamente e identificarlas sin ni siquiera llevar a cabo un Chequeo. Además, añade Animar (cantar) a cualquier Carrera en la que entras; si ya está en la misma, en vez de eso puedes comprar la Habilidad a razón de 5 PX menos por Avance.</p>",
+			"description": "<p>Jesteś w stanie dokładnie powtórzyć i zidentyfikować notację nutową. Co więcej, dodaj Umiejętność Występy (Śpiewanie) do listy Umiejętności swojej każdej bieżącej Profesji, a jeśli znajduje się ona na liście, koszt każdego Rozwinięcia spada o 5 PD.</p>",
 			"tests": "Występy (Śpiewanie), Języki (tonalne, takie jak Eltharin, Kitajski czy Magiczny)"
 		},
 		{
 			"id": "Petty Magic",
 			"name": "Magia Prosta",
-			"description": "<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Tienes en ti la chispa necesaria para hacer magia, y has dominado las técnicas capaces de controlarla a un nivel básico. Cuando adquieres este Talento, manifiestas (y memorizas de forma permanente) tantos hechizos como tu Bonificador por Voluntad. Puedes aprender hechizos adicionales de Magia menor al siguiente coste en PX.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <div style=\"direction: ltr;\">\n  <table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Nº de hechizos menores conocido</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5833in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Coste en PX de un hechizo nuevo</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Hasta tu Bonificador por Voluntad × 1</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">50 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Hasta tu Bonificador por Voluntad × 2</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">100 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Hasta tu Bonificador por Voluntad × 3</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">150 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Hasta tu Bonificador por Voluntad × 4</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">200 PX</p>\n  </td>\n  </tr>\n  </tbody>\n  </table>\n  </div>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">... y así sucesivamente.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Así, si tu Bonificador por Voluntad es 3 y conocías 3 hechizos menores, el primer hechizo aprendido te costará 50 PX, los tres siguientes te costarán 100 PX cada uno, y así sucesivamente.</p>"
+			"description": "<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Zawsze miałeś smykałkę do rzucania czarów i opanowałeś metody ich podstawowej kontroli. Kiedy wykupujesz ten Talent, uczysz się i zapamiętujesz tyle czarów, ile wynosi modyfikator z twojej Siły Woli. Kolejnych czarów możesz się nauczyć, korzystając z poniższej tabeli kosztów:</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <div style=\"direction: ltr;\">\n  <table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Liczba znanych czarów Magii Prostej</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5833in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Koszt nowego czaru w PD</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Bonus z Siły Woli × 1</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">50 PD</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Bonus z Siły Woli × 2</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">100 PD</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Bonus z Siły Woli × 3</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">150 PXX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Bonus z Siły Woli × 4</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">200 PD</p>\n  </td>\n  </tr>\n  </tbody>\n  </table>\n  </div>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">...i tak dalej.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jeśli twój Bonus z Siły Woli wynosi 3, to pierwsze trzy czary będą cię kosztowały 50 PD, kolejne trzy 100 PD i tak dalej...</p>"
 		},
 		{
 			"id": "Pharmacist",
 			"name": "Aptekarz",
-			"description": "<p>Tienes una gran habilidad en farmacia, y eres mucho más capaz que otros de elaborar píldoras, pomadas, ungüentos, óleos, cremas y muchas cosas más. Puedes invertir los dados de cualquier Chequeo fallido de Oficio (Boticario) si esto te permite tener éxito en el mismo.</p>",
+			"description": "<p>Jesteś świetnym aptekarzem i lepiej od innych wyrabiasz pigułki, maści, smarowidła, olejki, kremy i im podobne. Możesz odwrócić kolejność kości nieudanego Testu Rzemiosła (Aptekarstwa), jeśli nowy wynik pozwoli ci odnieść sukces.</p>",
 			"tests": "Rzemiosło (Aptekarstwo)",
 			"effects": [{"_id":"TFSgPCFx1KpFepgz","flags":{"wfrp4e":{"effectTrigger":"preRollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.name == \"Rzemiosło (Aptekarstwo)\")\n    args.test.preData.canReverse = true","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/gregarious.png","label":"Aptekarz","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Pilot",
 			"name": "Pilot",
-			"description": "<p>Eres hábil en conducir navíos a través de aguas peligrosas. Si fallas en un Chequeo para recorrer aguas peligrosas, puedes invertir el resultado si ello resulta en un éxito; sin embargo, si lo haces no puedes anotarte más de +1 NE puesto que te das cuenta del peligro inminente en el último momento.</p>",
+			"description": "<p>Potrafisz kierować okrętem po zdradliwych akwenach. Kiedy nie powiedzie ci się Test na niepewnych wodach, możesz odwrócić kolejność kości, jeżeli nowy wynik pozwoli ci odnieść sukces. Maksymalnie możesz w ten sposób osiągnąć +1 PS, ponieważ w ostatniej chwili wypatrzyłeś niebezpieczeństwo.</p>",
 			"tests": "Wiosłowanie lub Żeglowanie podczas wytyczania kursu przez nieznane wody"
 		},
 		{
 			"id": "Public Speaker",
 			"name": "Mówca",
-			"description": "<p>Eres un orador experimentado y sabes cómo influenciar a grandes grupos de personas. Consulta la siguiente tabla para ver a cuánta gente puedes influenciar ahora con tu Habilidad de Carisma, como Orador .</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Personas influenciadas</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que pueden oír tu dorada voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>"
+			"description": "<p>Jesteś umiejętnym oratorem i wiesz, jak urabiać tłumy. Poniższa tabela wskazuje, ile osób ulegnie twojemu wpływowi, gdy wykonasz Test Charyzmy podczas przemawiania.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Liczba wykupień talentu</p>\n</td>\n<td>\n<p>Liczba przekonanych</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>zwykła × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>zwykła × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>zwykła × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>zwykła × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>zwykła × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>zwykła × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>zwykła × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>zwykła × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>wszyscy, którzy słyszą twój słowiczy głos</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>"
 		},
 		{
 			"id": "Pure Soul",
 			"name": "Czysta Dusza",
-			"description": "<p>Tu alma es pura, y por lo tanto muy resistente a las depredaciones del Caos. Puedes anotarte tantos puntos de Corrupción adicionales como tu nivel de Alma pura antes de tener que Chequear para ver si te has corrompido.</p>",
+			"description": "<p>Twoja dusza jest nieskalana i odporna na zakusy Chaosu. Zanim będziesz musiał wykonać Test poddania się Zepsuciu, możesz przyjąć dodatkowe jego Punkty w liczbie równej liczbie wykupień tego Talentu.</p>",
 			"effects": [{"_id":"2COWvsyLyfHXDcJJ","flags":{"wfrp4e":{"effectTrigger":"prepareData","effectApplication":"actor","script":"args.actor.status.corruption.max += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/pure-soul.png","label":"Czysta Dusza","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Rapid Reload",
 			"name": "Szybkie Przeładowanie",
-			"description": "<p>Puedes recargar armas a distancia con facilidad practicada. Sumas tantos NE como tu nivel en Recarga rápida a cualquier Chequeo para recargar un arma a distancia.</p>",
+			"description": "<p>Potrafisz z łatwością przeładowywać bronie strzeleckie. Dodaj PS równe liczbie wykupień tego Talentu do Testów przeładowania broni dystansowej.</p>",
 			"effects": [{"_id":"nwmflkSKJ3gH7INJ","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.options.reload && args.options.weapon)\n   args.prefillModifiers.slBonus += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/rapid-reload.png","label":"Szybkie Przeładowanie","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Reaction Strike",
 			"name": "Atak Wyprzedzający",
-			"description": "<p>Tus reacciones rápidas te han permitido abatir a muchos oponentes antes de que hayan conseguido siquiera blandir sus armas. Cuando alguien Carga contra ti, puedes intentar de inmediato un Chequeo <strong>Desafiante (+0)</strong> de <strong>Iniciativa</strong> para obtener un Ataque gratuito inmediato fuera de la secuencia normal del turno. Este ataque se resolverá con cualquier arma que empuñes en tu mano principal. Podrás llevar a cabo tantos Golpes de reacción en un Asalto como niveles tengas en este Talento, pero sólo podrás atacar una vez a cada individuo que cargue contra ti.</p>",
+			"description": "<p>Twoje błyskawiczne ciosy pozwalają na powalenie przeciwników, zanim oni sami zdążą zaatakować. Kiedy wróg na ciebie Szarżuje, wykonaj udany Wymagający (+0) Test Inicjatywy, by natychmiast wykonać Darmowy Atak poza normalną kolejnością Rundy. Używasz broni, którą trzymasz w wiodącej ręce. Możesz wykonać tyle Ataków Wyprzedzających w Rundzie, ile razy wykupiłeś ten Talent, ale tylko raz na każdego szarżującego.</p>",
 			"tests": "Inicjatywa podczas używania tego Talentu"
 		},
 		{
 			"id": "Read/Write",
 			"name": "Czytanie/Pisanie",
-			"description": "<p>Eres uno de los raros individuos del Viejo Mundo que sabe leer y escribir. Se supone que eres capaz de leer y escribir (si existe forma escrita) todos los idiomas que puedes hablar.</p>"
+			"description": "<p>Jesteś jednym z nielicznych piśmiennych Staroświatowców. Potrafisz czytać i pisać (o ile to możliwe) w każdym języku, którym umiesz się posługiwać.</p>"
 		},
 		{
 			"id": "Relentless",
 			"name": "Nieustępliwy",
-			"description": "<p>Cuando has fijado tu mente en un objetivo, no hay nada que nadie pueda hacer para impedirte llegar al mismo. Si usas Ventaja al Destrabarte, puedes guardar un número de Ventajas igual a tu nivel de Incansable . Además, puedes utilizar Ventaja para Destrabarte, incluso si tu Ventaja es menor que la de los oponentes.</p>"
+			"description": "<p>Kiedy skupisz się na przeciwniku, nie sposób cię powstrzymać przed dotarciem do niego. Jeśli wykorzystujesz Przewagę podczas Odwrotu, możesz zachować jej tyle, ile razy masz wykupiony ten Talent. Co więcej, możesz wykorzystać Przewagi do Odwrotu, nawet jeśli masz ich mniej niż przeciwnik.</p>"
 		},
 		{
 			"id": "Resistance",
 			"name": "Odporny na",
-			"description": "<p>Tu recia constitución te permite sobrevivir con más facilidad a una amenaza específica. Puedes tener éxito automáticamente en el primer Chequeo para resistir la amenaza específica, como por ejemplo Magia, Veneno, Enfermedad o Mutación en cada sesión de juego. Si el NE es importante, utiliza tu Bonificador por Resistencia como NE para el Chequeo.</p>",
+			"description": "<p>Twoja wielka wytrwałość pozwala ci poradzić sobie z niebezpieczeństwem. Automatycznie zdajesz pierwszy Test opierania się przeciwko konkretnemu typowi zagrożenia na danej sesji. Znane są Odporności na Choroby, Magię, Mutacje czy Trucizny. Jeśli w Teście ważne są Punkty Sukcesu, to za ich liczbę przyjmujesz Bonus z Wytrzymałości.</p>",
 			"tests": "Wszystkie, gdy opierasz się powiązanemu zagrożeniu"
 		},
 		{
 			"id": "Resolute",
 			"name": "Nieugięty",
-			"description": "<p>Te lanzas a atacar con sobria determinación. Sumas tu nivel de Resuelto a tu Bonificador por Fuerza cuando cargas.</p>",
+			"description": "<p>Ruszasz do walki z niezłomną, ponurą determinacją. Podczas Szarży dodaj liczbę wykupień tego Talentu do Bonusu z Siły.</p>",
 			"effects": [{"_id":"CTK46A6miFIRTbVG","flags":{"wfrp4e":{"effectTrigger":"rollWeaponTest","effectApplication":"actor","script":"if (args.test.result.charging)\n{\n   args.test.result.damage += 1\n   args.test.result.additionalDamage += 1\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/resolute.png","label":"Nieugięty","tint":"","transfer":true}]
 		},
 		{
 			"id": "Reversal",
 			"name": "Odwrócenie Szans",
-			"description": "<p>Estás acostumbrado a los combates desesperados, y eres capaz de convertir en Ventaja incluso la más terrible de las circunstancias. Si ganas un Chequeo <strong>Enfrentado de Cuerpo a cuerpo</strong>, en lugar de obtener +1 Ventaja, puedes llevarte toda la Ventaja actual de tu oponente. Si lo haces, no causas Daño alguno, incluso si es tu Turno en ese Asalto.</p>",
+			"description": "<p>Tak przywykłeś do rozpaczliwej walki o życie, że potrafisz obrócić na swoją korzyść nawet największe kłopoty. Jeśli wygrasz Przeciwstawny Test Walki Wręcz, to zamiast zdobywać +1 Przewagę, możesz zabrać przeciwnikowi jego wszystkie zebrane Przewagi. Jeśli się na to zdecydujesz, nie zadajesz wrogowi obrażeń, nawet jeśli to twoja Tura w Rundzie.</p>",
 			"tests": "Broń Biała w obronie"
 		},
 		{
 			"id": "Riposte",
 			"name": "Riposta",
-			"description": "<p>Recordando que ‘la mejor defensa es un buen ataque’ respondes a un ataque que te hacen con un contraataque relampagueante. Si tu arma tiene la cualidad Rápida, puedes causar Daño cuando te atacan, como si fuera tu Acción. Puedes Contraatacar tantos ataques por asalto como tu nivel en Contraataque.</p>",
+			"description": "<p>Wyznajesz zasadę, że najlepszą obroną jest atak, dlatego w walce błyskawicznie kontratakujesz, gdy tylko przeciwnik wyprowadzi cios. Jeśli twoja broń posiada zaletę Szybka, możesz zadać obrażenia, gdy jesteś atakowany, jakbyś wykonywał swoją Akcję. Ripostę możesz wykonać tyle razy w Rundzie, ile razy wykupisz ten Talent.</p>",
 			"tests": "Broń Biała w obronie"
 		},
 		{
 			"id": "River Guide",
 			"name": "Pilot Rzeczny",
-			"description": "<p>Conoces todos los trucos de navegar por ríos peligrosos. No necesitas hacer un Chequeo para atravesar tramos peligrosos de un río a menos que la Dificultad para hacerlo sea -10 o inferior; tienes éxito de forma automática en todos los Chequeos más fáciles que eso. Además, si dispones de la Habilidad Sabiduría académica (local) apropiada, nunca necesitas hacer Chequeos para navegar por aguas peligrosas; se supone que dominas la ruta por completo.</p>",
+			"description": "<p>Znasz wszystkie tajniki żeglowania po rzekach. Nie musisz wykonywać Testu, by przeprowadzić jednostkę przez niebezpieczne wody, chyba że jego trudność wynosi -10 lub więcej. Łatwiejsze Testy automatycznie kończą się sukcesem. Co więcej, jeśli posiadasz Wiedzę (Okolica), w ogóle nie musisz przeprowadzać Testów, tak dobrze znasz te tereny i lokalny nurt.</p>",
 			"tests": "Każdy Test Wiedzy dotyczący rzeki"
 		},
 		{
 			"id": "Robust",
 			"name": "Krzepki",
-			"description": "<p>Eres tan coriáceo como unas botas viejas, y absorbes el daño como si nada. Reduces todo el Daño que sufres en un +1 adicional por cada vez que has adquirido el Talento Robusto, pero aun así sufres un mínimo de 1 Herida de cualquier fuente de Daño.</p>",
-			"effects": [{"_id":"yTGSEMqLFPOts08w","flags":{"wfrp4e":{"effectTrigger":"takeDamage","effectApplication":"actor","script":"args.totalWoundLoss -= 1\nargs.messageElements.push(\"1 Robusto\")\n\nif (args.totalWoundLoss <= 0)\n{\nlet weapon = args.opposedTest.attackerTest.weapon\nif \n(weapon && weapon.properties.flaws.undamaging)\n   args.totalWoundLoss = 0\nelse\n  args.totalWoundLoss = 1\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/robust.png","label":"Krzepki","tint":null,"transfer":true}]
+			"description": "<p>Jesteś twardy jak skała i rany nie robią na tobie wrażenia. Zmniejszasz otrzymywane obrażenia o 1 za każde wykupienie tego Talentu. Zasada ta działa nawet wtedy, gdy nie mógłbyś pomniejszyć otrzymanych ran. Nie możesz w ten sposób zredukować obrażeń poniżej 1 punktu.</p>",
+			"effects": [{"_id":"yTGSEMqLFPOts08w","flags":{"wfrp4e":{"effectTrigger":"takeDamage","effectApplication":"actor","script":"args.totalWoundLoss -= 1\nargs.messageElements.push(\"Krzepki 1\")\n\nif (args.totalWoundLoss <= 0)\n{\nlet weapon = args.opposedTest.attackerTest.weapon\nif \n(weapon && weapon.properties.flaws.undamaging)\n   args.totalWoundLoss = 0\nelse\n  args.totalWoundLoss = 1\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/robust.png","label":"Krzepki","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Roughrider",
 			"name": "Urodzony w Siodle",
-			"description": "<p>Te encuentras a gusto en la silla de montar incluso en las circunstancias más difíciles, y sabes cómo sacar el máximo partido de tu montura durante un conflicto. Suponiendo que tienes la Habilidad de Montar, puedes ordenar a tu montura que lleve a cabo una Acción, no tan sólo un Movimiento, sin necesidad de un Chequeo de Montar.</p>",
+			"description": "<p>W siodle czujesz się jak w domu i nie straszne ci najtrudniejsze warunki. Wiesz, jak najlepiej wykorzystać wierzchowca w walce. Jeśli posiadasz Umiejętność Jeździectwo, możesz pokierować koniem tak, by podjął Akcję, a nie tylko wykonywał Ruch. Nie musisz w tym celu wykonywać do tego Testu Jeździectwa.</p>",
 			"tests": "Jeździectwo (Konie) w walce"
 		},
 		{
 			"id": "Rover",
 			"name": "Włóczykij",
-			"description": "<p>Te encuentras como en casa recorriendo los lugares más salvajes. Cuando utilizas Movimiento silencioso en un entorno rural, los que te rodean no tienen derecho a Chequeos de Percepción pasiva para detectarte; sólo pueden divisarte si están específicamente de vigilancia o buscando espías ocultos.</p>",
+			"description": "<p>W dziczy czujesz się jak u siebie i kiedy wykorzystujesz Umiejętność Skradanie, inni nie mogą wykonywać biernych Testów Percepcji, by cię zauważyć. Mogą im one przysługiwać, jeśli przeciwnicy stoją na straży lub wypatrują ukrytych napastników.</p>",
 			"tests": "Skradania na wsi"
 		},
 		{
 			"id": "Savant",
 			"name": "Znawca",
-			"description": "<p>Eres excepcionalmente docto, y tienes un grado significativo de conocimiento especializado en un único campo de estudio. Automáticamente conoces tantos fragmentos de información correcta como tu nivel de Sabio (Saber) acerca de un tema relevante sin tener que chequear tu Habilidad de Sabiduría académica. Un Chequeo, como siempre, proporcionará más información de la forma habitual, según determine el DJ.</p>",
+			"description": "<p>Jesteś prawdziwym ekspertem w wybranej dziedzinie wiedzy. Automatycznie potrafisz przytoczyć tyle poprawnych informacji na dany temat, ile razy wykupiłeś ten Talent, i nie musisz wykonywać Testu Wiedzy. Udany da ci dodatkowe wiadomości, określane przez MG według normalnych zasad.</p>",
 			"tests": "Wiedza (wybrana dziedzina)"
 		},
 		{
 			"id": "Savvy",
 			"name": "Błyskotliwość",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica de Inteligencia inicial (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Twoja początkowa Inteligencja zostaje zwiększona o +5, co nie liczy się do twojej sumy Rozwinięć.</p>",
 			"effects": [{"_id":"sx7NGIdCYniQHaHi","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.int.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/savvy.png","label":"Błyskotliwość","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Scale Sheer Surface",
 			"name": "Wyborny Wspinacz",
-			"description": "<p>Eres un escalador excepcional. Puedes intentar escalar superficies aparentemente imposibles como fortificaciones, paredes de hielo, muros enlucidos y cosas similares, ignorando cualquier penalizador a los Chequeos de Escalar derivado de la dificultad de la superficie implicada.</p>",
+			"description": "<p>Jesteś świetny we wdrapywaniu się i chodzeniu po górach. Możesz próbować wspinać się na z pozoru niezdobyte zbocza czy szczyty. Nie straszne ci zamkowe blanki, szelfy lodowe, gipsowane ściany i im podobne. Nie tyczą się ciebie negatywne modyfikatory Wspinaczki, wymuszane przez trudność, jaką sprawia powierzchnia, po której się pniesz.</p>",
 			"tests": "Wspinaczka"
 		},
 		{
 			"id": "Schemer",
 			"name": "Intrygant",
-			"description": "<p>Eres un maestro de la política y ves conspiraciones en cada esquina. Una vez por sesión de juego, puedes formular una pregunta al DJ relativa a una situación política o a una red enmarañada de conexiones sociales; éste llevará a cabo en secreto un Chequeo de Inteligencia y te proporcionará algunas observaciones sobre la situación basadas en tu NE.</p>",
+			"description": "<p>Jesteś mistrzem intryg i za każdym rogiem węszysz spiski. Raz na sesję możesz zadać MG pytanie o sytuację polityczną i zagmatwaną sieć powiązań, a on wykona w tajemnicy Test Inteligencji i przekaże ci pewną ilość informacji, zależną od liczby PS uzyskanych dzięki rzutowi.</p>",
 			"tests": "Inteligencji dotyczące tego Talentu"
 		},
 		{
 			"id": "Sea Legs",
 			"name": "Urodzony Żeglarz",
-			"description": "<p>Estas acostumbrado al movimiento ondulante de los océanos, y es muy poco probable que te marees, incluso en las peores tormentas. En condiciones de mar normales, no necesitas hacer un Chequeo para ver si te mareas. En otras ocasiones (como por ejemplo una tormenta, o un ataque de mareo mágicamente inducido) puedes ignorar cualquier penalizador a los Chequeos para evitar el mareo.</p>",
+			"description": "<p>Przywykłeś do kołysania fal morskich i mało prawdopodobne, byś zachorował na chorobę morską, nawet podczas najsilniejszych sztormów. W spokojnych warunkach nie musisz przeprowadzać Testu, by sprawdzić, czy na morzu chwycą cię mdłości. Gdy rozpęta się sztorm lub gdy chorobę morską powoduje magia, nie dotyczą cię modyfikatory negatywnie wpływające na opieranie się tej przypadłości.</p>",
 			"tests": "Wszystkie wykonywane, by oprzeć się chorobie morskiej"
 		},
 		{
 			"id": "Seasoned Traveller",
 			"name": "Obieżyświat",
-			"description": "<p>Eres una persona inquisitiva y que ha viajado mucho, averiguando todo tipo de informaciones locales. Añade Sabiduría académica (local) a cualquier Carrera en la que entra; si ya está en la Carrera, puedes comprar la Habilidad otra vez (una especialidad diferente cada vez, como por ejemplo Altdorf, Vorbergland o Ubersreik) a razón de 5 PX menos por Avance.</p>",
+			"description": "<p>Jesteś jednym z tych ciekawskich, którzy nie potrafią usiedzieć na miejscu i wędrują po świecie wszerz i wzdłuż, ucząc się wielu przydatnych informacji. Dodaj Umiejętność Wiedza (Lokalna) do swojej każdej bieżącej Profesji, a jeśli już jest na liście dostępnych, możesz wykupić na tym poziomie jedną dodatkową Wiedzę (Lokalną). Za Rozwinięcie każdej z takich Umiejętności płacisz zawsze 5 PD mniej. Przykładowe Specjalizacje to Altdorf, Vorbergland czy Ubersreik.</p>",
 			"tests": "Dowolnej Wiedzy związanej z okolicą"
 		},
 		{
 			"id": "Second Sight",
 			"name": "Percepcja Magiczna",
-			"description": "<p>Puedes percibir los cambiantes Vientos de la Magia que surgen de las Puertas del Caos que están en los polos del mundo. Ahora dispones de la Videncia.</p>",
+			"description": "<p>Potrafisz dostrzegać zmienne Wiatry Magii, które dmą od Bram Chaosu na biegunach świata. Dzięki temu Talentowi posiadasz zdolność postrzegania magii.</p>",
 			"tests": "Każdy Test dotyczący wykrywania Wiatrów Magii"
 		},
 		{
 			"id": "Secret Identity",
 			"name": "Sekretna Tożsamość",
-			"description": "<p>Mantienes una identidad secreta que te permite parecer más rico (o quizás más pobre) de lo que realmente eres. Con permiso del DJ, elige cualquier Carrera. Mientras vayas adecuadamente vestido, podrás utilizar el Estatus social de la Carrera elegida de la que te disfraces como si fuera tuyo a efectos de modificar los Chequeos de Empatía, pudiendo incluso ignorar el Talento Delincuente . Sin embargo, mantener dicha identidad requiere Chequeos de Animar (actuar) cuando te encuentras con quienes son capaces de reconocer tu falsedad. Puedes crear una nueva Identidad secreta por cada nivel que tienes en este Talento.</p>",
+			"description": "<p>Posiadasz alter ego, które jest bogatszym lub biedniejszym człowiekiem od ciebie. Wybierz Profesję, na którą przystanie MG. Dopóki jesteś odpowiednio ubrany, dopóty możesz korzystać z oferowanego przez nią Statusu, a nie z rzeczywiście posiadanej. To oznacza, że korzystasz z jej modyfikatorów do Testów Ogłady, a nawet możesz zignorować skutki działania Talentu Przestępca. Utrzymywanie sekretnej tożsamości wymaga udanych Testów Umiejętności Występy (Aktorstwo), gdy spotykasz kogoś, kto może cię przejrzeć. Każde wykupienie tego Talentu pozwala ci na stworzenie dodatkowej sekretnej tożsamości.</p>",
 			"tests": "Występy (Aktorstwo), by uwiarygodnić swoją sekretną tożsamość"
 		},
 		{
 			"id": "Shadow",
 			"name": "Cień",
-			"description": "<p>Eres hábil en seguir a la gente sin ser visto. Puedes utilizar las reglas de @Compendium[wfrp4e-core.skills.McTtmZu3Ac8Lh48W]{Seguimiento} sin tener que llevar a cabo un Chequeo Combinado. En vez de eso, chequeas simplemente tu Percepción o tu Habilidad de Movimiento silencioso, la mayor de las dos.</p>",
+			"description": "<p>Wiesz, jak podążać za innymi, by nie zostać na tym przyłapanym. Możesz wykorzystywać zasady śledzenia ze strony 128 bez konieczności wykonywania Testu Łączonego. Wystarczy, że wykonasz rzut na Percepcję lub Skradanie, zależnie od tego, która wartość jest wyższa.</p>",
 			"tests": "Wszystkie związane ze śledzeniem."
 		},
 		{
 			"id": "Sharp",
 			"name": "Czujny",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica inicial de Iniciativa (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Swoją początkową Inicjatywę zwiększasz na stałe o +5, co nie liczy się do sumy Rozwinięć twojej postaci.</p>",
 			"effects": [{"_id":"brTadWGpAAr78Pwx","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.i.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sharp.png","label":"Czujny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Sharpshooter",
 			"name": "Strzał w Dziesiątkę",
-			"description": "<p>Puedes llevar a cabo disparos apuntados de una precisión excepcional. Ignoras cualquier modificador negativo por Dificultad a los Chequeos de A distancia debidos al tamaño del objetivo.</p>",
+			"description": "<p>Strzelasz celnie w cel niezależnie od jego wielkości. Dzięki temu\nnie mają na ciebie wpływu negatywne modyfikatory strzelania,\nwynikające z rozmiaru celu.</p>",
 			"effects": [{"_id":"AdXR6L7rmxEgkVlB","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sharpshooter.png","label":"Strzał w Dziesiątkę","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","hide":false,"preventDuplicateEffects":true,"script":"if (args.options.sizeModifier < 0)\n   args.prefillModifiers.modifier -= args.options.sizeModifier"}},"tint":null}]
 		},
 		{
 			"id": "Shieldsman",
 			"name": "Tarczownik",
-			"description": "<p>Eres hábil utilizando un escudo para hacer moverse a otros en combate y así sacar partido de una situación desesperada. Cuando utilizas un Escudo para defenderte, obtienes tanta Ventaja como niveles tienes en Escudero si pierdes el Chequeo Enfrentado.</p>",
+			"description": "<p>Potrafisz tak posługiwać się tarczą, by wrogowie znaleźli się tam, gdzie chcesz, i umiesz wykorzystywać wynikającą z tego przewagę. Jeśli używasz tarczy do obrony i przegrasz Test Przeciwstawny, to mimo wszystko zyskujesz tyle punktów Przewagi, ile razy masz wykupiony ten Talent.</p>",
 			"tests": "Wszystkie testy defensywne przy użyciu tarczy",
-			"effects": [{"_id":"W5gSfWrnLHp2SYLA","flags":{"wfrp4e":{"effectTrigger":"opposedDefender","effectApplication":"actor","script":"if (args.opposedTest.result.winner == \"attacker\") {\n  if (args.opposedTest.defenderTest.weapon && args.opposedTest.defenderTest.item.properties.qualities.shield) {\n    ui.notifications.notify(`<b>${this.effect.label}</b>: Ganado ${this.item.Advances} de Ventaja`)\n    this.actor.setAdvantage(this.item.Advances)\n  }\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/shieldsman.png","label":"Tarczownik","tint":null,"transfer":true}]
+			"effects": [{"_id":"W5gSfWrnLHp2SYLA","flags":{"wfrp4e":{"effectTrigger":"opposedDefender","effectApplication":"actor","script":"if (args.opposedTest.result.winner == \"attacker\") {\n  if (args.opposedTest.defenderTest.weapon && args.opposedTest.defenderTest.item.properties.qualities.shield) {\n    ui.notifications.notify(`<b>${this.effect.label}</b>: Zdobyto ${this.item.Advances} Przewagi`)\n    this.actor.setAdvantage(this.item.Advances)\n  }\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/shieldsman.png","label":"Tarczownik","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Sixth Sense",
 			"name": "Szósty Zmysł",
-			"description": "<p>Tienes una extraña sensación cuando te ves amenazado, y puedes reaccionar en consecuencia. El DJ puede avisarte de que vas directo al peligro; esto normalmente sucederá después de que haga un Chequeo secreto de Intuición en tu beneficio. Además, si consigues un Chequeo de Intuición puedes ignorar la Sorpresa.</p>",
+			"description": "<p>Masz niepokojące przeczucia, kiedy coś ci grozi, i umiesz odpowiednio na nie zareagować. MG może cię ostrzec, kiedy znajdujesz się w sytuacji, w której może stać ci się krzywda, jeśli powiedzie się sekretny Test Intuicji wykonany w twoim imieniu. Co więcej, jeżeli uda ci się Test Intuicji, nie jesteś zaskoczony.</p>",
 			"tests": "Intuicji wykorzystujące twój Szósty Zmysł"
 		},
 		{
 			"id": "Slayer",
 			"name": "Zabójca",
-			"description": "<p>Al determinar el Daño utiliza el Bonificador por Resistencia de tu oponente como tu Bonificador por Fuerza si es superior; determina siempre esto antes de que cualquier otra regla modifique tu Fuerza o tu Bonificador por fuerza. Además, si tu objetivo es más grande que tú y consigues un Crítico, multiplica todo el Daño cuerpo a cuerpo que causas por el número de pasos mayor que es tu objetivo (así, 2 pasos = x2, 3 pasos = x3, y así sucesivamente); esta multiplicación se calcula una vez se han aplicado todos los modificadores. Consulta @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño}.</p>",
+			"description": "<p>Kiedy określasz wysokość obrażeń, możesz wykorzystać Bonus z Wytrzymałości wroga zamiast swojego Bonusu z Siły, oczywiście jeśli jest wyższy. Musisz to zrobić, zanim zmodyfikujesz swoją Siłę lub wynikający z niej modyfikator. Co więcej, jeśli twój wróg jest od ciebie większy, a ty zadasz Trafienie Krytyczne (patrz strona 159), pomnóż zadawane obrażenia o tyle kategorii wielkości, ile was dzieli. Na przykład: dwie kategorie oznaczają obrażenia x2, trzy kategorie obrażenia x3 i tak dalej. Mnożnik jest określany i stosowany dopiero po uwzględnieniu wszystkich innych modyfikatorów. Więcej informacji na temat rozmiaru znajduje się @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tutaj}.</p>",
 			"effects": [{"_id":"ScsXdMC7SqNirMwx","flags":{"wfrp4e":{"effectTrigger":"calculateOpposedDamage","effectApplication":"actor","script":"if (args.sizeDiff <= -2 && args.opposedTest.attackerTest.result.critical)\n        args.damageMultiplier = Math.abs(args.sizeDiff)\n\n      let sBonusDiff = args.opposedTest.defenderTest.actor.characteristics.t.bonus - args.opposedTest.attackerTest.actor.characteristics.s.bonus\n     let weapon = args.opposedTest.attackerTest.item\n      if (sBonusDiff > 0 && weapon && weapon.damage.value.includes(\"SB\"))\n        args.damage += sBonusDiff","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/slayer.png","label":"Zabójca","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Small",
 			"name": "Mały",
-			"description": "<p>Eres mucho más bajito que la mayoría de gente del Viejo Mundo. Las reglas completas de los diferentes Tamaños están en el Rasgo @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño}</p>"
+			"description": "<p>Jesteś niższy od większości mieszkańców Starego Świata. Zasady dotyczące rozmiaru znajdują się @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tutaj}</p>"
 		},
 		{
 			"id": "Sniper",
 			"name": "Snajper",
-			"description": "<p>La distancia no importa para tu puntería, y puedes acertar tanto a objetivos lejanos como a cercanos. No sufres penalizador alguno por disparar a alcance Largo, y sólo la mitad de los penalizadores por alcance Extremo.</p>",
+			"description": "<p>Kiedy strzelasz, odległość nie ma dla ciebie znaczenia. Eliminujesz cele z taką samą łatwością, jakby były niedaleko. Strzelanie na daleki zasięg nie wiąże się dla ciebie z żadnymi negatywnymi modyfikatorami, a na bardzo daleki oznacza tylko połowiczne modyfikatory.</p>",
 			"tests": "Broń Strzelecka (zasięg daleki lub bardzo daleki)",
 			"effects": [{"_id":"AVhPxHHlKUolT589","flags":{"wfrp4e":{"effectTrigger":"prepareItem","effectApplication":"actor","script":"if (args.item.range && args.item.range.bands)\n{\nargs.item.range.bands[game.i18n.localize(\"Long Range\")].modifier = 0\nargs.item.range.bands[game.i18n.localize(\"Extreme\")].modifier /= 2\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sniper.png","label":"Snajper","tint":"","transfer":true}]
 		},
 		{
 			"id": "Speedreader",
 			"name": "Szybkie Czytanie",
-			"description": "<p>Lees libros a un ritmo voraz. Puedes invertir un Chequeo de Investigar fallido si esto te concede un éxito. Si la velocidad a la que lees es importante durante el combate, un Chequeo con éxito de Leer y escribir te permite leer y entender por completo tantas páginas por Asalto como tu NE más tu nivel de Lector rápido (mínimo 1, incluso si fallas el Chequeo).</p>",
+			"description": "<p>Czytasz księgi z zadziwiającą szybkością. Możesz odwrócić kolejność kości nieudanego Testu Badań Naukowych, jeśli to przyniesie ci sukces. Jeżeli szybkie przeczytanie tekstu odgrywa rolę podczas walki, to w ciągu Rundy możesz przeanalizować tyle stron, ile PS uzyskasz dzięki udanemu Testowi Języków plus tyle, ile razy wykupiłeś ten Talent (minimum jedną, jeśli Test się nie powiódł).</p>",
 			"tests": "Badania Naukowe i Język, gdy ważne jest szybkie przyswajanie treści"
 		},
 		{
 			"id": "Sprinter",
 			"name": "Szybkobiegacz",
-			"description": "<p>Eres un buen corredor. Tu Atributo de Movimiento cuenta como 1 punto superior cuando Corres.</p>",
+			"description": "<p>Żwawo przebierasz nogami. Podczas Biegu twoja Szybkość jest traktowana, jakby była o 1 wyższa.</p>",
 			"tests": "Atletyka podczas Biegu",
 			"effects": [{"_id":"SjJdt6yUkEkPqDgF","flags":{"wfrp4e":{"effectTrigger":"prepareData","effectApplication":"actor","script":"args.actor.details.move.run += 4","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sprinter.png","label":"Szybkobiegacz","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Step Aside",
 			"name": "Zejscie z Linii",
-			"description": "<p>Eres hábil en moverte a donde las armas enemigas no llegan. Si utilizas Esquivar para defenderte contra un ataque y ganas el Chequeo Enfrentado, te puedes mover hasta 2 yardas mientras te apartas de un salto, y ya no se te considera Trabado. Ninguno de tus oponentes obtiene un Ataque gratuito cuando lo haces.</p>",
+			"description": "<p>Wiesz, jak znaleźć się tam, gdzie nie sięga oręż wroga. Jeśli wykorzystujesz Umiejętność Unik, by zejść z linii ciosu, i wygrasz Test Przeciwstawny, możesz poruszyć się na odległość do 2 metrów i nie liczysz się jako związany walką. Przeciwnicy nie mogą wykonać przeciwko tobie darmowych ataków.</p>",
 			"tests": "Unik, gdy używasz tego Talentu"
 		},
 		{
 			"id": "Stone Soup",
 			"name": "Wstrzemięźliwy",
-			"description": "<p>Estás acostumbrado a sobrevivir con menos, y sabes cómo resistir los malos tiempos. Puedes subsistir con la mitad de comida necesaria sin ningún penalizador (aparte de tener mucha hambre), y sólo necesitas hacer un Chequeo de Inanición cada 3 días y no cada 2</p>",
+			"description": "<p>Przywykłeś do tego, że jesz niewiele, i potrafisz przetrwać chude czasy. Jedząc połowę tego, co potrzebujesz, nie odczuwasz negatywnych skutków głodowania, chociaż jesteś nieco rozdrażniony. Testy głodu wykonujesz co 3 dni, a nie co 2.</p>",
 			"tests": "Odporności, by wytrzymać głód"
 		},
 		{
 			"id": "Stout-hearted",
 			"name": "Waleczne Serce",
-			"description": "<p>No importa lo mal que te vayan las cosas, siempre pareces volver a por más. Puedes intentar un Chequeo de Frialdad para eliminar 1 Estado de @Condition[Quebrantado] al final de cada uno de tus Turnos, así como al final de un Asalto.</p>",
+			"description": "<p>Nieważne, jak fatalne jest twoje położenie, ty się po prostu nie poddajesz. Na koniec swojej Tury i na koniec całej Rundy możesz wykonać Test Opanowania, by otrząsnąć się ze Stanu Panika (patrz strona 168).</p>",
 			"tests": "Opanowanie, by przełamać Stan Panika."
 		},
 		{
 			"id": "Strider",
 			"name": "Doświadczony Wędrowiec",
-			"description": "<p>Estás versado en atravesar terreno difícil. Ignoras todos los penalizadores al movimiento al atravesar o recorrer un terreno específico. Las especialidades típicas incluyen: costero, desiertos, marismas, rocoso, tundra o bosques.</p>",
+			"description": "<p>Masz doświadczenie w wędrówce przez dzicz i potrafisz dobrze wybierać drogę. Nie działają na ciebie negatywne modyfikatory wynikające z wpływu wybranego terenu. Oto lista przykładów: Lasy, Pustynie, Moczary, Teren Kamienisty, Tundra, Wybrzeża.</p>",
 			"tests": "Atletyki podczas podróży w terenie"
 		},
 		{
 			"id": "Strike Mighty Blow",
 			"name": "Silny Cios",
-			"description": "<p>¡Sabes cómo pegar duro! Aplicas tu nivel de Golpe poderoso en forma de Daño adicional con las armas cuerpo a cuerpo.</p>",
+			"description": "<p>Wiesz, jak komuś przywalić! Posługując się bronią do Walki Wręcz, zadajesz obrażenia powiększone o tyle, ile razy masz wykupiony ten Talent.</p>",
 			"effects": [{"_id":"1FkIE179oDa65hOI","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.data.flags.meleeDamageIncrease += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strike-mighty-blow.png","label":"Silny Cios","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Strike to Injure",
 			"name": "Morderczy Atak",
-			"description": "<p>Eres un experto en golpear las áreas más vulnerables de tus enemigos. Infliges tu nivel de Golpe letal en forma de Heridas adicionales cuando causas una Herida Crítica.</p>",
+			"description": "<p>Wiesz dobrze, gdzie uderzyć, by wyrządzić jak najwięcej krzywdy. Kiedy zadasz Ranę Krytyczną, zwiększasz też obrażenia o tyle, ile razy wykupiłeś ten Talent.</p>",
 			"effects": [{"_id":"3HTxEPAJdtbQaygL","flags":{"wfrp4e":{"effectTrigger":"rollWeaponTest","effectApplication":"actor","script":"if(args.test.result.critical)\n{\n   args.test.result.damage +=1 \n   args.test.result.additionalDamage += 1\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strike-to-injure.png","label":"Morderczy Atak","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Strike to Stun",
 			"name": "Ogłuszenie",
-			"description": "<p>Sabes dónde pegar a un oponente para tumbarlo rápido. Ignoras el penalizador de ‘Golpe apuntado’ para atacar la Ubicación de impacto Cabeza utilizando un arma cuerpo a cuerpo con la Cualidad <em>Contundente</em>. Además, para ti todas las armas improvisadas cuentan como si tuvieran la Cualidad <em>Contundente</em>.</p>",
+			"description": "<p>Wiesz, gdzie uderzyć, by wróg padł jak długi. Nie tyczy się ciebie negatywny modyfikator za atak mierzony w głowę, gdy używasz broni do Walki Wręcz z zaletą Ogłuszająca.Co więcej, w twoich rękach wszystkie bronie improwizowane są traktowane jako Ogłuszające.</p>",
 			"tests": "Broń Biała, gdy Ogłuszasz przeciwnika"
 		},
 		{
 			"id": "Strong Back",
 			"name": "Mocne Plecy",
-			"description": "<p>Tienes la espalda fuerte, y estás acostumbrado a trabajar duro. Puedes sumar tus niveles en Buenas espaldas a tu NE en cualquier Chequeo Enfrentado de Fuerza y puedes llevar tantos puntos de (see @JournalEntry[Impedimenta]) adicionales en forma de accesorios como tu nivel de Buenas espaldas.</p>",
+			"description": "<p>Twój kark jest twardy od ciężkiej harówki. Możesz dodać liczbę wykupień tego Talentu do PS Przeciwstawnych Testów Siły i nieść dodatkowy ekwipunek o wadze równej liczbie wykupień tego Talentu w punktach Obciążenia.</p>",
 			"tests": "Wiosłowanie lub Pływanie",
-			"effects": [{"_id":"V6DfeSCAubOnx2rs","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Chequeos enfrentados de fuerza","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-back.png","label":"Bono Enfrentado","tint":null,"transfer":true},{"_id":"J5IUFXDMXgCJSPXW","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.status.encumbrance.max += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-back.png","label":"Mocne Plecy","tint":null,"transfer":true}]
+			"effects": [{"_id":"V6DfeSCAubOnx2rs","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Przeciwstawny test siły","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-back.png","label":"Bonus Przeciwstawny","tint":null,"transfer":true},{"_id":"J5IUFXDMXgCJSPXW","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.status.encumbrance.max += 1","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-back.png","label":"Mocne Plecy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Strong Legs",
 			"name": "Silne Nogi",
-			"description": "<p>Tienes unas piernas fuertes, capaces de permitirte cubrir una buena distancia cuando saltas. Suma tu nivel de Piernas recias a tu NE en cualquier Chequeo de Atletismo que implica Saltar.</p>",
-			"effects": [{"_id":"VaILgn8RaKpqAueV","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Chequeos de Atletismo que implican Saltar","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-legs.png","label":"Silne Nogi","tint":null,"transfer":true}]
+			"description": "<p>Masz silne nogi, dzięki którym jesteś w stanie wykonywać nieprawdopodobnie dalekie skoki. Dodaj liczbę wykupień tego Talentu do PS Testów Atletyki wiążących się ze skakaniem.</p>",
+			"effects": [{"_id":"VaILgn8RaKpqAueV","flags":{"wfrp4e":{"effectTrigger":"dialogChoice","effectApplication":"actor","effectData":{"description":"Testy Atletyki związane ze skakaniem","modifier":null,"slBonus":1,"successBonus":null,"difficultyStep":null},"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/strong-legs.png","label":"Silne Nogi","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Strong Swimmer",
 			"name": "Świetny Pływak",
-			"description": "<p>Eres un nadador excepcionalmente bueno, y estás acostumbrado a contener el aliento un buen rato bajo el agua. Obtienes un bonificador igual a tu nivel en Buen nadador a tu Bonificador por Resistencia a efectos de contener el aliento.</p>",
+			"description": "<p>Bardzo dobrze pływasz i potrafisz na długo wstrzymać oddech pod wodą. Kiedy obliczasz, jak długo jesteś w stanie wytrzymać pod powierzchnią wody, do Bonusu z Wytrzymałości dodaj liczbę wykupień tego Talentu.</p>",
 			"tests": "Pływanie"
 		},
 		{
 			"id": "Strong-minded",
 			"name": "Odporność Psychiczna",
-			"description": "<p>Eres el epítome de la determinación y de la resolución. Suma tu nivel en Decidido a tu reserva máxima de Resolución.</p>"
+			"description": "<p>Jesteś uosobieniem determinacji i niezłomności. Dodaj tyle Punktów Determinacji do ich maksymalnej puli, ile razy wykupiłeś ten Talent.</p>"
 		},
 		{
 			"id": "Sturdy",
 			"name": "Tragarz",
-			"description": "<p>Tienes un físico musculoso o estás muy acostumbrado a llevar pesos. Aumenta el número de puntos de Impedimenta que puedes llevar en una cantidad igual a tu nivel de Fornido x2.</p>",
+			"description": "<p>Twoje krępe ciało świetnie nadaje się do tego, by dźwigać ciężary. Liczba punktów obciążenia, które możesz nosić, zwiększa się o liczbę wykupień tego Talentu x2.</p>",
 			"tests": "Siły podczas podnoszenia",
 			"effects": [{"_id":"JGnq108l9XA1xAWM","flags":{"wfrp4e":{"effectTrigger":"prePrepareItems","effectApplication":"actor","script":"args.actor.status.encumbrance.max += 2","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sturdy.png","label":"Tragarz","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Suave",
 			"name": "Charyzmatyczny",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica inicial de Empatía (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Twoja początkowa Ogłada zwiększa się na stałe o +5 (co nie wlicza się do sumy Rozwinięć postaci).</p>",
 			"effects": [{"_id":"KtcX1mblPyZZwVBC","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.fel.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/suave.png","label":"Charyzmatyczny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Super Numerate",
 			"name": "Geniusz Arytmetyczny",
-			"description": "<p>Tienes un don para el cálculo y puedes encontrar con facilidad la solución a muchos problemas matemáticos. Puedes utilizar una simple calculadora para representar de lo que es capaz tu PJ a la hora de calcular mentalmente.</p>",
+			"description": "<p>Masz dar do cyferek i z łatwością potrafisz rozwiązywać problemy matematyczne. Na sesji wolno używać ci kalkulatora, by pokazać geniusz swojej postaci (chyba że go nie potrzebujesz i liczysz w pamięci).</p>",
 			"tests": "Wycena, Hazard"
 		},
 		{
 			"id": "Supportive",
 			"name": "Pomocny",
-			"description": "<p>Sabes qué decir y cuándo hacerlo para causar el máximo impacto a tus superiores. Cuando utilizas con éxito una Habilidad social para influenciar a quienes tienen un nivel de Estatus superior al tuyo, puedes elegir entre utilizar los NE obtenidos con el dado y el número obtenido en el dado de unidades. Así, una tirada con éxito de 46 se podría utilizar para +6 NE.</p>",
+			"description": "<p>Wiesz, co i kiedy powiedzieć oraz jak najlepiej wypaść w oczach szlachetniej od ciebie urodzonych. Kiedy z powodzeniem użyjesz Umiejętności, by wpłynąć na tych, którzy mają wyższy od ciebie Status, możesz wybrać, czy wykorzystać normalnie obliczaną liczbę PS, czy zamiast niej użyć cyfry jedności kości, którymi rzucałeś. W ten sposób rzut 46 może dać +6 PS.</p>",
 			"tests": "Testy społeczne, by wpłynąć na stojących wyżej w hierarchii",
-			"effects": [{"_id":"S487mwxmDJh9rULA","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.characteristic.key== \"fel\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} NE si influenciando a aquellos de mayor estatus.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/supportive.png","label":"Pomocny","tint":null,"transfer":true}]
+			"effects": [{"_id":"S487mwxmDJh9rULA","flags":{"wfrp4e":{"effectTrigger":"rollTest","effectApplication":"actor","script":"if (args.test.item && args.test.item.characteristic.key== \"fel\" &&  (args.test.result.roll <= 5 || args.test.result.roll <= args.test.target))\n{\n\nlet SL = Math.floor(args.test.target / 10) - Math.floor(args.test.result.roll / 10)\nlet ones = Number(args.test.result.roll.toString().split(\"\").pop())\n\nif (ones > SL)\n   args.test.result.other.push(`<b>${this.effect.label}</b>: ${ones + args.test.successBonus + args.test.slBonus} PS przy próbie wpłynięcia na kogoś wyżej w hierarchii.`)\n}","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/supportive.png","label":"Pomocny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Sure Shot",
 			"name": "Strzał Przebijający",
-			"description": "<p>Sabes cómo encontrar los puntos débiles en la armadura de un objetivo. Cuando aciertas a un objetivo con un arma A distancia, puedes ignorar tantos puntos de Armadura como tu nivel de Disparo seguro .</p>",
+			"description": "<p>Wiesz, jak odszukać słaby punkt w pancerzu obranego celu. Kiedy trafisz, wykonując Test Broni Zasięgowej, możesz zignorować tyle Punktów Pancerza wroga, ile razy wykupiłeś ten Talent.</p>",
 			"effects": [{"_id":"FT9ngGg2C68sBxzc","changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/sure-shot.png","label":"Strzał Przebijający","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"applyDamage","effectApplication":"actor","hide":false,"preventDuplicateEffects":true,"script":"if(args.opposedTest.attackerTest.weapon.attackType == \"ranged\")\n{\n    let applyAP = (args.damageType == game.wfrp4e.config.DAMAGE_TYPE.IGNORE_TB || args.damageType == game.wfrp4e.config.DAMAGE_TYPE.NORMAL)\n\n\n    let AP = args.AP\n\n    if (applyAP) {\n        newUsed = Math.max(AP.used - this.item.Advances, 0)\n        args.totalWoundLoss += (AP.used - newUsed)\n\n    let apIndex = args.messageElements.findIndex(i => i.includes(game.i18n.localize(\"AP\")))\n    args.messageElements[apIndex] = newUsed + \"/\" + AP.value + \" \" + game.i18n.localize(\"AP\")\n    }\n}"}},"tint":""}]
 		},
 		{
 			"id": "Surgery",
 			"name": "Chirurgia",
-			"description": "<p>Eres un cirujano, capaz de abrir y cerrar la carne para curar a otros. Puedes tratar cualquier Herida crítica en la que se indica que necesita Cirugía. También puedes usarla para resolver problemas internos mediante un Chequeo <strong>Prolongado Desafiante (+0)</strong> de <strong>Sanar</strong> con un NE objetivo determinado por el DJ (por lo general entre 5 y 10) dependiendo de la dificultad de la operación. Esto causa 1d10 heridas y 1 Estado de <em>Sangrando </em>por Chequeo, lo que significa que la cirugía tiene una buena probabilidad de matar al paciente si el cirujano no es cuidadoso. Después de la cirugía, el paciente debe conseguir un Chequeo <strong>Normal (+20)</strong> de <strong>Aguante</strong> sufrir una&nbsp;Infección leve.</p>",
+			"description": "<p>Lata nauki trudnego rzemiosła chirurga pozwalają ci dokonywać cudu operacji, zabiegu niezbędnego przy leczeniu najgroźniejszych obrażeń. W opisie wybranych Trafień Krytycznych znajdziecie informację, że wymagają one interwencji chirurga. Właśnie ty jesteś w stanie im zaradzić. Operacja to Wydłużony Wymagający (+0) Test Leczenia. Liczba wymaganych PS jest ustalana przez MG, ale zwykle to 5-10. Podczas procedury zadajesz pacjentowi 1k10 obrażeń i nakładasz na niego Stan Krwawienie za każdym razem, gdy wykonujesz Test. To oznacza, że chory może umrzeć, a szansa na to jest wysoka. Po operacji pacjent musi wykonać Przeciętny (+20) Test Odporności, a jego niepowodzenie oznacza drobną infekcję.</p>",
 			"tests": "Leczenie poza walką, czyli kiedy możesz właściwie zająć się rannym."
 		},
 		{
 			"id": "Tenacious",
 			"name": "Wytrwały",
-			"description": "<p>Nunca te das por vencido, por imposibles que parezcan las tareas a las que te enfrentas. Puedes doblar la longitud del tiempo que los Chequeos de Aguante te permiten soportar una adversidad. Esto incluye soportar un período prolongado de monta, la exposición a los elementos, los rituales y otras adversidades similares.",
+			"description": "<p>Bez względu na okoliczności i powagę sytuacji ty przenigdy się nie poddajesz. Podwajasz czas opierania się przeciwnościom, zapewniany przez udany Test Niezłomności. Wytrzymujesz długą jazdę, wystawienie na warunki atmosferyczne, rytuały i tym podobne trudności.",
 			"tests": "Odporność, by wytrzymać trudności"
 		},
 		{
 			"id": "Tinker",
 			"name": "Złota Rączka",
-			"description": "<p>Sabes de todo un poco, y eres capaz de reparar casi cualquier cosa. Cuentas todas las Habilidades de Oficio no mágicas como básicas cuando reparas objetos rotos.</p>",
+			"description": "<p>Jesteś w stanie naprawić dosłownie wszystko, a kiedy coś reperujesz, traktujesz wszystkie niemagiczne Umiejętności Rzemiosła jako podstawowe.</p>",
 			"tests": "Rzemiosło, by naprawić uszkodzone przedmioty"
 		},
 		{
 			"id": "Tower of Memories",
 			"name": "Wieża Pamięci",
-			"description": "<p>Una técnica de memorización que introdujo inicialmente el Culto de Verena, según parece a partir de prácticas de los elfos que enseñaban los Maestros del saber de Hoeth, la Memoria visual permite recordar perfectamente una secuencia de hechos almacenándola en una espira imaginaria. Puedes recordar una secuencia tan larga como tu Inteligencia sin tener siquiera que hacer un Chequeo. Por cada 10 objetos más que intentas memorizar, debes llevar a cabo un Chequeo de Inteligencia cada vez más difícil para recordar correctamente la lista, empezando por <strong>Muy Fácil (+60)</strong> para +10, <strong>Fácil (+40)</strong> para +20, <strong>Normal (+20)</strong> para +30y así sucesivamente. Más allá de su utilidad obvia para los Chequeos de Jugar, donde disponer de este Talento añadirá un bonificador de entre +20 y +60 dependiendo de lo útil que sea recordar secuencias para el juego de que se trate, el DJ podrá aplicar modificadores a otros Chequeos según vea apropiado. Cada vez que adquieres este Talento, puedes recordar una secuencia adicional sin tener que olvidar otra almacenada previamente.</p>"
+			"description": "<p>Ta technika pamięciowa została opracowana przez kult Vereny, a swoje korzenie ma w praktykach elfich mistrzów wiedzy z Hoeth. Wieża Pamięci pozwala ci bezbłędnie przypomnieć sobie fakty i wydarzenia, ponieważ kolekcjonujesz je w wyimaginowanej wieży. Przywoływanie sekwencji tylu wspomnień, ile wynosi twoja Inteligencja, nie wymaga żadnego Testu, ale zapamiętywanie każdych dodatkowych 10 informacji wymaga Testu Inteligencji o zwiększającym się stopniu trudności, by je sobie poprawnie przypomnieć. Stopień trudności zaczyna się od Bardzo Łatwego (+60) dla 10 faktów, później staje się Łatwy (+40) dla 20, Przeciętny (+20) dla 30 i tak dalej. Jednym z najoczywistszych zastosowań tego Talentu są gry hazardowe, Talent może dać premię od +20 do +60 do Testów Umiejętności Hazard, w zależności od tego, jak bardzo pomocna w grze jest pamięć. MG może uznać, że Wieża Pamięci przyda się w innych sytuacjach, odpowiednio modyfikując Testy. Za każdym razem, gdy wykupujesz ten Talent, możesz zapamiętać dodatkową sekwencję (odpowiednią wartości Inteligencji) faktów bez potrzeby usuwania z pamięci poprzedniej.</p>"
 		},
 		{
 			"id": "Trapper",
 			"name": "Traper",
-			"description": "<p>Eres hábil en divisar y utilizar trampas. Puedes llevar a cabo un Chequeo de Percepción para divisar trampas automáticamente sin tener que informar de tus intenciones al DJ; sin embargo, éste podría preferir llevar a cabo algunos de dichos Chequeos por tu cuenta en privado.</p>",
+			"description": "<p>Wiesz, jak używać wnyków, i możesz wykonać Test Percepcji, by je zauważyć, bez konieczności deklarowania poszukiwań. MG będzie pewnie wolał wykonać go samemu, na wypadek gdyby rzut okazał się nieudany.</p>",
 			"tests": "Percepcja, by zauważyć pułapki, Zastawianie Pułapek"
 		},
 		{
 			"id": "Trick Riding",
 			"name": "Woltyżerka",
-			"description": "<p>Eres capaz de increíbles muestras de agilidad a caballo. Puedes utilizar cualquiera de tus Habilidades de Interpretar y tu Habilidad de Esquivar no modificada cuando montas a caballo. Además, cuando vas montado, puedes llevar a cabo tu Movimiento al inicio del Asalto en lugar de en tu Turno.</p>",
+			"description": "<p>Jesteś w stanie wykonywać nieprawdopodobne rzeczy na końskim grzbiecie. W siodle możesz podejmować Testy Umiejętności Kuglarstwo i nie masz ujemnych modyfikatorów do Uniku. Co więcej, kiedy jesteś na koniu, możesz wykonać Ruch na początku Rundy, a nie w swojej Turze.</p>",
 			"tests": "Unik na koniu, Jeździectwo (Konie)",
 			"effects": [{"_id":"HRSjpI6pAoSuf9tl","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"actor","script":"if (args.type == \"characteristic\") {\n      if (args.options.dodge && this.actor.isMounted)\n          args.prefillModifiers.modifier += 20\n    }\n\n    if (args.type == \"skill\") {\n      if (args.item.name == game.i18n.localize(\"NAME.Dodge\") && this.actor.isMounted)\n        args.prefillModifiers.modifier += 20\n\n    }","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/trick-riding.png","label":"Woltyżerka","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Tunnel Rat",
 			"name": "Szczur Tunelowy",
-			"description": "<p>Te sientes como en casa en túneles, alcantarillas y otros entornos subterráneos. Cuando utilizas Movimiento silencioso en un entorno subterráneo, quienes te rodean no tienen derecho a Chequeos de Percepción pasiva para detectarte; tan sólo pueden verte si están específicamente vigilando o buscando gente oculta.</p>",
+			"description": "<p>W tunelach, kanałach ściekowych i pod powierzchnią ziemi jesteś na swoim terenie. Kiedy wykorzystujesz w takich warunkach Umiejętność Skradanie, istotom wokoło nie przysługuje pasywny Test Percepcji. Zauważyć cię mogą dopiero wtedy, gdy będą cię czynnie wyglądały lub szukały ukrytych przeciwników.</p>",
 			"tests": "Skradanie pod ziemią"
 		},
 		{
 			"id": "Unshakable",
 			"name": "Niewzruszony",
-			"description": "<p>Eres un veterano curtido, que ha sobrevivido a más de una ráfaga de disparos procedentes de armas de Pólvora negra. Tan sólo necesitas llevar a cabo un Chequeo de Frialdad para resistirte al estado de <em>Quebrantado </em>si resultas herido con éxito por un arma de Pólvora negra, no si simplemente te disparan con ella.</p>",
+			"description": "<p>Jesteś twardym wiarusem, który przetrwał niejedną salwę z broni czarnoprochowej. Musisz wykonać Test Opanowania, by oprzeć się Stanowi Panika, dopiero kiedy zostaniesz zraniony przez broń prochową, a nie wtedy, gdy zostaniesz z niej tylko ostrzelany.</p>",
 			"tests": "Opanowanie przeciwko panice prochowej"
 		},
 		{
 			"id": "Very Resilient",
 			"name": "Niezwykle Odporny",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica de Resistencia inicial (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Twoja początkowa Wytrzymałość zostaje na stałe podniesiona o +5, co nie liczy się do sumy twoich Rozwinięć.</p>",
 			"effects": [{"_id":"vntOVrHSurqI8lbG","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":true}},"changes":[{"key":"data.characteristics.t.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/very-resilient.png","label":"Niezwykle Odporny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Very Strong",
 			"name": "Bardzo Silny",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica de Fuerza inicial (esto no cuenta contra tus Avances).</p>",
+			"description": "<p>Twoja początkowa Siła zostaje na stałe podniesiona o +5, co nie liczy się do sumy twoich Rozwinięć.</p>",
 			"effects": [{"_id":"4dEzF6K4pP539zRF","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.s.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/very-strong.png","label":"Bardzo Silny","tint":null,"transfer":true}]
 		},
 		{
 			"id": "War Leader",
 			"name": "Wódz",
-			"description": "<p>Tu severa mirada y tus inspiradoras palabras motivan a tus soldados para luchar hasta el final. Todos los subordinados capaces de verte pueden sumar tu nivel en Líder de guerra a tu NE en un Chequeo de Voluntad por Asalto. Este bonificador no se apila.</p>",
+			"description": "<p>Twój niewzruszony wzrok i inspirujące słowa popychają żołnierzy do jeszcze zacieklejszej walki. Podkomendni, którzy cię widzą, w jednym Teście Siły Woli na Rundę zyskują dodatkowe PS równe temu, ile razy masz wykupiony ten Talent. Dany wojownik może korzystać z premii tylko jednego dowódcy naraz.</p>",
 			"tests": "Dowodzenie podczas wojny"
 		},
 		{
 			"id": "War Wizard",
 			"name": "Mag Bitewny",
-			"description": "<p>Estás entrenado para lanzar magia en el fragor del combate. En tu turno, puedes lanzar un hechizo con un Número de Lanzamiento de 5 o menos de forma gratuita sin utilizar tu Acción. Sin embargo, si lo haces, no puedes lanzar otro hechizo ese turno.</p>"
+			"description": "<p>Zostałeś wyszkolony w rzucaniu czarów podczas bitwy. W swojej Turze możesz rzucić jeden czar o Poziomie Zaklęcia 5 lub niższym w Akcji Darmowej (Test wykonujesz normalnie). Nie używasz zatem pełnej Akcji i możesz ją wykorzystać w dowolny sposób. Jednak w tej Turze nie możesz rzucić już kolejnego czaru.</p>"
 		},
 		{
 			"id": "Warrior Born",
 			"name": "Urodzony Wojownik",
-			"description": "<p>Obtienes un bonificador +5 permanente a tu Característica de Habilidad de arma inicial (no cuenta como Avances).</p>",
+			"description": "<p>Twoja początkowa Walka Wręcz zostaje na stałe podniesiona o +5, co nie liczy się do sumy twoich Rozwinięć.</p>",
 			"effects": [{"_id":"yjOMm9SFJOK8QBvQ","flags":{"wfrp4e":{"effectApplication":"actor","preventDuplicateEffects":false}},"changes":[{"key":"data.characteristics.ws.initial","value":"5","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/talents/warrior-born.png","label":"Urodzony Wojownik","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Waterman",
 			"name": "Wodniak",
-			"description": "<p>Eres un navegante fluvial con experiencia y estás muy versado en las embarcaciones fluviales. Puedes ignorar todos los negativos a tus Chequeos cuando estas a bordo de una gabarra, derivados de aguas revueltas, embarcaciones que se mueven, suelo inseguro y cosas parecidas. Además, cuentas como dos barqueros para el mínimo de tripulantes necesarios para pilotar una embarcación de río.</p>",
+			"description": "<p>Jesteś doświadczonym żeglarzem śródlądowym i jak mało kto znasz się na jednostkach rzecznych. Kiedy jesteś na pokładzie jednej z nich, nie stosują się do ciebie negatywne modyfikatory wynikające z falowania wód, kołysania pokładu, niepewnego podłoża itp. Co więcej, liczysz się za dwóch członków załogi, gdy trzeba zapewnić minimalną liczbę członków załogi, by wypłynąć na rzekę.</p>",
 			"tests": "Chequeos de Navegar para embarcaciones fluviales"
 		},
 		{
 			"id": "Wealthy",
 			"name": "Majętny",
-			"description": "<p>Eres fabulosamente rico y raramente vas corto de dinero. Cuando Ganas dinero (incluyendo las Empresas de Salario) consigues +1 corona de oro por cada vez que has adquirido este Talento.</p>"
+			"description": "<p>Jesteś bajecznie bogaty i rzadko kiedy brakuje ci pieniędzy. Kiedy zarabiasz (włączając w to Zajęcie Dochód), zarabiasz +1 złotą koronę więcej.</p>"
 		},
 		{
 			"id": "Well-prepared",
 			"name": "Dobrze Przygotowany",
-			"description": "<p>Estás acostumbrado a anticiparte a las necesidades, tanto de los demás como de ti mismo. Durante tantas veces por sesión como tu nivel de Bien equipado, puedes sacar de tu mochila (o similar) el accesorio requerido para la situación actual en tanto en cuanto su Impedimenta sea 0, puedas haberlo comprado recientemente y no abuse demasiado de la credibilidad. Podría tratarse de cualquier cosa, desde una petaca de licor para fortificar a un camarada herido hasta una flauta dulce que necesita un animador de paso. Siempre que hagas esto, deberás restar de tu bolsillo el coste del objeto proporcionando, representando el dinero gastado previamente.</p>"
+			"description": "<p>Dobrze przewidujesz, czego będą potrzebować inni i co przyda się tobie. Tyle razy na sesję, ile razy wykupiłeś ten Talent, możesz wyciągnąć z plecaka lub sakwy niezbędny przedmiot, jeśli jego ciężar w punktach obciążenia wynosi 0, mógł zostać niedawno kupiony i jego posiadanie nie jest czymś niezwykłym. Może to być butelka spirytusu, potrzebna do polania rany kompana, lub gwizdek, którego zabrakło występującemu cyrkowcowi. Kiedy użyjesz tego Talentu, odlicz pieniądze za przedmiot, pokazując tym, że wcześniej go kupiłeś.</p>"
 		},
 		{
 			"id": "Witch!",
 			"name": "Czarownica!",
-			"description": "<p>Has aprendido magia mediante prueba y error. Añade Hablar idioma (magia) a cualquier Carrera en la que entras; si la Habilidad ya está en dicha Carrera, puedes comprarla a razón de 5 PX menos por Avance. Además, puedes gastar 1 punto de Resiliencia para lanzar de inmediato cualquier hechizo como si fuera uno de tus hechizos de Saber arcano; también memorizas instantáneamente el hechizo como uno de tus hechizos de Saber arcano al coste de 0 PX. Puedes hacerlo tantas veces como tu nivel en este Talento.</p>"
+			"description": "<p>Sama z siebie nauczyłaś się, jak rzucać czary, często robiąc to metodą prób i błędów. Dodaj Język (Magiczny) do listy Umiejętności każdej bieżącej Profesji. Jeśli się już na niej znajduje, każde Rozwinięcie tej Umiejętności kosztuje cię 5 PD mniej. Co więcej, za Punkt Bohatera możesz objawić znajomość nowego czaru z tradycji Magii Tajemnej i go zapamiętać. Możesz tak uczynić tyle razy, ile razy wykupiłaś ten Talent.</p>"
 		}
 	]
 }

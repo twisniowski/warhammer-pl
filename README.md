@@ -12,7 +12,8 @@ The module requires the **purchase** of the original WHRP4e Core Module, © Cubi
 
 This module is based on the Spanish translation module of the Core Warhammer Fantasy Roleplay 4th Edition module.
 
-Original Spanish translation project was created and is maintained by Txus5012: https://github.com/Txus5012/WFRP4e-Castellano/
+Original Spanish translation project was created and is maintained by Txus5012: https://github.com/Txus5012/WFRP4e-Castellano
+
 The Foundry VTT Warhammer Modules are created and are maintained by Moo Man: https://github.com/moo-man/WFRP4e-FoundryVTT
 
 **This translation is using copy from the Polish version of the WFRP Core book. Please only use it if you own the physical or digital copy of the book.**
