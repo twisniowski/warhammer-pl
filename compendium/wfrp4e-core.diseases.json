@@ -19,7 +19,7 @@
 	"entries": [
 		{
 			"id": "Blood Rot",
-			"name": "Podredumbre sanguínea",
+			"name": "Zatrucie Krwi",
 			"description": "<p>Krew jest zainfekowana, a serce pompuje chorobę, rozprzestrzeniając ją po organizmie. Przystawianie pijawek jest dość powszechnie stosowanym remedium, choć niektórzy cyrulicy skłaniają się ku precyzyjnemu nacinaniu szyi, by upuścić skażoną krew, jednocześnie nakazując spożywanie dużych ilości zdrowej krwi, by uzupełnić jej utratę. Niezależnie od tego, czy pacjent akceptuje takie leczenie, czy nie, nieleczone Zatrucie Krwi jest śmiertelne, więc prędzej czy później chory spotka się z Gildią Płaczek lub Kultem Morra.</p>",
 			"contraction": "Powikłania w związku z inną chorobą lub otrzymaną Raną Krytyczną.",
 			"incubation": "Natychmiastowa",
