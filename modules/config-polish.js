@@ -261,7 +261,7 @@ game.wfrp4e.config.symptomEffects = {
                         if (!fatigued)
                         {
                             args.actor.addCondition("fatigued")
-                            ui.notifications.notify("Dodano zmęczenie dla \" + args.actor.name + \" którego nie można usunąć, aż nie miną objawy Apatii.")
+                            ui.notifications.notify("Dodano Wyczerpanie \" + args.actor.name + \" którego nie można usunąć, aż nie miną objawy Apatii.")
                         }
                     }
                     `
