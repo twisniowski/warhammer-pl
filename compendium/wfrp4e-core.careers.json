@@ -834,7 +834,7 @@
 			"id": "Initiate",
 			"name": "Kleryk",
 			"skills": ["Atletyka","Opanowanie","Odporność","Intuicja","Wiedza (Teologia)","Percepcja","Modlitwa","Badania Naukowe"],
-			"talents": ["Bendición (Cualquiera)","Charyzmatyczny","Czytanie/Pisanie","Święte Wizje"],
+			"talents": ["Błogosławieństwo (Dowolna Tradycja)","Charyzmatyczny","Czytanie/Pisanie","Święte Wizje"],
 			"trappings": ["Szata","Symbol religijny"],
 			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.GNwQFkVKUs0JM6U5]{Kapłan}</p>"
 		},
@@ -1154,7 +1154,7 @@
 			"id": "Novitiate (Nun)",
 			"name": "Nowicjuszka",
 			"skills": ["Sztuka (Kaligrafia)","Opanowanie","Odporność","Występy (Gawędziarstwo)","Plotkowanie","Leczenie","Wiedza (Teologia)","Modlitwa"],
-			"talents": ["Wstrzemięźliwy","Bendición (Cualquiera)","Czytanie/Pisanie","Naciągacz"],
+			"talents": ["Wstrzemięźliwy","Błogosławieństwo (Dowolna Tradycja)","Czytanie/Pisanie","Naciągacz"],
 			"trappings": ["Szata","Symbol religijny"],
 			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.bE8g67fjVAE6R7Wx]{Mniszka}</p>"
 		},
@@ -1162,7 +1162,7 @@
 			"id": "Novitiate (Warrior Priest)",
 			"name": "Nowicjusz Kapłanów-wojowników",
 			"skills": ["Opanowanie","Unik","Odporność","Leczenie","Dowodzenie","Wiedza (Teologia)","Broń Biała (Dowolna)","Modlitwa"],
-			"talents": ["Bendición (Cualquiera)","Odporność Psychiczna","Etykieta (Kultyści)","Czytanie/Pisanie"],
+			"talents": ["Błogosławieństwo (Dowolna Tradycja)","Odporność Psychiczna","Etykieta (Kultyści)","Czytanie/Pisanie"],
 			"trappings": ["Broń Biała (Dowolna)","Skórzany kaftan","Księga (Religia)","Szata","Symbol religijny"],
 			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.KG5lVereynSwOkxa]{Kapłan-wojownik}</p>"
 		},
