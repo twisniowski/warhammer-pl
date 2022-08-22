@@ -246,7 +246,7 @@
     "ACTOR.ErrorAdd": "dodaj",
     "ACTOR.ClearMount" : "Wyczyść Wierzchowca",
 
-    "ITEM.PenniesValue" : "Wartość (w d)",
+    "ITEM.PenniesValue" : "Wartość (w p)",
     "ITEM.MeleeDamage" : "Obrażenia WW",
     "ITEM.RangedDamage" : "Obrażenia US",
     "ITEM.TwoHanded" : "Dwuręczna",
