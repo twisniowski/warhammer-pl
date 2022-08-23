@@ -251,7 +251,7 @@
 		},
 		{
 			"id": "Cloak",
-			"name": "Capa",
+			"name": "Płaszcz",
 			"description": "<p>Chroni noszącego przed niesprzyjającymi warunkami pogodowymi.</p>"
 		},
 		{
@@ -917,7 +917,7 @@
 			"id": "Plate Open Helm",
 			"name": "Otwarty hełm płytowy",
 			"description": "",
-			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepción\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Otwarty hełm płytowy","tint":null,"transfer":true}]
+			"effects": [{"_id":"6pQrluba3OWBJgYI","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"equipped","script":"if (args.type == \"skill\" && args.item.name == \"Percepcja\")\n   args.prefillModifiers.modifier -= 10","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/armour/mail-coif.png","label":"Otwarty hełm płytowy","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Pole (3 yards)",
@@ -958,7 +958,7 @@
 			"id": "Ranald's Delight",
 			"name": "Rozkosz Ranalda",
 			"description": "<p>Ten silnie uzależniający stymulant to syntetyczny związek chemiczny wyrabiany z siarki, rtęci i innych pierwiastków. Wdychanie proszku zapewnia premię +1 do Szybkości i +10 do Walki Wręcz, Siły, Wytrzymałości i Zwinności. Trwa to przez 3 godziny, po upływie których użytkownik otrzymuje karę -2 do Szybkości i -20 do WW, S, Wt i Zw. Czas trwania: 1 dzień.</p>",
-			"effects":[{"_id":"TApb9RQHQJcksYYL","flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"changes":[{"key":"data.details.move.value","mode":2,"value":"1"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.modifier","mode":2,"value":"10"},{"key":"data.characteristics.t.modifier","mode":2,"value":"10"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"-1"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"-1"}],"duration":{"startTime":null,"seconds":10800},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Rozkosz Ranalda","transfer":true,"disabled":true,"tint":null},{"_id":"vLMdJ6dsFuAAIee5","changes":[{"key":"data.details.move.value","mode":2,"value":"-2"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.t.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"2"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"2"}],"disabled":true,"duration":{"startTime":null,"seconds":86400},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Efectos Secundarios de la Delicia de Ranald","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"tint":null}]
+			"effects":[{"_id":"TApb9RQHQJcksYYL","flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"changes":[{"key":"data.details.move.value","mode":2,"value":"1"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.modifier","mode":2,"value":"10"},{"key":"data.characteristics.t.modifier","mode":2,"value":"10"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"10"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"-1"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"-1"}],"duration":{"startTime":null,"seconds":10800},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Rozkosz Ranalda","transfer":true,"disabled":true,"tint":null},{"_id":"vLMdJ6dsFuAAIee5","changes":[{"key":"data.details.move.value","mode":2,"value":"-2"},{"key":"data.characteristics.ws.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.t.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.ag.modifier","mode":2,"value":"-20"},{"key":"data.characteristics.s.calculationBonusModifier","mode":2,"value":"2"},{"key":"data.characteristics.t.calculationBonusModifier","mode":2,"value":"2"}],"disabled":true,"duration":{"startTime":null,"seconds":86400},"icon":"modules/wfrp4e-core/icons/equipment/drugs_and_poisons/ranalds-delight.png","label":"Drugorzędne efekty Rozkoszy Ranalda","transfer":true,"flags":{"wfrp4e":{"effectTrigger":"","effectApplication":"actor","hide":false,"preventDuplicateEffects":false}},"tint":null}]
 		},
 		{
 			"id": "Rapier",
@@ -1054,7 +1054,7 @@
 			"id": "Salwort",
 			"name": "Salwort",
 			"description": "<p>Zmiażdżoną gałązkę tego zioła należy podłożyć pod nos pacjenta, który dzięki temu pozbywa się 1 Stanu Oszołomienie. Dawkowanie: 1 dawka na potyczkę.</p>",
-			"effects": [{"_id":"JGCSlLxbbXCPlkIY","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet stunned= this.actor.hasCondition(\"stunned\")\nif (stunned)\n{\n   ui.notifications.notify(`Eliminado 1 Estado de Aturdido`)\n   this.actor.removeCondition(\"stunned\", 1)\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png","label":"Salwort","tint":null,"transfer":true}]
+			"effects": [{"_id":"JGCSlLxbbXCPlkIY","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let item = duplicate(this.item)\nitem.quantity.value--\nif (item.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedEntity(\"OwnedItem\", item)\n\nlet stunned= this.actor.hasCondition(\"stunned\")\nif (stunned)\n{\n   ui.notifications.notify(`Usunięto 1 Stan Ogłuszenia`)\n   this.actor.removeCondition(\"stunned\", 1)\n}","preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png","label":"Salwort","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Saw",
@@ -1240,7 +1240,7 @@
 			"id": "Vitality Draught",
 			"name": "Eliksir żywotności",
 			"description": "<p>Wypicie tego eliksiru natychmiast usuwa wszelkie Stany @Condition[Wyczerpanie].</p>",
-			"effects": [{"_id":"9ArLjt6oQqMDFsDu","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let item = this.item.toObject()\nitem.data.quantity.value--\nif (item.data.quantity.value < 0)\n   return ui.notifications.error(\"No quedan más\")\n\nthis.actor.updateEmbeddedDocument(\"Item\", item)\n\nlet fatigued= this.actor.hasCondition(\"fatigued\")\nif (fatigued)\n{\n   ui.notifications.notify(`Eliminados ${fatigued.conditionValue} Estados de Fatigado`)\n   this.actor.removeCondition(\"fatigued\", fatigued.conditionValue)\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/vitality-draught.png","label":"Eliksir żywotności","tint":"","transfer":true}]
+			"effects": [{"_id":"9ArLjt6oQqMDFsDu","flags":{"wfrp4e":{"effectTrigger":"invoke","effectApplication":"actor","script":"let item = this.item.toObject()\nitem.data.quantity.value--\nif (item.data.quantity.value < 0)\n   return ui.notifications.error(\"Nie ma więcej\")\n\nthis.actor.updateEmbeddedDocument(\"Item\", item)\n\nlet fatigued= this.actor.hasCondition(\"fatigued\")\nif (fatigued)\n{\n   ui.notifications.notify(`Usunięto ${fatigued.conditionValue} Stanów Wyczerpania`)\n   this.actor.removeCondition(\"fatigued\", fatigued.conditionValue)\n}","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/equipment/herbs_and_draughts/vitality-draught.png","label":"Eliksir żywotności","tint":"","transfer":true}]
 		},
 		{
 			"id": "Wagon",

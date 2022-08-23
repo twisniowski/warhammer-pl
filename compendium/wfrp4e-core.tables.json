@@ -13,23 +13,23 @@
 	"entries": [
 		{
 			"id": "Career - Dwarf",
-			"name": "Carrera - Enano"
+			"name": "Profesja - Krasnolud"
 		},
 		{
 			"id": "Career - Halfling",
-			"name": "Carrera - Halfling"
+			"name": "Profesja - Niziołek"
 		},
 		{
 			"id": "Career - High Elf",
-			"name": "Carrera - Alto Elfo"
+			"name": "Profesja - Wysoki Elf"
 		},
 		{
 			"id": "Career - Human (Reiklander)",
-			"name": "Carrera - Humano (Reikland\u00E9s)"
+			"name": "Profesja - Człowiek (Reiklander)"
 		},
 		{
 			"id": "Career - Wood Elf",
-			"name": "Carrera - Elfo Silvano"
+			"name": "Profesja - Leśny Elf"
 		},
 		{
 			"id": "Catastrophic Miscast Table (Moo)",
@@ -51,167 +51,167 @@
 		},
 		{
 			"id": "Critical Hits - Arm",
-			"name": "Impactos Cr\u00EDticos - Brazo"
+			"name": "Trafienia Krytyczne - Ręka"
 		},
 		{
 			"id": "Critical Hits - Body",
-			"name": "Impactos Cr\u00EDticos - Cuerpo"
+			"name": "Trafienia Krytyczne - Korpus"
 		},
 		{
 			"id": "Critical Hits - Head",
-			"name": "Impactos Cr\u00EDticos - Cabeza"
+			"name": "Trafienia Krytyczne - Głowa"
 		},
 		{
 			"id": "Critical Hits - Leg",
-			"name": "Impactos Cr\u00EDticos - Pierna"
+			"name": "Trafienia Krytyczne - Noga"
 		},
 		{
 			"id": "Dissolution of Body and Mind - Dwarf",
-			"name": "Disoluci\u00F3n del Cuerpo y de la Mente - Enano",
+			"name": "Rozpad Ciała i Umysłu - Krasnolud",
 			"results": {
-				"1-5": "<b>Cuerpo</b>: @Table[mutatephys]",
-				"6-100": "<b>Mente</b>: @Table[mutatemental]"
+				"1-5": "<b>Ciało</b>: @Table[mutatephys]",
+				"6-100": "<b>Umysł</b>: @Table[mutatemental]"
 				}
 		},
 		{
 			"id": "Dissolution of Body and Mind - Halfling",
-			"name": "Disoluci\u00F3n del Cuerpo y de la Mente - Halfling",
+			"name": "Rozpad Ciała i Umysłu - Niziołek",
 			"results": {
-				"1-10": "<b>Cuerpo</b>: @Table[mutatephys]",
-				"11-100": "<b>Mente</b>: @Table[mutatemental]"
+				"1-10": "<b>Ciało</b>: @Table[mutatephys]",
+				"11-100": "<b>Umysł</b>: @Table[mutatemental]"
 				}
 		},
 		{
 			"id": "Dissolution of Body and Mind - High Elf",
-			"name": "Disoluci\u00F3n del Cuerpo y de la Mente - Alto Elfo",
+			"name": "Rozpad Ciała i Umysłu - Wysoki Elf",
 			"results": {
-				"1-100": "<b>Mente</b>: @Table[mutatemental]"
+				"1-100": "<b>Umysł</b>: @Table[mutatemental]"
 				}
 		},
 		{
 			"id": "Dissolution of Body and Mind - Human",
-			"name": "Disoluci\u00F3n del Cuerpo y de la Mente - Humano",
+			"name": "Rozpad Ciała i Umysłu - Człowiek",
 			"results": {
-				"1-50": "<b>Cuerpo</b>: @Table[mutatephys]",
-				"51-100": "<b>Mente</b>: @Table[mutatemental]"
+				"1-50": "<b>Ciało</b>: @Table[mutatephys]",
+				"51-100": "<b>Umysł</b>: @Table[mutatemental]"
 				}
 		},
 		{
 			"id": "Dissolution of Body and Mind - Wood Elf",
-			"name": "Disoluci\u00F3n del Cuerpo y de la Mente - Elfo Silvano",
+			"name": "Rozpad Ciała i Umysłu - Leśny Elf",
 			"results": {
-				"1-100": "<b>Mente</b>: @Table[mutatemental]"
+				"1-100": "<b>Umysł</b>: @Table[mutatemental]"
 				}
 		},
 		{
 			"id": "Dooming",
-			"name": "Condenas",
+			"name": "Wróżba Losu",
 			"results": {
-				"1-1": "La palabra de las brujas sellar\u00E1 tu destino.",
-				"2-2": "El calor de la bebida ser\u00E1 la sangre que brota de la herida.",
-				"3-3": "Los dulces y la miel son para ti como la sangre y los fur\u00FAnculos.",
-				"4-4": "Ten cuidado con lo que se esconde en los pliegues y en los volantes.",
-				"5-5": "Un pie seguro es una larga vida.",
-				"6-6": "Tu mente permanece demasiado en la tierra de los sue\u00F1os.",
-				"7-7": "No olvides la palabra de tu madre ni el rostro de tu padre.",
-				"8-8": "A las tinieblas se entregar\u00E1 un alma de luz.",
-				"9-9": "T\u00E1pate la nariz para que el hedor de la muerte no te llegue.",
-				"10-10": "La muerte se re\u00FAne bajo nubes oscuras.",
-				"11-11": "No abras una puerta a la que se halla llamado una sola vez.",
-				"12-12": "No pises las No abras una puerta a la que se halla llamado una sola vez. de los \u00E1rboles.",
-				"13-13": "Suena una vez: paz. Suena dos veces: placer. Suena tres veces: condenaci\u00F3n.",
-				"14-14": "No temas a una bruja, pero acob\u00E1rdate ante un cazador de brujas.",
-				"15-15": "Cuando el hielo arda y el fuego se congele, ser\u00E1 la hora de tu muerte.",
-				"16-16": "No permitas que la balanza se equilibre.",
-				"17-17": "Ten cuidado con las alcantarillas y desag\u00FCes porque son el lindero entre los mundos.",
-				"18-18": "Cuando una nueva vida clame, el Padre Morr te dar\u00E1 la bienvenida.",
-				"19-19": "Cu\u00EDdate del cuervo que merodea demasiado.",
-				"20-20": "\u00BFNo oyes a los sabuesos en el tintineo de las monedas de cobre?",
-				"21-21": "Cuando la bestia incline la cabeza, la muerte la seguir\u00E1 de cerca.",
-				"22-22": "No apetezcas la carne de las bestias con pezu\u00F1as, \u00A1te sabr\u00E1 siempre a ceniza!",
-				"23-23": "No conf\u00EDes en los signos de Ranald.",
-				"24-24": "Mira s\u00F3lo una vez en el marco del espejo, porque lo que veas por segunda vez vendr\u00E1 a reclamarte.",
-				"25-25": "Encontrar\u00E1s la muerte en una madriguera podrida.",
-				"26-26": "Cu\u00EDdate de los hombres que andan como bestias. Cu\u00EDdate de las bestias que andan como hombres.",
-				"27-27": "No entres en las casas de los dioses, porque saben tu nombre y no eres bienvenido.",
-				"28-28": "Cuidado con el lecho que no tiene due\u00F1o.",
-				"29-29": "Todos los placeres de la carne ser\u00E1n como cuchillos en tu espalda.",
-				"30-30": "No dejes que nadie te despierte, por temor a lo que pueda venir despu\u00E9s.",
-				"31-31": "La pena surge de unos calzones sucios.",
-				"32-32": "Tu muerte ser\u00E1 fea, y nacer\u00E1 de la fealdad.",
-				"33-33": "No hagas caso al ingeniero, porque sus artificios s\u00F3lo traen que sufrimiento.",
-				"34-34": "No conf\u00EDes en la mujer que no te dice su nombre, porque esconde en su coraz\u00F3n cosas mucho peores.",
-				"35-35": "Cont\u00E9n el aliento bajo la luz de Morrslieb, no sea que las tinieblas echen ra\u00EDces en tu alma.",
-				"36-36": "Tu primer sorbo de cerveza ser\u00E1 el \u00FAltimo.",
-				"37-37": "Cuidado con el monedero que se vierte.",
-				"38-38": "Morr enarbolar\u00E1 una falsa bandera, y a su sombra te llevar\u00E1 a descansar.",
-				"39-39": "Sobre arenas brillantes hay promesas y sangre.",
-				"40-40": "Teme a la tierra desprovista del grito de la gaviota.",
-				"41-41": "Si tus ojos se cierran con el conocimiento de lo injusto, nunca m\u00E1s se abrir\u00E1n.",
-				"42-42": "Tu adi\u00F3s carecer\u00E1 de duelo, de recuerdos y de reconocimiento.",
-				"43-43": "No conf\u00EDes en los tonos del p\u00FArpura.",
-				"44-44": "Nunca antes hubo uno como t\u00FA, que se ahogar\u00E1 en tierra y no en el mar.",
-				"45-45": "S\u00F3lo vivir\u00E1s mientras est\u00E9s en deuda con tus amigos.",
-				"46-46": "Una mente ociosa es un fest\u00EDn para la Ruina.",
-				"47-47": "Ciertamente puedes morir de algo tan peque\u00F1o.",
-				"48-48": "Ten cuidado con tu propia mente, pues le dice a tu alma que eres invencible.",
-				"49-49": "No te r\u00EDas de los flatulentos, no sea que te den retortijones.",
-				"50-50": "Los caballos saben m\u00E1s de lo que dicen, pero su momento de verdad ser\u00E1 tu perdici\u00F3n.",
-				"51-51": "No te eternices en el retrete, ni cierres los ojos en la ba\u00F1era.",
-				"52-52": "Cuando cae la noche, los cuchillos salen silenciosamente de sus vainas.",
-				"53-53": "No dejes que el est\u00F3mago de tu vecino gru\u00F1a, porque el hambre suele convertirse en crimen.",
-				"54-54": "Por una niebla helada ser\u00E1s tragado.",
-				"55-55": "No conf\u00EDes en la palabra escrita, porque una pluma corta m\u00E1s que una cuchilla.",
-				"56-56": "Morir\u00E1s de sed rodeado de bebida, de hambre rodeado de comida.",
-				"57-57": "Ten cuidado con el lavandero, porque el rodillo har\u00E1 honor a su nombre.",
-				"58-58": "Cuando las sombras pasen por encima, no mires hacia arriba por miedo a la muerte.",
-				"59-59": "El n\u00FAmero tres acabar\u00E1 contigo.",
-				"60-60": "Flotar\u00E1s en una espuma de sangre antes de que las olas se te lleven.",
-				"61-61": "No duermas bajo las lunas gemelas, porque sus sombras son largas y profundas.",
-				"62-62": "Evita la putrefacci\u00F3n, el moho y toda la podredumbre, porque conocen tu nombre y te tratan de pariente.",
-				"63-63": "No te sientes en el fog\u00F3n de un panadero.",
-				"64-64": "Morir\u00E1s encadenado a un amigo de confianza.",
-				"65-65": "Cuando la libertad se compre, tu fin se habr\u00E1 forjado.",
-				"66-66": "Tus huesos yacer\u00E1n en tierra extra\u00F1a.",
-				"67-67": "Ninguna acabar\u00E1 contigo, pero desear\u00E1s que lo hubiera hecho.",
-				"68-68": "Cuidado con el ladrido de los sabuesos, especialmente aqu\u00E9l cuyo origen no puedes ver.",
-				"69-69": "Morr viene a ti cuando todo lo que ves es azul.",
-				"70-70": "No mires atr\u00E1s, porque la perdici\u00F3n se te acerca por delante.",
-				"71-71": "No escondas la m\u00E1cula, no sea que se encone donde no la ves.",
-				"72-72": "Tus o\u00EDdos se llenar\u00E1n de risas antes de que empiecen los gritos.",
-				"73-73": "No permitas que viva la bruja, porque ella no te lo permitir\u00E1 a ti.",
-				"74-74": "Sost\u00E9n tu copa con ambas manos, para que no te la quiten los Poderes Ruinosos.",
-				"75-75": "La muerte no ser\u00E1 m\u00E1s que sangre en la vid.",
-				"76-76": "Ning\u00FAn guerrero mortal ser\u00E1 tu fin.",
-				"77-77": "No conf\u00EDes en la resistencia de los puentes.",
-				"78-78": "No seques la l\u00E1grima de tu ojo, porque ser\u00E1 la \u00FAltima.",
-				"79-79": "El canto de los p\u00E1jaros ser\u00E1 lo \u00FAltimo que oigas.",
-				"80-80": "La \u00FAltima moda encierra la amenaza m\u00E1s nueva.",
-				"81-81": "Piensas que una cuchilla de un solo filo no puede cortar a quien la usa, pero te equivocas.",
-				"82-82": "La violencia engendra violencia, pero la paz engendra muerte.",
-				"83-83": "El tamborileo de los pies te llevar\u00E1 al abrazo de Morr.",
-				"84-84": "Una noche sin canci\u00F3n precede a una ma\u00F1ana sin despertar.",
-				"85-85": "No arranques el agua del pozo, no sea que ella te arranque de la tierra.",
-				"86-86": "No te f\u00EDes del b\u00FAho que ulula, porque t\u00FA no puedes o\u00EDrlos y \u00E9l oye otra cosa.",
-				"87-87": "Cuando tus pies est\u00E9n enterrados en el lodo, tu muerte estar\u00E1 cerca.",
-				"88-88": "Las verdaderas apariciones vienen de tres en tres.",
-				"89-89": "Cuando la puerta est\u00E9 entreabierta no sonar\u00E1n las campanas, pero los violinistas bailar\u00E1n sobre tu tumba.",
-				"90-90": "Tu vida ser\u00E1 destruida por la pulga m\u00E1s peque\u00F1a.",
-				"91-91": "Cuando el campesino triunfe, tu cabeza ser\u00E1 separada de tus hombros.",
-				"92-92": "No conf\u00EDes en la inocencia de los ni\u00F1os, porque sus planes distan mucho de ser sensatos.",
-				"93-93": "No consideres la tela verde.",
-				"94-94": "Ten cuidado de todo lo que nada en el mar.",
-				"95-95": "No te levantes antes de media ma\u00F1ana, porque tu muerte ser\u00E1 muy temprano.",
-				"96-96": "No salves a los necesitados, porque ellos llevar\u00E1n tu nudo corredizo.",
-				"97-97": "El falso valor es la perdici\u00F3n segura.",
-				"98-98": "No habr\u00E1 cuervos que monden tus huesos.",
-				"99-99": "Morr env\u00EDa una doncella.",
-				"100-100": "Tu muerte marcar\u00E1 con el pecado al virtuoso."
+				"1-1": "Słowo wiedźmy napisze twoją zagładę.",
+				"2-2": "Ciepło napoju będzie krwią wypływającą z rany.",
+				"3-3": "Słodycze i miód są dla ciebie jak krew i czyraki.",
+				"4-4": "Uważaj na to, co kryje się w fałdach i falbanach.",
+				"5-5": "Pewna stopa to dalsze życie.",
+				"6-6": "Twój umysł włóczy się zbyt długo w krainie snów.",
+				"7-7": "Nie zapomnij słowa matki, ani twarzy ojca.",
+				"8-8": "Do ciemności zostanie wydana dusza światła.",
+				"9-9": "Zaciśnij nos, bo inaczej smród śmierci znajdzie swój dom.",
+				"10-10": "Śmierć zbiera się pod ciemnymi chmurami.",
+				"11-11": "Nie otwieraj drzwi, do których zapukano jeden raz.",
+				"12-12": "Nie stąpaj po korzeniach drzew.",
+				"13-13": "Rozbrzmiewa raz: pokój. Rozbrzmiewa dwa razy: przyjemność. Rozbrzmiewa trzy razy: potępienie.",
+				"14-14": "Nie bój się wiedźmy, ale kul się przed łowcą czarownic.",
+				"15-15": "Kiedy lód płonie, a ogień zamarza, wtedy nadejdzie godzina twojej śmierci.",
+				"16-16": "Nie cierp wagi w ekwilibrium.",
+				"17-17": "Uważaj na kanały i odpływy, gdyż są krawędzią między światami.",
+				"18-18": "Gdy nowe życie woła, Ojciec Morr przywita cię.",
+				"19-19": "Strzeż się kruka, który przedłuża swój pobyt.",
+				"20-20": "Czy nie słyszysz ogarów w brzęku mosiężnych monet?",
+				"21-21": "Gdy bestia skłania głowę, śmierć będzie tuż za nią.",
+				"22-22": "Wyrzuć mięso kopytnej bestii - będzie wiecznie popiołem w twoich ustach!",
+				"23-23": "Nie ufaj znakom Ranalda.",
+				"24-24": "Spójrz tylko raz w ramę lustra, bo to, co wygląda na drugie, będzie rościć sobie prawo.",
+				"25-25": "Twoja śmierć znajdzie cię w ropiejącej norze.",
+				"26-26": "Strzeżcie się ludzi, którzy chodzą jako Bestie. Strzeżcie się Bestii, które chodzą jako Ludzie.",
+				"27-27": "Nie wchodź do domów Bogów, bo oni znają twoje imię i nie powitają cię.",
+				"28-28": "Strzeż się łóżka, które nie ma właściciela.",
+				"29-29": "Wszystkie przyjemności ciała będą jak noże w twoich plecach.",
+				"30-30": "Niechaj nikt cię nie budzi, z obawy przed tym, co może nastąpić.",
+				"31-31": "Smutek wynika z zabrudzonych spodni.",
+				"32-32": "Twoja śmierć będzie brzydka i narodzi się z brzydoty.",
+				"33-33": "Nie zwracaj uwagi na inżyniera, bo ich sztuka przynosi tylko cierpienie.",
+				"34-34": "Nie ufaj kobiecie, która nie podaje imienia, bo skrywa cos znacznie gorszego w swoim sercu.",
+				"35-35": "Wstrzymaj oddech pod światłem Morrsleiba, aby ciemność nie zakorzeniła się w twojej duszy.",
+				"36-36": "Pierwszy łyk piwa będzie twoim ostatnim.",
+				"37-37": "Strzeż się torebki, która przelewa się.",
+				"38-38": "Morr powiewa fałszywą flagą i w jej cieniu zabierze cię na spoczynek.",
+				"39-39": "Na jasnych piaskach jest zarówno nadzieja, jak i krew.",
+				"40-40": "Bój się ziemi pozbawionej krzyku mewy.",
+				"41-41": "Jeśli twoje oczy zamkną się wiedzą o niesprawiedliwych, nigdy więcej się nie otworzą.",
+				"42-42": "Twoje odejście będzie nieopłakane, niezapamiętane i niezauważone.",
+				"43-43": "Nie ufaj odcieniom fioletu.",
+				"44-44": "Nigdy przedtem nie było takiego jak ty, który utonął na lądzie, a nie na morzu.",
+				"45-45": "Będziesz żył tylko wtedy, gdy jesteś bliski przyjaciół.",
+				"46-46": "Bezczynny umysł to uczta dla Ruiny.",
+				"47-47": "Z pewnością możesz umrzeć od tak małej rzeczy.",
+				"48-48": "Strzeż się własnego umysłu, bo przemawia do duszy niezwyciężoności.",
+				"49-49": "Nie śmiej się w obliczu wzdęć, bo skręcisz jelito.",
+				"50-50": "Konie wiedzą więcej, niż się wydaje, ale ich chwila prawdy będzie twoją zagładą.",
+				"51-51": "Nie zatrzymuj się na dłużej w wychodku ani nie zamykaj oczu w wannie.",
+				"52-52": "Kiedy zapada noc, noże bezgłośnie wysuwają się z pochew.",
+				"53-53": "Niech nie dudni w brzuchu twego bliźniego, bo zbyt szybko głód zamienia się w morderstwo.",
+				"54-54": "W lodowatej mgle zostaniesz połknięty.",
+				"55-55": "Nie ufaj słowu pisanemu, bo pióro tnie głębiej niż jakiekolwiek ostrze.",
+				"56-56": "Umrzesz z pragnienia, w otoczeniu wody, z głodu w otoczeniu pożywienia.",
+				"57-57": "Uważaj na pracza, gdyż pranie ma dwa znaczenia.",
+				"58-58": "Kiedy cienie przechodzą nad głową, nie patrz w górę z trwogi przed śmiercią.",
+				"59-59": "Liczba trzy cię wykończy.",
+				"60-60": "Będziesz unosił się w pianie krwi, zanim fale cię zabiorą.",
+				"61-61": "Nie śpij pod bliźniaczymi księżycami, ponieważ ich cienie są długie i głębokie.",
+				"62-62": "Unikaj zgnilizny, pleśni i wszelkiego rozkładu, ponieważ zna twoje imię i nazywa cię krewnym.",
+				"63-63": "Przy kominku piekarza nie będziesz siedział.",
+				"64-64": "Umrzesz przykuty do zaufanego przyjaciela.",
+				"65-65": "Kiedy wolność kupiona, twój koniec przypieczętowany.",
+				"66-66": "Twoje kości zaśmiecą obcą ziemię.",
+				"67-67": "Żadna włócznia cię nie wykończy, ale będziesz błagał aby to zrobiła.",
+				"68-68": "Zważaj na szczekanie, szczególnie, kiedy nie widzisz ogarów.",
+				"69-69": "Morr przychodzi do ciebie, gdy widzisz tylko niebieski.",
+				"70-70": "Nie patrz za siebie, bo zagłada zbliża się z przodu.",
+				"71-71": "Nie chowaj skazy, aby nie ropiała poza zasięgiem wzroku.",
+				"72-72": "Twoje uszy wypełni śmiech, zanim zrobią to krzyki.",
+				"73-73": "Nie pozwól wiedźmie żyć, bo ona nie pozwoli tobie.",
+				"74-74": "Trzymaj swój puchar oburącz, aby Niszczycielskie Moce ci go nie odebrały.",
+				"75-75": "Śmierć będzie tylko krwią na winorośli.",
+				"76-76": "Żaden śmiertelny wojownik nie będzie twoim końcem.",
+				"77-77": "Nie ufaj sile mostów.",
+				"78-78": "Nie otrzyj łzy ze swego oka, bo będzie ostatnia.",
+				"79-79": "Śpiewy ptaków będą ostatnią rzeczą, jaką usłyszysz.",
+				"80-80": "Z najnowszą modą nadchodzi najnowsze zagrożenie.",
+				"81-81": "Myślisz, że jednostronna klinga nie może zranić posiadacza, ale mylisz się.",
+				"82-82": "Przemoc rodzi przemoc, ale pokój rodzi śmierć.",
+				"83-83": "Tupanie stóp zaprowadzi cię w objęcia Morra.",
+				"84-84": "Noc bez piosenki poprzedza poranek bez przebudzenia.",
+				"85-85": "Nie wyrywaj wody ze studni, aby ona nie wyrwała cię z ziemi.",
+				"86-86": "Nie wiesz pohukiwaniom sów, gdyż nie słyszych ich, tylko coś innego.",
+				"87-87": "Kiedy pogrążysz stopy w błocie, śmierć twoja będzie tuż za tobą.",
+				"88-88": "Prawdziwe nawiedzenie przychodzi trójkami.",
+				"89-89": "Żadne dzwony nie biją, gdy drzwi są uchylone, ale skrzypkowie będą tańczyć na twoim grobie.",
+				"90-90": "Twoje życie zgubione przez najmniejszą pchłę.",
+				"91-91": "Kiedy chłop triumfuje, twoja głowa oddzieli się od twoich ramion.",
+				"92-92": "Nie ufaj niewinności dzieci, bo nigdy nie wiesz co planują.",
+				"93-93": "Nie zważaj na zielone płótna.",
+				"94-94": "Strzeż się wszystkiego, co pływa w morzu.",
+				"95-95": "Nie wstawaj przed śródrankiem, bo twoja śmierć jest zaprawdę wczesna.",
+				"96-96": "Nie wspieraj potrzebujących, gdyż to oni będą nieść twą pętlę.",
+				"97-97": "Fałszywa odwaga oznacza pewną zagładę.",
+				"98-98": "Nie będzie kruków, które mogłyby skubać twoje kości.",
+				"99-99": "Morr posyła dziewicę.",
+				"100-100": "Twoja śmierć naznaczy cnotliwych grzechem."
 				}
 		},
 		{
 			"id": "uRl0oCMXjTkv0ptj",
-			"name": "Condenas (2\u00AA Ed.)",
+			"name": "Wróżba Losu (2 Ed.)",
 			"results": {
 				"1-1": "Tu final ser\u00E1 peliagudo.",
 				"2-2": "El agua salada ser\u00E1 veneno para tu lengua.",
@@ -981,7 +981,7 @@
 		},
 		{
 			"id": "Mental Corruption",
-			"name": "Corrupci\u00F3n Mental"
+			"name": "Zepsucie Psychiczne"
 		},
 		{
 			"id": "Minor Miscast Table",
@@ -1037,34 +1037,34 @@
 		},
 		{
 			"id": "Oops! Table",
-			"name": "Tabla \u00A1Huy!",
+			"name": "Tabela „Ożeż!",
 			"results": {
-				"1-20": "Aciertas en una parte sensible de tu anatom\u00EDa (se recomienda interpretarlo, para m\u00E1s cachondeo); pierdes 1 Herida, ignorando el Bonificador por Resistencia o los puntos de Armadura.",
-				"21-40": "Tu arma cuerpo a cuerpo se atasca, o tu arma a distancia se encasquilla o se agrieta ligeramente; tu arma sufre 1 Da\u00F1o. En el siguiente asalto, actuar\u00E1s el \u00FAltimo sea cual sea el orden de iniciativa, los Talentos o las reglas especiales en vigor, hasta que te recuperes.",
-				"41-60": "Calculas mal tu maniobra, lo que te deja mal colocado, o tu arma a distancia se te resbala de las manos. Al siguiente asalto, tu Acci\u00F3n sufre un penalizador -10.",
-				"61-70": "Tropiezas bruscamente, y te resulta dif\u00EDcil enderezarte. Pierdes tu siguiente Movimiento.",
-				"71-80": "Empu\u00F1as mal tu arma, o se te cae al suelo la munici\u00F3n. Pierdes tu siguiente Acci\u00F3n.",
-				"81-90": "Notas un tir\u00F3n brusco o tropiezas y te tuerces el tobillo. Sufres una herida de @Compendium[wfrp4e-core.injuries.nF5z1OEhpi4t6a6S]{Desgarro muscular (leve)}. Esto cuenta como una Herida cr\u00EDtica.",
-				"91-100": "Consigues confundirte por completo, acertando a un aliado al azar que est\u00E1 a tu alcance, y utilizando tu dado de las unidades para determinar el NE del impacto. Si ello no es posible, consigues de alguna forma darte en la cara y sufres 1 Estado de @Condition[Aturdido]."
+				"1-20": "Podczas swojego ataku postać uderza w jakąś część własnego ciała (może z tego wyniknąć mnóstwo śmiechu!) – otrzymuje 1 Ranę, ignorując premię za Krzepę i Punkty Pancerza.",
+				"21-40": "Słychać straszny zgrzyt. Broń szczerbi się, nadłamuje albo zacina i otrzymuje 1 Punkt Uszkodzeń. W następnej Rundzie, niezależnie od Inicjatywy, Talentów i innych specjalnych zasad, postać wykonuje swoją Turę ostatnia, ponieważ musi dojść do siebie.",
+				"41-60": "Postać źle skalkulowała manewr, przez co mocno się odsłania. W przypadku broni dystansowej – o mały włos, a wypadłaby z rąk. W następnej Rundzie każda Akcja postaci otrzymuje karę -10.",
+				"61-70": "Postać potyka się, ledwie utrzymując równowagę. W następnej Rundzie nie wykonuje Ruchu.",
+				"71-80": "Postać nieostrożnie obchodzi się z bronią, przez co ta mało jej nie wypada lub amunicja dosłownie leci jej z rąk. W następnej Rundzie nie może wykonać Akcji.",
+				"81-90": "Postać potyka się, robi zbyt długi wypad lub krok i skręca kostkę. Otrzymuje Uraz @Compendium[wfrp4e-core.injuries.nF5z1OEhpi4t6a6S]{Zerwanie Mięśni (pomniejsze)}. Liczy się to jako Rana Krytyczna.",
+				"91-100": "Atak jest kompletną porażką, postać trafia w jednego losowego sojusznika w zasięgu broni – użyj rzutu, by określić PS ciosu. Jeśli to niewykonalne, postać w jakiś sposób zadaje sobie cios w głowę, co skutkuje Oszołomieniem."
 				}
 		},
 		{
 			"id": "Physical Mutation",
-			"name": "Mutaci\u00F3n F\u00EDsica",
+			"name": "Spaczenie fizyczne",
 			"results": {
-				"96-100": "<b>A elegir por el DJ</b>: El DJ elige una mutaci\u00F3n o un Rasgo de criatura."
+				"96-100": "<b>Decyzja MG:</b> MG wybiera mutację albo Cechę Stworzenia potwora."
 				}
 		},
 		{
 			"id": "Stinking Drunk",
 			"name": "Borracho como una Cuba",
-			"description": "Si fallas un chequeo de @Compendium[wfrp4e-core.skills.R2ytluHiEFF2KQ5e]{Mocna Głowa} un n\u00FAmero de veces igual a tu Bono por Resistencia, est\u00E1s Borracho como una Cuba. Tira en la siguiente tabla para ver lo que sucede:",
+			"description": "Jeśli nie uda ci się tyle testów umiejętności @Compendium[wfrp4e-core.skills.R2ytluHiEFF2KQ5e]{Mocna Głowa} ile wynosi twój Bonus z Wytrzymałości, stajesz się śmierdzącym ochlapusem. Wykonaj rzut i jego wynik odczytaj w tabeli poniżej.",
 			"results": {
-				"1-2": "<b>\u2018\u00A1El valor de Marienburgo!\u2019</b>: obtienes un bonificador +20 a tu habilidad Frialdad",
-				"3-4": "<b>\u2018\u00A1Eresh mi mejjor amigo!\u2019</b>: ignora todos los Prejuicios y Animosidades existentes",
-				"5-6": "<b>\u2018\u00BFPor qu\u00E9 se mueve todo?\u2019</b>: en tu turno puedes, o bien Mover, o bien llevar a cabo una Acci\u00F3n, pero no ambas cosas.",
-				"7-8": "<b>\u2018\u00A1Puedo con todos vosotros!\u2019</b>: obtienes Animosidad (\u00A1todo el mundo!).",
-				"9-10": "<b>\u2018\u00BFC\u00F3mo he llegado hasta aqu\u00E9?\u2019</b>: despiertas al d\u00E9a siguiente con una resaca enorme y pocos recuerdos de lo sucedido. El DJ y otros personajes ser\u00E1n capaces de informarte de lo que sucedi\u00F3 durante los embarazosos huecos de tu memoria, si investigas. Consigue un Chequeo de Consumir alcohol o tambi\u00E9n sufrir\u00E1s 1 Estado de @Condition[Envenenado]."
+				"1-2": "<b>„Marienburska brawura!”:</b> Otrzymujesz premię +20 do Testów Opanowania.",
+				"3-4": "<b>„Jeszteś mojem najlepsiejszym funflem!”:</b> Ignorujesz wszystkie Uprzedzenia i Wrogości.",
+				"5-6": "<b>„Czemu wszystko się chwieje?!”:</b> W swojej Turze możesz albo wykonać Ruch, albo Akcję, ale nie jedno i drugie.",
+				"7-8": "<b>„Już ja wam wszystkim pokażę!”:</b> Nabierasz Uprzedzenia (Wszyscy!)",
+				"9-10": "<b>„Co ja tu u licha robię?”:</b> Budzisz się następnego dnia z potężnym kacem, nie pamiętając, co się wydarzyło. MG i reszta drużyny opowiedzą ci, jak skompromitowała się twoja postać. Wykonaj Test Mocnej Głowy, którego niepowodzenie będzie oznaczać, że twoja postać nabyła Stan Zatrucie."
 				}
 		},
 		{
@@ -1104,39 +1104,39 @@
 		},
 		{
 			"id": "Wrath of the Gods Table",
-			"name": "Tabla de Ira de los Dioses",
+			"name": "Tabela Gniewu Bogów",
 			"results": {
-				"1-5": "<b>Visiones sagradas</b>: visiones de tu dios plagan tus sentidos. Intenta un Chequeo <b>Normal (+20)</b> de <b>Aguante</b>. Si fallas, sufres 1 Estado de @Condition[Aturdido]. El DJ determina cu\u00E1les son las visiones.",
-				"6-10": "<b>Medita sobre lo que has hecho</b>: ning\u00FAn Chequeo de Rezar con \u00E9xito puede conseguir m\u00E1s de +0 NE durante toda la semana siguiente.",
-				"11-15": "<b>Haz caso a mis lecciones</b>: sufres un penalizador -10 a tu Habilidad de Rezar durante tantos Asaltos como [[1d10]] + tus puntos de Pecado.",
-				"16-20": "<b>Demu\u00E9strame tu devoci\u00F3n</b>: pasas al Estado @Condition[Tumbado]. Dicho estado no se puede eliminar hasta que consigues un \u00E9xito en un Chequeo <b>Normal (+20)</b> de <b>Rezar</b>.",
-				"21-25": "<b>Est\u00E1s poniendo a prueba mi paciencia</b>: no puedes llevar a cabo ning\u00FAn Chequeo de Rezar durante [[1d10]] Asaltos.",
-				"26-30": "<b>No entiendes mis intenciones</b>: sufres un penalizador -10 a cualquier Habilidad asociada con tu dios (a determinar por el DJ) durante tantas horas como [[1d10]] + tus puntos de Pecado.",
-				"31-35": "<b>Encuentro inquietante tu falta de fe</b>: no puedes llevar a cabo ning\u00FAn Chequeo de Rezar durante tantos Asaltos como [[1d10]] + tus puntos de Pecado.",
-				"36-40": "<b>Comparte mi dolor</b>: sufres tantas heridas como 1 + tus puntos de Pecado, ignorando tu Bonificador por Resistencia y tus puntos de Armadura. Adem\u00E1s haz un Chequeo <b>Normal (+20)</b> de <b>Aguante</b>. Si fallas, sufres 1 Estado de @Condition[Aturdido].",
-				"41-45": "<b>Tu causa es indigna</b>: tus objetivos pasan al Estado @Condition[Tumbado]. Toda Bendici\u00F3n o Milagro de tu dios que les tenga como objetivo fallar\u00E1 autom\u00E1ticamente durante tantos d\u00EDas como [[1d10]] + tus puntos de Pecado.",
-				"46-50": "<b>Deja de parlotear</b>: no puedes llevar a cabo ning\u00FAn Chequeo de Rezar durante tantos Asaltos como [[2d10]] + tus puntos de Pecado.",
-				"51-55": "<b>Siente mi ira</b>: sufres tantas heridas como [[1d10]] + puntos de Pecado. Haz tambi\u00E9n un Chequeo <b>Desafiante (+0)</b> de <b>Aguante</b>. Si fallas, sufres 1 Estado de @Condition[Aturdido].",
-				"56-60": "<b>No te voy a ayudar</b>: sufres un penalizador -10 a una Habilidad asociada con tu dios (a determinar por el DJ) durante tantos d\u00EDas como [[1d10]] + puntos de Pecado.",
-				"61-65": "<b>Heridas divinas</b>: sufres tantos estados de @Condition[Sangrando] como 1 + puntos de Pecado.",
-				"66-70": "<b>Cegado</b>: pasas al Estado @Condition[Tumbado]. Sufres tantos estados de @Condition[Cegado] como 1 + puntos de Pecado, que s\u00F3lo se pueden eliminar mediante un Chequeo <b>Desafiante (+0)</b> de <b>Rezar</b>, donde un \u00C9xito elimina tantos estados de Cegado como 1 + NE.",
-				"71-75": "<b>\u00BFQu\u00E9 piensas sacrificarme?</b>: sufres tantas heridas como [[1d10]] + puntos de Pecado, ignorando tu Bonificador por Resistencia y los puntos de Armadura. Tambi\u00E9n has de hacer un Chequeo <b>Complicado (-10)</b> de <b>Aguante</b>. Si fallas, sufres 1 Estado de @Condition[Aturdido].",
-				"76-80": "<b>Has pecado contra m\u00ED</b>: tu dios est\u00E1 extremadamente enfadado y, como penitencia, te obliga a llevar a cabo Chequeos de Rezar como Acci\u00F3n durante tantos Asaltos como [[1d10]] + puntos de Pecado.",
-				"81-87": "<b>Hay que purgar tu carne</b>: sufres tantas heridas como [[2d10]] + puntos de Pecado, ignorando tu Bonificador por Resistencia y los puntos de Armadura. Haz adem\u00E1s un Chequeo <b>Dif\u00EDcil (-20)</b> de <b>Aguante</b>. Si fallas, sufres 1 Estado de @Condition[Aturdido]. Si fallas con -4 NE o menos, pasas al Estado @Condition[Inconsciente], que dura un m\u00EDnimo de [[1d10]] Asaltos.",
-				"88-88": "<b>Interferencia demon\u00EDaca</b>: en lugar de tu dios patr\u00F3n, quien responde a tus plegarias son los Dioses Oscuros. [[1d10]] demonios menores aparecen en un radio de [[2d10]] yardas de tu posici\u00F3n, y atacan a los objetivos m\u00E1s pr\u00F3ximos.",
-				"89-95": "<b>Siente mi ira</b>: sufres tantos Estados de @Condition[Quebrantado] como 1 + puntos de Pecado.",
-				"96-100": "<b>Haz penitencia</b>: deber\u00E1s emprender una Penitencia.",
-				"101-105": "<b>Castigo</b>: quedas reducido a 0 Heridas (si a\u00FAn no has quedado) y despu\u00E9s pasas al Estado @Condtion[Inconsciente], que no se puede eliminar hasta que recuperas por lo menos 1 Herida.",
-				"106-110": "<b>No uses mi nombre en vano</b>: pierdes tus Talentos de <em>Bendecir</em> e <em>Invocar</em>, durante tantos d\u00EDas como [[1d10]] + puntos de Pecado.",
-				"111-115": "<b>No conf\u00EDes en tus vanidades</b>: desaparecen todos tus Accesorios, dej\u00E1ndote desnudo. Por cada Penitencia que lleves a cabo, se te devolver\u00E1 un Objeto M\u00E1gico, si tuvieras alguno.",
-				"116-120": "<b>Abusas de mi misericordia</b>: pierdes tus Talentos de <em>Invocar</em> y de <em>Bendecir</em> durante tantos d\u00EDas como [[2d10]] + puntos de Pecado.",
-				"121-125": "<b>Contempla tu maldad</b>: sufres unas visiones insoportables de todos tus fracasos, que parecen durar toda una eternidad, pero que transcurren en un instante. Discute con tu DJ c\u00F3mo crear una Psicolog\u00EDa personalizada (ver @JournalEntry[Psicolog\u00EDa]) que refleje c\u00F3mo lidia tu personaje con la traum\u00E1tica experiencia.",
-				"126-130": "<b>Truenos y rel\u00E1mpagos</b>: tu dios te golpea. Quedas reducido a 0 Heridas (si a\u00FAn no has quedado) y sufres 1 Estado de @Condition[Ardiendo].",
-				"131-135": "<b>Sufre como sufro yo</b>: sufres tantos Estados de Sangrando como 1 + puntos de Pecado cada ma\u00F1ana hasta haber llevado a cabo una Penitencia.",
-				"136-140": "<b>Excomuni\u00F3n</b>: pierdes tus Talentos de <em>Invocar</em> y de <em>Bendecir</em> hasta que llevas a cabo 2 Penitencias; la primera te devuelve el Talento de <em>Bendecir</em>, y la segunda te devuelve el Talento de <em>Invocar</em>. Todos los seguidores de tu dios se dan cuenta autom\u00E1ticamente de tus circunstancias; todos los Chequeos para interaccionar con ellos se convierten autom\u00E1ticamente en Muy dif\u00EDciles (-30) y no se pueden modificar positivamente por encima de este valor.",
-				"141-145": "<b>Prueba tu val\u00EDa</b>: un servidor divino de tu dios aparece a menos de [[1d100]] yardas de ti y ataca, interviene, te reprende o algo similar seg\u00FAn la naturaleza del dios ofendido.",
-				"146-150": "<b>Quedas desterrado</b>: tu dios te abandona. Pierdes de forma permanente los Talentos <em>Bendecir</em> e <em>Invocar</em>, y pierdes todos los Avances de Rezar. Adem\u00E1s, todos los seguidores de tu dios se dan cuenta autom\u00E1ticamente de tus circunstancias; todos los Chequeos para interaccionar con ellos se convierten autom\u00E1ticamente en Muy dif\u00EDciles (-30) y no se pueden modificar positivamente por encima de este valor",
-				"151-151": "<b>Se te llama a rendir cuentas</b>: eres convocado ante tu dios para enfrentarte a un juicio final. A menos que dispongas de 1 punto de Destino, ya no vuelves. Si gastas 1 punto de Destino, vuelves a un lugar a elecci\u00F3n del DJ, y tambi\u00E9n sufres los efectos de Quedas desterrado."
+				"1-5": "<b>Święte wizje:</b> Twoje zmysły dręczą wizje ukazujące twojego boga. Wykonaj Przeciętny (+20) Test Odporności. W razie porażki dostajesz jeden Stan Oszołomienie. MG decyduje, co dokładnie przedstawiają wizje.",
+				"6-10": "<b>Przemyśl swoje uczynki:</b> Do końca tygodnia każdy udany Test Modlitwy będzie traktowany, jakby miał 0 PS.",
+				"11-15": "<b>Bacz na moje nauki:</b>Dostajesz karę -10 do Umiejętności Modlitwa przez następnych [[1d10]]+Punkty Grzechu Rund.",
+				"16-20": "<b>Dowiedź swej pobożności:</b> Dostajesz Stan Powalenie. Nie zostanie on usunięty, dopóki nie osiągniesz Sukcesu w Przeciętnym (+20) Teście Modlitwy.",
+				"21-25": "<b>Wystawiasz na próbę mą cierpliwość:</b> Nie możesz wykonywać żadnych Testów Modlitwy przez [[1d10]] Rund.",
+				"26-30": "<b>Nie rozumiesz moich zamiarów:</b> Dostajesz karę -10 do wszelkich Umiejętności powiązanych z twoim bóstwem (określa je MG) na następne [[1d10]]+Punkty Grzechu godzin.",
+				"31-35": "<b>Niepokoi mnie twój brak wiary:</b> Nie możesz wykonywać żadnych Testów Modlitwy przez [[1d10]]+Punkty Grzechu Rund.",
+				"36-40": "<b>Dziel mój ból:</b> Dostajesz 1+Punkty Grzechu Ran ignorujących Bonus z Wytrzymałości i PP. Ponadto wykonaj Przeciętny (+20) Test Odporności. W razie porażki dostajesz jeden Stan Oszołomienie.",
+				"41-45": "<b>Twoja sprawa jest niegodna:</b> Obiekty twojej modlitwy dostają Stan Powalenie. Wszelkie Błogosławieństwa i Cuda twojego bóstwa, których celami są te postacie, automatycznie kończą się porażką przez [[1d10]]+Punkty Grzechu dni.",
+				"46-50": "<b>Skończ tę paplaninę:</b> Nie możesz wykonywać żadnych Testów Modlitwy przez następnych [[2d10]]+Punkty Grzechu Rund.",
+				"51-55": "<b>Poczuj mój gniew:</b> Dostajesz [[1d10]]+Punkty Grzechu Ran. Ponadto wykonaj Wymagający (+0) Test Odporności. W razie porażki dostajesz jeden Stan Oszołomienie",
+				"56-60": "<b>Nie pomogę ci:</b> Dostajesz karę -10 do Umiejętności powiązanej z twoim bóstwem (określa ją MG) na następne [[1d10]]+Punkty Grzechu dni.",
+				"61-65": "<b>Boskie rany:</b> Dostajesz 1+Punkty Grzechu Stanów Krwawienie.",
+				"66-70": "<b>Dotknięcie ślepotą:</b> Dostajesz Stan Powalenie. Otrzymujesz 1+Punkty Grzechu Stanów Oślepienie, których można się pozbyć wyłącznie poprzez wykonanie udanego Wymagającego (+0) Testu Modlitwy, przy czym Sukces usuwa 1 + PS Stanów Oślepienie.",
+				"71-75": "<b>Co poświęcisz?:</b> Dostajesz [[1d10]]+Punkty Grzechu Ran ignorujących Bonus z Wytrzymałości i PP. Ponadto wykonaj Trudny (-10) Test Odporności. W razie porażki dostajesz jeden Stan Oszołomienie.",
+				"76-80": "<b>Zgrzeszyłeś przeciwko mnie:</b> Twój bóg jest bardzo zirytowany i w ramach pokuty zmusza cię do wykonywania Testów Modlitwy w ramach twojej Akcji przez następnych [[1d10]]+Punkty Grzechu Rund.",
+				"81-87": "<b>Oczyść ciało:</b> Dostajesz [[2d10]]+Punkty Grzechu Ran ignorujących Bonus z Wytrzymałości i PP. Ponadto wykonaj Bardzo Trudny (-20) Test Odporności. W razie porażki dostajesz jeden Stan Oszołomienie. Jeśli Porażka wynosi -4 lub mniej PS, dostajesz Stan Utrata Przytomności, który utrzymuje się przez minimum [[1d10]] Rund.",
+				"88-88": "<b>Demoniczna ingerencja:</b> Zamiast twojego patrona na modlitwy odpowiadają Mroczni Bogowie. [[1d10]] pomniejszych demonów pojawia się w promieniu [[2d10]] metrów od miejsca, w którym się znajdujesz, i atakuje najbliższe cele.",
+				"89-95": "<b>Lękaj się mego gniewu:</b> Dostajesz 1+Punkty Grzechu Stanów Panika.",
+				"96-100": "<b>Odpraw pokutę:</b> Musisz wyruszyć na pielgrzymkę w celu wypełnienia pokuty.",
+				"101-105": "<b>Skarcenie:</b> Twoja Żywotność zostaje zredukowana do 0 (o ile już się tak nie stało), a następnie dostajesz Stan Utrata Przytomności, którego nie da się usunąć, dopóki nie odzyskasz przynajmniej 1 Punktu Żywotności.",
+				"106-110": "<b>Nie wzywaj mego imienia nadaremnie:</b> Tracisz Talenty Błogosławieństwo i Inwokacja na następne [[1d10]]+Punkty Grzechu dni.",
+				"111-115": "<b>Nie polegaj na swej pysze:</b> Tracisz całe swoje wyposażenie i zostajesz z absolutnie niczym. Za każdą pokutę, którą odprawisz, zostanie ci zwrócony jeden magiczny przedmiot, jeśli jakieś miałeś.",
+				"116-120": "<b>Nadużywasz mego miłosierdzia:</b> Tracisz Talenty Błogosławieństwo i Inwokacja na następne [[2d10]]+Punkty Grzechu dni.",
+				"121-125": "<b>Ujrzyj swą nikczemność:</b> Doświadczasz nieznośnych wizji wszystkich swoich porażek, co wydaje się trwać wieczność, ale mija po chwili. Omów ze swoim MG, jak twoja postać zareaguje na to traumatyczne przeżycie. Wykorzystaj zasady @JournalEntry[Psychologia]{Psychologii}.",
+				"126-130": "<b>Grom z jasnego nieba:</b> Twój bóg razi cię piorunem. Twoja Żywotność zostaje zredukowana do 0 (o ile już się tak nie stało) i dostajesz Stan Podpalenie.",
+				"131-135": "<b>Cierp, jak ja cierpię:</b>  Dostajesz 1+Punkty Grzechu Stanów Krwawienie każdego ranka, dopóki nie wypełnisz pokuty.",
+				"136-140": "<b>Ekskomunika:</b> Tracisz Talenty Błogosławieństwo i Inwokacja, dopóki nie wypełnisz 2 pokut; pierwsza pokuta przywraca Błogosławieństwo, a druga – Inwokację. Wszyscy kultyści twojego boga automatycznie dowiadują się o twym losie; wszystkie Testy interakcji z nimi są automatycznie Bardzo Trudne (-30) i nie mogą być modyfikowane w celu ich ułatwienia.",
+				"141-145": "<b>Dowiedź swej wartości:</b> Boski sługa twego bóstwa pojawia się w odległości [[d100]] metrów i atakuje, interweniuje, beszta lub robi coś podobnego zgodnie z charakterem obrażonego boga.",
+				"146-150": "<b>Wypędzam cię:</b> Twój bóg cię porzuca. Nieodwracalnie tracisz Talenty Błogosławieństwo i Inwokacja, a także tracisz wszystkie Rozwinięcia w Umiejętności Modlitwa. Co więcej, wszyscy kultyści twojego boga automatycznie dowiadują się o twym losie; wszystkie Testy interakcji z nimi są automatycznie Bardzo Trudne (-30) i nie mogą być modyfikowane w celu ich ułatwienia.",
+				"151-151": "<b>Pociągnięcie do odpowiedzialności:</b> Zostajesz wezwany przed oblicze swojego boga na sąd ostateczny. O ile nie masz Punktu Przeznaczenia, nigdy nie wracasz. Jeśli wydasz Punkt Przeznaczenia, pojawiasz się w miejscu wybranym przez MG, a ponadto zostajesz obciążony efektami Wypędzam cię."
 				}
 		},
 		{

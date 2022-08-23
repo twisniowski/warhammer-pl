@@ -51,7 +51,7 @@ CONFIG.JournalEntry.noteIcons = {
     "Metal": "systems/wfrp4e/icons/buildings/metal.png",
     "Góra 1": "systems/wfrp4e/icons/buildings/mountains1.png",
     "Góra 2": "systems/wfrp4e/icons/buildings/mountains2.png",
-    "Muro de Castillo": "systems/wfrp4e/icons/buildings/castle_wall.png",
+    "Mury Zamkowe": "systems/wfrp4e/icons/buildings/castle_wall.png",
     "Orki": "systems/wfrp4e/icons/buildings/orcs.png",
     "Portal Chaosu": "systems/wfrp4e/icons/buildings/chaos_portal.png",
     "Zajazd 1": "systems/wfrp4e/icons/buildings/inn1.png",
@@ -261,7 +261,7 @@ game.wfrp4e.config.symptomEffects = {
                         if (!fatigued)
                         {
                             args.actor.addCondition("fatigued")
-                            ui.notifications.notify("Dodano zmęczenie dla \" + args.actor.name + \" którego nie można usunąć, aż nie miną objawy Apatii.")
+                            ui.notifications.notify("Dodano Wyczerpanie \" + args.actor.name + \" którego nie można usunąć, aż nie miną objawy Apatii.")
                         }
                     }
                     `

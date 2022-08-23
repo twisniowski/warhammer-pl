@@ -35,13 +35,13 @@
 		},
 		{
 			"id": "Animal Instincts",
-			"name": "Instintos animales",
-			"description": "<p>Entonas cánticos que describen los extraordinarios sentidos de Taal, pidiéndole ayuda. Mientras el Milagro está activo, obtienes 1 Talento @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Sentidos desarrollados +1 (elige un sentido)} y, si descansas, te despiertas de inmediato si alguna amenaza se acerca a menos yardas que tu Iniciativa.</p>"
+			"name": "Zwierzęcy instynkt",
+			"description": "<p>Intonujesz pieśń opisującą nadnaturalne zmysły Taala, wzywając jego pomocy. W trakcie trwania Cudu zyskujesz 1 poziom Talentu @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Wrażliwy Zmysł} (wybierz jeden), a kiedy udasz się na spoczynek, natychmiast obudzisz się, jeśli zagrożenie zbliży się na tyle metrów, ile wynosi twoja Inicjatywa.</p>"
 		},
 		{
 			"id": "As Verena is My Witness",
-			"name": "A Verena pongo por testigo",
-			"description": "<p><span class=\"fontstyle0\">Poniendo a Verena por testigo, la verdad de tus palabras brilla para que todos la vean. Mientras dure el Milagro, y siempre que digas solo la verdad, todos los que te escuchen creerán que lo que dices es cierto. Por supuesto, esto no quiere decir que estén de acuerdo con tus conclusiones.</span> </p>"
+			"name": "Verena mi świadkiem",
+			"description": "<p><span class=\"fontstyle0\">Wzywasz Verenę na świadka, a prawda twoich słów aż bije dookoła jasnym blaskiem. Podczas trwania Cudu, zakładając, iż mówisz jedynie prawdę, wszyscy słyszący twoje słowa będą wierzyli, że mówisz prawdę. Nie oznacza to jednak, że zgodzą się z twoim zdaniem lub wnioskami.</span> </p>"
 		},
 		{
 			"id": "Balm to a Wounded Mind",
@@ -56,8 +56,8 @@
 		},
 		{
 			"id": "Becalm",
-			"name": "Encalmar",
-			"description": "<p>Robas el viento de las velas de una nave. Queda completamente encalmada. Incluso en tiempo tormentoso, una zona de extraña calma y aguas mansas rodea el bajel mientras que los vendavales, las cortinas de agua y las olas enormes lo rodean y chocan a su alrededor. Este área de calma se extiende tantas yardas alrededor del navío como tu Iniciativa y si a éste lo propulsa algún otro método (como por ejemplo, remos), el área de calma viaja con él.</p>"
+			"name": "Cisza morska",
+			"description": "<p>Kradniesz wiatr z żagli statku lub łodzi. Bez wiatru jednostka żeglowna zostaje kompletnie unieruchomiona. Nawet podczas sztormu powstaje obszar dziwnie spokojnej i gładkiej wody, która otacza łódź, mimo iż dookoła szaleje wicher, leje deszcz, a wysokie jak wieże fale przewalają się tu i ówdzie, grożąc zatopieniem statku. Obszar ten rozciąga się dookoła łodzi na tyle metrów, ile wynosi Inicjatywa, a jeśli statek jest napędzany w inny sposób, np. wiosłami, obszar przemieszcza się razem z nim.</p>"
 		},
 		{
 			"id": "Bitter Catharsis",
@@ -187,8 +187,8 @@
 		},
 		{
 			"id": "Blind Justice",
-			"name": "Justicia ciega",
-			"description": "<p>Articulas plegarias al respecto de las agudas percepciones de Verena, capaz de atravesarlo todo hasta llegar a la verdad de todas las cosas. Puedes llevar a cabo un Chequeo <strong>Sencillo Desafiante (+0)</strong> de <strong>Percepción</strong> para distinguir los hechizos y los Milagros que implican ilusión o engaño. También puedes llevar a cabo un Chequeo <strong>Normal (+20)</strong> de <strong>Intuición</strong> para saber si un personaje que habla contigo te está mintiendo. <strong>Nota</strong>: esto sólo te dirá si el personaje cree decir la verdad, no te alertará si está equivocado.</p>"
+			"name": "Ślepa dziewica",
+			"description": "<p>Wymawiasz modlitwy sławiące wyostrzone zmysły Vereny, które są w stanie przejrzeć wszelkie rzeczy i ujrzeć prawdę. Wykonaj <strong>Prosty Wymagający (+0) Test Percepcji,</strong> by przejrzeć wszelkie zaklęcia i Cuda, których efektem są iluzje lub zmylenie zmysłów. Możesz również wykonać <strong>Przeciętny (+20) Test Intuicji,</strong> by ustalić, czy osoba, z którą rozmawiasz, kłamie, czy nie. <strong>Uwaga!</strong> Dowiesz się jedynie, czy postać wierzy, że mówi prawdę. Jeśli się po prostu myli, ten efekt tego nie zdradzi.</p>"
 		},
 		{
 			"id": "Cat's Eyes",
@@ -214,7 +214,7 @@
 		{
 			"id": "Drowned Man's Face",
 			"name": "Twarz topielca",
-			"description": "<p>Błagasz Mananna o to, by utopił twoich wrogów. Gdy Cud jest aktywny, płuca celów nieustannie wypełniają się słoną wodą, a ich włosy powiewają w powietrzu, jakby były pod wodą. Cel otrzymuje 1 poziom @Condition [Wyczerpania] i podczas trwania Cudu stosuje się do niego wszystkie zasady Utonięcia i Uduszenia (strona 181). Po zakończeniu Cudu cel musi wykonać <strong>Trudny (-20) Test Odpornośći</strong>. Jeśli się nie powiedzie, cel otrzymuje @Condition[Powalenie].</p>"
+			"description": "<p>Błagasz Mananna o to, by utopił twoich wrogów. Gdy Cud jest aktywny, płuca celów nieustannie wypełniają się słoną wodą, a ich włosy powiewają w powietrzu, jakby były pod wodą. Cel otrzymuje 1 poziom @Condition[Wyczerpanie]{Wyczerpania} i podczas trwania Cudu stosuje się do niego wszystkie zasady Utonięcia i Uduszenia. Po zakończeniu Cudu cel musi wykonać <strong>Trudny (-20) Test Odpornośći</strong>. Jeśli się nie powiedzie, cel otrzymuje @Condition[Powalenie].</p>"
 		},
 		{
 			"id": "Eagle's Eye",
@@ -228,9 +228,9 @@
 		},
 		{
 			"id": "Fury's Call",
-			"name": "Llamada de la furia",
+			"name": "Zew Furii",
 			"description": "<p>Twoje żarliwe modlitwy napełniają twoich sojuszników szaleńczą pogardą wobec wrogów. Wszyscy sojusznicy objęci Cudem otrzymują @Compendium[wfrp4e-core.psychologies.5hH73j2NgPdsLCZN]{Nienawiść} wobec każdego, kto zetrze się z nimi w walce.</p>",
-			"effects": [{"_id":"Bt7ExFoPhWP05nr8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.psychologies.5hH73j2NgPdsLCZN\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Llamada de la furia","tint":"","transfer":false}]
+			"effects": [{"_id":"Bt7ExFoPhWP05nr8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.psychologies.5hH73j2NgPdsLCZN\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Zew Furii","tint":"","transfer":false}]
 		},
 		{
 			"id": "Heed Not the Witch",
@@ -239,13 +239,13 @@
 		},
 		{
 			"id": "Hoarfrost's Chill",
-			"name": "Frío de la escarcha",
-			"description": "<p>Gritas plegarias iracundas y el frío Ulric responde. Tus ojos adoptan un brillo azul acerado y el aire a tu alrededor se vuelve antinaturalmente frío. Causas @Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Strach 1} en todos los enemigos, y todos los que están en un radio de tantas yardas como tu Empatía pierden +1 ventaja al inicio de cada Asalto, quedando ateridos hasta el hueso.</p>"
+			"name": "Zimowy chłód",
+			"description": "<p>Wykrzykujesz wściekłe modlitwy, a zimny Ulryk na nie odpowiada. Twoje oczy błyszczą stalowoniebieskim światłem, a powietrze dookoła ciebie staje się nienaturalnie zimne. Wzbudzasz @Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Strach 1} (strona 190) w sercach swoich wrogów, a wszyscy w promieniu tylu metrów, ile wynosi twoja Ogłada, tracą 1 poziom Przewagi na początku każdej Rundy, bo chłód przenika ich kości aż do szpiku.</p>"
 		},
 		{
 			"id": "Howl of the Wolf",
-			"name": "Aullido del lobo",
-			"description": "<p>Aúllas pidiendo la ayuda de Ulric, y éste envía a un servidor divino menor en forma de un lobo blanco. El lobo lucha contra tus enemigos mientras dura el Milagro, antes de desvanecerse en los Terrenos de Caza de Ulric con un aullido espectral y espeluznante. Los lobos blancos tienen las estadísticas de un lobo con los Rasgos de criatura @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Mágico}, and @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Tamaño (Grande)}.</p>"
+			"name": "Wilczy zew",
+			"description": "<p>Wyjesz jak wilk, prosząc Ulryka o pomoc, a ten zsyła pomniejszego Sługę bożego w postaci Białego Wilka. Wilk będzie walczył z twoimi wrogami przez Czas Cudu, zanim zniknie i wróci na Łowisko Ulryka, wydawszy ostatnie, widmowe wycie, które mrozi krew w żyłach. Białe Wilki mają statystyki normalnych wilków, ale dodatkowo odznaczają się także Cechami Stworzenia @Compendium[wfrp4e-core.traits.yRhhOlt18COq4e1q]{Bitewna Furia}, @Compendium[wfrp4e-core.traits.mDgEMOoJpi8DkRYb]{Magiczny}, i @Compendium[wfrp4e-core.traits.8slW8CJ2oVTxeQ6q]{Rozmiar (Duży)}.</p>"
 		},
 		{
 			"id": "Inspiring",
@@ -255,25 +255,25 @@
 		},
 		{
 			"id": "King of the Wild",
-			"name": "Rey de las tierras salvajes",
-			"description": "<p>Canturreas en voz baja y Taal responde con un animal salvaje apropiado al área circundante, que actúa de acuerdo con tus deseos mientras dura el Milagro. Consulta <strong>Las Bestias de Reikland</strong> para información sobre los animales que podrían ser convocados.</p>"
+			"name": "Władca zwierząt",
+			"description": "<p>Intonujesz niską pieśń, a Taal odpowiada stworzeniem dzikiego zwierzęcia odpowiedniego dla danej okolicy, które będzie wykonywać twoje polecenia przez Czas Cudu. Przykładowe zwierzęta do wezwania znajdziesz w <strong>Zwierzyńcu Reiklandu</strong>.</p>"
 		},
 		{
 			"id": "Last Rites",
 			"name": "Wieczny odpoczynek",
 			"description": "<p>Śpiewasz uroczyste requiem nad zwłokami. Cud gwarantuje, że dusza zostanie odesłana przez portal do dziedziny Morra. Ponadto ciało to nie będzie mogło zostać wskrzeszone żadnym z zaklęć z Tradycji Nekromancji. Jeśli celem Cudu jest stworzenie o Cesze <em>Ożywieniec</em> lub <em>Konstrukt</em>, zostanie zniszczone.</p>",
-			"effects": [{"_id":"gvhH2LxUqQQxN6R8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (args.actor.has(\"Ożywieniec\") && args.actor.has(\"Konstrukt\"))\n   args.actor.addCondition(\"dead\")","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"RWieczny odpoczynek","tint":"","transfer":false}]
+			"effects": [{"_id":"gvhH2LxUqQQxN6R8","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (args.actor.has(\"Ożywieniec\") && args.actor.has(\"Konstrukt\"))\n   args.actor.addCondition(\"dead\")","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Wieczny odpoczynek","tint":"","transfer":false}]
 		},
 		{
 			"id": "Leaping Stag",
-			"name": "Salto del ciervo",
-			"description": "<p>Cantas al Padre Taal y él te concede su favor, imbuyéndote con fuerza y agilidad. Obtienes un +1 al Movimiento y un Talento @Compendium[wfrp4e-core.talents.CV9btQn09S9Fn8Jk]{Silne Nogi} +1. Además, superas automáticamente todos los Chequeos de <strong>Atletyka</strong> para saltar con por lo menos +0 NE; si tu puntuación es más baja, aumenta el NE a 0.</p>",
-			"effects": [{"_id":"DIcpr650MAJVHQ5u","flags":{"wfrp4e":{"effectApplication":"apply"}},"changes":[{"key":"data.details.move.value","value":"1","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Aumento de Movimiento","tint":null,"transfer":false},{"_id":"q7pJlPm8uR0UxxN1","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.CV9btQn09S9Fn8Jk\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Salto del ciervo","tint":"","transfer":false}]
+			"name": "Rączy jeleń",
+			"description": "<p>Śpiewasz ku czci Ojca Taala, który w zamian błogosławi cię szybkością i zwinnością. Zyskujesz +1 do Szybkości oraz 1 poziom Talentu @Compendium[wfrp4e-core.talents.CV9btQn09S9Fn8Jk]{Silne Nogi} +1. Ponadto automatycznie udają ci się wszystkie Testy<strong>Atletyka</strong> (na poziomie co najmniej 0 PS). Jeśli Test zakończy się poniżej 0 PS, podnieś wynik do 0 PS.</p>",
+			"effects": [{"_id":"DIcpr650MAJVHQ5u","flags":{"wfrp4e":{"effectApplication":"apply"}},"changes":[{"key":"data.details.move.value","value":"1","mode":2}],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Zwiększenie Ruchu","tint":null,"transfer":false},{"_id":"q7pJlPm8uR0UxxN1","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"fromUuid(\"Compendium.wfrp4e-core.talents.CV9btQn09S9Fn8Jk\").then(item => {\n    args.actor.createEmbeddedDocuments(\"Item\", [item.toObject()])\n})","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Rączy jeleń","tint":"","transfer":false}]
 		},
 		{
 			"id": "Lord of the Hunt",
-			"name": "Señor de la caza",
-			"description": "<p>Pides a Taal que te guíe en la persecución de tu presa, que debe ser un animal que has visto o un individuo al que conoces (limitado a juicio del DJ). Mientras el Milagro está activo, no puedes perder el rastro de tu presa excepto por medios sobrenaturales. Si tu presa entra en un asentamiento, el rastro se acaba allí. También obtienes un bonificador +10 a todos los Chequeos que tienen que ver con tu presa mientras estás bajo la influencia del Milagro.</p>"
+			"name": "Pan łowów",
+			"description": "<p>Wzywasz Taala, by poprowadził cię w polowaniu na upatrzoną zwierzynę. Musi to być zwierzę, które kiedyś już widziałeś, lub osoba, którą znasz (ograniczenia nakłada MG). W trakcie trwania Cudu nie jesteś w stanie zgubić tropu swojej zwierzyny, z wyjątkiem nadnaturalnych interwencji. Jeśli twoja zwierzyna wejdzie między zabudowania, ślad urwie się właśnie tam. Ponadto, będąc pod wpływem Cudu, otrzymujesz premię +10 do wszelkich Testów związanych z twoją zwierzyną.</p>"
 		},
 		{
 			"id": "Manann's Bounty",
@@ -287,8 +287,8 @@
 		},
 		{
 			"id": "Pelt of the Winter Wolf",
-			"name": "Piel del lobo invernal",
-			"description": "<p>Tus plegarias vociferadas atraen la atención de Ulric, permitiendo a tus objetivos sobrevivir a las dentelladas de su reino. Si bien los objetivos siguen notando el dolor y la incomodidad del frío y del tiempo invernal, no sufren penalizadores a la mecánica de juego.</p>"
+			"name": "Futro zimowego wilka",
+			"description": "<p>Twoje gardłowe modlitwy zwracają na ciebie uwagę Ulryka, dzięki czemu twoje cele są w stanie przeżyć kąsanie jego królestwa. Mimo iż cele nadal będą odczuwać ból i niedogodności zimna i zimowej pogody, nie otrzymają żadnych fizycznych obrażeń.</p>"
 		},
 		{
 			"id": "Portal's Threshold",
@@ -346,8 +346,8 @@
 		},
 		{
 			"id": "Shackles of Truth",
-			"name": "Grilletes de la verdad",
-			"description": "<p>Apelas a Verena, solicitando su juicio respecto a un sospechoso de ser un delincuente. Si tu objetivo ha cometido un delito y afirma no haberlo hecho, mientras este Milagro permanece activo sufre 1 Estado de @Condition[Enmarañado] que no puede ser eliminado en toda la duración del mismo. Si has acusado falsamente al objetivo, Verena no se muestra complacida con tu falta de sabiduría: sufres +1 punto de Pecado y debes tirar de inmediato en la Tabla de la Ira de los Dioses.</p>"
+			"name": "Kajdany Vereny",
+			"description": "<p>Błagasz Verenę, prosząc o jej osąd nad domniemanym przestępcą. Jeśli twój cel popełnił przestępstwo, a twierdzi, że tego nie zrobił, na czas trwania tego Cudu otrzyma 1 poziom @Condition[Pochwycenie]{Pochwycenia} który nie może zostać usunięty, dopóki Cud jest w mocy. Jeśli twoje oskarżenia okażą się błędne, Verena nie będzie pochwalać twojego braku wyczucia – otrzymasz 1 Punkt Grzechu i natychmiast musisz wykonać rzut oraz porównać jego wynik z tabelą <strong>Gniew Bogów.</strong></p>"
 		},
 		{
 			"id": "Shallya's Tears",
@@ -364,14 +364,14 @@
 		{
 			"id": "Sigmar's Fiery Hammer",
 			"name": "Młot Sigmara",
-			"description": "<p>Skandujesz błogosławieństwa w imieniu Sigmara. Jeśli dzierżysz młot bojowy, uznaje się go za Magiczny, zadający Obrażenia zwiększone o Bonus z Ogłady. Ponadto każdy trafiony cel otrzymuje @Condition[Podpalenie] i @Condition[Powalenie] jeden poziom.</p>"
+			"description": "<p>Skandujesz błogosławieństwa w imieniu Sigmara. Jeśli dzierżysz młot bojowy, uznaje się go za Magiczny, zadający Obrażenia zwiększone o Bonus z Ogłady. Ponadto każdy trafiony cel otrzymuje @Condition[Podpalenie] i @Condition[Powalenie] (jeden poziom).</p>"
 		},
 		{
 			"id": "Soulfire",
 			"name": "Płomień wiary",
-			"description": "<p>Wzywasz potęgę Sigmara, by zmiażdżyła wrogów Imperium. Święty ogień eksploduje wprost z twojego ciała w promieniu tylu metrów, ile wynosi Bonus z Ogłady. Wszystkie cele w zasięgu otrzymują 1k10 Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Cele, które mają Cechę Stworzenia <em>Ożywieniec</em> lub <em>Demoniczne</em> otrzymują dodatkowo 1 poziom <em>Podpalenie</em>. Za każde +2 PS możesz zwiększyć promień okręgu o tyle metrów, ile wynosi Bonus z Ogłady, lub zadać dodatkowe 2 Obrażenia wszelkim zielonoskórym, ożywieńcom lub sługom Niszczycielskich Potęg.</p>",
+			"description": "<p>Wzywasz potęgę Sigmara, by zmiażdżyła wrogów Imperium. Święty ogień eksploduje wprost z twojego ciała w promieniu tylu metrów, ile wynosi Bonus z Ogłady. Wszystkie cele w zasięgu otrzymują 1k10 Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Cele, które mają Cechę Stworzenia <em>Ożywieniec</em> lub <em>Demoniczny</em> otrzymują dodatkowo 1 poziom <em>Podpalenie</em>. Za każde +2 PS możesz zwiększyć promień okręgu o tyle metrów, ile wynosi Bonus z Ogłady, lub zadać dodatkowe 2 Obrażenia wszelkim zielonoskórym, ożywieńcom lub sługom Niszczycielskich Potęg.</p>",
 			"overcast": "Większy zasięg",
-			"effects": [{"_id":"qpp49hHsrz2VmP1E","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nif (args.actor.has(\"Ożywieniec\") || args.actor.has(\"Demoniczne\"))\n{\n  args.actor.addCondition(\"ablaze\")\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Płomień wiary","tint":"","transfer":false}]
+			"effects": [{"_id":"qpp49hHsrz2VmP1E","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let damage = (await new Roll(\"1d10\").roll()).total\n    args.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL})\n\nif (args.actor.has(\"Ożywieniec\") || args.actor.has(\"Demoniczny\"))\n{\n  args.actor.addCondition(\"ablaze\")\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Płomień wiary","tint":"","transfer":false}]
 		},
 		{
 			"id": "Spear of Myrmidia",
@@ -391,31 +391,31 @@
 		},
 		{
 			"id": "Sword of Justice",
-			"name": "Espada de la justicia",
-			"description": "<p>Rezas a Verena para que guíe tu espada y te ayude a abatir a quienes no son justos. Si empuñas una espada, ésta cuenta como Mágica e ignora los puntos de Armadura. Además, si los oponentes a los que impacta son delincuentes (a determinar por el DJ), estos deberán llevar a cabo un Chequeo <strong>Normal (+20)</strong> de <strong>Aguante</strong> pasar al Estado @Condition[Utrata Przytomności] que dura por lo menos tantos asaltos como tu Bonificador por Empatía. Si alguien perpetra algún delito contra algún oponente inconsciente, sufres +1 punto de Pecado por delito.</p>"
+			"name": "Miecz sprawiedliwości",
+			"description": "<p>Modlisz się do Vereny, by kierowała twoim ostrzem i pomogła ci uderzyć w niesprawiedliwych. Kiedy dzierżysz miecz, ignoruje on wszelkie Punkty Pancerza i uznaje się go za Magiczny. Ponadto, jeśli twój cios trafia przestępcę (co ustala MG), musi on zdać <strong>Przeciętny (+20) Test Odporności</strong> albo otrzymuje Stan @Condition[Utrata Przytomności] na co najmniej tyle Rund, ile wynosi twój Bonus z Ogłady. Jeśli taki nieprzytomny przeciwnik padnie ofiarą przestępstwa, otrzymasz 1 Punkt Grzechu za każde przestępstwo.</p>"
 		},
 		{
 			"id": "Tanglefoot",
-			"name": "Enmarañar",
-			"description": "<p>Rezas a Taal, cantando plegarias para que proteja sus lugares sagrados. Raíces, enredaderas y plantas trepadoras se enroscan alrededor de tus enemigos. Todos los objetivos en un radio de tantas yardas como tu Bonificador por Empatía del punto objetivo sufren 1 Estado de @Condition[Enmarañado]. Por cada +2 NE, puedes incrementar el Área de efecto en tantas yardas como tu Bonificador por Empatía, o infligir un Estado adicional de @Condition[Enmarañado]. Dicho estado tiene una Fuerza igual a tu Voluntad, a efectos de liberarse de tus ligaduras.</p>",
-			"overcast": "Enmarañado",
-			"effects": [{"_id":"FbFPvypAtB428U0r","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let num = 1 + {{overcast.usage.other.count}}\nif (!num || num <= 0)\n   num = 1\n\nargs.actor.addCondition(\"entangled\", num)","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Enmarañar","tint":null,"transfer":false}]
+			"name": "Oplątanie",
+			"description": "<p>Błagasz Taala w modlitwach, by chronił swe dzikie ostępy. Korzenie, pnącza i gałązki oplatają się dookoła twoich wrogów. Wszystkie cele w promieniu tylu metrów, ile wynosi twój Bonus z Ogłady, otrzymują 1 poziom @Condition[Pochwycenie]{Pochwycenia}. Za każde +2 PS możesz zwiększyć zasięg o tyle metrów, ile wynosi twój Bonus z Ogłady, lub zwiększyć poziomy @Condition[Pochwycenie]{Pochwycenia}. W przypadkach prób uwolnienia się Oplątanie ma Siłę równą twojej Sile Woli.</p>",
+			"overcast": "Pochwycenia",
+			"effects": [{"_id":"FbFPvypAtB428U0r","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"let num = 1 + {{overcast.usage.other.count}}\nif (!num || num <= 0)\n   num = 1\n\nargs.actor.addCondition(\"entangled\", num)","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Oplątanie","tint":null,"transfer":false}]
 		},
 		{
 			"id": "The Snow King's Judgement",
-			"name": "Juicio del Rey de la Nieve",
-			"description": "<p>Llamas a Ulric para que manifieste su desdén por los débiles, los cobardes y los engañosos. El objetivo sufre [[/r 1d10]] Heridas ignorando Bonificadores por Resistencia y puntos de Armadura. Si el DJ decreta que el objeto no es débil, cobarde o engañoso, los efectos los sufres tú en su lugar.</p>"
+			"name": "Prawo Śnieżnego Króla",
+			"description": "<p>Wzywasz Ulryka, by okazał pogardę słabym, tchórzliwym i oszukańczym stworzeniom. Cel otrzymuje [[/r 1d10]] Obrażeń, które ignorują Bonus z Wytrzymałości oraz Punkty Pancerza. Jeśli MG uzna, że cel nie jest ani słaby, ani tchórzliwy, ani oszukańczy, Obrażenia otrzymujesz ty.</p>"
 		},
 		{
 			"id": "Tooth and Claw",
-			"name": "Colmillo y garra",
-			"description": "<p>Pides a Taal que te conceda el feroz poder de su reino. Obtienes los Rasgos de criatura @Compendium[wfrp4e-core.traits.pLW9SVX0TVTYPiPv]{Mordisco} (Bonificador por Fuerza +3) y @Compendium[wfrp4e-core.traits.AtpAudHA4ybXVlWM]{Arma} (Bonificador por Fuerza +4). Estos ataques son Mágicos.</p>",
-			"effects": [{"_id":"1TWDvZQnuHAsfxxd","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"await fromUuid(\"Compendium.wfrp4e-core.traits.pLW9SVX0TVTYPiPv\").then(item => {\n   item = item.toObject()\n   item.data.specification.value = 3\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})\n\nfromUuid(\"Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM\").then(item => {\n   item = item.toObject()\n    item.data.specification.value = 4\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Colmillo y garra","tint":"","transfer":false}]
+			"name": "Kły i Pazury",
+			"description": "<p>Wzywasz Taala, by podzielił się z tobą brutalną siłą swojego królestwa. Zyskujesz Cechy Stworzenia @Compendium[wfrp4e-core.traits.pLW9SVX0TVTYPiPv]{Ugryzienie} (Bonus z Siły +3) i @Compendium[wfrp4e-core.traits.AtpAudHA4ybXVlWM]{Broń} (Bonus z Siły +4). Są to ataki Magiczne.</p>",
+			"effects": [{"_id":"1TWDvZQnuHAsfxxd","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"await fromUuid(\"Compendium.wfrp4e-core.traits.pLW9SVX0TVTYPiPv\").then(item => {\n   item = item.toObject()\n   item.data.specification.value = 3\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})\n\nfromUuid(\"Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM\").then(item => {\n   item = item.toObject()\n    item.data.specification.value = 4\n   this.actor.createEmbeddedDocuments(\"Item\", [item])\n})","preventDuplicateEffects":false,"hide":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Kły i Pazury","tint":"","transfer":false}]
 		},
 		{
 			"id": "Truth Will Out",
-			"name": "La verdad saldrá a la luz",
-			"description": "<p>Entonas plegarias acerca de la aptitud de Verena para encontrar la verdad. Puedes formular a los objetivos una sola pregunta. Será respondida de inmediato por completo y de forma veraz. Si lo desean, los objetivos pueden intentar resistirse, enfrentándose a tus NE mediante un Chequeo <strong>Normal (+20)</strong> de <strong>Frialdad</strong>. Si tienen éxito, se pueden resistir testarudamente a responder. Si consiguen +2 NE, pueden guardarse alguna información menor. +4 NE les permiten retener informaciones significativas, mientras que +6 NE les permiten mentir abiertamente. Tú sabrás si se resisten con éxito, aunque te faltará el conocimiento específico acerca de su engaño, o no tendrás pruebas de su deshonestidad.</p>"
+			"name": "Prawdomówność",
+			"description": "<p>Intonujesz modlitwę do Vereny, chwaląc jej umiejętności odnajdywania prawdy. Możesz zadać celom jedno pytanie. Muszą odpowiedzieć natychmiast, zgodnie z prawdą i nie zatajając niczego. Jeśli cele będą chciały się opierać, muszą wykonać <strong>Przeciętny (+20) Test Opanowania</strong> i uzyskać więcej PS niż ty. Jeśli im się powiedzie, będą uparcie odmawiać odpowiedzi. Jeśli uzyskają 2 PS więcej niż ty, będą w stanie ukryć drobne szczegóły. 4 PS więcej umożliwią im zatajenie ważnej informacji, a 6 PS więcej oznacza, że mogą łgać w żywe oczy. Będziesz wiedzieć, czy udało im się odeprzeć zaklęcie, ale nie będziesz wiedzieć nic o ich podstępach czy mieć jakichkolwiek dowodów, by ujawnić oszustwa.</p>"
 		},
 		{
 			"id": "Twin-tailed Comet",
@@ -425,8 +425,8 @@
 		},
 		{
 			"id": "Ulric's Fury",
-			"name": "Furia de Ulric",
-			"description": "<p>Entonas cánticos furiosos y la ferocidad de Ulric se extiende. Los objetivos obtienen la Psicología @Compendium[wfrp4e-core.psychologies.DrNUTPeodEgpWTnT]{Szał bojowy}.</p>"
+			"name": "Dar Ulryka",
+			"description": "<p>Śpiewasz wściekłe modlitwy, a wściekłość Ulryka rozchodzi się wraz z twoim głosem. Cel jest pod wpływem Czynnika Psychologicznego @Compendium[wfrp4e-core.psychologies.DrNUTPeodEgpWTnT]{Szał bojowy}.</p>"
 		},
 		{
 			"id": "Unblemished Innocence",
@@ -446,14 +446,14 @@
 		},
 		{
 			"id": "Winter's Bite",
-			"name": "Mordisco del invierno",
-			"description": "<p>Ruges plegarias concernientes a Blitzbeil, el hacha siempre sedienta de Ulric. Si empuñas un hacha, cuenta como mágica, causa tanto Daño adicional como + NE y todo objetivo vivo al que impacta debe superar un Chequeo <strong>Desafiante (+0)</strong> de <strong>Aguante</strong> o sufrir 1 Estado de @Condition[Aturdido]. Además, los objetivos a los que acierta pierden cualquier Estado de @Condition[Sangrando] activo puesto que la sangre se les hiela; similarmente, los ataques de tu hacha no pueden causar ningún Estado de @Condition[Sangrando].</p>"
+			"name": "Odmrożenia",
+			"description": "<p>Ryczysz modlitwy do Ulryka, sławiąc jego nienasycony topór Blitzbeil. Jeśli dzierżysz topór, uznaje się go za Magiczny. Ponadto broń zadaje Obrażenia zwiększone o PS, a każda żywa istota trafiona toporem musi także wykonać <strong>Wymagający (+0) Test Odporności.</strong> Jeśli ten się nie powiedzie, istota otrzyma również 1 poziom @Condition[Oszołomienie]{Oszołomienia}. Trafione cele tracą za to wszystkie poziomy @Condition[Krwawienie]{Krwawienia} ponieważ krew zamarza im w żyłach. Podczas trwania Cudu Obrażenia zadane ciosem twojego topora nie mogą wywołać @Condition[Krwawienie]{Krwawienia}.</p>"
 		},
 		{
 			"id": "Wisdom of the Owl",
-			"name": "Sabiduría de la lechuza",
-			"description": "<p>Pides a Verena que te imbuya de su sabiduría y su conocimiento. Obtienes un bonificador +20 a todos los Chequeos de Inteligencia mientras dura este Milagro. Además, tus pupilas se dilatan mucho y tu mirada se convierte en lacerante e inquietante: obtienes @Compendium[wfrp4e-core.talents.0hn6UaKq8CoZP2zD]{Groźny} +1 y el Talento @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Wyczulony Zmysł (Wzrok)}.</p>",
-			"effects": [{"_id":"2lds6IDIyorYrvY4","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"apply","script":"if (args.type == \"characteristic\" && args.item == \"int\")\n                    {\n                            args.prefillModifiers.modifier += 20\n                    }\n                    else if (args.type == \"skill\")\n                    {\n                        if (args.item.characteristic.key == \"int\")\n                            args.prefillModifiers.modifier += 20\n                    }"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Sabiduría de la lechuza","tint":null,"transfer":false}]
+			"name": "Mądrość sowy",
+			"description": "<p>Wzywasz Verenę, by napełniła cię mądrością i wiedzą. Podczas trwania Cudu otrzymujesz premię +20 do Testów Inteligencji. Ponadto twoje źrenice rozszerzają się, dzięki czemu twój wzrok staje się przeszywający i niepokojący – otrzymujesz 1 poziom Talentów @Compendium[wfrp4e-core.talents.0hn6UaKq8CoZP2zD]{Groźny} oraz @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Wyczulony Zmysł (Wzrok)}.</p>",
+			"effects": [{"_id":"2lds6IDIyorYrvY4","flags":{"wfrp4e":{"effectTrigger":"prefillDialog","effectApplication":"apply","script":"if (args.type == \"characteristic\" && args.item == \"int\")\n                    {\n                            args.prefillModifiers.modifier += 20\n                    }\n                    else if (args.type == \"skill\")\n                    {\n                        if (args.item.characteristic.key == \"int\")\n                            args.prefillModifiers.modifier += 20\n                    }"}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Mądrość sowy","tint":null,"transfer":false}]
 		},
 		{
 			"id": "You Ain’t Seen Me, Right?",
