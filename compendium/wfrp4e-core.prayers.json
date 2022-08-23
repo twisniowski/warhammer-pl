@@ -70,7 +70,7 @@
 			"name": "Gorejące słońce",
 			"description": "<p>Wzywasz Myrmidię, by poraziła niegodnych wrogów na polu bitwy, a jej odpowiedź przybiera postać oślepiającego rozbłysku złotego światła. Wszyscy, którzy nie wyznają Myrmidii, a spojrzą w twoim kierunku, otrzymają 1 poziom @Condition[Oślepienie]. Za każde +2 PS otrzymują +1 poziom @Condition[Oślepienie].</p>",
 			"overcast": "Oślepienie",
-			"effects": [{"_id":"JlsdDkPK9j9Y65sB","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (\"{{outcome}}\" == \"success\")\n{\n    let blinded = 1 + {{overcast.usage.other.count}}\n    args.actor.addCondition(\"blinded\", blinded)\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gorejące Słońce","tint":"","transfer":false}]
+			"effects": [{"_id":"JlsdDkPK9j9Y65sB","flags":{"wfrp4e":{"effectTrigger":"oneTime","effectApplication":"apply","script":"if (\"{{outcome}}\" == \"success\")\n{\n    let blinded = 1 + {{overcast.usage.other.count}}\n    args.actor.addCondition(\"blinded\", blinded)\n}","hide":false,"preventDuplicateEffects":false}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/prayers/miracles.png","label":"Gorejące słońce","tint":"","transfer":false}]
 		},
 		{
 			"id": "Blessing of Battle",
@@ -92,7 +92,7 @@
 		{
 			"id": "Blessing of Conscience",
 			"name": "Błogosławieństwo Sumienia",
-			"description": "<p>Cel musi wykonać <strong>Przeciętny (+20) Test Siły Woli </strong>, aby wykonać Akcję, która naruszałaby jedno z przykazań twojego bóstwa. Jeśli Test się nie uda, cel ogarnia wstyd i nie podejmuje żadnej Akcji...</p>"
+			"description": "<p>Cel musi wykonać <strong>Przeciętny (+20) Test Siły Woli </strong>, aby wykonać Akcję, która naruszałaby jedno z przykazań twojego bóstwa. Jeśli Test się nie uda, cel ogarnia wstyd i nie podejmuje żadnej Akcji..</p>"
 		},
 		{
 			"id": "Blessing of Courage",
