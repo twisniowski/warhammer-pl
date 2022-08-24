@@ -37,30 +37,5 @@ W zwiazku z powyższym, pierwszym krokiem jest przetłumaczenie wszystkich rzecz
 
 Opisy nie są tłumaczone, ponieważ jest to bardzo czasochłonne - w Kompendium użyte są style, które powodują ze zaaplikowanie tłumaczeń to więcej niż proste Kopiuj-Wklej.
 
-# TODO:
-(Lista TODO jest dość długa ale zamierzam się nią zając w kolejności od rzeczy o najwyższym priorytecie. Pomoc przy pozostałych rzeczach jest bardzo mile widziana - bardzo prosze o tworzenie PR jeśli uda się komukolwiek przetłumaczyć jakiś większy blok tekstu. Bardzo prosze wyłącznie o oficjalne tłumaczenia, lub (w przypadku rzeczy których nie ma w podręczniku - np Homebrew Moo - o tłumaczenie "best effort" a nie szybki translator.))
-- Tłumaczenie nazw modlitw w wfrp4e-core.prayers.json - Wysoki Priorytet
-- Tłumaczenie nazw zaklęć w wfrp4e-core.spells.json - Wysoki Priorytet
-- Tłumaczenie nazw urazów w wfrp4e-core.injuries.json - Wysoki Priorytet
-- Tłumaczenie nazw efektów krytycznych w wfrp4e-core.criticals.json - Wysoki Priorytet
-- Tłumaczenie nazw mutacji w wfrp4e-core.mutations.json - Wysoki Priorytet
-- Tłumaczenie nazw cech w wfrp4e-core.traits.json - Wysoki Priorytet
-
-- Tłumaczenie nazw oraz opisów efeków psychologicznych w wfrp4e-core.psychologies.json - Średni Priorytet
-- Tłumaczenie nazw oraz opisów chorób w wfrp4e-core.diseases.json - Średni Priorytet
-
-- Tłumaczenie opisów umiejętności w wfrp4e-core.skills.json - Średni Priorytet
-- Tłumaczenie opisów modlitw w wfrp4e-core.prayers.json - Średni Priorytet
-- Tłumaczenie opisów zaklęć w wfrp4e-core.spells.json - Średni Priorytet
-- Tłumaczenie opisów urazów w wfrp4e-core.injuries.json - Średni Priorytet
-- Tłumaczenie opisów efektów krytycznych w wfrp4e-core.criticals.json - Średni Priorytet
-- Tłumaczenie opisów mutacji w wfrp4e-core.mutations.json - Średni Priorytet
-- Tłumaczenie opisów talentów w wfrp4e-core.talents.json - Średni Priorytet
-- Tłumaczenie opisów cech w wfrp4e-core.traits.json - Średni Priorytet
-
-- Tłumaczenie tabel rzutów w wfrp4e-core.tables.json - Średni Priorytet
-
-- Tłumaczenie wpisów do dzienników w wfrp4e-core.journal-entries.json - dość dużo pracy, a są to informacje z podręcznika. Kwestia wygody. Kiedyś powinno się to zrobić.
-- Tłumaczenie opisów profesji w wfrp4e-core.career-descriptions.json - wymaga wyjątkowo dużo pracy, i ma stosunkowo niski priorytet, gdyż to głownie flavour texty - bez opisu mechanik klasowych.
-- Tłumaczenie opisów potworów w wfrp4e-core.bestiary.json - Niski Priorytet
-- Tłumaczenie opisów bazowych umiejętności w pliku wfrp4e.basic.json - Niski priorytet, gdyż te same umiejętności są nadpisywane Core Packiem, który i tak jest wymagany do niniejszego tłumaczenia.
+## TODO:
+== Moved to Issues ==
