@@ -1,21 +1,21 @@
 {
-	"label": "GM Toolkit",
+	"label": "Przybornik MG",
 	"entries": [
 		{
 			"id": "Dark Whispers",
-			"name": "Susurros Oscuros",
-			"description": "Susurros Oscuros gen\u00E9ricos para usar como ejemplos de referencia para la macro Send Dark Whispers.",
+			"name": "Mroczne Szepty",
+			"description": "Generyczne Mroczne Szepty do wykorzystania jako przykłady referencyjne dla makra Wyślij Mroczne Szepty.",
 			"results": {
-				"1-1": "Deja marchar a tu presa.",
-				"2-2": "Golpea 'accidentalmente' a un aliado.",
-				"3-3": "Qu\u00E9date dormido durante la guardia.",
-				"4-4": "Arrod\u00EDllate ante el Magister. Mu\u00E9strale tu lealtad.",
-				"5-5": "Nadie es tan bueno ni tiene tanta suerte. Sin importar lo poderoso o popular que sea. \u00A1Ll\u00E1male tramposo!",
-				"6-6": "No est\u00E1s tan preparado como pensabas.",
-				"7-7": "Ejerce tu autoridad. Usa de ejemplo a los m\u00E1s d\u00E9biles o vulnerables.",
-				"8-8": "Ese gran indestructible de ah\u00ED te est\u00E1 mirando raro. No lo aguantes. Defiende tu honor. P\u00FAblicamente y solo.",
-				"9-9": "No has recorrido todo este camino para hacer amigos. A veces acabas haciendo enemigos. \u00C9sta es una de esas oportunidades.",
-				"10-10": "Los secretos son una carga. S\u00E9 generoso y comp\u00E1rtelos."
+				"1-1": "Puść swoją zdobycz.",
+				"2-2": "'Przypadkowo' uderz sojusznika.",
+				"3-3": "Zaśnij na warcie.",
+				"4-4": "Uklęknij przed Magistrem. Pokaż swoją lojalność.",
+				"5-5": "Nikt nie jest tak dobry ani nie ma tyle szczęścia. Niezależnie od tego, jak bardzo jest lubiany lub potężny. Wyzwij go od oszustów!",
+				"6-6": "Nie jesteś tak dobrze przygotowany, jak ci się wydawało.",
+				"7-7": "Korzystaj ze swojego autorytetu. Jako przykład niech posłuży najsłabszy lub najbardziej podatny na zranienie.",
+				"8-8": "Ten wielki niezniszczalny patrzy na ciebie dziwnie. Nie stój tak. Broń swojego honoru. Publicznie i na własną rękę.",
+				"9-9": "Nie robisz tego wszystkiego aby zdobyć przyjaciół. Czasami przysparzasz sobie wrogów. To jest jedna z tych okazji.",
+				"10-10": "Tajemnice są uciążliwe. Bądź hojny i rozdaj je."
 				}
 		}
 	]
