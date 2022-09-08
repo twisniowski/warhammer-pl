@@ -38,7 +38,7 @@
     "ITEM.TypeVehiclemod" : "Modyfikacja Pojazu",
     "ITEM.Sell" : "Sprzedaj",
     "Import Results" : "Importuj Wyniki",
-    "ITEM.Import": "Czy na pewno chcesz zaimportowac wynik twojego query?<br>({number} wpisów)",
+    "ITEM.Import": "Czy na pewno chcesz zaimportowac wynik twojego zapytania?<br>({number} wpisów)",
 
     "WFRP4e House Rules": "Zasady Domowe WFRP4e",
     "WFRP4e Homebrew": "Domowe WFRP4e",

@@ -33,3 +33,14 @@ min-width: 150px;
 .window-app.dialog .window-content .dialog-content .dialog-row .bonus-column label{
   min-width: 100px;
 }
+
+  /* ==================== (A) CASLON ANTIQUE ==================== */
+  @font-face {
+    font-family: "CaslonAntique";
+    src: url('../fonts/CaslonAntique.otf');
+  }
+  @font-face {
+    font-family: "CaslonAntique";
+    src: url('../fonts/CaslonAntique.otf');
+    font-weight: bold;
+  }
