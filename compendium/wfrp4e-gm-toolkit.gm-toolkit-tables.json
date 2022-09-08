@@ -3,8 +3,8 @@
 	"entries": [
 		{
 			"id": "Dark Whispers",
-			"name": "Mroczne Szepty",
-			"description": "Generyczne Mroczne Szepty do wykorzystania jako przykłady referencyjne dla makra Wyślij Mroczne Szepty.",
+			"name": "Mroczne Podszepty",
+			"description": "Generyczne Mroczne Podszepty do wykorzystania jako przykłady referencyjne dla makra Wyślij Mroczne Podszepty.",
 			"results": {
 				"1-1": "Puść swoją zdobycz.",
 				"2-2": "'Przypadkowo' uderz sojusznika.",
