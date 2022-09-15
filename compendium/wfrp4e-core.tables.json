@@ -1057,7 +1057,7 @@
 		},
 		{
 			"id": "Stinking Drunk",
-			"name": "Borracho como una Cuba",
+			"name": "Śmierdzący ochlapus",
 			"description": "Jeśli nie uda ci się tyle testów umiejętności @Compendium[wfrp4e-core.skills.R2ytluHiEFF2KQ5e]{Mocna Głowa} ile wynosi twój Bonus z Wytrzymałości, stajesz się śmierdzącym ochlapusem. Wykonaj rzut i jego wynik odczytaj w tabeli poniżej.",
 			"results": {
 				"1-2": "<b>„Marienburska brawura!”:</b> Otrzymujesz premię +20 do Testów Opanowania.",
