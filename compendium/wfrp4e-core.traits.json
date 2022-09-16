@@ -181,7 +181,7 @@
 			"id": "Corrosive Blood",
 			"name": "Kwasowa Krew",
 			"description": "<p>Krew stworzenia jest żrąca. Za każdym razem, gdy zostanie ono ranione, tryska z niego krew i wszystkie związane z nim walką cele dostają 1k10 Ran. Są one normalnie obniżane przez Bonus z Wytrzymałości i Punkty Pancerza, ale wynoszą minimum 1.</p>",
-			"effects": [{"_id":"mzNcVAruDOTiCGhS","flags":{"wfrp4e":{"effectTrigger":"takeDamage","effectApplication":"actor","script":"let content = `<b>${this.effect.label}</b>: Todos los objetivos trabados con <b>${this.actor.data.token.name}</b> reciben [[/r 1d10]] de Daño, modificados po BR y PA.`\n\nChatMessage.create({content, speaker : {alias : this.actor.data.token.name}})","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Kwasowa Krew","tint":null,"transfer":true}]
+			"effects": [{"_id":"mzNcVAruDOTiCGhS","flags":{"wfrp4e":{"effectTrigger":"takeDamage","effectApplication":"actor","script":"let content = `<b>${this.effect.label}</b>: Wszystkie cele związane walką z <b>${this.actor.data.token.name}</b> otrzymują [[/r 1d10]] Obrażeń, zmniejszonych o BWt i PP.`\n\nChatMessage.create({content, speaker : {alias : this.actor.data.token.name}})","preventDuplicateEffects":true}},"changes":[],"disabled":false,"duration":{"startTime":null},"icon":"modules/wfrp4e-core/icons/traits/trait.png","label":"Kwasowa Krew","tint":null,"transfer":true}]
 		},
 		{
 			"id": "Corruption",
