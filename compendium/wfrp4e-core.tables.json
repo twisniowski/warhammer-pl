@@ -317,7 +317,7 @@
 		},
 		{
 			"id": "Events Table",
-			"name": "Tabla de Eventos",
+			"name": "Tabela Wydarzeń",
 			"results": {
 				"1-3": "<b>Jeden z twoich sprzymierzeńców (wybór MG) został uwikłany w straszną zbrodnię. Bohater posiadający licencję Cechu Prawników może zużyć Zajęcie, aby spróbować uwolnić sprzymierzeńca po udanym <b>Przeciętnym (+20) Teście Wiedzy (Prawo)</b>. W innym przypadku do oczyszczenia sprzymierzeńca z zarzutów (albo, jeśli jest winny, do zapewnienia mu spreparowanego alibi) potrzebne będą 3 Zajęcia zużyte przez drużynę. Jeśli sprzymierzeniec został uwolniony, zyskujesz Dużą przysługę (patrz Zajęcie @JournalEntry[Wyświadcz mi przysługę]) do wykorzystania w przyszłości. Jeśli tak się nie stało, sprzymierzeniec zawiśnie!",
 				"4-6": "<b>Tajemnicza aukcja</b>: Licytowane jest mienie niedawno zmarłego sąsiada, włącznie z zakurzoną, starą książką nieznanego pochodzenia. Jeśli jesteś w stanie zapłacić cenę wywoławczą 10 ZK, książka jest twoja! Poza wszelkimi innymi korzyściami, które może zapewnić książka (określa je MG), każda postać będąca Uczonym, która podejmie Zajęcie Zgłębianie wiedzy, dostaje +20 do Testu.",
